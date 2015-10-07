@@ -38,11 +38,11 @@ The group uses the following e-mail lists:
 
 == The Technical Reports Process (What is an Editor's Draft?) ==
 
-The [//www.w3.org/Consortium/Process/ W3C Process Document] formally defines the [Technical Report Process](//www.w3.org/2015/Process-20150901/#Reports) this group follows.
+The [W3C Process Document](//www.w3.org/Consortium/Process/) formally defines the [Technical Report Process](//www.w3.org/2015/Process-20150901/#Reports) this group follows.
 
 This group uses '''Editor's Drafts''' (ED) which, as the name indicates, is simply the latest version of a specification an Editor maintains. An ED should be thought of as the ''tip of the tree'' i.e. a work in progress that may change at any point in time.
 
-EDs are '''not''' formal publications by the W3C and as such, the [//www.w3.org/Consortium/Process/ W3C Process Document] does not explicitly define their requirements (f.ex. there are no specific rules for references or style).
+EDs are '''not''' formal publications by the W3C and as such, the [W3C Process Document](//www.w3.org/Consortium/Process/) does not explicitly define their requirements (f.ex. there are no specific rules for references or style).
 
 '''Those with a vested interest in a specification e.g. implementers and application developers, should use a spec's Editor's Draft and not a dated version of the ED that was published as a Working Draft in the W3C's ''[Technical Reports repository](//www.w3.org/TR/)''.'''
 
@@ -77,7 +77,7 @@ The WG uses the W3C's [''Tracker''](//www.w3.org/2005/06/tracker/features) to re
 Resources:
 
 * [Web Platform' Git repositories](https://github.com/orgs/w3c/teams/WebPlatformWG/repositories)
-* [//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG Web Platform' Bugzilla Components]
+* [Web Platform' Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
 * [Web Platform' Tracker Database](//www.w3.org/2008/webapps/track/features) @@
 * [Tracker Guidelines](//www.w3.org/2008/webapps/wiki/Tracker_Guidelines) @@
 
@@ -85,9 +85,9 @@ Resources:
 
 The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2015/10/webplatform-charter.html#patentpolicy):
 
-:This Working Group operates under the [//www.w3.org/Consortium/Patent-Policy-20040205/ W3C Patent Policy] (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.<br/><br/>For more information about disclosure obligations for this group, please see the [//www.w3.org/2004/01/pp-impl/ W3C Patent Policy Implementation].
+:This Working Group operates under the [W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.<br/><br/>For more information about disclosure obligations for this group, please see the [//www.w3.org/2004/01/pp-impl/ W3C Patent Policy Implementation].
 
-A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [//www.w3.org/2003/12/22-pp-faq.html#non-participants ''How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?''] for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [//www.w3.org/2004/01/pp-impl/42538/nmlc ''Licensing commitments from non-W3C Members''].
+A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [//www.w3.org/2003/12/22-pp-faq.html#non-participants ''How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?''] for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [''Licensing commitments from non-W3C Members''](//www.w3.org/2004/01/pp-impl/42538/nmlc).
 
 == Meetings? What Meetings? ==
 
