@@ -1,25 +1,25 @@
 This wiki documents the Web Platform WG's ''Real Work Modes'' including: Participation and Communication, Meetings, Call for Consensus, Mail List usage, links to important resources, etc.
 
-'''Note the [//www.w3.org/2015/10/webplatform-charter.html WG's Charter] formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [//www.w3.org/Consortium/Process/ W3C Process Document] overrides the information in this wiki. Nevertheless, this wiki contains additional information about how the group ''really'' works and as such, this information may be particularly useful to new members of the group.'''
+'''Note the [WG's Charter](//www.w3.org/2015/10/webplatform-charter.html) formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [W3C Process Document](//www.w3.org/Consortium/Process/) overrides the information in this wiki. Nevertheless, this wiki contains additional information about how the group ''really'' works and as such, this information may be particularly useful to new members of the group.'''
 
-This document is a ''Living Document'' and as such will change. Members of the group are encouraged to edit (e.g. to update, correct, etc.) the information in this  document. Comments about this document are welcome via the <code>[mailto:public-webapps@w3.org public-webapps@w3.org]</code> e-mail list, using a subject prefix of <code>[WorkMode] ...</code>.
+This document is a ''Living Document'' and as such will change. Members of the group are encouraged to edit (e.g. to update, correct, etc.) the information in this  document. Comments about this document are welcome via the <code>[public-webapps@w3.org](mailto:public-webapps@w3.org)</code> e-mail list, using a subject prefix of <code>[WorkMode] ...</code>.
 
 
 == Participation and Communication ==
 
-Web Platform' formal Participation and Communication models are documented in the [//www.w3.org/2015/10/webplatform-charter.html#participation Participation] and [//www.w3.org//www.w3.org/2015/10/webplatform-charter.html#communication Communications] sections of its Charter, respectively.
+Web Platform' formal Participation and Communication models are documented in the [//www.w3.org/2015/10/webplatform-charter.html#participation Participation] and [Communications](//www.w3.org//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
 Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [PubStatus.md specifications in progress].
 
 A WG member may participate in various ways including:
 
 * Participating in discussions on the group's mail lists (see below), and/or a specification's Github repository
-* Participating in discussions on the group's [#IRC #webapps IRC channel]
-* Being an Editor of one or more of the group's [PubStatus.md active specifications]
-* Contributing tests for the group's [PubStatus.md specifications]
-* Attending any of the group's [Meetings.md formal meetings]
+* Participating in discussions on the group's #webapps IRC channel
+* Being an Editor of one or more of the group's [active specifications](PubStatus.md)
+* Contributing tests for the group's [specifications](PubStatus.md)
+* Attending any of the group's [formal meetings](Meetings.md)
 
-Participation from the Public (i.e. non group members), via our Public e-mail lists is also welcome, provided comments, contributions, etc. are consistent with the [//www.w3.org/2008/webapps/wiki/WorkMode#Patent_Policy W3C Patent Policy].
+Participation from the Public (i.e. non group members), via our Public e-mail lists is also welcome, provided comments, contributions, etc. are consistent with the W3C Patent Policy.
 
 The group uses the following e-mail lists:
 
