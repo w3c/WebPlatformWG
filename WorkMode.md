@@ -9,14 +9,14 @@ This document is a *Living Document* and as such will change. Members of the gro
 
 Web Platform' formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
-Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [PubStatus.md specifications in progress].
+Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [https://www.w3.org/WebPlatform/WG/PubStatus specifications in progress].
 
 A WG member may participate in various ways including:
 
 * Participating in discussions on the group's mail lists (see below), and/or a specification's Github repository
 * Participating in discussions on the group's #webapps IRC channel
-* Being an Editor of one or more of the group's [active specifications](PubStatus.md)
-* Contributing tests for the group's [specifications](PubStatus.md)
+* Being an Editor of one or more of the group's [active specifications](https://www.w3.org/WebPlatform/WG/PubStatus)
+* Contributing tests for the group's [specifications](https://www.w3.org/WebPlatform/WG/PubStatus)
 * Attending any of the group's [formal meetings](Meetings.md)
 
 Participation from the Public (i.e. non group members), via our Public e-mail lists is also welcome, provided comments, contributions, etc. are consistent with the W3C Patent Policy.
@@ -188,7 +188,7 @@ Resources:
 
 * <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository
 * [Testing Wiki](//www.w3.org/wiki/Webapps/Submitting_tests) - describes the group's general testing process
-* *Test Facilitators* - each spec's *Test Facilitator* is identified in the *Testing* column of the group's [PubStatus](PubStatus.md) document
+* *Test Facilitators* - each spec's *Test Facilitator* is identified in the *Testing* column of the group's [PubStatus](https://www.w3.org/WebPlatform/WG/PubStatus) document
 
 ## Github
 
@@ -205,7 +205,7 @@ Resources:
 
 * [Github](https://github.com/w3c/WebPlatformWG/)
 * [Charter](//www.w3.org/2015/10/webplatform-charter.html)
-* [Publication status](http://www.w3.org/2008/webapps/wiki/PubStatus.md)
+* [Publication status](https://www.w3.org/WebPlatform/WG/PubStatus)
 * [WG participants list](http://www.w3.org/2000/09/dbwg/details?group=83482)
 * Public mail list archives: see [above](#participation-and-communication)
 * [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
