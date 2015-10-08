@@ -73,8 +73,6 @@ The following documents provide information about normative reference best pract
 
 The WG uses both Github and W3C Bugzilla to record and track specification *bugs* and *issues*. The recommended and preferred mechanism is to use Github Issues.
 
-The WG uses the W3C's [*Tracker*](//www.w3.org/2005/06/tracker/features) to record and track [Web Platform' Open Actions](//www.w3.org/2008/webapps/track/) such as administrative tasks. Tracker actions should **not** be used for specification issues such as bugs.
-
 Resources:
 
 * [Web Platform' Git repositories](https://github.com/orgs/teams/webplatform//repositories)
