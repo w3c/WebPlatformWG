@@ -77,7 +77,7 @@ The WG uses the W3C's [*Tracker*](//www.w3.org/2005/06/tracker/features) to reco
 
 Resources:
 
-* [Web Platform' Git repositories](https://github.com/orgs/w3c/teams/WebPlatformWG/repositories)
+* [Web Platform' Git repositories](https://github.com/orgs/teams/webplatform//repositories)
 * [Web Platform' Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
 * [Web Platform' Tracker Database](//www.w3.org/2008/webapps/track/features) @@REMOVE?
 * [Tracker Guidelines](//www.w3.org/2008/webapps/wiki/Tracker_Guidelines) @@REMOVE?
@@ -92,7 +92,7 @@ A consequence of the group's Patent Policy is that, although comments from non-W
 
 ## Meetings? What Meetings?
 
-Most of Web Platform' specification work progresses without formal meetings. Instead, **all of the technical work is done via the group's various mail lists, Github Issues (see [Web Platform' Github repositories](https://github.com/orgs/w3c/teams/webapps/repositories)), [Bugzilla bug databases](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG) and IRC**.
+Most of Web Platform' specification work progresses without formal meetings. Instead, **all of the technical work is done via the group's various mail lists, Github Issues (see [Web Platform' Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)), [Bugzilla bug databases](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG) and IRC**.
 
 **Editors and active collaborators are encouraged to have spec-specific distributed meetings (voice conferences) to discuss high priority bugs, to gather input on a specific topic, etc**.
 
@@ -110,7 +110,7 @@ To facilitate broad participation in these meetings including participants from 
 ### All meetings
 * Per the group's charter: [*Any resolution taken in a face-to-face meeting or teleconference is to be considered provisional until 10 working days after the publication of the resolution in draft minutes sent to the working groups mailing list. If no objections are raised on the mailing list within that time, the resolution will be considered to have consensus as a resolution of the Working Group.*](//www.w3.org/2015/10/webplatform-charter.html#decisions)
 * The meeting must use the W3C's #webapps IRC and the [RRSAgent Meeting Minute bot](//www.w3.org/2002/03/RRSAgent)
-* The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [team-webapps@w3.org](mailto:team-webapps@w3.org) at least 48 hours before the meeting starts.
+* The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [team-webplatform@w3.org](mailto:team-webplatform@w3.org) at least 48 hours before the meeting starts.
 * Within 48 hours of the meeting ending (although sooner is preferred), the meeting's minutes must be sent to the e-mail list used in the meeting's announcement.
 
 Resources:
@@ -159,7 +159,7 @@ We also expect our mail list participants to adhere to the following email etiqu
 
 ## Off-Topic Discussion Policy
 
-Webapps' [mail lists](//www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_Communication) are only to be used for technical discussions of the group's specifications and related resources such as test cases.
+Webapps' [mail lists](#participation-and-communication) are only to be used for technical discussions of the group's specifications and related resources such as test cases.
 
 **Discussions related to general W3C-wide processes and policies are not appropriate for any of Web Platform' mail lists and as such, discussions on those subjects are considered "off-topic"**.
 
@@ -192,7 +192,7 @@ Resources:
 
 ## Github
 
-The group now uses [Github repositories](https://github.com/orgs/w3c/teams/WebPlatformWG/repositories) for all of its [specifications](https://www.w3.org/2008/webapps/wiki/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
+The group now uses [Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories) for all of its [specifications](https://www.w3.org/2008/webapps/wiki/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
 
 Resources:
 
@@ -207,7 +207,7 @@ Resources:
 * [Charter](//www.w3.org/2015/10/webplatform-charter.html)
 * [Publication status](http://www.w3.org/2008/webapps/wiki/PubStatus.md)
 * [WG participants list](http://www.w3.org/2000/09/dbwg/details?group=83482)
-* Public mail list archives: see [above](WorkMode.md#Participation_and_Communication)
+* Public mail list archives: see [above](#participation-and-communication)
 * [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
 * Actions, Issues and Bugs ...
 ** [Bugzilla Database](http://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); used by most specs
