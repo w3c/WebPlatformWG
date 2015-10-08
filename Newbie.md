@@ -1,0 +1,40 @@
+This document includes some information for new members ("*Newbies*") of the Web Platform Working Group.
+
+Members of the WG, **especially new members** are encouraged to help maintain this document.
+
+## Welcome to Web Platform
+
+The Working Group's home page is: [<http://www.w3.org/2008/webapps/>](http://www.w3.org/2008/webapps/)
+
+The group's *Work Mode* is described in the [*WorkMode*](WorkMode.md) wiki and it includes information about how the WG operates, including links to the WG's various resources.
+
+Please note in particular these sections of the Work Mode wiki:
+
+1. [Group Participation and Communication](WorkMode.md#participation-and-communication)
+
+2. [Meetings? What Meeting?](WorkMode.md#meetings-what-meetings)
+
+3. [The Technical Reports Process. (What is an Editor's Draft)?](WorkMode.md#the-technical-reports-process-what-is-an-editors-draft)
+
+4. [Editor Policy: Write First and Review Later](WorkMode.md#editors)
+
+5. [Consensus and Call for Consensus (CfC)](WorkMode.md#consensus-and-call-for-consensus)
+
+6. Mail List Policies: [Usage and Etiquette](WorkMode.md#mail-list-policy-usage-etiquette-etc).  and [Off-topic Discussion Policy](WorkMode.md#off-topic-discussion-policy)
+
+### Specifications in Progress
+
+A list of the group's specifications, including the publication status of each spec, can be found in the group's *PubStatus* wiki: [<https://www.w3.org/WebPlatform/WG/PubStatus>](https://www.w3.org/WebPlatform/WG/PubStatus)
+
+### New WG Member Introductions
+
+Although it isn't required, **new WG members are encouraged to send a short introductory e-mail to the WG's Public mail list** ([public-webapps@w3.org](https://lists.w3.org/Archives/Public/public-webapps/)) or the group's Member-only list ([member-webplatform-wg@w3.org](https://lists.w3.org/Archives/Member/member-webplatform-wg/)). The introduction should include your area(s) of interest.
+
+### Questions, Comments, Issues, etc.?
+
+Please contact the group's Chairs (using the team-webplatform@w3.org list) - *at any time* - if you have any questions, issues, concerns, etc. about WebApps.
+
+### Resources
+
+-   If you are unfamiliar with the Consortium see the document [*Audio and slide summaries of: W3C, Standards Process, W3C Staff/Team, Chair roles, etc.*](http://lists.w3.org/Archives/Public/www-archive/2014Apr/0026.html) for links to an audio presentation plus slides regarding summaries of: the W3C, the Consortium's Technical Reports process, roles of Chairs and Team Contacts, etc.
+

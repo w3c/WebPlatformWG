@@ -34,7 +34,7 @@ The group uses the following e-mail lists:
 
 ## Information for *Newbies* - New Group Members
 
-**New members of the group are strongly encouraged to read the group's [*Newbie* wiki](https://www.w3.org/wiki/Webapps/Newbie) document which includes links to important resources.** New members are also encouraged to send a short introductory e-mail to the group's [primary mail list](https://lists.w3.org/Archives/Public/public-webapps/).
+**New members of the group are strongly encouraged to read the group's [*Newbie* wiki](Newbie.md) document which includes links to important resources.** New members are also encouraged to send a short introductory e-mail to the group's [primary mail list](https://lists.w3.org/Archives/Public/public-webapps/).
 
 ## The Technical Reports Process (What is an Editor's Draft?)
 
