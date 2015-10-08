@@ -75,7 +75,7 @@ The WG uses both Github and W3C Bugzilla to record and track specification *bugs
 
 Resources:
 
-* [Web Platform' Git repositories](https://github.com/orgs/teams/webplatform/repositories)
+* [Web Platform' Git repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)
 * [Web Platform' Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
 
 ## Patent Policy
