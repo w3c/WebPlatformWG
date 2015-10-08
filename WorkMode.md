@@ -88,7 +88,7 @@ The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2015/10
 
 :This Working Group operates under the [W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.<br/><br/>For more information about disclosure obligations for this group, please see the [//www.w3.org/2004/01/pp-impl/ W3C Patent Policy Implementation].
 
-A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [//www.w3.org/2003/12/22-pp-faq.html#non-participants ''How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?''] for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [''Licensing commitments from non-W3C Members''](//www.w3.org/2004/01/pp-impl/42538/nmlc).
+A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [//www.w3.org/2003/12/22-pp-faq.html#non-participants ''How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?''] for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [''Licensing commitments from non-W3C Members''](//www.w3.org/2004/01/pp-impl/83482/nmlc).
 
 ## Meetings? What Meetings?
 
@@ -99,7 +99,7 @@ Most of Web Platform' specification work progresses without formal meetings. Ins
 To facilitate broad participation in these meetings including participants from across the globe, please note:
 
 ### Virtual meetings (aka distributed meetings, teleconf, etc.)
-* Meetings must be announced on the relevant e-mail list '''at least 24 hours''' before the meeting will begin and '''much earlier is highly recommended''' (according to the [//www.w3.org/2015/Process-20150901/#GeneralMeetings relevant bit of W3C Process] there '''should''' be at least '''one week''').
+* Meetings must be announced on the relevant e-mail list '''at least 24 hours''' before the meeting will begin and '''much earlier is highly recommended''' (according to the [relevant bit of W3C Process](//www.w3.org/2015/Process-20150901/#GeneralMeetings) there '''should''' be at least '''one week''').
 * The announcement should include a day + time that is acceptable to the expected participants. If that information is not known, a related discussion should begin before the meeting announcement such that a mutually agreeable time is known when the meeting is announced.
 
 ### Physical meetings (aka face-to-face meetings)
@@ -136,7 +136,7 @@ The Consortium has formal Mail List policies and procedures yet also accommodate
 
 :Each W3C mailing list has its own policies regarding who may post to the list. Those subscribed to each list are generally able to post directly to the list without delay; those who are not may be subject to manual moderation (at least the first time they post.)
 
-See [//www.w3.org/Mail/ W3C Mailing List and Archive Info] and [//www.w3.org/2002/03/email_attachment_formats.html W3C Guidelines for Email Attachment Formats] for more information.
+See [W3C Mailing List and Archive Info](//www.w3.org/Mail/) and [W3C Guidelines for Email Attachment Formats](//www.w3.org/2002/03/email_attachment_formats.html) for more information.
 
 <span style="color:#ff0000">'''Web Platform' members appreciate and encourage frank technical discussions on our mail lists but all discussions must be done in a respectful manner. Please note this respect requirement is codified in the Process Document via the following participation criteria "[Social competence in one's role](//www.w3.org/2015/Process-20150901/#ParticipationCriteria)". Additionally, see [Code of Ethics and Professional Conduct](//www.w3.org/Consortium/cepc/) and if you did not attend ''Kindergarten'', we expect our list participants to adhere to the basic principles in [All I Really Need To Know I Learned In Kindergarten](http://www.peace.ca/kindergarten.htm).'''</span>
 
@@ -151,7 +151,7 @@ We also expect our mail list participants to adhere to the following email etiqu
 * Do strip quoted text which is not relevant to your reply.
 * Do not write in ALL CAPS. It is considered bad form. If you need to _underscore_ something, you can do so as such, if you wanted to *strengthen* something you can similarly, and if you want to provide a certain /italic/ style, you may do that as well.
 * Your messages are archived. If you need to include links within your message, please use [n] notation inline (f.e.x [1]), and include the relevant links at the end of the message.
-* Attachments must follow the [//www.w3.org/2002/03/email_attachment_formats.html W3C Guidelines for Email Attachment Formats], in particular:
+* Attachments must follow the [W3C Guidelines for Email Attachment Formats](//www.w3.org/2002/03/email_attachment_formats.html), in particular:
 ** Avoid unnecessary email attachments.
 ** Use an attachment only when it is likely to benefit to recipients. Otherwise, place the information (in plain text format) in the body of your message.
 ** If an attachment is necessary, avoid formats that are virus prone, proprietary or platform dependent.  For example, whenever possible you should use HTML instead of MS Word, PowerPoint or PDF.
@@ -165,26 +165,24 @@ Webapps' [mail lists](//www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_
 
 '''Here is a list of documents and topics that are explicitly off-topic for Web Platform' mail lists, including one or more appropriate discussion forums that may be used''':
 
-* '''[//www.w3.org/Consortium/Legal/2002/copyright-documents-20021231 W3C Document License] and Copyright issues''':  the [//www.w3.org/community/w3process/ Revising W3C Process Community Group]; the [//www.w3.org/2002/ab/ W3C Advisory Board]; the [//www.w3.org/2005/10/Process-20051014/organization#AC W3C Advisory Committee]
-* '''[//www.w3.org/2015/Process-20150901/ W3C Process Document]:''' the [//www.w3.org/community/w3process/ Revising W3C Process Community Group]; the [//www.w3.org/2002/ab/ W3C Advisory Board]; the [//www.w3.org/2015/Process-20150901/#AC W3C Advisory Committee]
-* '''[//www.w3.org/Consortium/Patent-Policy-20040205/ W3C Patent Policy]:''' the [//www.w3.org/community/w3process/ Revising W3C Process Community Group]; the [Patent and Standards Interest Group](//www.w3.org/2004/pp/psig/)
-* '''[Technical Report Publication Pules](//www.w3.org/2005/07/pubrules) (Pubrules):''' the [//www.w3.org/community/w3process/ Revising W3C Process Community Group]
+* '''[W3C Document and Software License](http://www.w3.org/Consortium/Legal/copyright-software) and Copyright issues''':  the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [//www.w3.org/2002/ab/ W3C Advisory Board]; the [W3C Advisory Committee](//www.w3.org/2005/10/Process-20051014/organization#AC)
+* '''[W3C Process Document](//www.w3.org/2015/Process-20150901/):''' the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2015/Process-20150901/#AC)
+* '''[W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/):''' the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [Patent and Standards Interest Group](//www.w3.org/2004/pp/psig/)
+* '''[Technical Report Publication Pules](//www.w3.org/2005/07/pubrules) (Pubrules):''' the [Revising W3C Process Community Group](//www.w3.org/community/w3process/)
 '''We expect everyone using Web Platform' mail lists to please respect this policy.'''
 
 ## IRC
 
 WebApps uses two different channels of the W3C's IRC system (irc.w3.org; port 6667):
 
-* #webapps - for Public technical discussions; this channel is continuously [http://krijnhoetmer.nl/irc-logs/ logged/archive]
+* #webapps - for Public technical discussions; this channel is continuously [logged/archive](http://krijnhoetmer.nl/irc-logs/)
 * #wam - for Member-confidential discussions; this channel is NOT logged and should NOT be used for technical discussions
 
-An HTML interface to the W3C's IRC system is available at [http://cgi.w3.org/member-bin/irc/irc.cgi http://cgi.w3.org/member-bin/irc/irc.cgi]. See [Meeting Resources](//www.w3.org/2008/webapps/wiki/Telcons#IRC_and_Meeting_Resources) for more information about the W3C's IRC system.
+An HTML interface to the W3C's IRC system is available at [http://cgi.w3.org/member-bin/irc/irc.cgi](http://cgi.w3.org/member-bin/irc/irc.cgi). See [Meeting Resources](Telcons.md#IRC_and_Meeting_Resources) for more information about the W3C's IRC system.
 
 ## Testing
 
-The WG's [charter](//www.w3.org/2015/10/webplatform-charter.html) mandates the WG create ''a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents''. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webapps](https://github.com/w3c/web-platform-tests/labels/wg-webapps)</code> label.
-
-(A very small number of tests are still be stored in Hg/Mercurial and/or CVS but eventually, all such tests will be moved to the W3C's Github repository.)
+The WG's [charter](//www.w3.org/2015/10/webplatform-charter.html) mandates the WG create ''a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents''. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webplatform](https://github.com/w3c/web-platform-tests/labels/wg-webplatform)</code> label.
 
 Resources:
 
@@ -194,7 +192,7 @@ Resources:
 
 ## Github
 
-The group now uses [Github repositories](https://github.com/orgs/w3c/teams/webapps/repositories) for all of its [specifications](https://www.w3.org/2008/webapps/wiki/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
+The group now uses [Github repositories](https://github.com/orgs/w3c/teams/WebPlatformWG/repositories) for all of its [specifications](https://www.w3.org/2008/webapps/wiki/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
 
 Resources:
 
@@ -205,15 +203,15 @@ Resources:
 
 ## Links to Group Resources
 
-* Public wiki: [//www.w3.org/2008/webapps/wiki/ http://www.w3.org/2008/webapps/wiki/Main_Page]
-* Charter: [//www.w3.org/2015/10/webplatform-charter.html http://www.w3.org/2015/10/webplatform-charter.html]
-* Publication status [PubStatus.md http://www.w3.org/2008/webapps/wiki/PubStatus]
-* WG participants list: [//www.w3.org/2000/09/dbwg/details?group=42538 http://www.w3.org/2000/09/dbwg/details?group=42538]
-* Public mail list archives: see [above](https://www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_Communication)
-* Member-Confidential mail list archive: [http://lists.w3.org/Archives/Member/member-webapps/ http://lists.w3.org/Archives/Member/member-webapps/]
+* [Github](https://github.com/w3c/WebPlatformWG/)
+* [Charter](//www.w3.org/2015/10/webplatform-charter.html)
+* [Publication status](http://www.w3.org/2008/webapps/wiki/PubStatus.md)
+* WG participants list: [//www.w3.org/2000/09/dbwg/details?group=83482 http://www.w3.org/2000/09/dbwg/details?group=83482]
+* Public mail list archives: see [above](WorkMode.md#Participation_and_Communication)
+* Member-Confidential mail list archive: [http://lists.w3.org/Archives/Member/member-webplatform-wg/](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
 * Actions, Issues and Bugs ...
 ** Bugzilla Database: <http://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG>; used by most specs
 ** Open Actions database: [//www.w3.org/2008/webapps/track/ http://www.w3.org/2008/webapps/track/]; primarily used for admin type actions
-* Telcon/Voice Conference info: [https://www.w3.org/wiki/Webapps/Meetings#Distributed_Meetings_aka_TelCons Distributed Meetings / Telcons]
-* Face-to-face Meetings: [upcoming and past meetings](https://www.w3.org/wiki/Webapps/Meetings)
-* [WebApps Coordination Points](//www.w3.org/2008/webapps/wiki/Coordination); identifies W3C WGs and external organizations with mutual areas of interest
+* Telcon/Voice Conference info: [Meetings.md#Distributed_Meetings_aka_TelCons Distributed Meetings / Telcons]
+* Face-to-face Meetings: [upcoming and past meetings](Meetings.md)
+* [WebPlatform Coordination Points](Coordination.md); identifies W3C WGs and external organizations with mutual areas of interest
