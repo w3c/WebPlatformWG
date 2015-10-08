@@ -5,7 +5,7 @@ This wiki documents the Web Platform WG's ''Real Work Modes'' including: Partici
 This document is a ''Living Document'' and as such will change. Members of the group are encouraged to edit (e.g. to update, correct, etc.) the information in this  document. Comments about this document are welcome via the <code>[public-webapps@w3.org](mailto:public-webapps@w3.org)</code> e-mail list, using a subject prefix of <code>[WorkMode] ...</code>.
 
 
-== Participation and Communication ==
+## Participation and Communication
 
 Web Platform' formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
@@ -32,11 +32,11 @@ The group uses the following e-mail lists:
 * [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - this list gets an e-mail for all Github activity for of Web Platform' specs. (''Note: this list has a relatively large amount of e-mail, peaking with over 1,700 messages in July 2015.'')
 * [public-test-infra](http://lists.w3.org/Archives/Public/public-test-infra/) - for testing infrastructure discussions
 
-== Information for ''Newbies'' - New Group Members ==
+## Information for ''Newbies'' - New Group Members
 
 '''New members of the group are strongly encouraged to read the group's [''Newbie'' wiki](https://www.w3.org/wiki/Webapps/Newbie) document which includes links to important resources.''' New members are also encouraged to send a short introductory e-mail to the group's [primary mail list](https://lists.w3.org/Archives/Public/public-webapps/).
 
-== The Technical Reports Process (What is an Editor's Draft?) ==
+## The Technical Reports Process (What is an Editor's Draft?)
 
 The [W3C Process Document](//www.w3.org/Consortium/Process/) formally defines the [Technical Report Process](//www.w3.org/2015/Process-20150901/#Reports) this group follows.
 
@@ -47,7 +47,8 @@ EDs are '''not''' formal publications by the W3C and as such, the [W3C Process D
 '''Those with a vested interest in a specification e.g. implementers and application developers, should use a spec's Editor's Draft and not a dated version of the ED that was published as a Working Draft in the W3C's ''[Technical Reports repository](//www.w3.org/TR/)''.'''
 
 The W3C's 2015 Process Document indicates that if [//www.w3.org/2015/Process-20150901/#revised-wd 6 months elapse] without significant changes to a specification a Working Group SHOULD publish a revised Working Draft, whose status section SHOULD indicate reasons for the lack of change.
-== Editors ==
+
+## Editors
 
 '''Editors in this Working Group have wide freedom to update (add, change, delete) text in Editor's Drafts without explicit consensus from the group. This method is referred to as ''Edit First and Review Later'' and is contrary to other WGs that follow a ''Review First and Edit Later'' editing model. Despite this policy, when a substantive change is made to a specification (for example, adding or removing a feature, adding a normative reference, etc.), Editors are expected to create a ''paper trail'' for the change such as creating a bug report and/or notifying the appropriate e-mail list.'''
 
@@ -59,7 +60,7 @@ Resources:
 
 * Web Platform' [SpecEditing](SpecEditing.md) wiki includes information about spec editing, including Editor roles and responsibilities, and links to the various document validators.
 
-== Normative References ==
+## Normative References
 
 A significant delay in the progression of a specification can occur if the features of a normative reference are not considered ''stable''. More specifically, if specification A uses features in normative reference B, the features of B must be considered ''stable'' before specification A can be published as a W3C Recommendation.
 
@@ -68,7 +69,7 @@ The following documents provide information about normative reference best pract
 * [Best Practices for Normative References](//www.w3.org/wiki/References/BestPractices)
 * [Normative Reference Policy](//www.w3.org/2013/09/normative-references)
 
-== Bugs, Issues and Actions ==
+## Bugs, Issues and Actions
 
 The WG uses both Github and W3C Bugzilla to record and track specification ''bugs'' and ''issues''. The recommended and preferred mechanism is to use Github Issues.
 
@@ -81,7 +82,7 @@ Resources:
 * [Web Platform' Tracker Database](//www.w3.org/2008/webapps/track/features) @@
 * [Tracker Guidelines](//www.w3.org/2008/webapps/wiki/Tracker_Guidelines) @@
 
-== Patent Policy ==
+## Patent Policy
 
 The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2015/10/webplatform-charter.html#patentpolicy):
 
@@ -89,7 +90,7 @@ The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2015/10
 
 A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [//www.w3.org/2003/12/22-pp-faq.html#non-participants ''How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?''] for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [''Licensing commitments from non-W3C Members''](//www.w3.org/2004/01/pp-impl/42538/nmlc).
 
-== Meetings? What Meetings? ==
+## Meetings? What Meetings?
 
 Most of Web Platform' specification work progresses without formal meetings. Instead, '''all of the technical work is done via the group's various mail lists, Github Issues (see [Web Platform' Github repositories](https://github.com/orgs/w3c/teams/webapps/repositories)), [https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG Bugzilla bug databases] and IRC'''.
 
@@ -97,16 +98,16 @@ Most of Web Platform' specification work progresses without formal meetings. Ins
 
 To facilitate broad participation in these meetings including participants from across the globe, please note:
 
-==="Virtual" meetings (teleconf, etc.)===
+### Virtual meetings (aka distributed meetings, teleconf, etc.)
 * Meetings must be announced on the relevant e-mail list '''at least 24 hours''' before the meeting will begin and '''much earlier is highly recommended''' (according to the [//www.w3.org/2015/Process-20150901/#GeneralMeetings relevant bit of W3C Process] there '''should''' be at least '''one week''').
 * The announcement should include a day + time that is acceptable to the expected participants. If that information is not known, a related discussion should begin before the meeting announcement such that a mutually agreeable time is known when the meeting is announced.
 
-=== Physical meetings (aka face-to-face meetings) ===
+### Physical meetings (aka face-to-face meetings)
 * For Face-to-face (f2f) meetings, there '''should''' be '''8 weeks''' notice of the city and date/time. Exact venue information is not required so early, but it is helpful especially in large cities so people traveling can get appropriate accommodation.
 * The chairs and staff can help organise invitations for people who need them to obtain a visa, given sufficient notice.
 * The consortium usually has an annual "['Technical Plenary and All Working Group](//www.w3.org/2002/09/TPOverview.html)'' face-to-face (f2f) meeting week (aka ''TPAC'') and this group typically has a f2f meeting during that week. The dates/locations are generally known a year or more in advance, and historically WebApps has met on the first 2 days of the event.
 
-===All meetings===
+### All meetings
 * Per the group's charter: [//www.w3.org/2015/10/webplatform-charter.html#decisions ''Any resolution taken in a face-to-face meeting or teleconference is to be considered provisional until 10 working days after the publication of the resolution in draft minutes sent to the working groups mailing list. If no objections are raised on the mailing list within that time, the resolution will be considered to have consensus as a resolution of the Working Group.'']
 * The meeting must use the W3C's #webapps IRC and the [RRSAgent Meeting Minute bot](//www.w3.org/2002/03/RRSAgent)
 * The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [mailto:team-webapps@w3.org team-webapps@w3.org] at least 48 hours before the meeting starts.
@@ -117,12 +118,11 @@ Resources:
 * Web Platform' [Meeting Wiki](//www.w3.org/wiki/Webapps/Meetings) contains: information about the group's formal meetings including upcoming meetings,  links to previous f2f meetings, schedules for semi-regular topic-specific virtual meetings.
 * [IRC and Meeting Resources](//www.w3.org/wiki/Webapps/Meetings#IRC_and_Meeting_Resources)
 
-== Consensus and Call for Consensus ==
+## Consensus and Call for Consensus
 
 Consensus is a very important part of the W3C process and is [formally codified in the Process Document](//www.w3.org/2015/Process-20150901/#Consensus) as follows:
 
-:Consensus is a core value of the W3C. To promote consensus, the W3C process requires Chairs to ensure that groups consider all legitimate views and objections, and endeavor to resolve them, whether these views and objections are expressed by the active participants of the group or by others (e.g., another W3C group, a group in another organization, or the general public).
-
+> Consensus is a core value of the W3C. To promote consensus, the W3C process requires Chairs to ensure that groups consider all legitimate views and objections, and endeavor to resolve them, whether these views and objections are expressed by the active participants of the group or by others (e.g., another W3C group, a group in another organization, or the general public).
 
 Since most of Web Platform' work is done without formal meetings, the group uses a ''Call for Consensus'' (aka CfC) mechanism (typically email) to formally gather input on a specific question such as ''Is spec X ready to be published as a Last Call Working Draft?''. '''When a CfC is issued, an explicit response from WG members is preferred and note that the lack of a response will always be considered assent i.e. agreement with the proposal.'''
 
@@ -130,7 +130,7 @@ Most CfC's are conducted on the public-webapps mail list (or one of the group's 
 
 Strictly speaking, a formal CfC is not needed to publish a new Working Draft of a document. Consequently, the group does not conduct a CfC when an Editor would like to publish a new WD (as a Technical Report). However, when an Editor does want to publish a new WD, we expect the publication to be preceded by an announcement on the relevant Public list. We typically title these announcements as ''Public Service Announcement'' (PSA) and the PSA is made by a Chair ([example PSA](http://lists.w3.org/Archives/Public/public-webapps/2014JulSep/0540.html)).
 
-== Mail List Policy, Usage, Etiquette, etc. ==
+## Mail List Policy, Usage, Etiquette, etc.
 
 The Consortium has formal Mail List policies and procedures yet also accommodates some flexibility on how mail lists are used:
 
@@ -138,9 +138,7 @@ The Consortium has formal Mail List policies and procedures yet also accommodate
 
 See [//www.w3.org/Mail/ W3C Mailing List and Archive Info] and [//www.w3.org/2002/03/email_attachment_formats.html W3C Guidelines for Email Attachment Formats] for more information.
 
-
 <span style="color:#ff0000">'''Web Platform' members appreciate and encourage frank technical discussions on our mail lists but all discussions must be done in a respectful manner. Please note this respect requirement is codified in the Process Document via the following participation criteria "[Social competence in one's role](//www.w3.org/2015/Process-20150901/#ParticipationCriteria)". Additionally, see [Code of Ethics and Professional Conduct](//www.w3.org/Consortium/cepc/) and if you did not attend ''Kindergarten'', we expect our list participants to adhere to the basic principles in [All I Really Need To Know I Learned In Kindergarten](http://www.peace.ca/kindergarten.htm).'''</span>
-
 
 We also expect our mail list participants to adhere to the following email etiquette:
 
@@ -159,7 +157,7 @@ We also expect our mail list participants to adhere to the following email etiqu
 ** If an attachment is necessary, avoid formats that are virus prone, proprietary or platform dependent.  For example, whenever possible you should use HTML instead of MS Word, PowerPoint or PDF.
 ** Follow [Web Content Accessibility Guidelines](//www.w3.org/TR/WAI-WEBCONTENT/) (WCAG)
 
-== Off-Topic Discussion Policy ==
+## Off-Topic Discussion Policy
 
 Webapps' [mail lists](//www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_Communication) are only to be used for technical discussions of the group's specifications and related resources such as test cases.
 
@@ -173,7 +171,7 @@ Webapps' [mail lists](//www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_
 * '''[Technical Report Publication Pules](//www.w3.org/2005/07/pubrules) (Pubrules):''' the [//www.w3.org/community/w3process/ Revising W3C Process Community Group]
 '''We expect everyone using Web Platform' mail lists to please respect this policy.'''
 
-== IRC ==
+## IRC
 
 WebApps uses two different channels of the W3C's IRC system (irc.w3.org; port 6667):
 
@@ -182,7 +180,7 @@ WebApps uses two different channels of the W3C's IRC system (irc.w3.org; port 66
 
 An HTML interface to the W3C's IRC system is available at [http://cgi.w3.org/member-bin/irc/irc.cgi http://cgi.w3.org/member-bin/irc/irc.cgi]. See [Meeting Resources](//www.w3.org/2008/webapps/wiki/Telcons#IRC_and_Meeting_Resources) for more information about the W3C's IRC system.
 
-== Testing ==
+## Testing
 
 The WG's [charter](//www.w3.org/2015/10/webplatform-charter.html) mandates the WG create ''a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents''. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webapps](https://github.com/w3c/web-platform-tests/labels/wg-webapps)</code> label.
 
@@ -194,7 +192,7 @@ Resources:
 * [Testing Wiki](//www.w3.org/wiki/Webapps/Submitting_tests) - describes the group's general testing process
 * ''Test Facilitators'' - each spec's ''Test Facilitator'' is identified in the ''Testing'' column of the group's [PubStatus](PubStatus.md) document
 
-== Github ==
+## Github
 
 The group now uses [Github repositories](https://github.com/orgs/w3c/teams/webapps/repositories) for all of its [specifications](https://www.w3.org/2008/webapps/wiki/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
 
@@ -205,7 +203,7 @@ Resources:
 * [web-platform-tests](https://github.com/w3c/web-platform-tests) - root of the consortium's test repository
 * [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - archive of Web Platform' github activity
 
-== Links to Group Resources ==
+## Links to Group Resources
 
 * Public wiki: [//www.w3.org/2008/webapps/wiki/ http://www.w3.org/2008/webapps/wiki/Main_Page]
 * Charter: [//www.w3.org/2015/10/webplatform-charter.html http://www.w3.org/2015/10/webplatform-charter.html]
