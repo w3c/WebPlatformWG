@@ -1486,7 +1486,6 @@ Implementation feedback: see <a href="http://lists.w3.org/Archives/Public/public
 <script>
 function init() {
   var tables = document.querySelectorAll("table[sortable]");
-  alert(tables[0].sortable);
   for (var i = tables.length - 1; i >= 0; i--) {
     if (tables.item(i).sortable === undefined) {
       tsorter.create(tables.item(i));
