@@ -9,7 +9,7 @@ Please note:
 
 SeeAlso:
 
--   [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of WebApps' [WorkMode](WorkMode.md).
+-   [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
 
 ## Upcoming Face-Face Meetings
 
