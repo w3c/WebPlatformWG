@@ -1,5 +1,3 @@
-# WebPlatformWG
+# W3C Web Platform Working Group
 
-Web Platform Working Group pages
-
-https://www.w3.org/WebPlatform/WG/
+Live @ https://www.w3.org/WebPlatform/WG/
