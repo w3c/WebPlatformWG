@@ -19,7 +19,7 @@
         </p>
 <h1>Web Platform PubStatus</h1>
 <p>
-This document contains current data regarding the <i>(Publication) Status</i> of specifications being developed by the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>. The data is provided in several tables: 1) API Specifications; 2) Web Components Specifications; 3) Recommendations in Maintenance Mode; and 4) Specs NO Longer Active.
+This document contains current data regarding the <i>(Publication) Status</i> of specifications being developed by the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>. The data is provided in several tables: 1) API Specifications; 1) API Specifications; 2) Web Components Specifications; 3) Recommendations in Maintenance Mode; and 4) Specs NO Longer Active.
 </p>
 
 <p>Note the <a href="https://www.w3.org/2015/10/webplatform-charter.html">WG's Charter</a> enumerates all of the <a href="https://www.w3.org/2015/10/webplatform-charter.html#deliverables">WG's deliverables</a>.
@@ -28,10 +28,99 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 <p>Please see the section <i><a href="#Table_Key">Table Key</a></i> for information regarding interpreting the data in the tables.
 </p>
 
+<h2 id="HTML_Specifications">HTML Specifications</h2>
+
+<table>
+
+<thead><tr>
+<th>Name of Spec<br>(Editor's Draft)<br>Active Editors</th>
+<th>Last Publication</th>
+<th>Type</th>
+<th>Tracker</th>
+<th>Remarks</th>
+<th>Implementations</th>
+<th>Plans</th></tr></thead><tbody>
+<tr>
+<td><a href="http://www.w3.org/html/wg/drafts/html/master/">HTML 5.1</a> (aka HTML Nightly)<br><em>Various</em>
+</td>
+<td><a href="http://www.w3.org/TR/html51/">continuous updates</a>
+</td>
+<td>WD
+</td>
+<td>
+<ul>
+<li><a href="https://www.w3.org/Bugs/Public/buglist.cgi?order=Importance&amp;list_id=3505&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=HTML5%20spec&amp;product=HTML%20WG">bugs</a>
+</li>
+<li> <a href="https://github.com/w3c/html/commits/master">commits</a>
+</li>
+<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=HTML5%20spec&amp;priority=P3">file a bug</a>
+</li>
+</ul>
+</td>
+<td><a href="http://www.w3.org/Search/Mail/Public/advanced_search?keywords=&amp;hdr-1-name=subject&amp;hdr-1-query=patches&amp;hdr-2-name=from&amp;hdr-3-name=message-id&amp;hdr-3-query=&amp;period_month=&amp;period_year=&amp;index-grp=Public__FULL&amp;index-type=t&amp;type-index=public-html&amp;resultsperpage=20&amp;sortby=date">weekly updates</a>
+</td>
+<td><a href="https://github.com/w3c/web-platform-tests/tree/master/html">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/commits/master">commits</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=html">pull requests</a>
+</td>
+<td>LC in Q2 2015, REC in Q4 2015
+</td></tr>
+<tr>
+<td><a href="http://www.w3.org/html/landscape/">The HTML Landscape</a><br>Robin Berjon
+</td>
+<td>N/A
+</td>
+<td>N/A
+</td>
+<td>
+</td>
+<td>Differences between various HTML specifications
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="https://specs.webplatform.org/html-aria/webspecs/master/">ARIA in HTML</a><br><a href="https://github.com/stevefaulkner">Steve Faulkner</a>
+</td>
+<td><a href="http://www.w3.org/TR/html-aria/">2015-04-14</a>
+</td>
+<td>WD
+</td>
+<td>
+</td>
+<td><a href="https://github.com/webspecs/html-aria/issues">issues</a><br><a href="https://github.com/webspecs/html-aria/pulls">pull requests</a>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="http://dvcs.w3.org/hg/aria-unofficial/raw-file/tip/index.html">Using WAI-ARIA in HTML</a><br>Steve Faulkner, Hans Hillen, Gez Lemon, David MacDonald
+</td>
+<td><a href="http://www.w3.org/TR/aria-in-html/">2014-06-26</a>
+</td>
+<td>WD
+</td>
+<td>
+<ul>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;order=Importance&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=Using%20ARIA%20in%20HTML&amp;product=HTML%20WG">bugs</a>
+</li>
+<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=Using%20ARIA%20in%20HTML&amp;priority=P3">file a bug</a>
+</li>
+</ul>
+</td>
+<td>use <a href="http://lists.w3.org/Archives/Public/public-html-a11y/">public-html-a11y</a>
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+</tbody></table>
+
 <h2 id="API_Specifications">API Specifications</h2>
 <p>The specifications are listed in alphabetical order ...</p>
 <table>
-<thead><tr>
+<thead>
+<tr>
 <th>Spec, Active Editor(s)</th>
 <th>Last TR Publication</th>
 <th>Type</th>
@@ -957,13 +1046,102 @@ WD
 <a href="http://www.w3.org/wiki/Webapps/Interop/WebStorage">Implementation Report</a>.
 <p>Maintenance only (e.g. errata).
 </p>
-</td></tr></tbody></table>
-<h2><span class="mw-headline" id="Specs_NO_Longer_Active">Specs NO Longer Active</span></h2>
+</td></tr>
+<tr>
+<td><a href="http://www.w3.org/html/wg/drafts/html/CR/">HTML5</a><br>Ian Hickson (WHATWG), Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Edward O'Connor, Silvia Pfeiffer
+</td>
+<td><a href="http://www.w3.org/TR/html5/">2014-10-28</a>
+</td>
+<td>REC
+</td>
+<td>
+<ul>
+<li> <a href="http://www.w3.org/html/wg/tracker/products/1">tracker</a>
+</li>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=HTML5%20spec&amp;keywords=CR%2C%20&amp;keywords_type=allwords&amp;known_name=CR&amp;list_id=31371&amp;product=HTML%20WG&amp;query_based_on=CR&amp;query_format=advanced">bugs</a>
+</li>
+<li> <a href="https://github.com/w3c/html/commits/CR">commits</a>
+</li>
+<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=HTML5%20spec&amp;priority=P3">file a bug</a>
+</li>
+</ul>
+</td>
+<td><a href="http://w3c.github.io/test-results/html/details.html">implementation report</a>
+</td>
+<td>errata? We (always) need more tests!
+</td></tr>
+<tr>
+<td><a href="http://dvcs.w3.org/hg/html-proposals/raw-file/tip/longdesc1/longdesc.html">HTML5 Image Description Extension</a><br>Charles McCathie Nevile, Mark Sadecki
+</td>
+<td><a href="http://www.w3.org/TR/html-longdesc/">2015-02-26</a>
+</td>
+<td>REC
+</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=HTML%20WG&amp;component=HTML%20Image%20Description%20Extension">bugs</a>
+<br>use <a href="http://lists.w3.org/Archives/Public/public-html-a11y/">public-html-a11y</a>
+</td>
+<td><a href="https://github.com/w3c/web-platform-tests/tree/master/html-longdesc">test suite</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas_CR/">HTML Canvas 2D Context</a><br>Rik Cabanier, Eliot Graff, Jay Munro, Tom Wiltzius
+</td>
+<td><a href="http://www.w3.org/TR/2dcontext/">2015-09-24</a>
+</td>
+<td>PR
+</td>
+<td>
+<ul>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?order=Importance&amp;list_id=3507&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=CR%20HTML%20Canvas%202D%20Context&amp;product=HTML%20WG">bugs</a>
+</li>
+<li> <a href="https://github.com/w3c/html/commits/html5_canvas_CR">commits</a>
+</li>
+<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=CR%20HTML%20Canvas%202D%20Context&amp;priority=P3">file a bug</a>
+</li>
+<li>use <a href="http://lists.w3.org/Archives/Public/public-canvas-api/">public-canvas-api</a></li>
+</ul>
+</td>
+<td><a href="http://dev.w3.org/html5/decision-policy/public-permissive-exit-criteria.html">exit criteria</a>, <a href="https://github.com/w3c/web-platform-tests/tree/master/2dcontext">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/commits">commits</a><br><a href="http://dev.w3.org/html5/misc/canvas-implementation.html">test suite coverage</a>, <a href="http://w3c-test.org/testrunner/2dcontext/">test suite results</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=2dcontext">pull requests</a>
+<p><a href="https://www.w3.org/WAI/PF/HTML/wiki/Canvas#Implementation_Progress">Implementation Progress for Hit Regions and drawFocus</a>
+</p>
+</td>
+<td>To be published by HTML WG
+</td></tr>
+<tr>
+<td><a href="http://w3c.github.io/dom/">W3C DOM4</a><br>Anne van Kesteren, Aryeh Gregor, Ms2ger, Alex Russell, Robin Berjon
+</td>
+<td><a href="http://www.w3.org/TR/dom/">2015-10-06</a>
+</td>
+<td>PR
+</td>
+<td>
+<ul>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=DOM&amp;list_id=30934&amp;query_format=advanced">bugs</a>
+</li>
+<li> <a href="https://github.com/w3c/dom/commits/gh-pages">commits</a>
+</li>
+</ul>
+</td>
+<td>use <a href="http://lists.w3.org/Archives/Public/www-dom/">www-dom</a><br>Snapshot of WHATWG version, with unstable stuff removed
+</td>
+<td> <a href="https://github.com/w3c/web-platform-tests/tree/master/dom">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=dom">pull requests</a>, <a href="http://w3c.github.io/html/test-results/less-than-2.html">test results</a>
+</td>
+<td>To be published by HTML WG
+</td></tr>
+</tbody></table>
+
+
+
+
+<h2 id="Specs_NO_Longer_Active">Specs NO Longer Active</h2>
+
 <p>The documents and specifications in the following table are NO longer active. The order of the specs is the most recently published or abandoned document first.
 </p>
-<table>
 
-<thead><tr>
+<table>
+<thead>
+<tr>
 <th>Name of Spec<br>(Editor's Draft)<br></th>
 <th>Last TR Publication</th>
 <th>Type</th>
@@ -1287,17 +1465,15 @@ Implementation feedback: see <a href="http://lists.w3.org/Archives/Public/public
 </li>
 <li> ED = Editor's Draft
 </li>
-<li> WG Note = <a href="http://www.w3.org/2015/Process-20150901/#tr-end">Working Group Note</a>
+<li> WG Note = <a href="http://www.w3.org/2015/Process-20150901/#Note">Working Group Note</a>
 </li>
 <li> FPWD = <a href="http://www.w3.org/2015/Process-20150901/#first-wd">First Public Working Draft</a>
 </li>
-<li> WD = <a href="http://www.w3.org/2015/Process-20150901/#q73">Working Draft</a>
+<li> WD = <a href="http://www.w3.org/2015/Process-20150901/#revised-wd">Working Draft</a>
 </li>
-<li> LC, LCWD = <a href="http://www.w3.org/2015/Process-20150901/#last-call">Last Call</a> (Working Draft)
+<li> CR = <a href="http://www.w3.org/2015/Process-20150901/#candidate-rec">Candidate Recommendation</a>
 </li>
-<li> CR = <a href="http://www.w3.org/2015/Process-20150901/#cfi">Candidate Recommendation</a>
-</li>
-<li> PR = <a href="http://www.w3.org/2015/Process-20150901/#cfr">Proposed Recommendation</a>
+<li> PR = <a href="http://www.w3.org/2015/Process-20150901/#rec-pr">Proposed Recommendation</a>
 </li>
 <li> REC = <a href="http://www.w3.org/2015/Process-20150901/#rec-publication">Recommendation</a>
 </li>
