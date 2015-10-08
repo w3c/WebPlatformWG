@@ -58,7 +58,7 @@ Does this editing work mode mean WG members' input is not taken into account? **
 
 Resources:
 
-* Web Platform' [SpecEditing](SpecEditing.md) wiki includes information about spec editing, including Editor roles and responsibilities, and links to the various document validators.
+* Web Platform [SpecEditing](SpecEditing.md) includes information about spec editing, including Editor roles and responsibilities, and links to the various document validators.
 
 ## Normative References
 
@@ -115,8 +115,8 @@ To facilitate broad participation in these meetings including participants from 
 
 Resources:
 
-* Web Platform' [Meeting Wiki](//www.w3.org/wiki/Webapps/Meetings) contains: information about the group's formal meetings including upcoming meetings,  links to previous f2f meetings, schedules for semi-regular topic-specific virtual meetings.
-* [IRC and Meeting Resources](//www.w3.org/wiki/Webapps/Meetings#IRC_and_Meeting_Resources)
+* Web Platform' [Meeting Wiki](Meetings.md) contains: information about the group's formal meetings including upcoming meetings,  links to previous f2f meetings, schedules for semi-regular topic-specific virtual meetings.
+* [IRC and Meeting Resources](Meetings.md#irc-and-meeting-resources)
 
 ## Consensus and Call for Consensus
 
@@ -192,7 +192,7 @@ Resources:
 
 ## Github
 
-The group now uses [Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories) for all of its [specifications](https://www.w3.org/2008/webapps/wiki/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
+The group now uses [Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories) for all of its [specifications](https://www.w3.org/WebPlatform/WG/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
 
 Resources:
 
