@@ -178,7 +178,7 @@ WebApps uses two different channels of the W3C's IRC system (irc.w3.org; port 66
 * #webapps - for Public technical discussions; this channel is continuously [logged/archive](http://krijnhoetmer.nl/irc-logs/)
 * #wam - for Member-confidential discussions; this channel is NOT logged and should NOT be used for technical discussions
 
-An HTML interface to the W3C's IRC system is available at [http://cgi.w3.org/member-bin/irc/irc.cgi](http://cgi.w3.org/member-bin/irc/irc.cgi). See [Meeting Resources](Telcons.md#IRC_and_Meeting_Resources) for more information about the W3C's IRC system.
+An [HTML interface to the W3C's IRC system](http://irc.w3.org/) is available. See [Meeting Resources](Telcons.md#IRC_and_Meeting_Resources) for more information about the W3C's IRC system.
 
 ## Testing
 
@@ -210,8 +210,8 @@ Resources:
 * Public mail list archives: see [above](#participation-and-communication)
 * [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
 * Actions, Issues and Bugs ...
-** [Bugzilla Database](http://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); used by most specs
+** [Bugzilla Database](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); used by most specs
 ** Open Actions database: [track](//www.w3.org/2008/webapps/track/); primarily used for admin type actions
-* Telcon/Voice Conference info: [Distributed Meetings / Telcons](Meetings.md#Distributed_Meetings_aka_TelCons)
+* Telcon/Voice Conference info: [Distributed Meetings / Telcons](Meetings.md#distributed-meetings-aka-telcons)
 * Face-to-face Meetings: [upcoming and past meetings](Meetings.md)
 * [WebPlatform Coordination Points](Coordination.md); identifies W3C WGs and external organizations with mutual areas of interest
