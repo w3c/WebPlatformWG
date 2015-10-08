@@ -36,7 +36,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <h2 id="HTML_Specifications">HTML Specifications</h2>
 
-<table>
+<table id='htmlt' sortable>
 
 <thead><tr>
 <th>Name of Spec<br>(Editor's Draft)<br>Active Editors</th>
@@ -736,7 +736,7 @@ WD
 </td></tr></tbody></table>
 
 <h2 id="Web_Components">Web Components Specifications</h2>
-<table>
+<table id='web_componentst' sortable>
 <thead><tr>
 <th>Spec, Active Editor(s)</th>
 <th>Last TR Publication</th>
@@ -854,7 +854,7 @@ WD
 <p><b>The following table includes specifications that have been published as Recommendations. In most cases, no additional work is planned except for errata  processing. However, some of these standards may have normative changes and subsequent publication(s).</b>
 
 </p>
-<table>
+<table id='maintenancet' sortable>
 
 <thead><tr>
 <th>Spec, Active Editor(s)</th>
@@ -1143,7 +1143,7 @@ WD
 <p>The documents and specifications in the following table are NO longer active. The order of the specs is the most recently published or abandoned document first.
 </p>
 
-<table>
+<table id='noactivet' sortable>
 <thead>
 <tr>
 <th>Name of Spec<br>(Editor's Draft)<br></th>
@@ -1490,5 +1490,16 @@ Implementation feedback: see <a href="http://lists.w3.org/Archives/Public/public
 <li> No Formal Pub = the document has not yet been formally published by the W3C as a <i><a href="http://www.w3.org/TR/">Technical Report</a></i>.
 </li>
 </ul>
+<script src="js/tsorter.min.js"></script>
+<script>
+function init() {
+  tsorter.create('htmlt');
+  tsorter.create('apit');
+  tsorter.create('web_componentst');
+  tsorter.create('maintenancet');
+  tsorter.create('noactivet');
+}
+window.addEventListener("load", init, false);
+</script>
 </body>
 </html>
