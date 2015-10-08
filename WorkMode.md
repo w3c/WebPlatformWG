@@ -9,7 +9,7 @@ This document is a *Living Document* and as such will change. Members of the gro
 
 Web Platform' formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
-Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [https://www.w3.org/WebPlatform/WG/PubStatus specifications in progress].
+Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [specifications in progress](https://www.w3.org/WebPlatform/WG/PubStatus).
 
 A WG member may participate in various ways including:
 
