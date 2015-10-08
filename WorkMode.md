@@ -7,7 +7,7 @@ This document is a ''Living Document'' and as such will change. Members of the g
 
 ## Participation and Communication
 
-Web Platform' formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
+Web Platform' formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
 Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [PubStatus.md specifications in progress].
 
