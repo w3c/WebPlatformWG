@@ -46,7 +46,7 @@ EDs are '''not''' formal publications by the W3C and as such, the [W3C Process D
 
 '''Those with a vested interest in a specification e.g. implementers and application developers, should use a spec's Editor's Draft and not a dated version of the ED that was published as a Working Draft in the W3C's ''[Technical Reports repository](//www.w3.org/TR/)''.'''
 
-The W3C's 2015 Process Document indicates that if [//www.w3.org/2015/Process-20150901/#revised-wd 6 months elapse] without significant changes to a specification a Working Group SHOULD publish a revised Working Draft, whose status section SHOULD indicate reasons for the lack of change.
+The W3C's 2015 Process Document indicates that if [6 months elapse](//www.w3.org/2015/Process-20150901/#revised-wd) without significant changes to a specification a Working Group SHOULD publish a revised Working Draft, whose status section SHOULD indicate reasons for the lack of change.
 
 ## Editors
 
@@ -79,8 +79,8 @@ Resources:
 
 * [Web Platform' Git repositories](https://github.com/orgs/w3c/teams/WebPlatformWG/repositories)
 * [Web Platform' Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
-* [Web Platform' Tracker Database](//www.w3.org/2008/webapps/track/features) @@
-* [Tracker Guidelines](//www.w3.org/2008/webapps/wiki/Tracker_Guidelines) @@
+* [Web Platform' Tracker Database](//www.w3.org/2008/webapps/track/features) @@REMOVE?
+* [Tracker Guidelines](//www.w3.org/2008/webapps/wiki/Tracker_Guidelines) @@REMOVE?
 
 ## Patent Policy
 
@@ -108,9 +108,9 @@ To facilitate broad participation in these meetings including participants from 
 * The consortium usually has an annual "['Technical Plenary and All Working Group](//www.w3.org/2002/09/TPOverview.html)'' face-to-face (f2f) meeting week (aka ''TPAC'') and this group typically has a f2f meeting during that week. The dates/locations are generally known a year or more in advance, and historically WebApps has met on the first 2 days of the event.
 
 ### All meetings
-* Per the group's charter: [//www.w3.org/2015/10/webplatform-charter.html#decisions ''Any resolution taken in a face-to-face meeting or teleconference is to be considered provisional until 10 working days after the publication of the resolution in draft minutes sent to the working groups mailing list. If no objections are raised on the mailing list within that time, the resolution will be considered to have consensus as a resolution of the Working Group.'']
+* Per the group's charter: [''Any resolution taken in a face-to-face meeting or teleconference is to be considered provisional until 10 working days after the publication of the resolution in draft minutes sent to the working groups mailing list. If no objections are raised on the mailing list within that time, the resolution will be considered to have consensus as a resolution of the Working Group.''](//www.w3.org/2015/10/webplatform-charter.html#decisions)
 * The meeting must use the W3C's #webapps IRC and the [RRSAgent Meeting Minute bot](//www.w3.org/2002/03/RRSAgent)
-* The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [mailto:team-webapps@w3.org team-webapps@w3.org] at least 48 hours before the meeting starts.
+* The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [team-webapps@w3.org](mailto:team-webapps@w3.org) at least 48 hours before the meeting starts.
 * Within 48 hours of the meeting ending (although sooner is preferred), the meeting's minutes must be sent to the e-mail list used in the meeting's announcement.
 
 Resources:
@@ -165,7 +165,7 @@ Webapps' [mail lists](//www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_
 
 '''Here is a list of documents and topics that are explicitly off-topic for Web Platform' mail lists, including one or more appropriate discussion forums that may be used''':
 
-* '''[W3C Document and Software License](http://www.w3.org/Consortium/Legal/copyright-software) and Copyright issues''':  the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [//www.w3.org/2002/ab/ W3C Advisory Board]; the [W3C Advisory Committee](//www.w3.org/2005/10/Process-20051014/organization#AC)
+* '''[W3C Document and Software License](http://www.w3.org/Consortium/Legal/copyright-software) and Copyright issues''':  the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2005/10/Process-20051014/organization#AC)
 * '''[W3C Process Document](//www.w3.org/2015/Process-20150901/):''' the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2015/Process-20150901/#AC)
 * '''[W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/):''' the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [Patent and Standards Interest Group](//www.w3.org/2004/pp/psig/)
 * '''[Technical Report Publication Pules](//www.w3.org/2005/07/pubrules) (Pubrules):''' the [Revising W3C Process Community Group](//www.w3.org/community/w3process/)
@@ -206,12 +206,12 @@ Resources:
 * [Github](https://github.com/w3c/WebPlatformWG/)
 * [Charter](//www.w3.org/2015/10/webplatform-charter.html)
 * [Publication status](http://www.w3.org/2008/webapps/wiki/PubStatus.md)
-* WG participants list: [//www.w3.org/2000/09/dbwg/details?group=83482 http://www.w3.org/2000/09/dbwg/details?group=83482]
+* [WG participants list](http://www.w3.org/2000/09/dbwg/details?group=83482)
 * Public mail list archives: see [above](WorkMode.md#Participation_and_Communication)
-* Member-Confidential mail list archive: [http://lists.w3.org/Archives/Member/member-webplatform-wg/](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
+* [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
 * Actions, Issues and Bugs ...
-** Bugzilla Database: <http://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG>; used by most specs
-** Open Actions database: [//www.w3.org/2008/webapps/track/ http://www.w3.org/2008/webapps/track/]; primarily used for admin type actions
-* Telcon/Voice Conference info: [Meetings.md#Distributed_Meetings_aka_TelCons Distributed Meetings / Telcons]
+** [Bugzilla Database](http://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); used by most specs
+** Open Actions database: [track](//www.w3.org/2008/webapps/track/); primarily used for admin type actions
+* Telcon/Voice Conference info: [Distributed Meetings / Telcons](Meetings.md#Distributed_Meetings_aka_TelCons)
 * Face-to-face Meetings: [upcoming and past meetings](Meetings.md)
 * [WebPlatform Coordination Points](Coordination.md); identifies W3C WGs and external organizations with mutual areas of interest
