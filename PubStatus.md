@@ -1,221 +1,36 @@
 This document contains current data regarding the *(Publication) Status* of specifications being developed by the [Web Applications Working Group](http://www.w3.org/2008/webapps/wiki/Main_Page) (aka *WebApps*). The data is provided in several tables: 1) API Specifications; 2) Web Components Specifications; 3) Widget Specifications; 4) Recommendations in Maintenance Mode; and 5) Specs NO Longer Active.
 
-Note the [WG's Charter](http://www.w3.org/2014/06/webapps-charter.html) enumerates all of the [WG's deliverables](http://www.w3.org/2014/06/webapps-charter.html#deliverables).
+Note the [WG's Charter](https://www.w3.org/2015/10/webplatform-charter.html) enumerates all of the [WG's deliverables](https://www.w3.org/2015/10/webplatform-charter.html#deliverables).
 
-Please see the section *[Table Key](http://www.w3.org/2008/webapps/wiki/PubStatus#Table_Key)* for information regarding interpreting the data in the tables.
+Please see the section *[Table Key](#Table_Key)* for information regarding interpreting the data in the tables.
 
-API Specifications
-------------------
+# API Specifications
 
 The specifications are listed in alphabetical order ...
 
 |Spec, Active Editor(s)|Last TR Publication|Type|Remarks|Testing|Plans|
 |----------------------|-------------------|----|-------|-------|-----|
-|[Clipboard APIs and Events](https://w3c.github.io/clipboard-apis/), Hallvord Steen|[2015-04-21](http://www.w3.org/TR/clipboard-apis/)|WD|[Github Issues](https://github.com/w3c/clipboard-apis/issues);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Clipboard%20API%20and%20events&resolution>=---&list\_id=9413 Bugzilla Database];
-
-[Github Monthly Pulse](https://github.com/w3c/clipboard-apis/pulse/monthly);
-
-Implementations: see [CanIUse](http://caniuse.com/#feat=clipboard)|[Test Suite](http://dev.w3.org/2006/webapi/clipops/testsuite/) Test Facilitator: Hallvord Steen; Status: 85% complete|Publish periodic WDs until the spec is feature complete.
-
-Work on test suite and move it to Github.
-
-See Hallvord's [2014-Oct-24 status report](http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0238.html).|
-|[DOM Level 3 KeyboardEvent code Values](https://w3c.github.io/DOM-Level-3-Events-code/), Travis Leithead, Gary Kačmarčík|[2015-04-28](http://www.w3.org/TR/DOM-Level-3-Events-code/)|WD|Discussions on [www-dom mail list](http://lists.w3.org/Archives/Public/www-dom/).
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=DOM3%20Events&resolution>=--- Bugzilla database] - bugs prefixed with [keycode].
-
-[Github Issues](https://github.com/w3c/DOM-Level-3-Events-code/issues).
-
-[Github Monthly Pulse](https://github.com/w3c/DOM-Level-3-Events-code/pulse/monthly).
-
-See also the [DOM3Events](DOM3Events "wikilink") Wiki Page.|Test Facilitator: @TBD.
-
-Test Suite: @TBD|Update as new code values are added/fixed. This spec will advance in step with UI Events.|
-|[DOM Level 3 KeyboardEvent key Values](https://w3c.github.io/DOM-Level-3-Events-key/), Travis Leithead, Gary Kačmarčík|[2015-04-28](http://www.w3.org/TR/DOM-Level-3-Events-key/)|WD|Discussions on [www-dom mail list](http://lists.w3.org/Archives/Public/www-dom/).
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=DOM3%20Events&resolution>=--- Bugzilla database] - bugs prefixed with [keyvalue].
-
-[Github Issues](https://github.com/w3c/DOM-Level-3-Events-key/issues).
-
-[Github Monthly Pulse](https://github.com/w3c/DOM-Level-3-Events-key/pulse/monthly).
-
-See also the [DOM3Events](DOM3Events "wikilink") Wiki Page.|Test Facilitator: @TBD.
-
-Test Suite: @TBD|Update as new key values are added/fixed. This spec will advance in step with UI Events.|
-|[DOM Parsing and Serialization](https://w3c.github.io/DOM-Parsing/); Travis Leithead|[2014-06-17](http://www.w3.org/TR/DOM-Parsing/)|CR|[Github Issues](https://github.com/w3c/DOM-Parsing/issues);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=DOM%20Parsing%20and%20Serialization&resolution>=--- Bugzilla Database];
-
-[Github Monthly Pulse](https://github.com/w3c/DOM-Parsing/pulse/monthly)|Test Facilitator: Travis and Cindy;
-
-[Suite](http://w3c-test.org/html/syntax/Test);
-
-Status: ??% complete.
-
-[Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=DOM-parsing&page=1&state=open).|Work on test suite and after it is complete, do interoperability testing.|
-|[File API](https://w3c.github.io/FileAPI/), Arun Ranganathan, Jonas Sicking|[2015-04-21](http://www.w3.org/TR/FileAPI/)|WD|[Github Issues](https://github.com/w3c/FileAPI/issues);
-
-[Github Monthly Pulse](https://github.com/w3c/FileAPI/pulse/monthly);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=File%20API&resolution>=--- Bugzilla Database]
-
-File API [Implementation data](http://caniuse.com/#feat=fileapi) from caniuse.com; File Reader [Implementations data](http://caniuse.com/#feat=filereader) from caniuse.com|Test Facilitator: @NEED\_HELP [Test Suite](http://w3c-test.org/FileAPI/);
-
-Status: 20% complete.
-
-[Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=FileAPI&page=1&state=open).|Publish LC\#2 when all v1 [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=File%20API&resolution>=--- Bugs] are closed.|
-|[FileSystem API](http://w3c.github.io/filesystem-api/); Arun Ranganathan|N/A|ED|[Github monthly Pulse](https://github.com/w3c/filesystem-api/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/filesystem-api/issues)|Test Faciliator: @TBD;
-
-Status: NO test suite|Publish FPWD when spec is fleshed-out breadth first.|
-|[Gamepad](https://w3c.github.io/gamepad/gamepad.html), Scott Graham and Ted Mielczarek|[2015-04-29](http://www.w3.org/TR/gamepad/)|WD|[Github monthly Pulse](https://github.com/w3c/gamepad/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/gamepad/issues);
-
-[Features for v.Next](https://www.w3.org/wiki/Webapps/GamepadFeatures).|[Test Suite](https://github.com/w3c/web-platform-tests/tree/master/gamepad);
-
-Test Facilitator: Ted|Publish a LCWD after the last bugs for v1 are fixed.
-
-See Ted's [2014-Nov-26](http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0510.html) e-mail for information about the next steps including implementation data.
-
-Obsolete the Bugzilla component after all of the Open Bugs have been moved to Github Issues.|
-|[Indexed Database API (Second Edition)](http://w3c.github.io/IndexedDB/), Joshua Bell, Ali Alabbas|[2015-01-08](http://www.w3.org/TR/IndexedDB/)|REC|[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Indexed%20Database%20API&resolution>=--- Bugzilla database].
-
-[Github Issues](https://github.com/w3c/IndexedDB/issues).
-
-[Implementation data](http://caniuse.com/#search=indexed) from caniuse.com.
-
-[Feature list for v2](http://www.w3.org/2008/webapps/wiki/IndexedDatabaseFeatures).
-
-[Comment Tracking Document](https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Comments-16-May-2013-LCWD.html) for the 16-May-2013 LCWD.|Test Facilitator: Zhiqiang Zhang; [Test Suite](http://w3c-test.org/IndexedDB/);
-
-Status: complete.
-
-[Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=IndexedDB&page=1&state=open).|Start work on IDB Second Edition and process v1 errata if/when needed.|
-|[Input Method Editor (IME) API](https://w3c.github.io/ime-api/), Travis Leithead|[2015-04-09](http://www.w3.org/TR/ime-api/)|WD|[Github monthly Pulse](https://github.com/w3c/ime-api/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/ime-api/issues);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=IME%20API&resolution>=--- Bugzilla Database]|Test Facilitator: Mike™ Smith;
-
-Status: NO test suite|**No one is actively working on this spec nor its implementation at the moment. Additional Editing help wanted.**|
-|[Manifest for web application](http://www.w3.org/TR/appmanifest/), Marcos Cáceres, K. Christiansen, A. Kostiainen|[**\^See Note**](http://www.w3.org/TR/appmanifest/)|WD|[Github monthly Pulse](https://github.com/w3c/manifest/pulse/monthly);
-
-[GitHub Issues](https://github.com/w3c/manifest/issues).|Test Facilitator: Sebastian Godard;
-
-Status: NO test suite|[Request for comments: 12-Feb-2015](https://lists.w3.org/Archives/Public/public-webapps/2015JanMar/0614.html).
-
-[Gecko implementation status](https://bugzilla.mozilla.org/show_bug.cgi?id=1003890)
-
-**Note: WDs for this spec are being *automatically published* using [Echidna](https://lists.w3.org/Archives/Public/spec-prod/2015JanMar/0026.html).**|
-|[Packaging on the Web](http://w3ctag.github.io/packaging-on-the-web/); Jeni Tennison|[2015-01-15](http://www.w3.org/TR/web-packaging)|FPWD|[Github Issues](https://github.com/w3ctag/packaging-on-the-web/issues);
-
-[Github Monthly Pulse](https://github.com/w3ctag/packaging-on-the-web/pulse/monthly);
-
-This is a joint specification with the TAG.|Test Facilitator: @TBD||
-|[Pointer Lock](https://w3c.github.io/pointerlock/), Vincent Scheib|[2013-12-17](http://www.w3.org/TR/pointerlock/)|CR|[Github Issues](https://github.com/w3c/pointerlock/issues);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Pointer%20Lock&resolution>=--- Bugzilla Database];
-
-[Github Monthly Pulse](https://github.com/w3c/pointerlock/pulse/monthly);
-
-[Features for v.Next](https://www.w3.org/wiki/Webapps/PointerLockFeatures).|Test Facilitator: Vincent Scheib;
-
-[Test Suite](http://w3c-test.org/pointerlock/)|Exiting CR is blocked on completing the test suite and getting 2 or more implementations to pass the tests.
-
-See [<http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0294.html> Vincent's 2014-Oct-27 status report.|
-|[Push API](https://w3c.github.io/push-api/index.html), Michaël van Ouwerkerk, Martin Thompson|[2015-04-27](http://w3.org/TR/push-api/)|WD|[Github monthly Pulse](https://github.com/w3c/push-api/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/push-api/issues);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Push%20API&resolution>=---&list\_id=781 Bugzilla Database];
-
-[Use Cases wiki](http://www.w3.org/2008/webapps/wiki/Push_API).
-
-A [Patent Advisory Group](http://www.w3.org/2013/03/push-pag-charter.html) was formed and published their [report on 30-Oct-2013](http://www.w3.org/2013/10/push-api-pag-report.html).|Test Facilitator: @TBD;
-
-Status: NO test suite|Address [issues raised by TAG](https://github.com/w3ctag/spec-reviews/tree/master/2013/08).
-
-For information about IETF's Draft Web Push protocol spec, see [Martin Thomson's 12-Dec-2014 e-mail](http://www.ietf.org/mail-archive/web/webpush/current/msg00109.html).
-
-[<https://groups.google.com/a/chromium.org/forum/>\#!topic/blink-dev/UdGlL9PtBLo Blink intent to ship]|
-|[Quota Management API](https://w3c.github.io/quota-api/), Kinuko Yasuda|[2015-04-09](http://www.w3.org/TR/quota-api/)|WD|[Github Issues](https://github.com/w3c/quota-api/issues);
-
-[Github Monthly Pulse](https://github.com/w3c/quota-api/pulse/monthly);
-
-[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Quota%20Management%20API&resolution>=---&list\_id=9412 Bugzilla Database].
-
-Implementations: see Intent to Implement latest ED in [<https://groups.google.com/a/chromium.org/forum/>\#!topic/blink-dev/ciicp7mJolQ Blink] and [ChromeStatus](http://www.chromestatus.com/features/6218562888794112).|Test Facilitator: @TBD;
-
-Status: NO test suite|See Kinuko's [2014-Oct-23 status](http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0219.html).
-
-TAG is [reviewing this spec](https://github.com/w3ctag/spec-reviews/issues/21).|
-|[Screen Orientation API](https://w3c.github.io/screen-orientation/), Mounir Lamouri, Marcos Cáceres|[2015-04-28](http://www.w3.org/TR/screen-orientation/)|WD|[Github monthly Pulse](https://github.com/w3c/screen-orientation/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/screen-orientation/issues)|Test Facilitator: Marcos Cáceres;
-
-Status: NO test suite|Publish LCWD when last *non-enhancement* [Open Issues are closed](https://github.com/w3c/screen-orientation/issues)|
-|[Selection API](http://w3c.github.io/selection-api/); Ryosuke Niwa|[2014-10-07](http://www.w3.org/TR/selection-api)|FPWD|[Github monthly Pulse](https://github.com/w3c/selection-api/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/selection-api/issues).
-
-Based on Aryeh Gregor's [Editing API](https://dvcs.w3.org/hg/editing/raw-file/tip/editing.html).|[Test Suite](http://w3c-test.org/html/editing/);
-
-Test Facilitator: @TBD;
-
-Status: @TBD|Get review of Ryosuke's early ED|
-|[Service Workers](http://slightlyoff.github.io/ServiceWorker/spec/service_worker/), Alex Russell, Jungkee Song, Jake Archibald|[2015-06-25](http://www.w3.org/TR/service-workers/)|WD|[Github monthly Pulse](https://github.com/slightlyoff/ServiceWorker/pulse/monthly);
-
-[GitHub Issues](https://github.com/slightlyoff/ServiceWorker/issues);
-
-[Use Cases](http://www.w3.org/wiki/Webapps/AppCacheUseCases).|Test Facilitator: @TBD.
-
-[Test Suite on Github](https://github.com/w3c/web-platform-tests/tree/master/service-workers)|[Chrome Implementation status](https://code.google.com/p/chromium/issues/detail?id=285976); [Firefox Implementation status](https://bugzilla.mozilla.org/show_bug.cgi?id=903441)|
-|[Streams API](https://w3c.github.io/streams-api/), Feras Moussa, Takeshi Yoshino|[2014-10-23](http://www.w3.org/TR/streams-api/)|WD|[Github monthly Pulse](https://github.com/w3c/streams-api/pulse/monthly);
-
-[Github Issues](https://github.com/w3c/streams-api/issues);
-
-[public-webapps discussions](http://lists.w3.org/Archives/Public/public-webapps/).|Test Facilitator: @TBD;
-
-Status: NO test suite|Determine **what - if any - APIs are needed on top of Domenic's [WHATWG Streams spec](https://streams.spec.whatwg.org/)?**|
-|[UI Events (formerly D3E)](https://w3c.github.io/uievents/), Travis Leithead, Gary Kacmarcik|[2015-04-28](http://www.w3.org/TR/uievents/)|WD|[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=UI%20Events&resolution>=---&list\_id=9117 Bugzilla Database].
-
-[Github Issues](https://github.com/w3c/uievents/issues).
-
-[Github Monthly Pulse](https://github.com/w3c/uievents/pulse/monthly).|Test Facilitators: Gary Kačmarčík, Travis Leithead; [OLD Test Suite](http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/); [OLD Approved Tests](http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/approved/);
-
-Status: [20% complete](http://lists.w3.org/Archives/Public/public-webapps-testsuite/2013Sep/0007.html).|This spec includes features that were formerly defined in DOM Level 3 Events.|
-|[URL](https://url.spec.whatwg.org/), Anne van Kesteren, Sam Ruby|[2014-12-09](http://www.w3.org/TR/url-1/)|WD|[Bugzilla Database](https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=URL&list_id=42470&product=WHATWG&query_format=advanced);
-
-[Github Monthly Pulse](https://github.com/w3ctag/url/pulse/monthly);
-
-[Github Issues](https://github.com/w3ctag/url/issues)|Test Facilitator: Sam Ruby;
-
-[Test Suite](https://github.com/w3c/web-platform-tests/tree/master/url)||
-|[Web IDL](http://heycam.github.io/webidl/), Cameron McCormack, Boris Zabarsky|[2012-04-19](http://www.w3.org/TR/WebIDL/)|CR|[Github monthly Pulse](https://github.com/heycam/webidl/pulse/monthly);
-
-[Github Issues](https://github.com/heycam/webidl/issues);
-
-Technical discussions on [public-script-coord](http://lists.w3.org/Archives/Public/public-script-coord/) mail list;
-
-[Bugzilla Database](https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=URL&list_id=42470&product=WHATWG&query_format=advanced);
-
-[Online WebIDL Checker](http://www.w3.org/2009/07/webidl-check);
-
-[Specs that use WebIDL](http://www.w3.org/wiki/Web_IDL).|Test Facilitator: Travis Leithead;
-
-[Web IDL Test generator for testharness.js](http://lists.w3.org/Archives/Public/public-script-coord/2011OctDec/0154.html) by Dom;
-
-[Web IDL Test Plan by Travis](http://dev.w3.org/2006/webapi/WebIDL/WebIDLTest.htm);
-
-Status: considered complete after comments from [PR-271](http://w3c-test.org/submissions/271/WebIDL/tests/submissions/heycam/) are addressed.
-
-[Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=WebIDL&page=1&state=open).|Cameron to update [PR271 tests](http://w3c-test.org/submissions/271/WebIDL/tests/submissions/heycam/) to reflect comments.
-
-Publish a new LCWD of v1 after the [v1 Bugs](https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=WebIDL&list_id=31512&product=WebAppsWG&query_format=advanced&status_whiteboard=v1&status_whiteboard_type=allwordssubstr) are addressed.|
+|[Clipboard APIs and Events](https://w3c.github.io/clipboard-apis/), Hallvord Steen |[2015-04-21](http://www.w3.org/TR/clipboard-apis/) |WD |[Github Issues](https://github.com/w3c/clipboard-apis/issues); [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Clipboard%20API%20and%20events&resolution>=---&list\_id=9413 Bugzilla Database];[Github Monthly Pulse](https://github.com/w3c/clipboard-apis/pulse/monthly); Implementations: see [CanIUse](http://caniuse.com/#feat=clipboard)|[Test Suite](http://dev.w3.org/2006/webapi/clipops/testsuite/) Test Facilitator: Hallvord Steen; Status: 85% complete|Publish periodic WDs until the spec is feature complete. Work on test suite and move it to Github. See Hallvord's [2014-Oct-24 status report](http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0238.html).|
+|[DOM Level 3 KeyboardEvent code Values](https://w3c.github.io/DOM-Level-3-Events-code/), Travis Leithead, Gary Kačmarčík|[2015-04-28](http://www.w3.org/TR/DOM-Level-3-Events-code/)|WD|Discussions on [www-dom mail list](http://lists.w3.org/Archives/Public/www-dom/). [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=DOM3%20Events&resolution>=--- Bugzilla database] - bugs prefixed with [keycode]. [Github Issues](https://github.com/w3c/DOM-Level-3-Events-code/issues). [Github Monthly Pulse](https://github.com/w3c/DOM-Level-3-Events-code/pulse/monthly). See also the [DOM3Events](DOM3Events "wikilink") Wiki Page.|Test Facilitator: @TBD. Test Suite: @TBD|Update as new code values are added/fixed. This spec will advance in step with UI Events.|
+|[DOM Level 3 KeyboardEvent key Values](https://w3c.github.io/DOM-Level-3-Events-key/), Travis Leithead, Gary Kačmarčík|[2015-04-28](http://www.w3.org/TR/DOM-Level-3-Events-key/)|WD|Discussions on [www-dom mail list](http://lists.w3.org/Archives/Public/www-dom/). [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=DOM3%20Events&resolution>=--- Bugzilla database] - bugs prefixed with [keyvalue]. [Github Issues](https://github.com/w3c/DOM-Level-3-Events-key/issues). [Github Monthly Pulse](https://github.com/w3c/DOM-Level-3-Events-key/pulse/monthly). See also the [DOM3Events](DOM3Events "wikilink") Wiki Page.|Test Facilitator: @TBD. Test Suite: @TBD|Update as new key values are added/fixed. This spec will advance in step with UI Events.|
+|[DOM Parsing and Serialization](https://w3c.github.io/DOM-Parsing/); Travis Leithead|[2014-06-17](http://www.w3.org/TR/DOM-Parsing/)|CR|[Github Issues](https://github.com/w3c/DOM-Parsing/issues);[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=DOM%20Parsing%20and%20Serialization&resolution>=--- Bugzilla Database];[Github Monthly Pulse](https://github.com/w3c/DOM-Parsing/pulse/monthly)|Test Facilitator: Travis and Cindy;[Suite](http://w3c-test.org/html/syntax/Test);Status: ??% complete. [Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=DOM-parsing&page=1&state=open).|Work on test suite and after it is complete, do interoperability testing.|
+|[File API](https://w3c.github.io/FileAPI/), Arun Ranganathan, Jonas Sicking|[2015-04-21](http://www.w3.org/TR/FileAPI/)|WD|[Github Issues](https://github.com/w3c/FileAPI/issues);[Github Monthly Pulse](https://github.com/w3c/FileAPI/pulse/monthly);[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=File%20API&resolution>=--- Bugzilla Database] File API [Implementation data](http://caniuse.com/#feat=fileapi) from caniuse.com; File Reader [Implementations data](http://caniuse.com/#feat=filereader) from caniuse.com|Test Facilitator: @NEED\_HELP [Test Suite](http://w3c-test.org/FileAPI/); Status: 20% complete. [Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=FileAPI&page=1&state=open).|Publish LC\#2 when all v1 [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=File%20API&resolution>=--- Bugs] are closed.|
+|[FileSystem API](http://w3c.github.io/filesystem-api/); Arun Ranganathan|N/A|ED|[Github monthly Pulse](https://github.com/w3c/filesystem-api/pulse/monthly); [Github Issues](https://github.com/w3c/filesystem-api/issues)|Test Faciliator: @TBD; Status: NO test suite|Publish FPWD when spec is fleshed-out breadth first.|
+|[Gamepad](https://w3c.github.io/gamepad/gamepad.html), Scott Graham and Ted Mielczarek|[2015-04-29](http://www.w3.org/TR/gamepad/)|WD|[Github monthly Pulse](https://github.com/w3c/gamepad/pulse/monthly); [Github Issues](https://github.com/w3c/gamepad/issues); [Features for v.Next](https://www.w3.org/wiki/Webapps/GamepadFeatures).|[Test Suite](https://github.com/w3c/web-platform-tests/tree/master/gamepad); Test Facilitator: Ted|Publish a LCWD after the last bugs for v1 are fixed. See Ted's [2014-Nov-26](http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0510.html) e-mail for information about the next steps including implementation data. Obsolete the Bugzilla component after all of the Open Bugs have been moved to Github Issues.|
+|[Indexed Database API (Second Edition)](http://w3c.github.io/IndexedDB/), Joshua Bell, Ali Alabbas|[2015-01-08](http://www.w3.org/TR/IndexedDB/)|REC|[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Indexed%20Database%20API&resolution>=--- Bugzilla database]. [Github Issues](https://github.com/w3c/IndexedDB/issues). [Implementation data](http://caniuse.com/#search=indexed) from caniuse.com. [Feature list for v2](http://www.w3.org/2008/webapps/wiki/IndexedDatabaseFeatures). [Comment Tracking Document](https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Comments-16-May-2013-LCWD.html) for the 16-May-2013 LCWD.|Test Facilitator: Zhiqiang Zhang; [Test Suite](http://w3c-test.org/IndexedDB/); Status: complete. [Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=IndexedDB&page=1&state=open).|Start work on IDB Second Edition and process v1 errata if/when needed.|
+|[Input Method Editor (IME) API](https://w3c.github.io/ime-api/), Travis Leithead|[2015-04-09](http://www.w3.org/TR/ime-api/)|WD|[Github monthly Pulse](https://github.com/w3c/ime-api/pulse/monthly); [Github Issues](https://github.com/w3c/ime-api/issues); [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=IME%20API&resolution>=--- Bugzilla Database]|Test Facilitator: Mike™ Smith; Status: NO test suite|**No one is actively working on this spec nor its implementation at the moment. Additional Editing help wanted.**|
+|[Manifest for web application](http://www.w3.org/TR/appmanifest/), Marcos Cáceres, K. Christiansen, A. Kostiainen|[**\^See Note**](http://www.w3.org/TR/appmanifest/)|WD|[Github monthly Pulse](https://github.com/w3c/manifest/pulse/monthly); [GitHub Issues](https://github.com/w3c/manifest/issues).|Test Facilitator: Sebastian Godard; Status: NO test suite|[Request for comments: 12-Feb-2015](https://lists.w3.org/Archives/Public/public-webapps/2015JanMar/0614.html). [Gecko implementation status](https://bugzilla.mozilla.org/show_bug.cgi?id=1003890) **Note: WDs for this spec are being *automatically published* using [Echidna](https://lists.w3.org/Archives/Public/spec-prod/2015JanMar/0026.html).**|
+|[Packaging on the Web](http://w3ctag.github.io/packaging-on-the-web/); Jeni Tennison|[2015-01-15](http://www.w3.org/TR/web-packaging)|FPWD|[Github Issues](https://github.com/w3ctag/packaging-on-the-web/issues); [Github Monthly Pulse](https://github.com/w3ctag/packaging-on-the-web/pulse/monthly); This is a joint specification with the TAG.|Test Facilitator: @TBD||
+|[Pointer Lock](https://w3c.github.io/pointerlock/), Vincent Scheib|[2013-12-17](http://www.w3.org/TR/pointerlock/)|CR|[Github Issues](https://github.com/w3c/pointerlock/issues); [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Pointer%20Lock&resolution>=--- Bugzilla Database]; [Github Monthly Pulse](https://github.com/w3c/pointerlock/pulse/monthly); [Features for v.Next](https://www.w3.org/wiki/Webapps/PointerLockFeatures).|Test Facilitator: Vincent Scheib; [Test Suite](http://w3c-test.org/pointerlock/)|Exiting CR is blocked on completing the test suite and getting 2 or more implementations to pass the tests. See [<http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0294.html> Vincent's 2014-Oct-27 status report.|
+|[Push API](https://w3c.github.io/push-api/index.html), Michaël van Ouwerkerk, Martin Thompson|[2015-04-27](http://w3.org/TR/push-api/)|WD|[Github monthly Pulse](https://github.com/w3c/push-api/pulse/monthly); [Github Issues](https://github.com/w3c/push-api/issues); [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Push%20API&resolution>=---&list\_id=781 Bugzilla Database]; [Use Cases wiki](http://www.w3.org/2008/webapps/wiki/Push_API). A [Patent Advisory Group](http://www.w3.org/2013/03/push-pag-charter.html) was formed and published their [report on 30-Oct-2013](http://www.w3.org/2013/10/push-api-pag-report.html).|Test Facilitator: @TBD; Status: NO test suite|Address [issues raised by TAG](https://github.com/w3ctag/spec-reviews/tree/master/2013/08). For information about IETF's Draft Web Push protocol spec, see [Martin Thomson's 12-Dec-2014 e-mail](http://www.ietf.org/mail-archive/web/webpush/current/msg00109.html). [<https://groups.google.com/a/chromium.org/forum/>\#!topic/blink-dev/UdGlL9PtBLo Blink intent to ship]|
+|[Quota Management API](https://w3c.github.io/quota-api/), Kinuko Yasuda|[2015-04-09](http://www.w3.org/TR/quota-api/)|WD|[Github Issues](https://github.com/w3c/quota-api/issues); [Github Monthly Pulse](https://github.com/w3c/quota-api/pulse/monthly); [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=Quota%20Management%20API&resolution>=---&list\_id=9412 Bugzilla Database]. Implementations: see Intent to Implement latest ED in [<https://groups.google.com/a/chromium.org/forum/>\#!topic/blink-dev/ciicp7mJolQ Blink] and [ChromeStatus](http://www.chromestatus.com/features/6218562888794112).|Test Facilitator: @TBD; Status: NO test suite|See Kinuko's [2014-Oct-23 status](http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0219.html). TAG is [reviewing this spec](https://github.com/w3ctag/spec-reviews/issues/21).|
+|[Screen Orientation API](https://w3c.github.io/screen-orientation/), Mounir Lamouri, Marcos Cáceres|[2015-04-28](http://www.w3.org/TR/screen-orientation/)|WD|[Github monthly Pulse](https://github.com/w3c/screen-orientation/pulse/monthly); [Github Issues](https://github.com/w3c/screen-orientation/issues)|Test Facilitator: Marcos Cáceres; Status: NO test suite|Publish LCWD when last *non-enhancement* [Open Issues are closed](https://github.com/w3c/screen-orientation/issues)|
+|[Selection API](http://w3c.github.io/selection-api/); Ryosuke Niwa|[2014-10-07](http://www.w3.org/TR/selection-api)|FPWD|[Github monthly Pulse](https://github.com/w3c/selection-api/pulse/monthly); [Github Issues](https://github.com/w3c/selection-api/issues). Based on Aryeh Gregor's [Editing API](https://dvcs.w3.org/hg/editing/raw-file/tip/editing.html).|[Test Suite](http://w3c-test.org/html/editing/); Test Facilitator: @TBD; Status: @TBD|Get review of Ryosuke's early ED|
+|[Service Workers](http://slightlyoff.github.io/ServiceWorker/spec/service_worker/), Alex Russell, Jungkee Song, Jake Archibald|[2015-06-25](http://www.w3.org/TR/service-workers/)|WD|[Github monthly Pulse](https://github.com/slightlyoff/ServiceWorker/pulse/monthly); [GitHub Issues](https://github.com/slightlyoff/ServiceWorker/issues); [Use Cases](http://www.w3.org/wiki/Webapps/AppCacheUseCases).|Test Facilitator: @TBD. [Test Suite on Github](https://github.com/w3c/web-platform-tests/tree/master/service-workers)|[Chrome Implementation status](https://code.google.com/p/chromium/issues/detail?id=285976); [Firefox Implementation status](https://bugzilla.mozilla.org/show_bug.cgi?id=903441)|
+|[Streams API](https://w3c.github.io/streams-api/), Feras Moussa, Takeshi Yoshino|[2014-10-23](http://www.w3.org/TR/streams-api/)|WD|[Github monthly Pulse](https://github.com/w3c/streams-api/pulse/monthly); [Github Issues](https://github.com/w3c/streams-api/issues); [public-webapps discussions](http://lists.w3.org/Archives/Public/public-webapps/).|Test Facilitator: @TBD; Status: NO test suite|Determine **what - if any - APIs are needed on top of Domenic's [WHATWG Streams spec](https://streams.spec.whatwg.org/)?**|
+|[UI Events (formerly D3E)](https://w3c.github.io/uievents/), Travis Leithead, Gary Kacmarcik|[2015-04-28](http://www.w3.org/TR/uievents/)|WD|[<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=UI%20Events&resolution>=---&list\_id=9117 Bugzilla Database]. [Github Issues](https://github.com/w3c/uievents/issues). [Github Monthly Pulse](https://github.com/w3c/uievents/pulse/monthly).|Test Facilitators: Gary Kačmarčík, Travis Leithead; [OLD Test Suite](http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/); [OLD Approved Tests](http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/approved/); Status: [20% complete](http://lists.w3.org/Archives/Public/public-webapps-testsuite/2013Sep/0007.html).|This spec includes features that were formerly defined in DOM Level 3 Events.|
+|[URL](https://url.spec.whatwg.org/), Anne van Kesteren, Sam Ruby|[2014-12-09](http://www.w3.org/TR/url-1/)|WD|[Bugzilla Database](https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=URL&list_id=42470&product=WHATWG&query_format=advanced); [Github Monthly Pulse](https://github.com/w3ctag/url/pulse/monthly); [Github Issues](https://github.com/w3ctag/url/issues)|Test Facilitator: Sam Ruby; [Test Suite](https://github.com/w3c/web-platform-tests/tree/master/url)||
+|[Web IDL](http://heycam.github.io/webidl/), Cameron McCormack, Boris Zabarsky|[2012-04-19](http://www.w3.org/TR/WebIDL/)|CR|[Github monthly Pulse](https://github.com/heycam/webidl/pulse/monthly); [Github Issues](https://github.com/heycam/webidl/issues); Technical discussions on [public-script-coord](http://lists.w3.org/Archives/Public/public-script-coord/) mail list; [Bugzilla Database](https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=URL&list_id=42470&product=WHATWG&query_format=advanced); [Online WebIDL Checker](http://www.w3.org/2009/07/webidl-check); [Specs that use WebIDL](http://www.w3.org/wiki/Web_IDL).|Test Facilitator: Travis Leithead; [Web IDL Test generator for testharness.js](http://lists.w3.org/Archives/Public/public-script-coord/2011OctDec/0154.html) by Dom; [Web IDL Test Plan by Travis](http://dev.w3.org/2006/webapi/WebIDL/WebIDLTest.htm); Status: considered complete after comments from [PR-271](http://w3c-test.org/submissions/271/WebIDL/tests/submissions/heycam/) are addressed. [Open Test Issues](https://github.com/w3c/web-platform-tests/issues?labels=WebIDL&page=1&state=open).|Cameron to update [PR271 tests](http://w3c-test.org/submissions/271/WebIDL/tests/submissions/heycam/) to reflect comments. Publish a new LCWD of v1 after the [v1 Bugs](https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=WebIDL&list_id=31512&product=WebAppsWG&query_format=advanced&status_whiteboard=v1&status_whiteboard_type=allwordssubstr) are addressed.|
 |[Web Sockets API](https://w3c.github.io/websockets/), Ian Hickson|[2012-09-20](http://www.w3.org/TR/websockets/)|CR|Dependency on [RFC6455 The WebSocket Protocol](http://tools.ietf.org/html/rfc6455). Protocol technical discussions on IETF's [hybi mail list](http://www.ietf.org/mail-archive/web/hybi/current/maillist.html). [<https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&component=WebSocket%20API%20%28editor%3A%20Ian%20Hickson%29&resolution>=--- Bugzilla database]. [Implementation data](http://caniuse.com/#feat=websockets) from caniuse.com|Test Facilitator: Kris Krueger; [Test Suite](http://w3c-test.org/websockets/);
 
 Status: complete; [Approved tests](http://w3c-test.org/websockets/).
@@ -436,33 +251,29 @@ Greg Billock [announced on 1-Nov-2012](http://lists.w3.org/Archives/Public/publi
 |[XBL2 Primer](http://dev.w3.org/cvsweb/2006/waf/XBLPrimer/), Lachlan Hunt|[2007-07-18](http://www.w3.org/TR/xbl-primer/)|FPWD||Work on this Primer stopped in deference to Web Components|
 ||
 
-Preliminary specs in Progress
------------------------------
+## Preliminary specs in Progress
 
 The group may be working on some very preliminary specifications that are not listed in the above tables of their immaturity. Specs in this state are:
 
--   Editing APIs; these specs are in development by the [Editing Task Force](https://github.com/w3c/editing-explainer/blob/gh-pages/README.md), a joint task force between WebApps and the HTML Working Group, and the IndieUI WG is also participating in this work.
-    -   [Editing Explainer](http://w3c.github.io/editing-explainer/)
-    -   [Responsive Input Explainer](http://w3c.github.io/editing-explainer/responsive-input-explainer.html)
-    -   [Input Events](http://w3c.github.io/editing-explainer/input-events.html)
+* Editing APIs; these specs are in development by the [Editing Task Force](https://github.com/w3c/editing-explainer/blob/gh-pages/README.md), a joint task force between WebApps and the HTML Working Group, and the IndieUI WG is also participating in this work.
+* [Editing Explainer](http://w3c.github.io/editing-explainer/)
+* [Responsive Input Explainer](http://w3c.github.io/editing-explainer/responsive-input-explainer.html)
+* [Input Events](http://w3c.github.io/editing-explainer/input-events.html)
 
-Table Key
----------
+## Table Key
 
 The tables above use the following abbreviations and conventions:
 
--   The link in the ''Name of Spec' column is the document's *Editor's Draft*
--   The *Last Publication* column contains the date of the most recent formal publication as a W3C *[Technical Report](http://www.w3.org/TR/)*
--   ED = Editor's Draft
--   WG Note = [Working Group Note](http://www.w3.org/2005/10/Process-20051014/tr.html#tr-end)
--   FPWD = [First Public Working Draft](http://www.w3.org/2005/10/Process-20051014/tr.html#first-wd)
--   WD = [Working Draft](http://www.w3.org/2005/10/Process-20051014/tr.html#q73)
--   LC, LCWD = [Last Call](http://www.w3.org/2005/10/Process-20051014/tr.html#last-call) (Working Draft)
--   CR = [Candidate Recommendation](http://www.w3.org/2005/10/Process-20051014/tr.html#cfi)
--   PR = [Proposed Recommendation](http://www.w3.org/2005/10/Process-20051014/tr.html#cfr)
--   REC = [Recommendation](http://www.w3.org/2005/10/Process-20051014/tr.html#rec-publication)
-
--   TF = [Test Facilitator](http://www.w3.org/2008/webapps/wiki/Approval#Roles)
-
--   No Formal Pub = the document has not yet been formally published by the W3C as a *[Technical Report](http://www.w3.org/TR/)*.
+* The link in the ''Name of Spec' column is the document's *Editor's Draft*
+* The *Last Publication* column contains the date of the most recent formal publication as a W3C *[Technical Report](http://www.w3.org/TR/)*
+* ED = Editor's Draft
+* WG Note = [Working Group Note](http://www.w3.org/2005/10/Process-20051014/tr.html#tr-end)
+* FPWD = [First Public Working Draft](http://www.w3.org/2005/10/Process-20051014/tr.html#first-wd)
+* WD = [Working Draft](http://www.w3.org/2005/10/Process-20051014/tr.html#q73)
+* LC, LCWD = [Last Call](http://www.w3.org/2005/10/Process-20051014/tr.html#last-call) (Working Draft)
+* CR = [Candidate Recommendation](http://www.w3.org/2005/10/Process-20051014/tr.html#cfi)
+* PR = [Proposed Recommendation](http://www.w3.org/2005/10/Process-20051014/tr.html#cfr)
+* REC = [Recommendation](http://www.w3.org/2005/10/Process-20051014/tr.html#rec-publication)
+* TF = [Test Facilitator](http://www.w3.org/2008/webapps/wiki/Approval#Roles)
+* No Formal Pub = the document has not yet been formally published by the W3C as a *[Technical Report](http://www.w3.org/TR/)*.
 
