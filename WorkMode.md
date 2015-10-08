@@ -197,7 +197,7 @@ The group now uses [Github repositories](https://github.com/orgs/w3c/teams/WebPl
 Resources:
 
 * [Github home](https://github.com/)
-* [https://github.com/w3c W3C's Github root]
+* [W3C's Github root](https://github.com/w3c)
 * [web-platform-tests](https://github.com/w3c/web-platform-tests) - root of the consortium's test repository
 * [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - archive of Web Platform' github activity
 
