@@ -36,7 +36,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <h2 id="HTML_Specifications">HTML Specifications</h2>
 
-<table id='htmlt' sortable>
+<table sortable>
 
 <thead><tr>
 <th>Spec, Active Editor(s)</th>
@@ -116,7 +116,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <h2 id="API_Specifications">API Specifications</h2>
 <p>The specifications are listed in alphabetical order ...</p>
-<table>
+<table sortable>
 <thead>
 <tr>
 <th>Spec, Active Editor(s)</th>
@@ -728,7 +728,7 @@ WD
 </td></tr></tbody></table>
 
 <h2 id="Web_Components">Web Components Specifications</h2>
-<table id='web_componentst' sortable>
+<table sortable>
 <thead><tr>
 <th>Spec, Active Editor(s)</th>
 <th>Last TR Publication</th>
@@ -846,7 +846,7 @@ WD
 <p><b>The following table includes specifications that have been published as Recommendations. In most cases, no additional work is planned except for errata  processing. However, some of these standards may have normative changes and subsequent publication(s).</b>
 
 </p>
-<table id='maintenancet' sortable>
+<table sortable>
 
 <thead><tr>
 <th>Spec, Active Editor(s)</th>
@@ -1135,7 +1135,7 @@ WD
 <p>The documents and specifications in the following table are NO longer active. The order of the specs is the most recently published or abandoned document first.
 </p>
 
-<table id='noactivet' sortable>
+<table sortable>
 <thead>
 <tr>
 <th>Name of Spec<br>(Editor's Draft)<br></th>
@@ -1485,11 +1485,13 @@ Implementation feedback: see <a href="http://lists.w3.org/Archives/Public/public
 <script src="js/tsorter.min.js"></script>
 <script>
 function init() {
-  tsorter.create('htmlt');
-  tsorter.create('apit');
-  tsorter.create('web_componentst');
-  tsorter.create('maintenancet');
-  tsorter.create('noactivet');
+  var tables = document.querySelectorAll("table[sortable]");
+  alert(tables[0].sortable);
+  for (var i = tables.length - 1; i >= 0; i--) {
+    if (tables.item(i).sortable === undefined) {
+      tsorter.create(tables.item(i));
+    }
+  }
 }
 window.addEventListener("load", init, false);
 </script>
