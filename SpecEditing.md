@@ -8,7 +8,7 @@ Besides the mechanics of specification authoring, Web Platform specification Edi
 
 -   Making sure their specification(s) reflect consensus of **all** commenters, not just WG members (see [Web Platform Consensus WorkMode](WorkMode.md#consensus-and-call-for-consensus) and [Web Platform Editor WorkMode](WorkMode.md#editors) for more information)
 -   Making sure someone in the WG (not necessarily the Editor) responds to all comments submitted to their specification(s)
--   Tracking comments when a specification is in Last Call review (see *Last Call Comment Tracking* below)
+-   Tracking comments when a specification is considered functionally complete and a request for [wide review](http://www.w3.org/2015/Process-20150901/#wide-review) has been made (typically this done before a Candidate Recommendation is published).
 -   Making a specification *[Pubrules](https://www.w3.org/2005/07/pubrules) compliant* before it can be published as a [Technical Report](https://www.w3.org/TR/) (see below for details)
 -   Assuring their specification(s) [PubStatus](https://www.w3.org/WebPlatform/WG/PubStatus) data is accurate and current
 -   Helping the Chairs and Team Contact find testing resources for the spec
@@ -35,12 +35,12 @@ The W3C's *Publication Rules* (aka [*PubRules*](https://www.w3.org/2005/07/pubru
 The TR publication process is formally defined in [PubRules](https://www.w3.org/2005/07/pubrules). Here is a brief summary of the general steps and tasks used by WebApps:
 
 -   Some member of the group (e.g. Editor, Chair, etc.) proposes a document be published as a TR
--   Chair starts a 1-week [Call for Consensus](WorkMode.md#consensus-and-call-for-consensus) (CfC) to publish the document. If the document is a *plain* WD there is no need for a CfC but some type of *heads up* (such as *PublicServiceAnnoucement* aka *PSA*) should be sent to public-webapps.
+-   Chair starts a 1-week [Call for Consensus](WorkMode.md#consensus-and-call-for-consensus) (CfC) to publish the document. If the document is a *plain* WD there is no need for a CfC but some type of *heads up* (such as *PublicServiceAnnoucement* aka *PSA*) should be sent to the appropriate mail list(s).
 -   If the document is a First Public Working Draft (FPWD):
     -   Chair will submit a Transition Request to the group's Domain Lead and the *Chairs* list. The main reasons for this step are: to make sure the document is within the WG's scope; to notify other WGs about the group's intention to make the publication and to get agreement on the document's *short-name* (e.g. www.w3.org/TR/*short-name*/).
 -   **Note for ReSpec users**: *before doing any validation, a static version of the document must be created and the static version should be used with the validators. One way to create the static document is to: load the document in the Chrome browser; simultaneously press the Ctrl+Alt+Shift+S keys; select "Save as HTML (Source)" and save the document (ReSpec has its own static output generator and it must be used).*
--   Editor prepares the document for publication per the *PubRules* by doing the following.
-    -   **Run the *[PubRules Checker](https://www.w3.org/2005/07/pubrules)***. Check the [PubRules Filter](https://www.w3.org/2005/07/pubrules?uimode=filter) requirements and address all of the requirements for the specific publication type (e.g. FPWD, WD, LCWD, CR, etc.)
+-   Someone (Editor, Chair or staff contact) prepares the document for publication per the *PubRules* by doing the following.
+    -   **Run the *[PubRules Checker](https://www.w3.org/2005/07/pubrules)***. Check the [PubRules Filter](https://www.w3.org/2005/07/pubrules?uimode=filter) requirements and address all of the requirements for the specific publication type (e.g. FPWD, WD, CR, etc.)
 -   **The document must pass at least the following Validators**. Note some validators (especially the CSS validator) may report errors that are not errors.See the [Validator Help Page](http://validator.w3.org/feedback.html) for information about how to get help with the Validators and how to report Validator bugs/issues.
 
 1.  **[HTML Validator](http://validator.w3.org/)**
@@ -49,8 +49,8 @@ The TR publication process is formally defined in [PubRules](https://www.w3.org/
 4.  **[Web IDL Validator](https://www.w3.org/2009/07/webidl-check)** - Run this if the document includes WebIDL and fix reported errors
 
 -   Make sure the Status of This Document section includes the *Subject:* tag prefix to be used for comments (e.g. *[short-name] comment ...*)
--   Notify team-webapps@w3.org when the document is PubReady
--   Chair or Team Contact will submit a Publication Request (aka *PubReq*) to the W3C's Publishing Team and Cc the document's primary Editor. The Publishing Team may ask the Editor to make some editorial changes.
+-   Notify Chairs of staff contact when the document is PubReady
+-   Chair or Team Contact will submit a Publication Request (aka *PubReq*) to the W3C's Publishing Team and Cc the document's primary Editor. The Publishing Team may ask the Editor to make some changes.
 -   The document is published as a [TR](https://www.w3.org/TR/)
 
 Notes about publications:
@@ -77,7 +77,7 @@ A list of specification authoring tools is provided in:
 
 ### Comment Tracking
 
-The WG is responsible for replying to all spec comments. Additionally, after a spec is published as a Candidate Recommendation Working Draft, the spec's Editor (or some other member(s) of the group) is required to *track* the CR comments. The minimum requirements for tracking each comment is:
+The WG is responsible for replying to all spec comments. Additionally, after a spec is published as a Candidate Recommendation, the spec's Editor (or some other member(s) of the group) is required to *track* the CR comments. The minimum requirements for tracking each comment is:
 
 1.  A public record of all comments (URL of comment, commenter's name, comment date, etc.)
 2.  A public record of the group's response to the commenter
@@ -93,7 +93,7 @@ There are several ways to track CR comments and there is no firm requirement on 
 
 -   Text File: [Web IDL comment tracking](http://dev.w3.org/2006/webapi/WebIDL/lc1.txt)
 
-Although it is not a firm requirement, **Editors are encouraged to include a link to the LC comment tracking in the Status section of the CR publication**.
+Although it is not a firm requirement, **Editors are encouraged to include a link to the comment tracking in the Status section of the CR publication**.
 
 ### Miscellaneous Resources
 
