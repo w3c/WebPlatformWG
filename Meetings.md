@@ -13,13 +13,13 @@ SeeAlso:
 
 ## Upcoming Face-Face Meetings
 
-- 2015 October 26-27, 29-30 - the entire group will meet at [TPAC 2015](https://www.w3.org/wiki/Webapps/October2015Meeting) in Sapporo, JP.
+- 2015 October 26-27 and 29-30 - the entire group will meet at [TPAC 2015](https://www.w3.org/wiki/Webapps/October2015Meeting) in Sapporo, JP.
 
 ## Past Face-To-Face Meetings (most recent first)
 
 ## Distributed Meetings aka TelCons
 
-WebApps has some irregularly scheduled *distributed meetings* (aka *telcons*). Below is common information and logistics for these distributed meetings and some meeting-specific information.
+WebApps has some irregularly scheduled *distributed meetings* (aka *telcons*). Below is common information and logistics for all of the distributed meetings and some meeting-specific information.
 
 ### General Information
 
@@ -37,7 +37,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Scribing: Invite [RRSAgent](http://www.w3.org/2002/03/RRSAgent) to the irc channel and follow [W3C scribe conventions](http://www.w3.org/2008/04/scribe.html).
 
--   IRC agenda management: Use [Zakim-bot floor control](http://www.w3.org/2001/12/zakim-irc-bot.html#speakerqueue) to manage the speaker queue and agenda items.
+-   IRC agenda management: Use the [Zakim-bot floor control](http://www.w3.org/2001/12/zakim-irc-bot.html#speakerqueue) to manage the speaker queue and agenda items.
 
 -   More about WebEx:
     -   [WebExBestPractices](https://www.w3.org/2006/tools/wiki/WebExBestPractices).
@@ -130,8 +130,6 @@ Here are some useful resources regarding IRC (e.g. a short *cheat sheet*) and me
 -   [WebExFAQ](https://www.w3.org/2006/tools/wiki/WebExFAQ).
 -   [RRSAgent IRC Bot Description](http://www.w3.org/2002/03/RRSAgent)
 -   [Zakim IRC Teleconference Bot](http://www.w3.org/2001/12/zakim-irc-bot.html)
--   [How to Use the W3C's "Zakim" Teleconference Bridge](http://www.w3.org/2002/01/UsingZakim)
--   [Zakim Bridge Status](http://www.w3.org/1998/12/bridge/Zakim.html)
 
 ### Web Interface to IRC
 
