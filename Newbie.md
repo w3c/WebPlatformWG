@@ -4,7 +4,7 @@ Members of the WG, **especially new members** are encouraged to help maintain th
 
 ## Welcome to Web Platform
 
-The Working Group's home page is: [<http://www.w3.org/2008/webapps/>](http://www.w3.org/2008/webapps/)
+The Working Group's home page is: [https://www.w3.org/WebPlatform/WG/](https://www.w3.org/WebPlatform/WG/).
 
 The group's *Work Mode* is described in the [*WorkMode*](WorkMode.md) wiki and it includes information about how the WG operates, including links to the WG's various resources.
 
@@ -20,7 +20,7 @@ Please note in particular these sections of the Work Mode wiki:
 
 5. [Consensus and Call for Consensus (CfC)](WorkMode.md#consensus-and-call-for-consensus)
 
-6. Mail List Policies: [Usage and Etiquette](WorkMode.md#mail-list-policy-usage-etiquette-etc).  and [Off-topic Discussion Policy](WorkMode.md#off-topic-discussion-policy)
+6. Mail List Policies: [Usage and Etiquette](WorkMode.md#mail-list-policy-usage-etiquette-etc) and [Off-topic Discussion Policy](WorkMode.md#off-topic-discussion-policy)
 
 ### Specifications in Progress
 
@@ -32,7 +32,7 @@ Although it isn't required, **new WG members are encouraged to send a short intr
 
 ### Questions, Comments, Issues, etc.?
 
-Please contact the group's Chairs (using the team-webplatform@w3.org list) - *at any time* - if you have any questions, issues, concerns, etc. about WebApps.
+Please contact the group's Chairs and staff contacts (using the team-webplatform@w3.org list) - *at any time* - if you have any questions, issues, concerns, etc. about WebApps.
 
 ### Resources
 
