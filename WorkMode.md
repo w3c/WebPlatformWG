@@ -7,7 +7,7 @@ This document is a *Living Document* and as such will change. Members of the gro
 
 ## Participation and Communication
 
-Web Platform' formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
+The group's formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
 Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [specifications in progress](https://www.w3.org/WebPlatform/WG/PubStatus).
 
@@ -29,7 +29,7 @@ The group uses the following e-mail lists:
 * [www-dom](http://lists.w3.org/Archives/Public/www-dom/) - for discussions about the group's DOM specs
 * [public-editing-tf](http://lists.w3.org/Archives/Public/public-editing-tf/) - for discussions about [Editing APIs](http://w3c.github.io/editing/).
 * [public-webapps-bugzilla](http://lists.w3.org/Archives/Public/public-webapps-bugzilla/) - this list gets an e-mail for **every** one of the group's Bugzilla events. (*Note: this list used to have a relatively large amount of e-mail, peaking with over 700 messages in one month during 2013.*)
-* [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - this list gets an e-mail for all Github activity for of Web Platform' specs. (*Note: this list has a relatively large amount of e-mail, peaking with over 1,700 messages in July 2015.*)
+* [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - this list gets an e-mail for all Github activity regarding the group's specs. (*Note: this list has a relatively large amount of e-mail, with over 1,700 messages in July 2015.*)
 * [public-test-infra](http://lists.w3.org/Archives/Public/public-test-infra/) - for testing infrastructure discussions
 
 ## Information for *Newbies* - New Group Members
@@ -134,7 +134,7 @@ The Consortium has formal Mail List policies and procedures yet also accommodate
 
 See [W3C Mailing List and Archive Info](//www.w3.org/Mail/) and [W3C Guidelines for Email Attachment Formats](//www.w3.org/2002/03/email_attachment_formats.html) for more information.
 
-<span style="color:#ff0000">**Web Platform' members appreciate and encourage frank technical discussions on our mail lists but all discussions must be done in a respectful manner. Please note this respect requirement is codified in the Process Document via the following participation criteria "[Social competence in one's role](//www.w3.org/2015/Process-20150901/#ParticipationCriteria)". Additionally, see [Code of Ethics and Professional Conduct](//www.w3.org/Consortium/cepc/) and if you did not attend *Kindergarten*, we expect our list participants to adhere to the basic principles in [All I Really Need To Know I Learned In Kindergarten](http://www.peace.ca/kindergarten.htm).**</span>
+<span style="color:#ff0000">**Group members appreciate and encourage frank technical discussions on its mail lists but all discussions must be done in a respectful manner. Please note this respect requirement is codified in the Process Document via the following participation criteria "[Social competence in one's role](//www.w3.org/2015/Process-20150901/#ParticipationCriteria)". Additionally, see [Code of Ethics and Professional Conduct](//www.w3.org/Consortium/cepc/) and if you did not attend *Kindergarten*, we expect our list participants to adhere to the basic principles in [All I Really Need To Know I Learned In Kindergarten](http://www.peace.ca/kindergarten.htm).**</span>
 
 We also expect our mail list participants to adhere to the following email etiquette:
 
@@ -157,15 +157,15 @@ We also expect our mail list participants to adhere to the following email etiqu
 
 The group's [mail lists](#participation-and-communication) are only to be used for technical discussions of the group's specifications and related resources such as test cases.
 
-**Discussions related to general W3C-wide processes and policies are not appropriate for any of Web Platform' mail lists and as such, discussions on those subjects are considered "off-topic"**.
+**Discussions related to general W3C-wide processes and policies are not appropriate for any of the group's mail lists and as such, discussions on those subjects are considered "off-topic"**.
 
-**Here is a list of documents and topics that are explicitly off-topic for Web Platform' mail lists, including one or more appropriate discussion forums that may be used**:
+**Here is a list of documents and topics that are explicitly off-topic for the group's mail lists, including one or more appropriate discussion forums that may be used**:
 
 * **[W3C Document and Software License](http://www.w3.org/Consortium/Legal/copyright-software) and Copyright issues**:  the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2005/10/Process-20051014/organization#AC)
 * **[W3C Process Document](//www.w3.org/2015/Process-20150901/):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2015/Process-20150901/#AC)
 * **[W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [Patent and Standards Interest Group](//www.w3.org/2004/pp/psig/)
 * **[Technical Report Publication Pules](//www.w3.org/2005/07/pubrules) (Pubrules):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/)
-**We expect everyone using Web Platform' mail lists to please respect this policy.**
+**We expect everyone using the group's mail lists to please respect this policy.**
 
 ## IRC
 
