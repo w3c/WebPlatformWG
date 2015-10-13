@@ -1,14 +1,14 @@
-This document includes some information for new members ("*Newbies*") of the Web Platform Working Group.
+This document includes some information for new members ("*Newbies*") of the Web Platform Working Group (WPWG).
 
 Members of the WG, **especially new members** are encouraged to help maintain this document.
 
-## Welcome to Web Platform
+## Welcome to the Web Platform Working Group
 
 The Working Group's home page is: [https://www.w3.org/WebPlatform/WG/](https://www.w3.org/WebPlatform/WG/).
 
-The group's *Work Mode* is described in the [*WorkMode*](WorkMode.md) wiki and it includes information about how the WG operates, including links to the WG's various resources.
+The group's *Work Mode* is described in the [*WorkMode*](WorkMode.md) document and it includes information about how the WG operates, including links to the WG's various resources.
 
-Please note in particular these sections of the Work Mode wiki:
+Please note in particular these sections of the Work Mode document:
 
 1. [Group Participation and Communication](WorkMode.md#participation-and-communication)
 
@@ -24,11 +24,11 @@ Please note in particular these sections of the Work Mode wiki:
 
 ### Specifications in Progress
 
-A list of the group's specifications, including the publication status of each spec, can be found in the group's *PubStatus* wiki: [<https://www.w3.org/WebPlatform/WG/PubStatus>](https://www.w3.org/WebPlatform/WG/PubStatus)
+A list of the group's specifications, including the publication status of each spec, can be found in the group's *PubStatus* document: [<https://www.w3.org/WebPlatform/WG/PubStatus>](https://www.w3.org/WebPlatform/WG/PubStatus).
 
 ### New WG Member Introductions
 
-Although it isn't required, **new WG members are encouraged to send a short introductory e-mail to the WG's Public mail list** ([public-webapps@w3.org](https://lists.w3.org/Archives/Public/public-webapps/)) or the group's Member-only list ([member-webplatform-wg@w3.org](https://lists.w3.org/Archives/Member/member-webplatform-wg/)). The introduction should include your area(s) of interest.
+Although it isn't required, **new WG members are encouraged to send a short introductory e-mail to the WG's Public mail list** ([public-webapps@w3.org](https://lists.w3.org/Archives/Public/public-webapps/)) or the group's Member-only list ([member-webapps@w3.org](https://lists.w3.org/Archives/Member/member-webapps/)). The introduction should include your area(s) of interest.
 
 ### Questions, Comments, Issues, etc.?
 
