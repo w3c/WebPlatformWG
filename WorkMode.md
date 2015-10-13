@@ -58,7 +58,7 @@ Does this editing work mode mean WG members' input is not taken into account? **
 
 Resources:
 
-* Web Platform [SpecEditing](SpecEditing.md) includes information about spec editing, including Editor roles and responsibilities, and links to the various document validators.
+* [SpecEditing](SpecEditing.md) includes information about spec editing, including Editor roles and responsibilities, and links to the various document validators.
 
 ## Normative References
 
@@ -71,12 +71,12 @@ The following documents provide information about normative reference best pract
 
 ## Bugs, Issues and Actions
 
-The WG uses both Github and W3C Bugzilla to record and track specification *bugs* and *issues*. The recommended and preferred mechanism is to use Github Issues.
+The WG uses both Github and W3C Bugzilla to record and track specification *bugs* and *issues*. The recommended and preferred mechanism is to use Github Issues. Bugzilla usage will eventually be phased out.
 
 Resources:
 
-* [Web Platform' Git repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)
-* [Web Platform' Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
+* [Git repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)
+* [Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
 
 ## Patent Policy
 
@@ -88,7 +88,7 @@ A consequence of the group's Patent Policy is that, although comments from non-W
 
 ## Meetings? What Meetings?
 
-Most of Web Platform' specification work progresses without formal meetings. Instead, **all of the technical work is done via the group's various mail lists, Github Issues (see [Web Platform' Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)), [Bugzilla bug databases](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG) and IRC**.
+Most of the group's specification work progresses without formal meetings. Instead, **all of the technical work is done via the group's various mail lists, Github Issues (see the [group's Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)), [Bugzilla bug databases](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG) and IRC**.
 
 **Editors and active collaborators are encouraged to have spec-specific distributed meetings (voice conferences) to discuss high priority bugs, to gather input on a specific topic, etc**.
 
@@ -111,7 +111,7 @@ To facilitate broad participation in these meetings including participants from 
 
 Resources:
 
-* Web Platform' [Meeting Wiki](Meetings.md) contains: information about the group's formal meetings including upcoming meetings,  links to previous f2f meetings, schedules for semi-regular topic-specific virtual meetings.
+* [Meetings Wiki](Meetings.md) contains: information about the group's formal meetings including upcoming meetings,  links to previous f2f meetings, schedules for semi-regular topic-specific virtual meetings.
 * [IRC and Meeting Resources](Meetings.md#irc-and-meeting-resources)
 
 ## Consensus and Call for Consensus
@@ -120,7 +120,7 @@ Consensus is a very important part of the W3C process and is [formally codified 
 
 > Consensus is a core value of the W3C. To promote consensus, the W3C process requires Chairs to ensure that groups consider all legitimate views and objections, and endeavor to resolve them, whether these views and objections are expressed by the active participants of the group or by others (e.g., another W3C group, a group in another organization, or the general public).
 
-Since most of Web Platform' work is done without formal meetings, the group uses a *Call for Consensus* (aka CfC) mechanism (typically email) to formally gather input on a specific question such as *Is spec X ready to be published as a Last Call Working Draft?*. **When a CfC is issued, an explicit response from WG members is preferred and note that the lack of a response will always be considered assent i.e. agreement with the proposal.**
+Since most of the group's work is done without formal meetings, the group uses a *Call for Consensus* (aka CfC) mechanism (typically email) to formally gather input on a specific question such as *Is spec X ready to be published as a Last Call Working Draft?*. **When a CfC is issued, an explicit response from WG members is preferred and note that the lack of a response will always be considered assent i.e. agreement with the proposal.**
 
 Most CfC's are conducted on the public-webapps mail list (or one of the group's other Public mail lists that is more  appropriate) and the comment period is typically one week. However, in some rare cases, for example when Member confidentially is an issue, the Member confidential member-webapps mail list is used.
 
@@ -155,7 +155,7 @@ We also expect our mail list participants to adhere to the following email etiqu
 
 ## Off-Topic Discussion Policy
 
-Webapps' [mail lists](#participation-and-communication) are only to be used for technical discussions of the group's specifications and related resources such as test cases.
+The group's [mail lists](#participation-and-communication) are only to be used for technical discussions of the group's specifications and related resources such as test cases.
 
 **Discussions related to general W3C-wide processes and policies are not appropriate for any of Web Platform' mail lists and as such, discussions on those subjects are considered "off-topic"**.
 
@@ -169,7 +169,7 @@ Webapps' [mail lists](#participation-and-communication) are only to be used for 
 
 ## IRC
 
-WebApps uses two different channels of the W3C's IRC system (irc.w3.org; port 6667):
+The group uses  different channels of the W3C's IRC system (irc.w3.org; port 6667) including:
 
 * #webapps - for Public technical discussions; this channel is continuously [logged/archive](http://krijnhoetmer.nl/irc-logs/)
 * #wam - for Member-confidential discussions; this channel is NOT logged and should NOT be used for technical discussions
@@ -178,24 +178,23 @@ An [HTML interface to the W3C's IRC system](http://irc.w3.org/) is available. Se
 
 ## Testing
 
-The WG's [charter](//www.w3.org/2015/10/webplatform-charter.html) mandates the WG create *a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents*. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webplatform](https://github.com/w3c/web-platform-tests/labels/wg-webplatform)</code> label.
+The group's [charter](//www.w3.org/2015/10/webplatform-charter.html) mandates the WG create *a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents*. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webplatform](https://github.com/w3c/web-platform-tests/labels/wg-webplatform)</code> label.
 
 Resources:
 
 * <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository
-* [Testing Wiki](//www.w3.org/wiki/Webapps/Submitting_tests) - describes the group's general testing process
 * *Test Facilitators* - each spec's *Test Facilitator* is identified in the *Testing* column of the group's [PubStatus](https://www.w3.org/WebPlatform/WG/PubStatus) document
 
 ## Github
 
-The group now uses [Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories) for all of its [specifications](https://www.w3.org/WebPlatform/WG/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
+The group uses [Github repositories](https://github.com/orgs/w3c/teams/webplatform/repositories) for all of its [specifications](https://www.w3.org/WebPlatform/WG/PubStatus) and all of its [testing resources](https://github.com/w3c/web-platform-tests) (including test suites).
 
 Resources:
 
 * [Github home](https://github.com/)
 * [W3C's Github root](https://github.com/w3c)
 * [web-platform-tests](https://github.com/w3c/web-platform-tests) - root of the consortium's test repository
-* [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - archive of Web Platform' github activity
+* [public-webapps-github](http://lists.w3.org/Archives/Public/public-webapps-github/) - archive of the group's github activity
 
 ## Links to Group Resources
 
@@ -204,10 +203,9 @@ Resources:
 * [Publication status](https://www.w3.org/WebPlatform/WG/PubStatus)
 * [WG participants list](http://www.w3.org/2000/09/dbwg/details?group=83482)
 * Public mail list archives: see [above](#participation-and-communication)
-* [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webplatform-wg/)
+* [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webapps/)
 * Actions, Issues and Bugs ...
-** [Bugzilla Database](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); used by most specs
-** Open Actions database: [track](//www.w3.org/2008/webapps/track/); primarily used for admin type actions
+** [Bugzilla Database](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); only used by a few specs
 * Telcon/Voice Conference info: [Distributed Meetings / Telcons](Meetings.md#distributed-meetings-aka-telcons)
 * Face-to-face Meetings: [upcoming and past meetings](Meetings.md)
-* [WebPlatform Coordination Points](Coordination.md); identifies W3C WGs and external organizations with mutual areas of interest
+* [Coordination Points](Coordination.md); identifies W3C WGs and external organizations with mutual areas of interest
