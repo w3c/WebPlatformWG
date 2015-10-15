@@ -14,11 +14,14 @@ try {
         if (desc.indexOf("Web Platform Working Group") != -1) {
           var link =  item.querySelector("link").textContent;
           var article = document.createElement("article");
-          article.appendChild(document.createElement("h4"));
+          article.appendChild(document.createElement("h3"));
           article.firstChild.textContent = item.querySelector("title").textContent;
           article.appendChild(document.createElement("p"));
+          var d = new Date(item.querySelector("pubDate").textContent);
           article.lastChild.innerHTML =
-            "<p style='font-size: small'><time>" + item.querySelector("pubDate").textContent
+            "<p class='date'><time class='dtstart' datetime='"
+            + d.toISOString()
+            + "''>" + d.toDateString()
             + "</time></p>"
             + item.querySelector("encoded").textContent;
           body.appendChild(article);
