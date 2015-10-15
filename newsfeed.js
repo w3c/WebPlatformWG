@@ -27,7 +27,7 @@ try {
     }
   };
 
-  xhr.open("GET", "http://www.w3.org/blog/news/feed", true);
+  xhr.open("GET", "//www.w3.org/blog/news/feed", true);
   xhr.withCredentials = false;
   xhr.send(null);
 } catch (e) {
