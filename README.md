@@ -1,6 +1,6 @@
 # Web Platform Working Group
 
-* Home page (index.html): https://www.w3.org/WebPlatform/WG/
+* Home page (index.html): https://www.w3.org/WebPlatform/WG/ and [charter](http://www.w3.org/2015/10/webplatform-charter.html)
 
 * [Specification status](https://www.w3.org/WebPlatform/WG/PubStatus)
 
