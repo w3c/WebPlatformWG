@@ -62,7 +62,6 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m5bc20b6f3ce7fa6b1b77fb810451472c) meeting
     -   Meeting number: 647 802 277
-    -   Meeting password: dom3events
     -   <https://mit.webex.com/mit/j.php?MTID=m5bc20b6f3ce7fa6b1b77fb810451472c>;
 
 -   Join by phone
@@ -84,7 +83,6 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m97c56f95b3e2aafa185cfa2a5f7fc16a) meeting
     -   Meeting number: 642 358 761
-    -   Meeting password: webcomponents
     -   <https://mit.webex.com/mit/j.php?MTID=m97c56f95b3e2aafa185cfa2a5f7fc16a>;
 
 -   Join by phone
@@ -106,7 +104,6 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m55b7f907d06a0fad85a01884a438c255) meeting
     -   Meeting number: 641 412 235
-    -   Meeting password: editing;
     -   <https://mit.webex.com/mit/j.php?MTID=m55b7f907d06a0fad85a01884a438c255>;
 
 -   Join by phone
