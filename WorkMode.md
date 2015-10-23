@@ -164,7 +164,7 @@ The group's [mail lists](#participation-and-communication) are only to be used f
 * **[W3C Document and Software License](http://www.w3.org/Consortium/Legal/copyright-software) and Copyright issues**:  the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2005/10/Process-20051014/organization#AC)
 * **[W3C Process Document](//www.w3.org/2015/Process-20150901/):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2015/Process-20150901/#AC)
 * **[W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [Patent and Standards Interest Group](//www.w3.org/2004/pp/psig/)
-* **[Technical Report Publication Pules](//www.w3.org/2005/07/pubrules) (Pubrules):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/)
+* **[Technical Report Publication Rules](//www.w3.org/2005/07/pubrules) (Pubrules):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/)
 * **Patents. Discussion about specific patents is explicitly prohibited.**
 
 **We expect everyone using the group's mail lists to please respect this policy.**
