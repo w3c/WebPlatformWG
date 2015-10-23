@@ -62,6 +62,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m5bc20b6f3ce7fa6b1b77fb810451472c) meeting
     -   Meeting number: 647 802 277
+    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Oct/0688.html)
     -   <https://mit.webex.com/mit/j.php?MTID=m5bc20b6f3ce7fa6b1b77fb810451472c>;
 
 -   Join by phone
@@ -83,6 +84,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m97c56f95b3e2aafa185cfa2a5f7fc16a) meeting
     -   Meeting number: 642 358 761
+    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Oct/0688.html)
     -   <https://mit.webex.com/mit/j.php?MTID=m97c56f95b3e2aafa185cfa2a5f7fc16a>;
 
 -   Join by phone
@@ -104,6 +106,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m55b7f907d06a0fad85a01884a438c255) meeting
     -   Meeting number: 641 412 235
+    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Oct/0688.html)
     -   <https://mit.webex.com/mit/j.php?MTID=m55b7f907d06a0fad85a01884a438c255>;
 
 -   Join by phone
