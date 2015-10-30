@@ -13,9 +13,15 @@ SeeAlso:
 
 ## Upcoming Face-Face Meetings
 
-- 2015 October 26-27 and 29-30 - the entire group will meet at [TPAC 2015](https://www.w3.org/wiki/Webapps/October2015Meeting) in Sapporo, JP.
+- Web Components (Shadow DOM and/or Custom Elements) is being planned for December 2015 or January 2016
 
 ## Past Face-To-Face Meetings (most recent first)
+
+### 2015 October 26-27 (TPAC2015; Sapporo, JP)
+- [Agenda](https://www.w3.org/wiki/Webapps/October2015Meeting)
+- [Minutes October 26](http://www.w3.org/2015/10/21-webapps-minutes.html)
+- [Minutes October 27](http://www.w3.org/2015/10/26-webapps-minutes.html)
+- Notes from [HTML Next Steps Discussion](http://www.w3.org/2015/10/28-html-minutes.html); informal meeting October 28
 
 ## Distributed Meetings aka TelCons
 
