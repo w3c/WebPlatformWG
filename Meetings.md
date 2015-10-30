@@ -1,4 +1,4 @@
-This document contains information about Web Platform' upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings* (aka *telcons* or *voice conferences*).
+This document contains information about Web Platform WG's upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings* (aka *telcons* or *voice conferences*).
 
 Please note:
 
