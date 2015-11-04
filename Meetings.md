@@ -66,17 +66,17 @@ The following information applies to all of Web Platform meetings (distributed a
     -   Tuesday: San Francisco 17:00; Boston 20:00;
     -   Wednesday: UTC: 00:00; Paris: 02:00; Helsinki: 03:00; Tokyo: 09:00
 
--   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m5bc20b6f3ce7fa6b1b77fb810451472c) meeting
-    -   Meeting number: 647 802 277
-    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Oct/0688.html)
-    -   <https://mit.webex.com/mit/j.php?MTID=m5bc20b6f3ce7fa6b1b77fb810451472c>;
+-   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=mca5d043f5e149d8be15fecebc542b85c) meeting
+    -   Meeting number: 643 771 565
+    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Nov/0051.html)
+    -   <https://mit.webex.com/mit/j.php?MTID=mca5d043f5e149d8be15fecebc542b85c>;
 
 -   Join by phone
     -   +1-617-324-0000 US Toll Number
-    -   Access code: 647 802 277
-    -   Mobile Auto Dial: +1-617-324-0000,,,647802277\#
+    -   Access code: 643 771 565
+    -   Mobile Auto Dial: +1-617-324-0000,,,643771565\#
 
--   [Add](https://mit.webex.com/mit/j.php?MTID=m83ecc36e7e20f853b5b4babc0c7f90f7) this meeting to your calendar.
+-   [Add](https://mit.webex.com/mit/j.php?MTID=m9b4dd1ecab83d5ff2b62ec35f285de65) this meeting to your calendar.
 
 -   Agendas: a draft agenda is sent to the [www-dom](http://lists.w3.org/Archives/Public/www-dom/) list at least 24 hours before
 -   Minutes: meeting minutes are distributed on the [www-dom](http://lists.w3.org/Archives/Public/www-dom/) list.
