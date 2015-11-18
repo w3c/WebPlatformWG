@@ -16,6 +16,7 @@
    <li>Chaals</li>
    <li>Domenic Denicola</li>
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
+   <li>Ryosuke Niwa</li>
   </ul>
 
   <h2>Agenda</h2>
