@@ -18,6 +18,7 @@
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
    <li>Ryosuke Niwa</li>
    <li>Travis Leithead</li>
+   <li>Arron Eicholz</li>
   </ul>
 
   <h2>Agenda</h2>
