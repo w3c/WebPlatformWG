@@ -19,6 +19,7 @@
    <li>Ryosuke Niwa</li>
    <li>Travis Leithead</li>
    <li>Arron Eicholz</li>
+   <li>Daniel Buchner</li>
   </ul>
 
   <h2>Agenda</h2>
