@@ -15,6 +15,7 @@
   <ul>
    <li>Chaals</li>
    <li>Domenic Denicola</li>
+   <li>Hayato Ito</li>
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
    <li>Ryosuke Niwa</li>
    <li>Travis Leithead</li>
