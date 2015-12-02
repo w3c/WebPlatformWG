@@ -20,6 +20,7 @@
    <li>Ryosuke Niwa</li>
    <li>Travis Leithead</li>
    <li>Arron Eicholz</li>
+   <li>Léonie Watson (coinciding with Service Worker meeting would be helpful)</li>
    <li>Daniel Buchner</li>
   </ul>
 
