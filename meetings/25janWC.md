@@ -2,10 +2,10 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>29 January 2016 Custom elements meeting</title>
+  <title>25 January 2016 Custom elements meeting</title>
  </head>
  <body>
-  <h1>Custom elements meeting - <em>proposed</em> 29 January 2016</h1>
+  <h1>Custom elements meeting - <em>changed to 25 January 2016</em></h1>
 
   <p>This meeting is currently <em>proposed</em>, for the Bay Area (San Francisco / Silicon Valley). We are looking for a host (requirements: A room that can hold about 20 people, coffee/tea/snacks, somewhere we can have lunch, wifi).</p>
 
