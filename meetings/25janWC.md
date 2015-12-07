@@ -18,6 +18,7 @@
    <li>Domenic Denicola</li>
    <li>Travis Leithead</li>
    <li>Elliott Sprehn</li>
+   <li>Dimitri Glazkov</li>
   </ul>
   
 <h3>Hope to attend</h3>
