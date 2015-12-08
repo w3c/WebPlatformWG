@@ -68,10 +68,10 @@ The following information applies to all of Web Platform meetings (distributed a
     -   Tuesday: San Francisco 17:00; Boston 20:00;
     -   Wednesday: UTC: 00:00; Paris: 02:00; Helsinki: 03:00; Tokyo: 09:00
 
--   Join [WebEx](https://mit.webex.com/mit/j.phpMTID=m0047b5aad60bda870c92982917908195) meeting
+-   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=m0047b5aad60bda870c92982917908195) meeting
     -   Meeting number: 649 984 974
-    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Dec/0062.html)
-    -   <https://mit.webex.com/mit/j.phpMTID=m0047b5aad60bda870c92982917908195>;
+    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2015Dec/0121.html)
+    -   <https://mit.webex.com/mit/j.php?MTID=m0047b5aad60bda870c92982917908195>;
 
 -   Join by phone
     -   +1-617-324-0000 US Toll Number
