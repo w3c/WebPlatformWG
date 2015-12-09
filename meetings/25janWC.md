@@ -19,13 +19,13 @@
    <li>Travis Leithead</li>
    <li>Elliott Sprehn</li>
    <li>Dimitri Glazkov</li>
+   <li>Ryosuke Niwa</li>
   </ul>
   
 <h3>Hope to attend</h3>
   <ul>
    <li>Hayato Ito</li>
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
-   <li>Ryosuke Niwa</li>
    <li>Arron Eicholz</li>
    <li>Léonie Watson (coinciding with Service Worker meeting would be helpful)</li>
    <li>Daniel Buchner</li>
@@ -46,6 +46,17 @@
 
 
   <p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16janWC.md">editing a branch and making a Pull Request</a>, or by mail in the public-webapps mailing list - which will result in it being posted here - or to the chairs of the Web Platform group - in which case it won't be posted publicly.</p>
+
+<h2>Logistics</h2>
+
+<dl>
+  <dt>Time</dt>
+  <dd>10 AM - 5 PM, Jan 25th, 2016</dd>
+  <dt>Location</dt>
+  <dd>Apple Inc, <a href="https://en.wikipedia.org/wiki/Infinite_Loop_(street)">One Infinite Loop, Cupertino, CA</a><br>
+  Please contact rniwa at apple dot com upon arrival to one infinite loop lobby.<br>
+  <strong>Please allocate an extra 5-10 minutes for parking at the guest parking in front of the <a href="http://www.apple.com/companystore/directions.html">company store</a>. Finding a parking after 10 AM will be **EXTREMELY** difficult.</strong></dd>
+</dl>
 
  </body>
 </html>
