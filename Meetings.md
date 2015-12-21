@@ -14,9 +14,9 @@ SeeAlso:
 ## Upcoming Face-Face Meetings
 
 <ul>
- <li>16 December: Shadow DOM meeting. <em>Looking for a host, US West Coast</em></li>
- <li>29 January: Custom elements meeting. <em>Looking for a host, San Francisco/SIlicon Valley</em></li>
+ <li>25 January: [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). <em>Hosted by Apple</em></li>
 </ul>
+
 ## Past Face-To-Face Meetings (most recent first)
 
 ### 2015 October 26-27 (TPAC2015; Sapporo, JP)

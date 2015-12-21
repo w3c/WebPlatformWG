@@ -7,7 +7,7 @@
  <body>
   <h1>Custom elements meeting - <em>changed to 25 January 2016</em></h1>
 
-  <p>This meeting is currently <em>proposed</em>, for the Bay Area (San Francisco / Silicon Valley). We are looking for a host (requirements: A room that can hold about 20 people, coffee/tea/snacks, somewhere we can have lunch, wifi).</p>
+  <p>This meeting is currently <em>scheduled</em>, for the Bay Area (San Francisco / Silicon Valley), hosted by Apple.</p>
 
   <h2>Expected attendees</h2>
 
