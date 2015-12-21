@@ -13,9 +13,7 @@ SeeAlso:
 
 ## Upcoming Face-Face Meetings
 
-<ul>
- <li>25 January: [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). <em>Hosted by Apple</em></li>
-</ul>
+- 25 January: [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). Hosted by Apple
 
 ## Past Face-To-Face Meetings (most recent first)
 
