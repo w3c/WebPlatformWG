@@ -60,7 +60,7 @@
   <dd>
     <ul>
       <li>VoIP: Join WebEx meeting (via <a href="https://mit.webex.com/mit/j.php?MTID=me4b93a7982bfcc65aec97d2fa899e787">https://mit.webex.com/mit/j.php?MTID=me4b93a7982bfcc65aec97d2fa899e787</a>), <a href="https://lists.w3.org/Archives/Member/w3c-archive/2016Jan/0079.html">Password</a> Required.</li>
-      <li>Phone: +1-617-324-0000 (US Toll Number), 642 634 171(access code).</li>
+      <li>Phone: +1-617-324-0000 (US Toll Number), 645770213 (access code).</li>
       <li>Meeting number: 645 770 213</li>.
     </ul>
   </dd>
