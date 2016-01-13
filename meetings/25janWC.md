@@ -21,6 +21,7 @@
    <li>Dimitri Glazkov</li>
    <li>Ryosuke Niwa</li>
    <li>Hayato Ito</li>
+   <li>Philippe Le Hegaret</li>
   </ul>
   
 <h3>Hope to attend</h3>
