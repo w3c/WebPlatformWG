@@ -20,11 +20,11 @@
    <li>Elliott Sprehn</li>
    <li>Dimitri Glazkov</li>
    <li>Ryosuke Niwa</li>
+   <li>Hayato Ito</li>
   </ul>
   
 <h3>Hope to attend</h3>
   <ul>
-   <li>Hayato Ito</li>
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
    <li>Arron Eicholz</li>
    <li>Léonie Watson (coinciding with Service Worker meeting would be helpful)</li>
