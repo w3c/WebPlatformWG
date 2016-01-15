@@ -23,7 +23,7 @@
    <li>Hayato Ito</li>
    <li>Philippe Le Hegaret</li>
   </ul>
-  
+
 <h3>Hope to attend</h3>
   <ul>
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
@@ -37,7 +37,7 @@
   <dl>
    <dt>What is the final design for base registration semantics, class/constructor integration/etc.?</dt>
    <dd>Google's current proposals include ["Constructor Dmitry"](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Constructor-Dmitry.md) from Domenic and the [backing swap proposal](https://lists.w3.org/Archives/Public/public-webapps/2015OctDec/0118.html) from Elliott which attempts to improve on Constructor Dmitry. Apple has a prototype that seems similar to Constructor Dmitry based on perusing their bug tracker but will presumably be clarified in a more formal proposal before the meeting. A lot of the complexity here comes from solving the "consistent world view" issue.</dd>
-   
+
    <dt>What are the desired lifecycle hooks?</dt>
    <dd>The current spec's lifecycle hooks have attracted criticism in various issues (see e.g. [#286](https://github.com/w3c/webcomponents/issues/286)). What should the final set of hooks be?</dd>
 
@@ -47,6 +47,14 @@
 
 
   <p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16janWC.md">editing a branch and making a Pull Request</a>, or by mail in the public-webapps mailing list - which will result in it being posted here - or to the chairs of the Web Platform group - in which case it won't be posted publicly.</p>
+
+<h2>Background reading</h2>
+
+<ul>
+  <li>[Editor's draft](http://w3c.github.io/webcomponents/spec/custom/)</li>
+  <li>[Custom Elements: Contentious Bits](https://github.com/w3c/webcomponents/wiki/Custom-Elements:-Contentious-Bits)</li>
+</ul>
+
 
 <h2>Logistics</h2>
 
