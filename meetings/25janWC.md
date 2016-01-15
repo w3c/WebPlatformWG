@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
  <head>
   <meta charset="utf-8">
@@ -51,8 +50,8 @@
 <h2>Background reading</h2>
 
 <ul>
-  <li>[Editor's draft](http://w3c.github.io/webcomponents/spec/custom/)</li>
-  <li>[Custom Elements: Contentious Bits](https://github.com/w3c/webcomponents/wiki/Custom-Elements:-Contentious-Bits)</li>
+  <li><a href="http://w3c.github.io/webcomponents/spec/custom/">Editor's draft</a></li>
+  <li><a href="https://github.com/w3c/webcomponents/wiki/Custom-Elements:-Contentious-Bits">Custom Elements: Contentious Bits</a></li>
 </ul>
 
 
