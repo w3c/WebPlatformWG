@@ -21,6 +21,7 @@
    <li>Ryosuke Niwa</li>
    <li>Hayato Ito</li>
    <li>Philippe Le Hegaret</li>
+   <li>Adrian Bateman</li>
   </ul>
 
 <h3>Hope to attend</h3>
