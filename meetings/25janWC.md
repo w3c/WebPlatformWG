@@ -64,7 +64,7 @@
   <dt>Location</dt>
   <dd>Apple Inc, <a href="https://en.wikipedia.org/wiki/Infinite_Loop_(street)">One Infinite Loop, Cupertino, CA</a><br>
   Please contact rniwa at apple dot com upon arrival to one infinite loop lobby.<br>
-  <strong>Please allocate an extra 5-10 minutes for parking at the guest parking in front of the <a href="http://www.apple.com/companystore/directions.html">company store</a>. Finding a parking after 10 AM will be **EXTREMELY** difficult.</strong></dd>
+  <strong>Please allocate an extra 10 minutes to get off the 280 ramp and another 10-15 minutes for parking at the guest parking in front of the <a href="http://www.apple.com/companystore/directions.html">company store</a>. Finding a parking after 10 AM will be **EXTREMELY** difficult.</strong></dd>
   <dt>Remote Participants</dt>
   <dd>
     <ul>
