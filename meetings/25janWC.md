@@ -22,13 +22,13 @@
    <li>Hayato Ito</li>
    <li>Philippe Le Hegaret</li>
    <li>Adrian Bateman</li>
+   <li>Léonie Watson</li>
   </ul>
 
 <h3>Hope to attend</h3>
   <ul>
    <li>Anne van Kesteren (if this coincides with the service worker meeting)</li>
    <li>Arron Eicholz</li>
-   <li>Léonie Watson (coinciding with Service Worker meeting would be helpful)</li>
    <li>Daniel Buchner</li>
   </ul>
 
