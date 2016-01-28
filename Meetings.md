@@ -13,9 +13,12 @@ SeeAlso:
 
 ## Upcoming Face-Face Meetings
 
-- 25 January: [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). Hosted by Apple
+- 11-12 April: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md). Hosted by Microsoft in Seattle/Redmond
 
 ## Past Face-To-Face Meetings (most recent first)
+
+### 25 January 2015 [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). Hosted by Apple in Cupertino
+- [Minutes](https://www.w3.org/2016/01/25-webapps-minutes.html)
 
 ### 2015 October 26-27 (TPAC2015; Sapporo, JP)
 - [Agenda](https://www.w3.org/wiki/Webapps/October2015Meeting)
