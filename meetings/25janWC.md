@@ -23,6 +23,7 @@
    <li>Philippe Le Hegaret</li>
    <li>Adrian Bateman</li>
    <li>Léonie Watson</li>
+   <li>Jan Miksovsky</li>
   </ul>
 
 <h3>Hope to attend</h3>
