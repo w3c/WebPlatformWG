@@ -1,10 +1,10 @@
-This document contains information about Web Platform WG's upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings* (aka *telcons* or *voice conferences*).
+This document contains information about Web Platform WG's upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings*
 
 Please note:
 
 -   The group has 1-2 face-to-face (f2f) meetings per year where the potential scope is all of the group's specifications.
--   The group may have spec-specific f2f meetings (for example, only Web Components specs are on the agenda).
--   The group does not have regular distributed voice conferences except for a few telcons that focus on one specification or a set of closely related specifications. More information about the group's telcons is provided below.
+-   The group may have additional f2f meetings for specific topics, for example with only Web Components on the agenda.
+-   The group does not have regular distributed voice conferences. More information about teleconferences is provided below.
 -   All meeting minutes are Public.
 
 SeeAlso:
@@ -55,7 +55,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 ### Best Practices
 
--   [Uses IRC to facilitate meetings and create scribe an initial record of the meeting](https://www.w3.org/2006/tools/wiki/WebExBestPractices#IRC).
+-   [Use IRC to facilitate meetings and create an initial record of the meeting](https://www.w3.org/2006/tools/wiki/WebExBestPractices#IRC).
 
 -   Each WebEx will open 15 mins earlier than the scheduled time.
 
