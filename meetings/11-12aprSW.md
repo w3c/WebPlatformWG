@@ -15,6 +15,10 @@
   <ul>
   </ul>
 
+<h3>Will attend remotely</h3>
+  <ul>
+  </ul>
+
 <h3>Hope to attend</h3>
   <ul>
   </ul>
