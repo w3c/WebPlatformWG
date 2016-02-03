@@ -25,6 +25,7 @@
    <li>Léonie Watson</li>
    <li>Justin Fagnani</li>
    <li>Monica Dinculescu</li>
+   <li>Jan Miksovsky</li>
   </ul>
 
 <h3>Hope to attend</h3>
