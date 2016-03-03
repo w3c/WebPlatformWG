@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+
 <html lang=en>
+
 <head>
-<title>Web Platform PubStatus</title>
 <meta charset='utf-8'>
 <meta name=viewport content='width=device-width'>
+<title>Web Platform PubStatus</title>
+
 <link rel=stylesheet href='https://www.w3.org/StyleSheets/TR/base'>
 <style>
 img { border: 0; }
@@ -13,6 +16,7 @@ td { background-color:#ffffcc;}
 th { background-color:#ccc;}
 </style>
 </head>
+
 <body>
 <p>
 <a href='http://www.w3.org/'><img width=72 height=48 alt=W3C src='https://www.w3.org/Icons/w3c_home'></a>
@@ -28,11 +32,9 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 <li><a href="#Specs_nO_longer_active">Specs nO longer active</a></li>
 </ol>
 
-<p>Note the <a href="https://www.w3.org/2015/10/webplatform-charter.html">WG's Charter</a> enumerates all of the <a href="https://www.w3.org/2015/10/webplatform-charter.html#deliverables">WG's deliverables</a>.
-</p>
+<p>Note the <a href="https://www.w3.org/2015/10/webplatform-charter.html">WG's Charter</a> enumerates all of the <a href="https://www.w3.org/2015/10/webplatform-charter.html#deliverables">WG's deliverables</a>.</p>
 
-<p>Please see the section <i><a href="#Table_Key">Table Key</a></i> for information regarding interpreting the data in the tables.
-</p>
+<p>Please see the section <i><a href="#Table_Key">Table Key</a></i> for information regarding interpreting the data in the tables.</p>
 
 <h2 id="HTML_specifications">HTML specifications</h2>
 
@@ -50,6 +52,8 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 </thead>
 
 <tbody>
+
+<!-- HTML5.1 -->
 <tr>
 <td><a href="https://w3c.github.io/html/">HTML5.1</a></td>
 <td><em>Various</em></td>
@@ -69,6 +73,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 <td></td>
 </tr>
 
+<!-- HTML landscape -->
 <tr>
 <td><a href="http://www.w3.org/html/landscape/">The HTML Landscape</a</td>
 <td><a href="https://github.com/darobin">Robin Berjon</a></td>
@@ -79,6 +84,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 <td></td>
 </tr>
 
+<!-- ARIA in HTML -->
 <tr>
 <td><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></td>
 <td><a href="https://github.com/stevefaulkner">Steve Faulkner</a></td>
@@ -93,6 +99,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 <td></td>
 </tr>
 
+<!-- Notes on Using ARIA in HTML -->
 <tr>
 <td><a href="http://w3c.github.io/aria-in-html/">Notes on Using ARIA in HTML</a></td>
 <td><ul>
@@ -115,961 +122,669 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 </table>
 
 <h2 id="API_specifications">API specifications</h2>
-<p>The specifications are listed in alphabetical order ...</p>
+
 <table sortable>
 <thead>
 <tr>
-<th>Spec, Active Editor(s)</th>
+<th>Spec</th>
+<th>Editor(s)</th>
 <th>Last TR Publication</th>
 <th>Type</th>
-<th>Remarks</th>
+<th>Resources</th>
 <th>Testing</th>
-<th>Plans</th></tr>
+<th>Plans</th>
+</tr>
 </thead>
-<tbody>
-<tr>
-<td>
-<a href="https://w3c.github.io/clipboard-apis/">Clipboard APIs and Events</a>, Hallvord Steen
-</td>
-<td>
-<a href="http://www.w3.org/TR/clipboard-apis/">2015-04-21</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/clipboard-apis/issues">Github Issues</a>;
-<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Clipboard%20API%20and%20events&amp;resolution=---&amp;list_id=9413">Bugzilla Database</a>;
-</p><p><a href="https://github.com/w3c/clipboard-apis/pulse/monthly">Github Monthly Pulse</a>;
-</p><p>Implementations: see <a href="http://caniuse.com/#feat=clipboard">CanIUse</a>
-</p>
-</td>
-<td>
-<a href="https://w3c.github.io/clipboard-apis/">Test Suite</a> Test Facilitator: Hallvord Steen;
-<p>Status: 85% complete
-</p>
-</td>
-<td>Publish periodic WDs until the spec is feature complete.
-<p>Work on test suite and submit it to web-platform-tests.
-</p><p>See Hallvord's <a href="http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0238.html">2014-Oct-24 status report</a>.
-</p>
-</td></tr>
-<tr>
-<td>
-<a href="https://w3c.github.io/DOM-Level-3-Events-code/">DOM Level 3 KeyboardEvent code Values</a>, Travis Leithead, Gary Kačmarčík
-</td>
-<td>
-<a href="http://www.w3.org/TR/DOM-Level-3-Events-code/">2015-04-28</a>
-</td>
-<td>
-WD
-</td>
-<td>Discussions on <a href="http://lists.w3.org/Archives/Public/www-dom/">www-dom mail list</a>.
-<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=DOM3%20Events&amp;resolution=---">Bugzilla database</a> - bugs prefixed with [keycode].
-</p><p><a href="https://github.com/w3c/DOM-Level-3-Events-code/issues">Github Issues</a>.
-</p><p><a href="https://github.com/w3c/DOM-Level-3-Events-code/pulse/monthly">Github Monthly Pulse</a>.
-</p><p>See also the <a href="/2008/webapps/wiki/DOM3Events" title="DOM3Events">DOM3Events</a> Wiki Page.
-</p>
-</td>
-<td>Test Facilitator: @TBD.
-<p>Test Suite: @TBD
-</p>
-</td>
-<td>Update as new code values are added/fixed. This spec will advance in step with UI Events.
-</td></tr>
-<tr>
-<td>
-<a href="https://w3c.github.io/DOM-Level-3-Events-key/">DOM Level 3 KeyboardEvent key Values</a>, Travis Leithead, Gary Kačmarčík
-</td>
-<td>
-<a href="http://www.w3.org/TR/DOM-Level-3-Events-key/">2015-04-28</a>
-</td>
-<td>
-WD
-</td>
-<td>Discussions on <a href="http://lists.w3.org/Archives/Public/www-dom/">www-dom mail list</a>.
-<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=DOM3%20Events&amp;resolution=---">Bugzilla database</a> - bugs prefixed with [keyvalue].
-</p><p><a href="https://github.com/w3c/DOM-Level-3-Events-key/issues">Github Issues</a>.
-</p><p><a href="https://github.com/w3c/DOM-Level-3-Events-key/pulse/monthly">Github Monthly Pulse</a>.
-</p><p>See also the <a href="/2008/webapps/wiki/DOM3Events" title="DOM3Events">DOM3Events</a> Wiki Page.
-</p>
-</td>
-<td>Test Facilitator: @TBD.
-<p>Test Suite: @TBD
-</p>
-</td>
-<td>Update as new key values are added/fixed. This spec will advance in step with UI Events.
-</td></tr>
-<tr>
-<td>
-<a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing and Serialization</a>; Travis Leithead
-</td>
-<td>
-<a href="http://www.w3.org/TR/DOM-Parsing/">2014-06-17</a>
-</td>
-<td>CR
-</td>
-<td>
-<a href="https://github.com/w3c/DOM-Parsing/issues">Github Issues</a>;
-<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=DOM%20Parsing%20and%20Serialization&amp;resolution=---">Bugzilla Database</a>;
-</p><p><a href="https://github.com/w3c/DOM-Parsing/pulse/monthly">Github Monthly Pulse</a>
-</p>
-</td>
-<td>Test Facilitator: Travis and Cindy;
-<p><a href="http://w3c-test.org/html/syntax/">Test Suite</a>;
-</p><p>Status:&nbsp;??% complete.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=DOM-parsing&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>Work on test suite and after it is complete, do interoperability testing.
-</td></tr>
-<tr>
-<td>
-<a href="https://w3c.github.io/FileAPI/">File API</a>, Arun Ranganathan, Jonas Sicking
-</td>
-<td>
-<a href="http://www.w3.org/TR/FileAPI/">2015-04-21</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/FileAPI/issues">Github Issues</a>;
-<p><a href="https://github.com/w3c/FileAPI/pulse/monthly">Github Monthly Pulse</a>;
-</p><p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=File%20API&amp;resolution=---">Bugzilla Database</a>
-</p><p>File API <a href="http://caniuse.com/#feat=fileapi">Implementation data</a> from caniuse.com;
-File Reader <a href="http://caniuse.com/#feat=filereader">Implementations data</a> from caniuse.com
-</p>
-</td>
-<td>Test Facilitator: @NEED_HELP
-<p><a href="http://w3c-test.org/FileAPI/">Test Suite</a>;
-</p><p>Status: 20% complete.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=FileAPI&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>Publish LC#2 when all v1 <a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=File%20API&amp;resolution=---">Bugs</a> are closed.
-</td></tr>
-<tr>
-<td>
-<a href="http://w3c.github.io/filesystem-api/">FileSystem API</a>; Arun Ranganathan
-</td>
-<td>N/A
-</td>
-<td>ED
-</td>
-<td>
-<a href="https://github.com/w3c/filesystem-api/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/filesystem-api/issues">Github Issues</a>
-</p>
-</td>
-<td>Test Faciliator: @TBD;
-<p>Status: NO test suite
-</p>
-</td>
-<td>Publish FPWD when spec is fleshed-out breadth first.
-</td></tr>
 
-<!-- findtext -->
+<tbody>
+
+<!-- Clipboard API -->
 <tr>
-<td><a href="http://w3c.github.io/findtext/">FindText API</a>; Doug Schepers</td>
+<td><a href="https://w3c.github.io/clipboard-apis/">Clipboard API and Events</td>
+<td>Hallvord Steen</td>
+<td><a href="https://www.w3.org/TR/clipboard-apis/">2015-12-15</a></td>
+<td>WD</td>
+<td><ul>
+<li><a href="https://github.com/w3c/clipboard-apis/">Github</a></li>
+<li><a href="https://github.com/w3c/clipboard-apis/issues/">Issues</a></li>
+<li><a href="https://github.com/w3c/clipboard-apis/commits/">Commits</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://w3c.github.io/clipboard-apis/">Test suite</a></li>
+<li>Test facilitator(s): Hallvord Steen</li>
+<li><a href="http://caniuse.com/#feat=clipboard">Implementations (CanIUse)</a></li>
+</ul></td>
+<td>
+<p>See <a href="https://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0238.html">2014-10-24 status report</a></p></td>
+</tr>
+
+<!-- UI Events KeyboardEvent Code Values -->
+<tr>
+<td><a href="https://w3c.github.io/uievents-code/">UI Events KeyboardEvent Code Values</td>
+<td>Travis Leithead, Gary Kačmarčík</td>
+<td><a href="https://www.w3.org/TR/uievents-code/">2015-12-15</td>
+<td>WD</td>
+<td><ul>
+<li><a href="https://github.com/w3c/uievents-code/">Github</a></li>
+<li><a href="https://github.com/w3c/uievents-code/issues">Issues</a></li>
+<li><a href="https://github.com/w3c/uievents-code/commits">Commits</a></li>
+</ul></td>
+<td>TBD</td>
+<td>
+<p>Will advance in sync with <a href="https://w3c.github.io/uievents-key/">UI Events KeyboardEvent Key Values</a></p></td>
+</tr>
+
+<!-- UI Events Keyboard Event Key Values -->
+<tr>
+<td><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Event Key Values</a></td>
+<td>Travis Leithead, Gary Kačmarčík</td>
+<td><a href="https://w3c.github.io/uievents-key/">2015-12-15</a></td>
+<td>WD</td>
+<td><ul>
+<li><a href="https://github.com/w3c/uievents-key/">Github</a></li>
+<li><a href="https://github.com/w3c/uievents-key/issues">Issues</a></li>
+<li><a href="https://github.com/w3c/uievents-key/commits/">Commits</a></li>
+</ul></td>
+<td>TBD</td>
+<td>Will advance in sync with <a href="https://w3c.github.io/uievents-code/">UI Events KeyboardEvent Code Values</a></td>
+</tr>
+
+<!-- DOM Parsing and Serialization -->
+<tr>
+<td><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing and Serialization</a></td>
+<td>Travis Leithead</td>
+<td><a href="https://www.w3.org/TR/DOM-Parsing/">2014-06-14</a></td>
+<td>CR</td>
+<td><ul>
+<li><a href="https://github.com/w3c/DOM-Parsing/">Github</a></li>
+<li><a href="https://github.com/w3c/DOM-Parsing/issues">Issues</a></li>
+<li><a href="https://github.com/w3c/DOM-Parsing/commits">Commits</a></li>
+</ul></td>
+<td><ul>
+<li><a href="http://w3c-test.org/html/syntax/">Test suite</li>
+<li>Test facilitator(s): Travis Leithead, Xiaoqian Wu</li>
+</ul></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://w3c.github.io/FileAPI/">File API</a></td>
+<td>Arun Ranganathan, Jonas Sicking</td>
+<td>
+<a href="http://www.w3.org/TR/FileAPI/">2015-04-21</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/FileAPI/issues">Github Issues</a>;
+<p><a href="https://github.com/w3c/FileAPI/pulse/monthly">Github Monthly Pulse</a>;</p>
+<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=File%20API&amp;resolution=---">Bugzilla Database</a></p>
+<p>File API <a href="http://caniuse.com/#feat=fileapi">Implementation data</a> from caniuse.com;
+File Reader <a href="http://caniuse.com/#feat=filereader">Implementations data</a> from caniuse.com</p></td>
+<td>Test Facilitator: @NEED_HELP
+<p><a href="http://w3c-test.org/FileAPI/">Test Suite</a>;</p>
+<p>Status: 20% complete.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=FileAPI&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td>Publish LC#2 when all v1 <a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=File%20API&amp;resolution=---">Bugs</a> are closed.</td>
+</tr>
+
+<tr>
+<td><a href="http://w3c.github.io/filesystem-api/">FileSystem API</a></td>
+<td>Arun Ranganathan</td>
+<td>N/A</td>
+<td>ED</td>
+<td><a href="https://github.com/w3c/filesystem-api/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/filesystem-api/issues">Github Issues</a></p></td>
+<td>Test Faciliator: @TBD;
+<p>Status: NO test suite</p></td>
+<td>Publish FPWD when spec is fleshed-out breadth first.</td>
+</tr>
+
+<tr>
+<td><a href="http://w3c.github.io/findtext/">FindText API</a></td>
+<td>Doug Schepers</td>
 <td><a href="http://www.w3.org/TR/findtext/">2015-10-15</a></td>
 <td>FPWD</td>
-<td>
-<a href="https://github.com/w3c/findtext/pulse/monthly">Github monthly Pulse</a>;
+<td><a href="https://github.com/w3c/findtext/pulse/monthly">Github monthly Pulse</a>;
 <p><a href="https://github.com/w3c/findtext/issues">Github Issues</a></p>
-<p>This is a joint publication with the <a href="http://www.w3.org/annotation/">Web Annotation WG</a></p>
-</td>
+<p>This is a joint publication with the <a href="http://www.w3.org/annotation/">Web Annotation WG</a></p></td>
 <td>Test Faciliator: @TBD;
-<p>Status: NO test suite </p>
-</td>
+<p>Status: NO test suite </p></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://w3c.github.io/gamepad/gamepad.html">Gamepad</a></td>
+<td>Scott Graham and Ted Mielczarek</td>
+<td><a href="http://www.w3.org/TR/gamepad/">2015-04-29</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/gamepad/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/gamepad/issues">Github Issues</a>;</p>
+<p><a href="https://www.w3.org/wiki/Webapps/GamepadFeatures">Features for v.Next</a>.</p></td>
+<td><a href="https://github.com/w3c/web-platform-tests/tree/master/gamepad">Test Suite</a>;
+<p>Test Facilitator: Ted</p></td>
+<td>Publish a LCWD after the last bugs for v1 are fixed.
+<p>See Ted's <a href="http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0510.html">2014-Nov-26</a> e-mail for information about the next steps including implementation data.</p>
+<p>Obsolete the Bugzilla component after all of the Open Bugs have been moved to Github Issues.</p></td>
+</tr>
+
+<tr>
+<td><a href="http://w3c.github.io/IndexedDB/">Indexed Database API (Second Edition)</a></td>
+<td>Joshua Bell, Ali Alabbas</td>
+<td><a href="http://www.w3.org/TR/IndexedDB/">2015-01-08</a></td>
+<td>REC</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Indexed%20Database%20API&amp;resolution=---">Bugzilla database</a>.
+<p><a href="https://github.com/w3c/IndexedDB/issues">Github Issues</a>.</p>
+<p><a href="http://caniuse.com/#search=indexed">Implementation data</a> from caniuse.com.</p>
+<p><a href="http://www.w3.org/2008/webapps/wiki/IndexedDatabaseFeatures">Feature list for v2</a>.</p>
+<p><a href="https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Comments-16-May-2013-LCWD.html">Comment Tracking Document</a> for the 16-May-2013 LCWD.</p></td>
+<td>Test Facilitator: Zhiqiang Zhang;
+<p><a href="http://w3c-test.org/IndexedDB/">Test Suite</a>;</p>
+<p>Status: complete.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=IndexedDB&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td>See Joshua's <a href="https://lists.w3.org/Archives/Public/public-webapps/2015OctDec/0106.html">2015-Oct-20 status report</a>.</td>
+</tr>
+
+<tr>
+<td><a href="https://w3c.github.io/ime-api/">Input Method Editor (IME) API</a></td>
+<td>Travis Leithead</td>>
+<td><a href="http://www.w3.org/TR/ime-api/">2015-04-09</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/ime-api/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/ime-api/issues">Github Issues</a>;</p>
+<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=IME%20API&amp;resolution=---">Bugzilla Database</a></p></td>
+<td>Test Facilitator: Mike™ Smith;
+<p>Status: NO test suite</p></td>
+<td><b>No one is actively working on this spec nor its implementation at the moment. Additional Editing help wanted.</b></td>
+</tr>
+
+<tr>
+<td><a href="http://www.w3.org/TR/appmanifest/">Manifest for web application</a>, Marcos Cáceres, K. Christiansen, A</td>
+<td>Kostiainen</td>
+<td><a href="http://www.w3.org/TR/appmanifest/"><b>^See Note</b></a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/manifest/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/manifest/issues">GitHub Issues</a>.</p></td>
+<td>Test Facilitator: Sebastian Godard;
+<p>Status: NO test suite </p></td>
+<td><a href="https://lists.w3.org/Archives/Public/public-webapps/2015JanMar/0614.html">Request for comments: 12-Feb-2015</a>.
+<p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1003890">Gecko implementation status</a> </p>
+<p><b>Note: WDs for this spec are being <i>automatically published</i> using <a href="https://lists.w3.org/Archives/Public/spec-prod/2015JanMar/0026.html">Echidna</a>.</b></p>
+<p>Marcos' <a href="">23-Oct-2015 status report</a>.</p></td>
+</tr>
+
+<tr>
+<td><a href="http://w3ctag.github.io/packaging-on-the-web/">Packaging on the Web</a></td>
+<td>Jeni Tennison</td>
+<td><a href="http://www.w3.org/TR/web-packaging/">2015-01-15</a></td>
+<td>FPWD</td>
+<td><a href="https://github.com/w3ctag/packaging-on-the-web/issues">Github Issues</a>;
+<p><a href="https://github.com/w3ctag/packaging-on-the-web/pulse/monthly">Github Monthly Pulse</a>;</p>
+<p>This is a joint specification with the TAG.</p></td>
+<td>Test Facilitator: @TBD</td>
 <td></td>
 </tr>
 
 <tr>
 <td>
-<a href="https://w3c.github.io/gamepad/gamepad.html">Gamepad</a>, Scott Graham and Ted Mielczarek
-</td>
-<td>
-<a href="http://www.w3.org/TR/gamepad/">2015-04-29</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/gamepad/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/gamepad/issues">Github Issues</a>;
-</p><p><a href="https://www.w3.org/wiki/Webapps/GamepadFeatures">Features for v.Next</a>.
-</p>
-</td>
-<td>
-<a href="https://github.com/w3c/web-platform-tests/tree/master/gamepad">Test Suite</a>;
-<p>Test Facilitator: Ted
-</p>
-</td>
-<td>Publish a LCWD after the last bugs for v1 are fixed.
-<p>See Ted's <a href="http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0510.html">2014-Nov-26</a> e-mail for information about the next steps including implementation data.
-</p><p>Obsolete the Bugzilla component after all of the Open Bugs have been moved to Github Issues.
-</p>
-</td></tr>
-<tr>
-<td>
-<a href="http://w3c.github.io/IndexedDB/">Indexed Database API (Second Edition)</a>, Joshua Bell, Ali Alabbas
-</td>
-<td>
-<a href="http://www.w3.org/TR/IndexedDB/">2015-01-08</a>
-</td>
-<td>REC
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Indexed%20Database%20API&amp;resolution=---">Bugzilla database</a>.
-<p><a href="https://github.com/w3c/IndexedDB/issues">Github Issues</a>.
-</p><p><a href="http://caniuse.com/#search=indexed">Implementation data</a> from caniuse.com.
-</p><p><a href="http://www.w3.org/2008/webapps/wiki/IndexedDatabaseFeatures">Feature list for v2</a>.
-</p><p><a href="https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Comments-16-May-2013-LCWD.html">Comment Tracking Document</a> for the 16-May-2013 LCWD.
-</p>
-</td>
-<td>Test Facilitator: Zhiqiang Zhang;
-<p><a href="http://w3c-test.org/IndexedDB/">Test Suite</a>;
-</p><p>Status: complete.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=IndexedDB&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>See Joshua's <a href="https://lists.w3.org/Archives/Public/public-webapps/2015OctDec/0106.html">2015-Oct-20 status report</a>.
-</td></tr>
-<tr>
-<td>
-<a href="https://w3c.github.io/ime-api/">Input Method Editor (IME) API</a>, Travis Leithead
-</td>
-<td>
-<a href="http://www.w3.org/TR/ime-api/">2015-04-09</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/ime-api/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/ime-api/issues">Github Issues</a>;
-</p><p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=IME%20API&amp;resolution=---">Bugzilla Database</a>
-</p>
-</td>
-<td>Test Facilitator: Mike™ Smith;
-<p>Status: NO test suite
-</p>
-</td>
-<td>
-<b>No one is actively working on this spec nor its implementation at the moment. Additional Editing help wanted.</b>
-</td></tr>
-<!-- Manifest -->
-<tr>
-<td>
-<a href="http://www.w3.org/TR/appmanifest/">Manifest for web application</a>, Marcos Cáceres, K. Christiansen, A. Kostiainen
-</td>
-<td>
-<a href="http://www.w3.org/TR/appmanifest/"><b>^See Note</b></a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/manifest/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/manifest/issues">GitHub Issues</a>.
-</p>
-</td>
-<td>Test Facilitator: Sebastian Godard;
-<p>Status: NO test suite </p>
-</td>
-<td>
-<a href="https://lists.w3.org/Archives/Public/public-webapps/2015JanMar/0614.html">Request for comments: 12-Feb-2015</a>.
-<p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1003890">Gecko implementation status</a> </p>
-<p><b>Note: WDs for this spec are being <i>automatically published</i> using <a href="https://lists.w3.org/Archives/Public/spec-prod/2015JanMar/0026.html">Echidna</a>.</b></p>
-<p>Marcos' <a href="">23-Oct-2015 status report</a>.</p>
-</td></tr>
-<!-- Packaging -->
-<tr>
-<td>
-<a href="http://w3ctag.github.io/packaging-on-the-web/">Packaging on the Web</a>; Jeni Tennison
-</td>
-<td>
-<a href="http://www.w3.org/TR/web-packaging/">2015-01-15</a>
-</td>
-<td>FPWD
-</td>
-<td>
-<a href="https://github.com/w3ctag/packaging-on-the-web/issues">Github Issues</a>;
-<p><a href="https://github.com/w3ctag/packaging-on-the-web/pulse/monthly">Github Monthly Pulse</a>;
-</p><p>This is a joint specification with the TAG.
-</p>
-</td>
-<td>Test Facilitator: @TBD
-</td>
-<td>
-</td></tr>
-<tr>
-<td>
-<a href="https://w3c.github.io/pointerlock/">Pointer Lock</a>, Vincent Scheib
-</td>
-<td>
-<a href="http://www.w3.org/TR/pointerlock/">2013-12-17</a>
-</td>
-<td>CR
-</td>
+<a href="https://w3c.github.io/pointerlock/">Pointer Lock</a></td>
+<td>Vincent Scheib</td>
+<td><a href="http://www.w3.org/TR/pointerlock/">2013-12-17</a></td>
+<td>CR</td>
 <td>
 <p><a href="https://github.com/w3c/pointerlock/issues">Github Issues</a>;</p>
 <p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Pointer%20Lock&amp;resolution=---">Bugzilla Database</a>;</p>
 <p><a href="https://github.com/w3c/pointerlock/pulse/monthly">Github Monthly Pulse</a>;</p>
-<p><a href="https://www.w3.org/wiki/Webapps/PointerLockFeatures">Features for v.Next</a>.</p>
-</td>
+<p><a href="https://www.w3.org/wiki/Webapps/PointerLockFeatures">Features for v.Next</a>.</p></td>
 <td>Test Facilitator: Vincent Scheib;
-<p><a href="http://w3c-test.org/pointerlock/">Test Suite</a></p>
-</td>
+<p><a href="http://w3c-test.org/pointerlock/">Test Suite</a></p></td>
 <td>Exiting CR is blocked on completing the test suite and getting 2 or more implementations to pass the tests.
-<p>See <a href="https://lists.w3.org/Archives/Public/public-webapps/2015OctDec/0116.html">Vincent's 2015-Oct-23 status report</a>.</p>
-</td></tr>
+<p>See <a href="https://lists.w3.org/Archives/Public/public-webapps/2015OctDec/0116.html">Vincent's 2015-Oct-23 status report</a>.</p></td>
+</tr>
+
 <tr>
-<td>
-<a href="https://w3c.github.io/push-api/index.html">Push API</a>, Michaël van Ouwerkerk, Martin Thompson
-</td>
-<td>
-<a href="http://www.w3.org/TR/push-api/">2015-04-27</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/push-api/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/push-api/issues">Github Issues</a>;
-</p><p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Push%20API&amp;resolution=---&amp;list_id=781">Bugzilla Database</a>;
-</p><p><a href="http://www.w3.org/2008/webapps/wiki/Push_API">Use Cases wiki</a>.
-</p><p>A <a href="http://www.w3.org/2013/03/push-pag-charter.html">Patent Advisory Group</a> was formed and published their <a href="http://www.w3.org/2013/10/push-api-pag-report.html">report on 30-Oct-2013</a>.
-</p>
-</td>
+<td><a href="https://w3c.github.io/push-api/index.html">Push API</a></td>
+<td>Michaël van Ouwerkerk, Martin Thompson</td>
+<td><a href="http://www.w3.org/TR/push-api/">2015-04-27</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/push-api/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/push-api/issues">Github Issues</a>;</p>
+<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Push%20API&amp;resolution=---&amp;list_id=781">Bugzilla Database</a>;</p>
+<p><a href="http://www.w3.org/2008/webapps/wiki/Push_API">Use Cases wiki</a>.</p>
+<p>A <a href="http://www.w3.org/2013/03/push-pag-charter.html">Patent Advisory Group</a> was formed and published their <a href="http://www.w3.org/2013/10/push-api-pag-report.html">report on 30-Oct-2013</a>.</p></td>
 <td>Test Facilitator: @TBD;
-<p>Status: NO test suite
-</p>
-</td>
+<p>Status: NO test suite</p></td>
 <td>Address <a href="https://github.com/w3ctag/spec-reviews/tree/master/2013/08">issues raised by TAG</a>.
-<p>For information about IETF's Draft Web Push protocol spec, see <a href="http://www.ietf.org/mail-archive/web/webpush/current/msg00109.html">Martin Thomson's 12-Dec-2014 e-mail</a>.
-</p><p><a href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/UdGlL9PtBLo">Blink intent to ship</a>
-</p>
-</td></tr>
+<p>For information about IETF's Draft Web Push protocol spec, see <a href="http://www.ietf.org/mail-archive/web/webpush/current/msg00109.html">Martin Thomson's 12-Dec-2014 e-mail</a>.</p>
+<p><a href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/UdGlL9PtBLo">Blink intent to ship</a></p></td>
+</tr>
+
 <tr>
+<td><a href="https://w3c.github.io/quota-api/">Quota Management API</a></td>
+<td>Kinuko Yasuda</td>
+<td><a href="http://www.w3.org/TR/quota-api/">2015-04-09</a></td>
 <td>
-<a href="https://w3c.github.io/quota-api/">Quota Management API</a>, Kinuko Yasuda
-</td>
-<td>
-<a href="http://www.w3.org/TR/quota-api/">2015-04-09</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/quota-api/issues">Github Issues</a>;
-<p><a href="https://github.com/w3c/quota-api/pulse/monthly">Github Monthly Pulse</a>;
-</p><p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Quota%20Management%20API&amp;resolution=---&amp;list_id=9412">Bugzilla Database</a>.
-</p><p>Implementations: see Intent to Implement latest ED in <a href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/ciicp7mJolQ">Blink</a> and <a href="http://www.chromestatus.com/features/6218562888794112">ChromeStatus</a>.
-</p>
-</td>
+WD</td>
+<td><a href="https://github.com/w3c/quota-api/issues">Github Issues</a>;
+<p><a href="https://github.com/w3c/quota-api/pulse/monthly">Github Monthly Pulse</a>;</p>
+<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Quota%20Management%20API&amp;resolution=---&amp;list_id=9412">Bugzilla Database</a>.</p>
+<p>Implementations: see Intent to Implement latest ED in <a href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/ciicp7mJolQ">Blink</a> and <a href="http://www.chromestatus.com/features/6218562888794112">ChromeStatus</a>.</p></td>
 <td>Test Facilitator: @TBD;
-<p>Status: NO test suite
-</p>
-</td>
+<p>Status: NO test suite</p></td>
 <td>See Kinuko's <a href="http://lists.w3.org/Archives/Public/public-webapps/2014OctDec/0219.html">2014-Oct-23 status</a>.
-<p>TAG is <a href="https://github.com/w3ctag/spec-reviews/issues/21">reviewing this spec</a>.
-</p>
-</td></tr>
+<p>TAG is <a href="https://github.com/w3ctag/spec-reviews/issues/21">reviewing this spec</a>.</p></td>
+</tr>
+
 <tr>
-<td>
-<a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a>, Mounir Lamouri, Marcos Cáceres
-</td>
-<td>
-<a href="http://www.w3.org/TR/screen-orientation/">2015-04-28</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/screen-orientation/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/screen-orientation/issues">Github Issues</a>
-</p>
-</td>
+<td><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></td>
+<td>Mounir Lamouri, Marcos Cáceres</td>
+<td><a href="http://www.w3.org/TR/screen-orientation/">2015-04-28</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/screen-orientation/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/screen-orientation/issues">Github Issues</a></p></td>
 <td>Test Facilitator: Marcos Cáceres;
-<p>Status: NO test suite
-</p>
-</td>
-<td>Publish LCWD when last <i>non-enhancement</i> <a href="https://github.com/w3c/screen-orientation/issues">Open Issues are closed</a>
-</td></tr>
+<p>Status: NO test suite</p></td>
+<td>Publish LCWD when last <i>non-enhancement</i> <a href="https://github.com/w3c/screen-orientation/issues">Open Issues are closed</a></td>
+</tr>
+
 <tr>
-<td>
-<a href="http://w3c.github.io/selection-api/">Selection API</a>; Ryosuke Niwa
-</td>
-<td>
-<a href="http://www.w3.org/TR/selection-api/">2015-10-08</a>
-</td>
+<td><a href="http://w3c.github.io/selection-api/">Selection API</a></td>
+<td>Ryosuke Niwa</td>
+<td><a href="http://www.w3.org/TR/selection-api/">2015-10-08</a></td>
 <td> WD
 </td>
-<td>
-<a href="https://github.com/w3c/selection-api/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/selection-api/issues">Github Issues</a>.
-</p><p>Based on Aryeh Gregor's <a href="https://w3c.github.io/editing/">Editing API</a>.
-</p>
-</td>
+<td><a href="https://github.com/w3c/selection-api/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/selection-api/issues">Github Issues</a>.</p>
+<p>Based on Aryeh Gregor's <a href="https://w3c.github.io/editing/">Editing API</a>.</p></td>
 <td>
 <a href="http://w3c-test.org/html/editing/">Test Suite</a>;
-<p>Test Facilitator: @TBD;
-</p><p>Status: @TBD
-</p>
-</td>
-<td>Get review of Ryosuke's early ED
-</td></tr>
+<p>Test Facilitator: @TBD;</p>
+<p>Status: @TBD</p></td>
+<td>Get review of Ryosuke's early ED</td>
+</tr>
+
 <tr>
-<td>
-<a href="http://slightlyoff.github.io/ServiceWorker/spec/service_worker/">Service Workers</a>, Alex Russell, Jungkee Song, Jake Archibald
-</td>
-<td>
-<a href="http://www.w3.org/TR/service-workers/">2015-06-25</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/slightlyoff/ServiceWorker/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/slightlyoff/ServiceWorker/issues">GitHub Issues</a>;
-</p><p><a href="http://www.w3.org/wiki/Webapps/AppCacheUseCases">Use Cases</a>.
-</p>
-</td>
+<td><a href="http://slightlyoff.github.io/ServiceWorker/spec/service_worker/">Service Workers</a></td>
+<td>Alex Russell, Jungkee Song, Jake Archibald</td>
+<td><a href="http://www.w3.org/TR/service-workers/">2015-06-25</a></td>
+<td>WD</td>
+<td><a href="https://github.com/slightlyoff/ServiceWorker/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/slightlyoff/ServiceWorker/issues">GitHub Issues</a>;</p>
+<p><a href="http://www.w3.org/wiki/Webapps/AppCacheUseCases">Use Cases</a>.</p></td>
 <td>Test Facilitator: @TBD.
-<p><a href="https://github.com/w3c/web-platform-tests/tree/master/service-workers">Test Suite on Github</a>
-</p>
-</td>
-<td>
-<a href="https://code.google.com/p/chromium/issues/detail?id=285976">Chrome Implementation status</a>; <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=903441">Firefox Implementation status</a>
-</td></tr>
+<p><a href="https://github.com/w3c/web-platform-tests/tree/master/service-workers">Test Suite on Github</a></p></td>
+<td><a href="https://code.google.com/p/chromium/issues/detail?id=285976">Chrome Implementation status</a>; <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=903441">Firefox Implementation status</a></td>
+</tr>
+
 <tr>
-<td>
-<a href="https://w3c.github.io/streams-api/">Streams API</a>, Feras Moussa, Takeshi Yoshino
-</td>
-<td>
-<a href="http://www.w3.org/TR/streams-api/">2014-10-23</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/streams-api/pulse/monthly">Github monthly Pulse</a>;
-<p><a href="https://github.com/w3c/streams-api/issues">Github Issues</a>;
-</p><p><a href="http://lists.w3.org/Archives/Public/public-webapps/">public-webapps discussions</a>.
-</p>
-</td>
+<td><a href="https://w3c.github.io/streams-api/">Streams API</a></td>
+<td>Feras Moussa, Takeshi Yoshino</td>
+<td><a href="http://www.w3.org/TR/streams-api/">2014-10-23</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/streams-api/pulse/monthly">Github monthly Pulse</a>;
+<p><a href="https://github.com/w3c/streams-api/issues">Github Issues</a>;</p>
+<p><a href="http://lists.w3.org/Archives/Public/public-webapps/">public-webapps discussions</a>.</p></td>
 <td>Test Facilitator: @TBD;
-<p>Status: NO test suite
-</p>
-</td>
-<td>Determine <b>what - if any - APIs are needed on top of Domenic's <a href="https://streams.spec.whatwg.org/">WHATWG Streams spec</a>?</b>
-</td></tr>
+<p>Status: NO test suite</p></td>
+<td>Determine <b>what - if any - APIs are needed on top of Domenic's <a href="https://streams.spec.whatwg.org/">WHATWG Streams spec</a>?</b></td>
+</tr>
+
 <tr>
+<td><a href="https://w3c.github.io/uievents/">UI Events (formerly D3E)</a></td>
+<td>Travis Leithead, Gary Kacmarcik</td>
+<td><a href="http://www.w3.org/TR/uievents/">2015-04-28</a></td>
 <td>
-<a href="https://w3c.github.io/uievents/">UI Events (formerly D3E)</a>, Travis Leithead, Gary Kacmarcik
-</td>
-<td>
-<a href="http://www.w3.org/TR/uievents/">2015-04-28</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=UI%20Events&amp;resolution=---&amp;list_id=9117">Bugzilla Database</a>.
-<p><a href="https://github.com/w3c/uievents/issues">Github Issues</a>.
-</p><p><a href="https://github.com/w3c/uievents/pulse/monthly">Github Monthly Pulse</a>.
-</p>
-</td>
+WD</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=UI%20Events&amp;resolution=---&amp;list_id=9117">Bugzilla Database</a>.
+<p><a href="https://github.com/w3c/uievents/issues">Github Issues</a>.</p>
+<p><a href="https://github.com/w3c/uievents/pulse/monthly">Github Monthly Pulse</a>.</p></td>
 <td>Test Facilitators: Gary Kačmarčík, Travis Leithead;
 <p><a href="http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/">OLD Test Suite</a>;
-<a href="http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/approved/">OLD Approved Tests</a>;
-</p><p>Status: <a href="http://lists.w3.org/Archives/Public/public-webapps-testsuite/2013Sep/0007.html">20% complete</a>.
-</p>
-</td>
-<td>This spec includes features that were formerly defined in DOM Level 3 Events.
-</td></tr>
+<a href="http://dvcs.w3.org/hg/webapps/file/tip/DOMEvents/tests/approved/">OLD Approved Tests</a>;</p>
+<p>Status: <a href="http://lists.w3.org/Archives/Public/public-webapps-testsuite/2013Sep/0007.html">20% complete</a>.</p></td>
+<td>This spec includes features that were formerly defined in DOM Level 3 Events.</td>
+</tr>
+
 <tr>
-<td>
-<a href="https://url.spec.whatwg.org/">URL</a>, Anne van Kesteren, Sam Ruby
-</td>
-<td>
-<a href="http://www.w3.org/TR/url-1/">2014-12-09</a>
-</td>
-<td>
-WD
-</td>
-<td>
-Outdated copy of <a href='https://url.spec.whatwg.org/'>WHATWG URL</a><br>
+<td><a href="https://url.spec.whatwg.org/">URL</a></td>
+<td>Anne van Kesteren, Sam Ruby</td>
+<td><a href="http://www.w3.org/TR/url-1/">2014-12-09</a></td>
+<td>WD</td>
+<td>Outdated copy of <a href='https://url.spec.whatwg.org/'>WHATWG URL</a><br>
 <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=URL&amp;list_id=42470&amp;product=WHATWG&amp;query_format=advanced">Bugzilla Database</a>;
-<p><a href="https://github.com/w3ctag/url/pulse/monthly">Github Monthly Pulse</a>;
-</p><p><a href="https://github.com/w3ctag/url/issues">Github Issues</a>
-</p>
-</td>
+<p><a href="https://github.com/w3ctag/url/pulse/monthly">Github Monthly Pulse</a>;</p>
+<p><a href="https://github.com/w3ctag/url/issues">Github Issues</a></p></td>
 <td>Test Facilitator: Sam Ruby;
-<p><a href="https://github.com/w3c/web-platform-tests/tree/master/url">Test Suite</a>
-</p>
-</td>
-<td>
-</td></tr>
+<p><a href="https://github.com/w3c/web-platform-tests/tree/master/url">Test Suite</a></p></td>
+<td></td>
+</tr>
+
 <tr>
-<td>
-<a href="http://heycam.github.io/webidl/">Web IDL (Second Edition)</a>, Cameron McCormack, Boris Zbarsky
-</td>
-<td>
-<a href="http://www.w3.org/TR/WebIDL/">2012-04-19</a><br>
-<a href="http://www.w3.org/TR/WebIDL-1/">2015-08-04</a>
-</td>
-<td>CR
-</td>
-<td>
-<a href="https://github.com/heycam/webidl/pulse/monthly">Github monthly Pulse </a>;
-<p><a href="https://github.com/heycam/webidl/issues">Github Issues</a>;
-</p><p>Technical discussions on <a href="http://lists.w3.org/Archives/Public/public-script-coord/">public-script-coord</a> mail list;
-</p><p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=URL&amp;list_id=42470&amp;product=WHATWG&amp;query_format=advanced">Bugzilla Database</a>;
-</p><p><a href="http://www.w3.org/2009/07/webidl-check">Online WebIDL Checker</a>;
-</p><p><a href="http://www.w3.org/wiki/Web_IDL">Specs that use WebIDL</a>.
-</p>
-</td>
+<td><a href="http://heycam.github.io/webidl/">Web IDL (Second Edition)</a></td>
+<td>Cameron McCormack, Boris Zbarsky</td>
+<td><a href="http://www.w3.org/TR/WebIDL/">2012-04-19</a><br>
+<a href="http://www.w3.org/TR/WebIDL-1/">2015-08-04</a></td>
+<td>CR</td>
+<td><a href="https://github.com/heycam/webidl/pulse/monthly">Github monthly Pulse </a>;
+<p><a href="https://github.com/heycam/webidl/issues">Github Issues</a>;</p>
+<p>Technical discussions on <a href="http://lists.w3.org/Archives/Public/public-script-coord/">public-script-coord</a> mail list;</p>
+<p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=URL&amp;list_id=42470&amp;product=WHATWG&amp;query_format=advanced">Bugzilla Database</a>;</p>
+<p><a href="http://www.w3.org/2009/07/webidl-check">Online WebIDL Checker</a>;</p>
+<p><a href="http://www.w3.org/wiki/Web_IDL">Specs that use WebIDL</a>.</p></td>
 <td>Test Facilitator: Travis Leithead;
-<p><a href="http://lists.w3.org/Archives/Public/public-script-coord/2011OctDec/0154.html">Web IDL Test generator for testharness.js</a> by Dom;
-</p><p>Status: ?
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=WebIDL&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
+<p><a href="http://lists.w3.org/Archives/Public/public-script-coord/2011OctDec/0154.html">Web IDL Test generator for testharness.js</a> by Dom;</p>
+<p>Status: ?</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=WebIDL&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
 <td>
-<p>Publish a <a href='http://www.w3.org/TR/WebIDL-1/'>CR of v1</a> after the <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=WebIDL&amp;list_id=31512&amp;product=WebAppsWG&amp;query_format=advanced&amp;status_whiteboard=v1&amp;status_whiteboard_type=allwordssubstr">v1 Bugs</a> are addressed.
-</p>
-</td></tr>
+<p>Publish a <a href='http://www.w3.org/TR/WebIDL-1/'>CR of v1</a> after the <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=WebIDL&amp;list_id=31512&amp;product=WebAppsWG&amp;query_format=advanced&amp;status_whiteboard=v1&amp;status_whiteboard_type=allwordssubstr">v1 Bugs</a> are addressed.</p></td>
+</tr>
+
 <!-- Web Sockets -->
 <tr>
-<td>
-<a href="https://w3c.github.io/websockets/">Web Sockets API</a>, Ian Hickson
-</td>
-<td>
-<a href="http://www.w3.org/TR/websockets/">2012-09-20</a>
-</td>
-<td>CR
-</td>
+<td><a href="https://w3c.github.io/websockets/">Web Sockets API</a></td>
+<td>Ian Hickson</td>
+<td><a href="http://www.w3.org/TR/websockets/">2012-09-20</a></td>
+<td>CR</td>
 <td>Dependency on <a href="http://tools.ietf.org/html/rfc6455">RFC6455 The WebSocket Protocol</a>. Protocol technical discussions on IETF's <a href="http://www.ietf.org/mail-archive/web/hybi/current/maillist.html">hybi mail list</a>.
 <p><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=WebSocket%20API%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>.
-<a href="http://caniuse.com/#feat=websockets">Implementation data</a> from caniuse.com
-</p>
-</td>
+<a href="http://caniuse.com/#feat=websockets">Implementation data</a> from caniuse.com</p></td>
 <td>Test Facilitator: Kris Krueger;
-<p><a href="http://w3c-test.org/websockets/">Test Suite</a>;
-</p><p>Status: complete; <a href="http://w3c-test.org/websockets/">Approved tests</a>.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=websockets&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
+<p><a href="http://w3c-test.org/websockets/">Test Suite</a>;</p>
+<p>Status: complete; <a href="http://w3c-test.org/websockets/">Approved tests</a>.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=websockets&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
 <td>Exiting CR is blocked on:
-<p>1) 2 or more Implementations passing the test suite; see <a href="http://www.w3.org/wiki/Webapps/Interop/WebSockets"><b>Draft</b> Implementation Report</a>;
-</p>
+<p>1) 2 or more Implementations passing the test suite; see <a href="http://www.w3.org/wiki/Webapps/Interop/WebSockets"><b>Draft</b> Implementation Report</a>;</p>
 <p>2) No support on w3c-test.org for secure web socket testing (see <a href="https://github.com/w3c/web-platform-tests/issues/1690">w-p-t Issue 1690</a>).</p>
-<p>No one in the WebPlatform WG is actively working on this specification.</p>
-</td></tr>
+<p>No one in the WebPlatform WG is actively working on this specification.</p></td>
+</tr>
+
 <!-- Web Storage -->
 <tr>
-<td><a href="https://w3c.github.io/webstorage/">Web Storage (2nd Edition)</a>, Ian Hickson</td>
+<td><a href="https://w3c.github.io/webstorage/">Web Storage (2nd Edition)</a></td>
+<td>Ian Hickson</td>
 <td><a href="http://www.w3.org/TR/webstorage/">2015-11-26</a></td>
 <td>PR</td>
 <td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Storage%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>;
-<p><a href="https://github.com/w3c/webstorage/issues">Github Issues</a>;
-</p><p><a href="https://github.com/w3c/webstorage/pulse/monthly">Github Monthly Pulse</a>;
-<a href="http://caniuse.com/#search=storage">Implementation data</a> from caniuse.com
-</p>
-</td>
+a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Storage%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>;
+<p><a href="https://github.com/w3c/webstorage/issues">Github Issues</a>;</p>
+<p><a href="https://github.com/w3c/webstorage/pulse/monthly">Github Monthly Pulse</a>;
+<a href="http://caniuse.com/#search=storage">Implementation data</a> from caniuse.com</p></td>
 <td>Test Facilitator:
-<p><a href="http://w3c-test.org/webstorage/">Test Suite</a>;
-</p><p>Status: <a href="http://w3c-test.org/webstorage/">test suite</a> for v1 considered complete.
-</p>
-</td>
-<td>
-<a href="https://github.com/w3c/test-results/tree/gh-pages/webstorage">DRAFT Implementation Report</a> for 2nd Edition.
-<p>Update test suite for 2nd Edition; run tests; move 2nd Edition to REC.
-</p>
-</td></tr>
+<p><a href="http://w3c-test.org/webstorage/">Test Suite</a>;</p>
+<p>Status: <a href="http://w3c-test.org/webstorage/">test suite</a> for v1 considered complete.</p></td>
+<td><a href="https://github.com/w3c/test-results/tree/gh-pages/webstorage">DRAFT Implementation Report</a> for 2nd Edition.
+<p>Update test suite for 2nd Edition; run tests; move 2nd Edition to REC.</p></td>
+</tr>
+
 <!-- Web Workers -->
 <tr>
+<td><a href="https://w3c.github.io/workers/">Web Workers</a></td>
+<td>Ian Hickson</td>
+<td><a href="http://www.w3.org/TR/workers/">2015-09-24</a></td>
 <td>
-<a href="https://w3c.github.io/workers/">Web Workers</a>, Ian Hickson
-</td>
-<td>
-<a href="http://www.w3.org/TR/workers/">2015-09-24</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Workers%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>;
-<p><a href="http://caniuse.com/#feat=webworkers">Implementation data</a> from caniuse.com;
-</p>
-</td>
+WD</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Workers%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>;
+<p><a href="http://caniuse.com/#feat=webworkers">Implementation data</a> from caniuse.com;</p></td>
 <td>Test Facilitator: Simon Pieters;
-<p><a href="http://w3c-test.org/workers/">Test Suite</a>;
-</p><p>Status: nearly complete; <a href="http://w3c-test.org/workers/">Approved tests</a>.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=workers&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
+<p><a href="http://w3c-test.org/workers/">Test Suite</a>;</p>
+<p>Status: nearly complete; <a href="http://w3c-test.org/workers/">Approved tests</a>.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=workers&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
 <td>Exiting CR is blocked on 2 or more Implementations passing the test suite; see <a href="https://www.w3.org/wiki/Webapps/Interop/WebWorkers"><b>Draft</b> Implementation Report</a>.
 <p>See <a href="http://lists.w3.org/Archives/Public/public-test-infra/2014JulSep/0080.html">Simon's 2014-Sep-29 status report</a>.</p>
-<p>No one in the WebPlatform WG is actively working on this specification.</p>
-</td></tr>
+<p>No one in the WebPlatform WG is actively working on this specification.</p></td>
+</tr>
+
 <!-- XHR Level 1 -->
 <tr>
-<td>
-<a href="https://w3c.github.io/XMLHttpRequest/xhr-1/Overview.html">XHR Level 1</a>, Julian Aubourg, Jungkee Song, Hallvord Steen
-</td>
-<td>
-<a href="http://www.w3.org/TR/XMLHttpRequest/">2014-01-30</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=XHR&amp;resolution=---">Bugzilla Database</a>;
-<p><a href="https://github.com/w3c/XMLHttpRequest/issues">Github Issues</a>;
-</p><p><a href="https://github.com/w3c/XMLHttpRequest/pulse/montlhy">Github Monthly Pulse</a>
-</p>
-</td>
+<td><a href="https://w3c.github.io/XMLHttpRequest/xhr-1/Overview.html">XHR Level 1</a></td>
+<td>Julian Aubourg, Jungkee Song, Hallvord Steen</td>
+<td><a href="http://www.w3.org/TR/XMLHttpRequest/">2014-01-30</a></td>
+<td>WD</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=XHR&amp;resolution=---">Bugzilla Database</a>;
+<p><a href="https://github.com/w3c/XMLHttpRequest/issues">Github Issues</a>;</p>
+<p><a href="https://github.com/w3c/XMLHttpRequest/pulse/montlhy">Github Monthly Pulse</a></p></td>
 <td>Test Facilitator: Julian Aubourg;
-<p><a href="http://w3c-test.org/XMLHttpRequest/">Test Suite</a>;
-</p><p>Status: nearly complete.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=XMLHttpRequest&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>Publish LC/CR when <a href="http://jungkees.github.io/XMLHttpRequest-test/">Test Results</a> show each test is passed by two or more implementations.
-</td></tr></tbody></table>
+<p><a href="http://w3c-test.org/XMLHttpRequest/">Test Suite</a>;</p>
+<p>Status: nearly complete.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=XMLHttpRequest&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td>Publish LC/CR when <a href="http://jungkees.github.io/XMLHttpRequest-test/">Test Results</a> show each test is passed by two or more implementations.</td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="Web_Components">Web Components Specifications</h2>
+
 <table sortable>
-<thead><tr>
-<th>Spec, Active Editor(s)</th>
+<thead>
+<tr>
+<th>Spec</th>
+<th>Editor(s)</th>
 <th>Last TR Publication</th>
 <th>Type</th>
-<th>Remarks</th>
+<th>Resources</th>
 <th>Testing</th>
-<th>Plans</th></tr></thead><tbody>
+<th>Plans</th>
+</tr>
+</thead>
+
+<tbody>
 <tr>
-<td>
-<a href="http://w3c.github.io/webcomponents/spec/custom/">Custom Elements</a>, Dimitri Glazkov
-</td>
-<td>
-<a href="http://www.w3.org/TR/custom-elements/">2015-01-19</a>
-</td>
-<td>WD
-</td>
-<td>
-<a href="https://github.com/w3c/webcomponents/labels/custom-elements">Github Issues</a>;
-<p><a href="https://github.com/w3c/webcomponents/pulse/monthly">Github monthly Pulse</a>;
-</p><p>Implementations: <a href="http://caniuse.com/#search=custom%20elements">CanIUse</a>.
-</p>
-</td>
+<td><a href="http://w3c.github.io/webcomponents/spec/custom/">Custom Elements</a></td>
+<td>Dimitri Glazkov</td>
+<td><a href="http://www.w3.org/TR/custom-elements/">2015-01-19</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/webcomponents/labels/custom-elements">Github Issues</a>;
+<p><a href="https://github.com/w3c/webcomponents/pulse/monthly">Github monthly Pulse</a>;</p>
+<p>Implementations: <a href="http://caniuse.com/#search=custom%20elements">CanIUse</a>.</p></td>
 <td>Test Facilitator: @TBD;
-<p>Status: @?
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=custom-elements&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>Continue to work on <a href="https://github.com/w3c/webcomponents/labels/custom-elements">Issues</a> and <a href="https://github.com/w3c/webcomponents/tree/gh-pages/proposals">Proposals</a>.
-</td></tr>
+<p>Status: @?</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=custom-elements&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td>Continue to work on <a href="https://github.com/w3c/webcomponents/labels/custom-elements">Issues</a> and <a href="https://github.com/w3c/webcomponents/tree/gh-pages/proposals">Proposals</a>.</td>
+</tr>
+
+<!-- HTML Imports -->
 <tr>
-<td>
-<a href="http://w3c.github.io/webcomponents/spec/imports/">HTML Imports</a>, Dimitri Glazkov, Hajime Morrita
-</td>
-<td>
-<a href="http://www.w3.org/TR/html-imports/">2014-03-11</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/webcomponents/labels/html-imports">Github Issues</a>;
-<p><a href="https://github.com/w3c/webcomponents/pulse/monthly">Github monthly Pulse</a>;
-</p><p>Implementations: <a href="http://caniuse.com/#search=custom">CanIUse</a>.
-</p><p>See Hajime's <a href="https://gist.github.com/omo/9986103">HTML Imports Design Notes</a>.
-</p>
-</td>
-<td>
-<a href="https://github.com/w3c/web-platform-tests/tree/master/html-imports">Test Suite</a>;
-<p>Test Facilitator: Hajime Morrita
-</p>
-</td>
-<td>Continue to work on <a href="https://github.com/w3c/webcomponents/labels/html-imports">Issues</a> and <a href="https://github.com/w3c/webcomponents/tree/gh-pages/proposals">Proposals</a>.
-</td></tr>
+<td><a href="http://w3c.github.io/webcomponents/spec/imports/">HTML Imports</a></td>
+<td>Dimitri Glazkov, Hajime Morrita</td>
+<td><a href="http://www.w3.org/TR/html-imports/">2014-03-11</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/webcomponents/labels/html-imports">Github Issues</a>;
+<p><a href="https://github.com/w3c/webcomponents/pulse/monthly">Github monthly Pulse</a>;</p>
+<p>Implementations: <a href="http://caniuse.com/#search=custom">CanIUse</a>.</p>
+<p>See Hajime's <a href="https://gist.github.com/omo/9986103">HTML Imports Design Notes</a>.</p></td>
+<td><a href="https://github.com/w3c/web-platform-tests/tree/master/html-imports">Test Suite</a>;
+<p>Test Facilitator: Hajime Morrita</p></td>
+<td>Continue to work on <a href="https://github.com/w3c/webcomponents/labels/html-imports">Issues</a> and <a href="https://github.com/w3c/webcomponents/tree/gh-pages/proposals">Proposals</a>.</td>
+</tr>
+
+<!-- Custom Elements -->
 <tr>
-<td>
-<a href="http://w3c.github.io/webcomponents/spec/shadow/">Shadow DOM</a>, Dimitri Glazkov, Hayato Ito
-</td>
-<td>
-<a href="http://www.w3.org/TR/shadow-dom/">2015-10-06</a>
-</td>
-<td>
-WD
-</td>
-<td>
-<a href="https://github.com/w3c/webcomponents/issues">Github Issues</a>;
-<p><a href="https://github.com/w3c/webcomponents/pulse/monthly">Github monthly Pulse</a>;
-</p><p>Implementations: see <a href="http://caniuse.com/#feat=shadowdom">CanIUse</a>.
-</p><p>In <a href="https://gist.github.com/dglazkov/efd2deec54f65aa86f2e"><i>Shadow DOM Diaries</i></a>, Dimitri documents various decision points.
-</p>
-</td>
+<td><a href="http://w3c.github.io/webcomponents/spec/shadow/">Shadow DOM</a></td>
+<td>Dimitri Glazkov, Hayato Ito</td>
+<td><a href="http://www.w3.org/TR/shadow-dom/">2015-10-06</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/webcomponents/issues">Github Issues</a>;
+<p><a href="https://github.com/w3c/webcomponents/pulse/monthly">Github monthly Pulse</a>;</p>
+<p>Implementations: see <a href="http://caniuse.com/#feat=shadowdom">CanIUse</a>.</p>
+<p>In <a href="https://gist.github.com/dglazkov/efd2deec54f65aa86f2e"><i>Shadow DOM Diaries</i></a>, Dimitri documents various decision points.</p></td>
 <td>Test Facilitator: Dimitri Glazkov;
-<p><a href="https://github.com/w3c/web-platform-tests/tree/master/shadow-dom">Test Suite</a>;
-</p><p>Status: @TBD.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=shadow-dom&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>Continue to work on <a href="https://github.com/w3c/webcomponents/labels/shadow-dom">Issues</a> and <a href="https://github.com/w3c/webcomponents/tree/gh-pages/proposals">Proposals</a>.
-</td></tr>
+<p><a href="https://github.com/w3c/web-platform-tests/tree/master/shadow-dom">Test Suite</a>;</p>
+<p>Status: @TBD.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=shadow-dom&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td>Continue to work on <a href="https://github.com/w3c/webcomponents/labels/shadow-dom">Issues</a> and <a href="https://github.com/w3c/webcomponents/tree/gh-pages/proposals">Proposals</a>.</td>
+</tr>
 </tbody>
 </table>
 
 <h2 id="Recs_In_Maintenance">Recommendations in Maintenance Mode</h2>
-<p><b>The following table includes specifications that have been published as Recommendations. In most cases, no additional work is planned except for errata  processing. However, some of these standards may have normative changes and subsequent publication(s).</b>
+<p><b>The following table includes specifications that have been published as Recommendations. In most cases, no additional work is planned except for errata  processing. However, some of these standards may have normative changes and subsequent publication(s).</b></p>
 
-</p>
 <table sortable>
-
-<thead><tr>
-<th>Spec, Active Editor(s)</th>
+<thead>
+<tr>
+<th>Spec</th>
+<th>Editor(s)</th>
 <th>Last TR Publication</th>
 <th>Type</th>
-<th>Remarks</th>
+<th>Resources</th>
 <th>Testing</th>
-<th>Plans</th></tr></thead><tbody>
+<th>Plans</th>
+</tr>
+</thead>
+
+<tbody>
+
 <tr>
-<td>
-<em>Cross-Origin Resource Sharing (CORS)</em>, Anne van Kesteren
-</td>
-<td>
-<a href="http://www.w3.org/TR/cors/">2014-01-16</a>
-</td>
-<td>REC
-</td>
+<td><em>Cross-Origin Resource Sharing (CORS)</em></td>
+<td>Anne van Kesteren</td>
+<td><a href="http://www.w3.org/TR/cors/">2014-01-16</a></td>
+<td>REC</td>
 <td>Implementations: see <a href="http://caniuse.com/#feat=cors">CanIUse.com</a>
-<p><a href="http://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsSec&amp;component=CORS&amp;resolution=---">Bugzilla database</a>
-</p><p>This spec is a joint deliverable with the <a href="http://www.w3.org/2011/08/appsecwg-charter.html">Web Application Security WG</a>
-</p>
-</td>
+<p><a href="http://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsSec&amp;component=CORS&amp;resolution=---">Bugzilla database</a></p>
+<p>This spec is a joint deliverable with the <a href="http://www.w3.org/2011/08/appsecwg-charter.html">Web Application Security WG</a></p></td>
 <td>Test Facilitator: Odin Hørthe Omdal;
-<p><a href="http://w3c-test.org/cors/">CORS Test Suite</a>
-</p><p>Status: complete.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=cors&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>
-<a href="http://odinho.html5.org/CORS/testsuite-report.html">Implementation Report</a>;
-<p>See <a href="https://fetch.spec.whatwg.org/">Fetch</a>
-</p>
-</td></tr>
+<p><a href="http://w3c-test.org/cors/">CORS Test Suite</a></p>
+<p>Status: complete.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=cors&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td><a href="http://odinho.html5.org/CORS/testsuite-report.html">Implementation Report</a>;
+<p>See <a href="https://fetch.spec.whatwg.org/">Fetch</a></p></td>
+</tr>
+
 <tr>
+<td><a href="http://w3c.github.io/IndexedDB/">Indexed Database API</a> (v1/First Edition)</td>
+<td>Nikunj Mehta, Jonas Sicking, Eliot Graff, Andrei Popescu, Jeremy Orlow, Joshua Bell</td>
 <td>
-<a href="http://w3c.github.io/IndexedDB/">Indexed Database API</a> (v1/First Edition), Nikunj Mehta, Jonas Sicking, Eliot Graff, Andrei Popescu, Jeremy Orlow, Joshua Bell
-</td>
-<td>
-<a href="http://www.w3.org/TR/IndexedDB/">2015-01-08</a>
-</td>
-<td>REC
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Indexed%20Database%20API&amp;resolution=---">Bugzilla database</a>.
-<p><a href="https://github.com/w3c/IndexedDB/issues">Github Issues</a>.
-</p><p><a href="http://caniuse.com/#search=indexed">Implementation data</a> from caniuse.com.
-</p><p><a href="http://www.w3.org/2008/webapps/wiki/IndexedDatabaseFeatures">Feature list for v2</a>.
-</p><p><a href="https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Comments-16-May-2013-LCWD.html">Comment Tracking Document</a> for the 16-May-2013 LCWD.
-</p>
-</td>
+<a href="http://www.w3.org/TR/IndexedDB/">2015-01-08</a></td>
+<td>REC</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Indexed%20Database%20API&amp;resolution=---">Bugzilla database</a>.
+<p><a href="https://github.com/w3c/IndexedDB/issues">Github Issues</a>.</p>
+<p><a href="http://caniuse.com/#search=indexed">Implementation data</a> from caniuse.com.</p>
+<p><a href="http://www.w3.org/2008/webapps/wiki/IndexedDatabaseFeatures">Feature list for v2</a>.</p>
+<p><a href="https://dvcs.w3.org/hg/IndexedDB/raw-file/default/Comments-16-May-2013-LCWD.html">Comment Tracking Document</a> for the 16-May-2013 LCWD.</p></td>
 <td>Test Facilitator: Zhiqiang Zhang;
-<p><a href="http://w3c-test.org/IndexedDB/">Test Suite</a>;
-</p><p>Status: complete.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=IndexedDB&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>
-<a href="http://w3c.github.io/test-results/IndexedDB/all.html">Implementation Report</a>. Process v1 errata if/when needed.
-</td></tr>
+<p><a href="http://w3c-test.org/IndexedDB/">Test Suite</a>;</p>
+<p>Status: complete.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=IndexedDB&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td><a href="http://w3c.github.io/test-results/IndexedDB/all.html">Implementation Report</a>. Process v1 errata if/when needed.</td>
+</tr>
+
 <tr>
-<td>
-<em>Progress Events</em>, Jungkee Song
-</td>
-<td>
-<a href="http://www.w3.org/TR/progress-events/">2014-02-11</a>
-</td>
-<td>REC
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Progress%20Events&amp;resolution=---">Bugzilla Database</a>.
-<p>Note: this feature is now part of XHR.
-</p>
-</td>
+<td><em>Progress Events</em></td>
+<td>Jungkee Song</td>
+<td><a href="http://www.w3.org/TR/progress-events/">2014-02-11</a></td>
+<td>REC</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Progress%20Events&amp;resolution=---">Bugzilla Database</a>.
+<p>Note: this feature is now part of XHR.</p></td>
 <td>Test Facilitator: Jungkee Song;
-<p><a href="http://dvcs.w3.org/hg/webapps/file/tip/ProgressEvents/tests/">Test Suite</a>;
-</p><p>Status: 100% complete; <a href="http://dvcs.w3.org/hg/webapps/file/tip/ProgressEvents/tests/approved/">Approved tests</a>;
-</p>
-</td>
-<td>
-<a href="http://www.w3.org/wiki/Webapps/Interop/ProgressEvents">Implementation Report</a>;
-<p>Maintenance only (e.g. errata).
-</p>
-<p>See <a href='https://xhr.spec.whatwg.org/'>XHR</a>
-</td></tr>
+<p><a href="http://dvcs.w3.org/hg/webapps/file/tip/ProgressEvents/tests/">Test Suite</a>;</p>
+<p>Status: 100% complete; <a href="http://dvcs.w3.org/hg/webapps/file/tip/ProgressEvents/tests/approved/">Approved tests</a>;</p></td>
+<td><a href="http://www.w3.org/wiki/Webapps/Interop/ProgressEvents">Implementation Report</a>;
+<p>Maintenance only (e.g. errata).</p>
+<p>See <a href='https://xhr.spec.whatwg.org/'>XHR</a></td>
+</tr>
+
 <tr>
-<td>
-<a href="https://w3c.github.io/eventsource/">Server-Sent Events</a>, Ian Hickson
-</td>
-<td>
-<a href="http://www.w3.org/TR/eventsource/">2015-02-03</a>
-</td>
-<td>REC
-</td>
+<td><a href="https://w3c.github.io/eventsource/">Server-Sent Events</a></td>
+<td>Ian Hickson</td>
+<td><a href="http://www.w3.org/TR/eventsource/">2015-02-03</a></td>
+<td>REC</td>
 <td> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Server-Sent%20Events%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>;
-<p><a href="http://caniuse.com/#feat=s-sent-events">Implementation data</a> from caniuse.com
-</p>
-</td>
+<p><a href="http://caniuse.com/#feat=s-sent-events">Implementation data</a> from caniuse.com</p></td>
 <td>Test Facilitator: Tina Zhao and Zhiqiang Zhang;
-<p>Status: complete and <a href="https://github.com/w3c/web-platform-tests/tree/master/eventsource">Approved</a>.
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=eventsource&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>
-<a href="http://w3c.github.io/test-results/eventsource/all.html">Implementation Report</a>.
-<p>Maintenance only (e.g. errata).
-</p>
-</td></tr>
+<p>Status: complete and <a href="https://github.com/w3c/web-platform-tests/tree/master/eventsource">Approved</a>.</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=eventsource&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td><a href="http://w3c.github.io/test-results/eventsource/all.html">Implementation Report</a>.
+<p>Maintenance only (e.g. errata).</p></td>
+</tr>
+
 <tr>
-<td>
-<a href="https://w3c.github.io/webmessaging/">Web Messaging</a>, Ian Hickson
-</td>
-<td>
-<a href="http://www.w3.org/TR/webmessaging/">2015-05-19</a>
-</td>
-<td>REC
-</td>
-<td>
-<a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Messaging%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>
-<p><a href="http://caniuse.com/#search=cross-doc">Implementation data</a> from caniuse.com
-</p>
-</td>
+<td><a href="https://w3c.github.io/webmessaging/">Web Messaging</a></td>
+<td>Ian Hickson</td>
+<td><a href="http://www.w3.org/TR/webmessaging/">2015-05-19</a></td>
+<td>REC</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Messaging%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>
+<p><a href="http://caniuse.com/#search=cross-doc">Implementation data</a> from caniuse.com</p></td>
 <td>Test Facilitator: Kris Krueger;
-<p><a href="http://w3c-test.org/webmessaging/">Test Suite</a>;
-</p><p>Status: complete;
-</p><p><a href="https://github.com/w3c/web-platform-tests/issues?labels=webmessaging&amp;page=1&amp;state=open">Open Test Issues</a>.
-</p>
-</td>
-<td>
-<a href="https://w3c.github.io/test-results/webmessaging/all">Implementation Report</a>.
-<p>Maintenance only (e.g. errata).
-</p>
-</td></tr>
+<p><a href="http://w3c-test.org/webmessaging/">Test Suite</a>;</p>
+<p>Status: complete;</p>
+<p><a href="https://github.com/w3c/web-platform-tests/issues?labels=webmessaging&amp;page=1&amp;state=open">Open Test Issues</a>.</p></td>
+<td><a href="https://w3c.github.io/test-results/webmessaging/all">Implementation Report</a>.
+<p>Maintenance only (e.g. errata).</p></td>
+</tr>
+
 <tr>
-<td>
-<a href="https://w3c.github.io/webstorage/">Web Storage</a>, Ian Hickson
-</td>
-<td>
-<a href="http://www.w3.org/TR/webstorage/">2013-07-30</a>
-</td>
-<td>REC
-</td>
+<td><a href="https://w3c.github.io/webstorage/">Web Storage</a></td>
+<td>Ian Hickson</td>
+<td><a href="http://www.w3.org/TR/webstorage/">2013-07-30</a></td>
+<td>REC</td>
 <td>
 <a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=WebAppsWG&amp;component=Web%20Storage%20%28editor%3A%20Ian%20Hickson%29&amp;resolution=---">Bugzilla database</a>;
-<p><a href="http://caniuse.com/#search=storage">Implementation data</a> from caniuse.com
-</p>
-</td>
+<p><a href="http://caniuse.com/#search=storage">Implementation data</a> from caniuse.com</p></td>
 <td>Test Facilitator: Jong-Heun Lee
-<p><a href="http://w3c-test.org/webstorage/">Test Suite</a>;
-</p><p>Status: complete and <a href="http://w3c-test.org/webstorage/">approved tests</a>.
-</p>
-</td>
+<p><a href="http://w3c-test.org/webstorage/">Test Suite</a>;</p>
+<p>Status: complete and <a href="http://w3c-test.org/webstorage/">approved tests</a>.</p></td>
 <td>
 <a href="http://www.w3.org/wiki/Webapps/Interop/WebStorage">Implementation Report</a>.
-<p>Maintenance only (e.g. errata).
-</p>
-</td></tr>
-<tr>
-<td><a href="http://www.w3.org/html/wg/drafts/html/CR/">HTML5</a><br>Ian Hickson (WHATWG), Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Edward O'Connor, Silvia Pfeiffer
-</td>
-<td><a href="http://www.w3.org/TR/html5/">2014-10-28</a>
-</td>
-<td>REC
-</td>
-<td>
-<ul>
-<li> <a href="http://www.w3.org/html/wg/tracker/products/1">tracker</a>
-</li>
-<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=HTML5%20spec&amp;keywords=CR%2C%20&amp;keywords_type=allwords&amp;known_name=CR&amp;list_id=31371&amp;product=HTML%20WG&amp;query_based_on=CR&amp;query_format=advanced">bugs</a>
-</li>
-<li> <a href="https://github.com/w3c/html/commits/CR">commits</a>
-</li>
-<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=HTML5%20spec&amp;priority=P3">file a bug</a>
-</li>
-</ul>
-</td>
-<td><a href="http://w3c.github.io/test-results/html/details.html">implementation report</a>
-</td>
-<td>errata? We (always) need more tests!
-</td></tr>
-<tr>
-<td><a href="https://dvcs.w3.org/hg/html-proposals/raw-file/tip/longdesc1/longdesc.html">HTML5 Image Description Extension</a><br>Charles McCathie Nevile, Mark Sadecki
-</td>
-<td><a href="http://www.w3.org/TR/html-longdesc/">2015-02-26</a>
-</td>
-<td>REC
-</td>
-<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=HTML%20WG&amp;component=HTML%20Image%20Description%20Extension">bugs</a>
-<br>use <a href="http://lists.w3.org/Archives/Public/public-html-a11y/">public-html-a11y</a>
-</td>
-<td><a href="https://github.com/w3c/web-platform-tests/tree/master/html-longdesc">test suite</a>
-</td>
-<td>
-</td></tr>
-<tr>
-<td><a href="http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas_CR/">HTML Canvas 2D Context</a><br>Rik Cabanier, Eliot Graff, Jay Munro, Tom Wiltzius
-</td>
-<td><a href="http://www.w3.org/TR/2dcontext/">2015-09-24</a>
-</td>
-<td>PR
-</td>
-<td>
-<ul>
-<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?order=Importance&amp;list_id=3507&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=CR%20HTML%20Canvas%202D%20Context&amp;product=HTML%20WG">bugs</a>
-</li>
-<li> <a href="https://github.com/w3c/html/commits/html5_canvas_CR">commits</a>
-</li>
-<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=CR%20HTML%20Canvas%202D%20Context&amp;priority=P3">file a bug</a>
-</li>
-<li>use <a href="http://lists.w3.org/Archives/Public/public-canvas-api/">public-canvas-api</a></li>
-</ul>
-</td>
-<td><a href="https://github.com/w3c/web-platform-tests/tree/master/2dcontext">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/commits">commits</a><br><a href="http://dev.w3.org/html5/misc/canvas-implementation.html">test suite coverage</a>, <a href="http://w3c-test.org/2dcontext/">test suite results</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=2dcontext">pull requests</a>
-<p><a href="https://www.w3.org/WAI/PF/HTML/wiki/Canvas#Implementation_Progress">Implementation Progress for Hit Regions and drawFocus</a>
-</p>
-</td>
-<td>To be published by HTML WG
-</td></tr>
-<tr>
-<td><a href="https://github.com/w3c/dom/">W3C DOM4</a><br>Anne van Kesteren, Aryeh Gregor, Ms2ger, Alex Russell, Robin Berjon
-</td>
-<td><a href="http://www.w3.org/TR/dom/">2015-10-06</a>
-</td>
-<td>PR
-</td>
-<td>
-<ul>
-<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=DOM&amp;list_id=30934&amp;query_format=advanced">bugs</a>
-</li>
-<li> <a href="https://github.com/w3c/dom/commits/gh-pages">commits</a>
-</li>
-<li>use <a href="http://lists.w3.org/Archives/Public/www-dom/">www-dom</a><br>Snapshot of WHATWG version, with unstable stuff removed</li>
-</ul>
-</td>
-<td> <a href="https://github.com/w3c/web-platform-tests/tree/master/dom">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=dom">pull requests</a>, <a href="http://w3c.github.io/html/test-results/less-than-2.html">test results</a>
-</td>
-<td>To be published by HTML WG
-</td></tr>
-</tbody></table>
+<p>Maintenance only (e.g. errata).</p></td>
+</tr>
 
+<tr>
+<td><a href="http://www.w3.org/html/wg/drafts/html/CR/">HTML5</a><br>Ian Hickson (WHATWG)</td>
+<td>Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Edward O'Connor, Silvia Pfeiffer</td>
+<td><a href="http://www.w3.org/TR/html5/">2014-10-28</a></td>
+<td>REC</td>
+<td>
+<ul>
+<li> <a href="http://www.w3.org/html/wg/tracker/products/1">tracker</a></li>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=HTML5%20spec&amp;keywords=CR%2C%20&amp;keywords_type=allwords&amp;known_name=CR&amp;list_id=31371&amp;product=HTML%20WG&amp;query_based_on=CR&amp;query_format=advanced">bugs</a></li>
+<li> <a href="https://github.com/w3c/html/commits/CR">commits</a></li>
+<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=HTML5%20spec&amp;priority=P3">file a bug</a></li>
+</ul></td>
+<td><a href="http://w3c.github.io/test-results/html/details.html">implementation report</a></td>
+<td>errata? We (always) need more tests!</td>
+</tr>
+
+<tr>
+<td><a href="https://dvcs.w3.org/hg/html-proposals/raw-file/tip/longdesc1/longdesc.html">HTML5 Image Description Extension</a></td>
+<td>Charles McCathie Nevile, Mark Sadecki</td>
+<td><a href="http://www.w3.org/TR/html-longdesc/">2015-02-26</a></td>
+<td>REC</td>
+<td><a href="https://www.w3.org/Bugs/Public/buglist.cgi?product=HTML%20WG&amp;component=HTML%20Image%20Description%20Extension">bugs</a>
+<br>use <a href="http://lists.w3.org/Archives/Public/public-html-a11y/">public-html-a11y</a></td>
+<td><a href="https://github.com/w3c/web-platform-tests/tree/master/html-longdesc">test suite</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas_CR/">HTML Canvas 2D Context</a></td>
+<td>Rik Cabanier, Eliot Graff, Jay Munro, Tom Wiltzius</td>
+<td><a href="http://www.w3.org/TR/2dcontext/">2015-09-24</a></td>
+<td>PR</td>
+<td>
+<ul>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?order=Importance&amp;list_id=3507&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=CR%20HTML%20Canvas%202D%20Context&amp;product=HTML%20WG">bugs</a></li>
+<li> <a href="https://github.com/w3c/html/commits/html5_canvas_CR">commits</a></li>
+<li> <a href="https://www.w3.org/Bugs/Public/enter_bug.cgi?product=HTML%20WG&amp;component=CR%20HTML%20Canvas%202D%20Context&amp;priority=P3">file a bug</a></li>
+<li>use <a href="http://lists.w3.org/Archives/Public/public-canvas-api/">public-canvas-api</a></li>
+</ul></td>
+<td><a href="https://github.com/w3c/web-platform-tests/tree/master/2dcontext">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/commits">commits</a><br><a href="http://dev.w3.org/html5/misc/canvas-implementation.html">test suite coverage</a>, <a href="http://w3c-test.org/2dcontext/">test suite results</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=2dcontext">pull requests</a>
+<p><a href="https://www.w3.org/WAI/PF/HTML/wiki/Canvas#Implementation_Progress">Implementation Progress for Hit Regions and drawFocus</a></p></td>
+<td>To be published by HTML WG</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/w3c/dom/">W3C DOM4</a></td>
+<td>Anne van Kesteren, Aryeh Gregor, Ms2ger, Alex Russell, Robin Berjon</td>
+<td><a href="http://www.w3.org/TR/dom/">2015-10-06</a></td>
+<td>PR</td>
+<td>
+<ul>
+<li> <a href="https://www.w3.org/Bugs/Public/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=DOM&amp;list_id=30934&amp;query_format=advanced">bugs</a></li>
+<li> <a href="https://github.com/w3c/dom/commits/gh-pages">commits</a></li>
+<li>use <a href="http://lists.w3.org/Archives/Public/www-dom/">www-dom</a><br>Snapshot of WHATWG version, with unstable stuff removed</li>
+</ul></td>
+<td> <a href="https://github.com/w3c/web-platform-tests/tree/master/dom">test suite</a>, <a href="https://github.com/w3c/web-platform-tests/issues?labels=dom">pull requests</a>, <a href="http://w3c.github.io/html/test-results/less-than-2.html">test results</a></td>
+<td>To be published by HTML WG</td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="Specs_NO_Longer_Active">Specs NO Longer Active</h2>
 
@@ -1079,12 +794,19 @@ WD
 <table sortable>
 <thead>
 <tr>
-<th>Name of Spec<br>(Editor's Draft)<br></th>
+<th>Spec</th>
+<th>Editor(s)</th>
 <th>Last TR Publication</th>
 <th>Type</th>
-<th>Remarks</th>
-<th>Plans</th></tr></thead><tbody>
-</tbody></table>
+<th>Resources</th>
+<th>Testing</th>
+<th>Plans</th>
+</tr>
+</thead>
+
+<tbody></tbody>
+</table>
+
 <h2 id="Preliminary_specs_in_Progress">Preliminary specs in Progress</h2>
 <p>The group may be working on some very preliminary specifications that are not listed in the above tables of their immaturity. Specs in this state are:
 </p>
