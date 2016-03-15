@@ -14,6 +14,7 @@ SeeAlso:
 ## Upcoming Face-Face Meetings
 
 - 11-12 April: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md). Hosted by Microsoft in Seattle/Redmond
+- 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md). Hosted by Microsoft in Seattle/Redmond
 
 ## Past Face-To-Face Meetings (most recent first)
 
