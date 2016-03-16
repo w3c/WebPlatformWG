@@ -14,6 +14,7 @@
 
   <ul>
   	<li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
+  	<li><strong>Google</strong> - Matt Falkenhagen</li>
   </ul>
 
 <h3>Will attend remotely</h3>
