@@ -14,6 +14,7 @@
 
   <ul>
   	<li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
+    <li><strong>Samsung</strong> - Jungkee Song</li>
   </ul>
 
 <h3>Will attend remotely</h3>
@@ -28,6 +29,10 @@
 
 
   <p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md">editing a branch and making a Pull Request</a>, or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.</p>
+
+  <ul>
+    <li>[Version 1 issues](https://github.com/slightlyoff/ServiceWorker/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Version+1%22)</li>
+  </ul>
 
 <h2>Background reading</h2>
 
