@@ -15,6 +15,9 @@
   <ul>
     <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
     <li><strong>Google</strong> - Joshua Bell</li>
+  	<li><strong>Google</strong> - Matt Falkenhagen</li>
+    <li><strong>Samsung</strong> - Jungkee Song</li>
+  	<li><strong>Google</strong> - Jake Archibald</li>
   </ul>
 
 <h3>Will attend remotely</h3>
@@ -30,7 +33,8 @@
   <p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md">editing a branch and making a Pull Request</a>, or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.</p>
 
   <ul>
-    <li>Storage needs: [Cookie API](https://github.com/bsittler/async-cookies-api), [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823) (Cache, Cookies, ...), [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803), ...
+    <li>Storage needs: [Cookie API](https://github.com/bsittler/async-cookies-api), [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823) (Cache, Cookies, ...), [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803), ...</li>
+    <li>[Version 1 issues](https://github.com/slightlyoff/ServiceWorker/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Version+1%22)</li>
   </ul>
 
 <h2>Background reading</h2>
