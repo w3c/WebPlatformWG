@@ -14,6 +14,7 @@
 
   <ul>
   	<li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
+  	<li><strong>Google</strong> - Jake Archibald</li>
   </ul>
 
 <h3>Will attend remotely</h3>
