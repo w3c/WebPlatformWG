@@ -22,6 +22,7 @@
 <li>Steve Faulkner</li>
 <li>Léonie Watson</li>
 <li>Chaals McCathie Nevile</li>
+<li>Alex Danilo</li>
 </ul>
 
 <h3>Hope to attend</h3>
