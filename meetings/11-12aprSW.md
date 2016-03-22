@@ -13,7 +13,8 @@
 <h3>Will attend</h3>
 
   <ul>
-  	<li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
+    <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
+    <li><strong>Google</strong> - Joshua Bell</li>
   </ul>
 
 <h3>Will attend remotely</h3>
@@ -26,8 +27,11 @@
 
 <h2>Agenda</h2>
 
-
   <p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md">editing a branch and making a Pull Request</a>, or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.</p>
+
+  <ul>
+    <li>Storage needs: [Cookie API](https://github.com/bsittler/async-cookies-api), [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823) (Cache, Cookies, ...), [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803), ...
+  </ul>
 
 <h2>Background reading</h2>
 
