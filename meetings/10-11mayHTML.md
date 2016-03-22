@@ -53,7 +53,7 @@
 <dt>Date/time</dt>
 <dd>10am - 5pm, Tue 10 and Wed 11 May 2016</dd>
 <dt>Location</dt>
-<dd>Microsoft campus, Redmond Washington</dd>
+<dd>Microsoft Building 99, 14820 NE 36th St, Redmond, WA 98052</dd>
 </dl>
 
 <p>Further information will be posted here as it becomes available.</p>
