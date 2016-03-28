@@ -18,6 +18,7 @@
   	<li><strong>Google</strong> - Matt Falkenhagen</li>
     <li><strong>Samsung</strong> - Jungkee Song</li>
   	<li><strong>Google</strong> - Jake Archibald</li>
+  	<li><strong>Mozilla</strong> - Ehsan Akhgari</li>
   </ul>
 
 <h3>Will attend remotely</h3>
