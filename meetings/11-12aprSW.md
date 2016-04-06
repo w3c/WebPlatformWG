@@ -15,9 +15,10 @@
   <ul>
     <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
     <li><strong>Google</strong> - Joshua Bell</li>
-  	<li><strong>Google</strong> - Matt Falkenhagen</li>
+    <li><strong>Google</strong> - Matt Falkenhagen</li>
     <li><strong>Samsung</strong> - Jungkee Song</li>
-  	<li><strong>Google</strong> - Jake Archibald</li>
+    <li><strong>Google</strong> - Jake Archibald</li>
+    <li><strong>Mozilla</strong> - Ben Kelly</li>
   </ul>
 
 <h3>Will attend remotely</h3>
