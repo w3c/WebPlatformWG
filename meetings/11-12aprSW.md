@@ -23,6 +23,7 @@
 
 <h3>Will attend remotely</h3>
   <ul>
+    <li><strong>Google</strong> - Owen Campbell-Moore</li>
   </ul>
 
 <h3>Hope to attend</h3>
