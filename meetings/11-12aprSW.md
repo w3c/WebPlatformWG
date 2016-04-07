@@ -13,7 +13,7 @@
 <h3>Will attend</h3>
 
   <ul>
-    <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
+    <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann<, Todd Reifsteck/li>
     <li><strong>Google</strong> - Joshua Bell</li>
   	<li><strong>Google</strong> - Matt Falkenhagen</li>
     <li><strong>Samsung</strong> - Jungkee Song</li>
