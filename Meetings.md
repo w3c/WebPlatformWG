@@ -21,7 +21,7 @@ SeeAlso:
 ### 25 January 2015 [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). Hosted by Apple in Cupertino
 - [Minutes](https://www.w3.org/2016/01/25-webapps-minutes.html)
 
-### 2015 October 26-27 (TPAC2015; Sapporo, JP)
+### 26 and 27 October 2015 (TPAC2015; Sapporo, JP)
 - [Agenda](https://www.w3.org/wiki/Webapps/October2015Meeting)
 - [Minutes October 26](http://www.w3.org/2015/10/21-webapps-minutes.html)
 - [Minutes October 27](http://www.w3.org/2015/10/26-webapps-minutes.html)
