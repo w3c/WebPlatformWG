@@ -14,7 +14,7 @@
 
   <ul>
     <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann, Todd Reifsteck</li>
-    <li><strong>Google</strong> - Joshua Bell, Matt Falkenhagen, Jake Archibald, Alex Russell, Ilya Grigorik</li>
+    <li><strong>Google</strong> - Joshua Bell, Matt Falkenhagen, Jake Archibald, Alex Russell, Ilya Grigorik, Marijn Kruisselbrink</li>
     <li><strong>Samsung</strong> - Jungkee Song</li>
     <li><strong>Mozilla</strong> - Ehsan Akhgari, Ben Kelly</li>
     <li><strong>Apple</strong> - Ted O'Connor</li>
