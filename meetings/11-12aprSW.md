@@ -36,6 +36,7 @@
   <ul>
     <li>Storage needs: [Cookie API](https://github.com/bsittler/async-cookies-api), [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823) (Cache, Cookies, ...), [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803), ...</li>
     <li>[Version 1 issues](https://github.com/slightlyoff/ServiceWorker/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Version+1%22)</li>
+    <li>[Referrer policy issue](https://github.com/whatwg/fetch/issues/266)</li>
   </ul>
 
 <h2>Background reading</h2>
