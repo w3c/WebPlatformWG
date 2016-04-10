@@ -76,6 +76,7 @@ Please add your name, and agenda requests here by [editing a branch and making a
   * [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803)
   * `cache.match` and ranged responses
   * Recreating force-reload with JS
+    * https://github.com/slightlyoff/ServiceWorker/issues/839
   * Foreign fetch
 
 <h2>Background reading</h2>
