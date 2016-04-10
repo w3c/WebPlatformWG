@@ -29,15 +29,54 @@
   <ul>
   </ul>
 
-<h2>Agenda</h2>
+## Format
 
-  <p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md">editing a branch and making a Pull Request</a>, or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.</p>
+45 mins of *extreme standardising* followed by a 15 minute break, then a longer break around lunchtime. The day will finish around 17:00 or earlier if we start dropping dead.
 
-  <ul>
-    <li>Storage needs: [Cookie API](https://github.com/bsittler/async-cookies-api), [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823) (Cache, Cookies, ...), [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803), ...</li>
-    <li>[Version 1 issues](https://github.com/slightlyoff/ServiceWorker/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Version+1%22)</li>
-    <li>[Referrer policy issue](https://github.com/whatwg/fetch/issues/266)</li>
-  </ul>
+Day 1 will give priority to V1 issues, whereas day 2 will be about future work.
+
+## Agenda
+
+Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
+
+* Day 1
+  * Agenda shuffling
+  * Vendor comments on general direction (eg [Tim's comment](https://twitter.com/xeenon/status/718487529612161025))
+  * Issues (I've tagged issues small/medium/large in terms of estimated discussion time)
+    * [Referrer policy issue](https://github.com/whatwg/fetch/issues/266) - medium 
+    * [Inconsistencies due to when clients are created](https://github.com/slightlyoff/ServiceWorker/issues/870) and [Should the active worker move to environment settings object?](https://github.com/slightlyoff/ServiceWorker/issues/811) - large
+    * [be more explicit that jobs always run asynchronously](https://github.com/slightlyoff/ServiceWorker/issues/861) - small
+    * [FetchEvent.respondWith does something weird with the body of a response](https://github.com/slightlyoff/ServiceWorker/issues/850) - medium
+    * ["Wait for all the tasks queued by Update State" language is problematic](https://github.com/slightlyoff/ServiceWorker/issues/848) - small
+    * [ExtendableMessageEvent.source cannot be SameObject](https://github.com/slightlyoff/ServiceWorker/issues/816) - small
+    * [MessagePort\[\] no longer valid in WebIDL](https://github.com/slightlyoff/ServiceWorker/issues/810) - small
+    * [what should the document base URI for an intercepted navigation](https://github.com/slightlyoff/ServiceWorker/issues/787) & [https://github.com/slightlyoff/ServiceWorker/issues/757](https://github.com/slightlyoff/ServiceWorker/issues/757) - small
+    * [Allow waitUntil to be called multiple times, async](https://github.com/slightlyoff/ServiceWorker/issues/771) - small
+    * [ServiceWorkerContainer.controller prose says to return undefined, but the IDL doesn't allow that](https://github.com/slightlyoff/ServiceWorker/issues/769) & [self.caches should spec what to do for "untrusted" origins](https://github.com/slightlyoff/ServiceWorker/issues/687) - medium
+    * [serviceworker for iframes with srcdoc](https://github.com/slightlyoff/ServiceWorker/issues/765) - small
+    * [Make secure context requirements more explicit](https://github.com/slightlyoff/ServiceWorker/issues/754) - small
+    * [Make the Cache API deal with request's redirect mode not being "follow"](https://github.com/slightlyoff/ServiceWorker/issues/737) - small
+    * [Remove frameType, maybe add ancestorOrigins](https://github.com/slightlyoff/ServiceWorker/issues/732) - medium
+    * [When does the openWindow promise resolve?](https://github.com/slightlyoff/ServiceWorker/issues/728) - medium
+    * [spec should be more explicit about accessing internal body on opaque Responses](https://github.com/slightlyoff/ServiceWorker/issues/710) - medium
+    * [Receivers of ranged responses must ensure all ranges come from the same underlying resource](https://github.com/slightlyoff/ServiceWorker/issues/703) - medium
+    * [Restrict openWindow() to http(s) schemes?](https://github.com/slightlyoff/ServiceWorker/issues/699) - small
+    * [Define the lifetime of a blob URL created inside a service worker](https://github.com/slightlyoff/ServiceWorker/issues/688) - small
+    * [Install algorithm step 14 should clear waiting worker before updating state to redundant](https://github.com/slightlyoff/ServiceWorker/issues/851) - medium
+    * [spec should queue tasks to expose attribute changes on ServiceWorker and ServiceWorkerRegistration](https://github.com/slightlyoff/ServiceWorker/issues/860) - small
+    * [if service-worker-allowed header changes should active worker be potentially unregistered?](https://github.com/slightlyoff/ServiceWorker/issues/857) - medium
+    * [Access to fragment identifiers](https://github.com/slightlyoff/ServiceWorker/issues/854) - small
+    * [Client.postMessage should return a Promise](https://github.com/slightlyoff/ServiceWorker/issues/677) - medium
+    * [matchAll() runs Request constructor off the main thread](https://github.com/slightlyoff/ServiceWorker/issues/672) - small
+    * [Drop isReload](https://github.com/slightlyoff/ServiceWorker/issues/873) - medium
+
+* Day 2
+  * [Cookie API](https://github.com/bsittler/async-cookies-api)
+  * [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823)
+  * [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803)
+  * `cache.match` and ranged responses
+  * Recreating force-reload with JS
+  * Foreign fetch
 
 <h2>Background reading</h2>
 
