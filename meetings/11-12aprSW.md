@@ -42,9 +42,9 @@ Please add your name, and agenda requests here by [editing a branch and making a
 * Day 1
   * Agenda shuffling
   * Vendor comments on general direction (eg [Tim's comment](https://twitter.com/xeenon/status/718487529612161025))
-  * Issues (I've tagged issues small/medium/large in terms of estimated discussion time)
+  * Issues (I've tagged issues small/medium/large in terms of estimated discussion time - we can tackle them in any order)
     * [Referrer policy issue](https://github.com/whatwg/fetch/issues/266) - medium 
-    * [Inconsistencies due to when clients are created](https://github.com/slightlyoff/ServiceWorker/issues/870) and [Should the active worker move to environment settings object?](https://github.com/slightlyoff/ServiceWorker/issues/811) - large
+    * [Inconsistencies due to when clients are created](https://github.com/slightlyoff/ServiceWorker/issues/870) and [Should the active worker move to environment settings object?](https://github.com/slightlyoff/ServiceWorker/issues/811) and ["javascript global environment" and related terms were removed from HTML](https://github.com/slightlyoff/ServiceWorker/issues/832) - large
     * [be more explicit that jobs always run asynchronously](https://github.com/slightlyoff/ServiceWorker/issues/861) - small
     * [FetchEvent.respondWith does something weird with the body of a response](https://github.com/slightlyoff/ServiceWorker/issues/850) - medium
     * ["Wait for all the tasks queued by Update State" language is problematic](https://github.com/slightlyoff/ServiceWorker/issues/848) - small
@@ -69,8 +69,9 @@ Please add your name, and agenda requests here by [editing a branch and making a
     * [Client.postMessage should return a Promise](https://github.com/slightlyoff/ServiceWorker/issues/677) - medium
     * [matchAll() runs Request constructor off the main thread](https://github.com/slightlyoff/ServiceWorker/issues/672) - small
     * [Drop isReload](https://github.com/slightlyoff/ServiceWorker/issues/873) - medium
+    * [Interception of redirects](https://github.com/slightlyoff/ServiceWorker/issues/793) - small
 
-* Day 2
+* Day 2 - these in any order
   * [Cookie API](https://github.com/bsittler/async-cookies-api)
   * [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823)
   * [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803)
@@ -78,6 +79,13 @@ Please add your name, and agenda requests here by [editing a branch and making a
   * Recreating force-reload with JS
     * https://github.com/slightlyoff/ServiceWorker/issues/839
   * Foreign fetch
+    * https://github.com/slightlyoff/ServiceWorker/issues/826
+    * https://github.com/slightlyoff/ServiceWorker/issues/825
+  * [waitUntil and constructed streams](https://github.com/yutakahirano/fetch-with-streams/issues/63#issuecomment-207489289)
+  * Moving the spec somewhere neutral & moving Cache API to its own spec
+  * [Allowing multiple SW instances for performance](https://github.com/slightlyoff/ServiceWorker/issues/756)
+  * [Unloaded tabs](https://github.com/slightlyoff/ServiceWorker/issues/626)
+
 
 <h2>Background reading</h2>
 
