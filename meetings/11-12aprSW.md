@@ -72,6 +72,7 @@ Please add your name, and agenda requests here by [editing a branch and making a
     * [Interception of redirects](https://github.com/slightlyoff/ServiceWorker/issues/793) - small
     * [CSS no-cors interception](https://github.com/slightlyoff/ServiceWorker/issues/719) - large
     * https://github.com/slightlyoff/ServiceWorker/issues/875
+  * Timing of V1
 
 * Day 2 - these in any order
   * [Cookie API](https://github.com/bsittler/async-cookies-api)
