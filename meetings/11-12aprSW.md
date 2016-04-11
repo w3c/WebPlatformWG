@@ -71,6 +71,7 @@ Please add your name, and agenda requests here by [editing a branch and making a
     * [Drop isReload](https://github.com/slightlyoff/ServiceWorker/issues/873) - medium
     * [Interception of redirects](https://github.com/slightlyoff/ServiceWorker/issues/793) - small
     * [CSS no-cors interception](https://github.com/slightlyoff/ServiceWorker/issues/719) - large
+    * https://github.com/slightlyoff/ServiceWorker/issues/875
 
 * Day 2 - these in any order
   * [Cookie API](https://github.com/bsittler/async-cookies-api)
@@ -86,7 +87,6 @@ Please add your name, and agenda requests here by [editing a branch and making a
   * Moving the spec somewhere neutral & moving Cache API to its own spec
   * [Allowing multiple SW instances for performance](https://github.com/slightlyoff/ServiceWorker/issues/756)
   * [Unloaded tabs](https://github.com/slightlyoff/ServiceWorker/issues/626)
-  * Quota API
 
 
 <h2>Background reading</h2>
