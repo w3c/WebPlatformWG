@@ -70,6 +70,7 @@ Please add your name, and agenda requests here by [editing a branch and making a
     * [matchAll() runs Request constructor off the main thread](https://github.com/slightlyoff/ServiceWorker/issues/672) - small
     * [Drop isReload](https://github.com/slightlyoff/ServiceWorker/issues/873) - medium
     * [Interception of redirects](https://github.com/slightlyoff/ServiceWorker/issues/793) - small
+    * [CSS no-cors interception](https://github.com/slightlyoff/ServiceWorker/issues/719) - large
 
 * Day 2 - these in any order
   * [Cookie API](https://github.com/bsittler/async-cookies-api)
