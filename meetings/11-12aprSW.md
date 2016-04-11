@@ -75,19 +75,19 @@ Please add your name, and agenda requests here by [editing a branch and making a
   * Timing of V1
 
 * Day 2 - these in any order
-  * [Cookie API](https://github.com/bsittler/async-cookies-api)
-  * [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823)
-  * [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803)
-  * `cache.match` and ranged responses
-  * Recreating force-reload with JS
-    * https://github.com/slightlyoff/ServiceWorker/issues/839
   * Foreign fetch
     * https://github.com/slightlyoff/ServiceWorker/issues/826
     * https://github.com/slightlyoff/ServiceWorker/issues/825
-  * [waitUntil and constructed streams](https://github.com/yutakahirano/fetch-with-streams/issues/63#issuecomment-207489289)
+  * [Transactions](https://github.com/slightlyoff/ServiceWorker/issues/823)
   * Moving the spec somewhere neutral & moving Cache API to its own spec
-  * [Allowing multiple SW instances for performance](https://github.com/slightlyoff/ServiceWorker/issues/756)
+  * [Persistence](https://github.com/slightlyoff/ServiceWorker/issues/803) and quota API
+  * Navigation timing & service worker
+  * [waitUntil and constructed streams](https://github.com/yutakahirano/fetch-with-streams/issues/63#issuecomment-207489289)
   * [Unloaded tabs](https://github.com/slightlyoff/ServiceWorker/issues/626)
+  * [Cookie API](https://github.com/bsittler/async-cookies-api)
+  * Recreating force-reload with JS
+    * https://github.com/slightlyoff/ServiceWorker/issues/839
+  * [Allowing multiple SW instances for performance](https://github.com/slightlyoff/ServiceWorker/issues/756)
   * Timing for next meeting
 
 
