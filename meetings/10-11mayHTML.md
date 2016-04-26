@@ -1,63 +1,43 @@
-<!doctype HTML>
+# HTML editors meeting - 10 - 11 May 2016
 
-<html lang="en">
+This meeting will take place on 10 - 11 May 2016, and will be hosted by Microsoft in Redmond.
 
-<head>
-<meta charset="utf-8">
-<title>HTML editors meeting - 10 - 11 May 2016</title>
-</head>
+## Expected attendees
 
-<body>
-<h1>HTML editors meeting - 10 - 11 May 2016</h1>
+### Will attend
 
-<p>This meeting will take place on 10 - 11 May 2016, and will be hosted by Microsoft in Redmond.</p>
+* Alex Danilo
+* Arron Eicholz
+* Steve Faulkner
+* Travis Leithead
+* Chaals McCathie Nevile
+* Léonie Watson
 
-<h2>Expected attendees</h2>
+### Hope to attend
 
-<h3>Will attend</h3>
+* Adrian Bateman
+* Philippe Le Hégaret
 
-<ul>
-<li>Travis Leithead</li>
-<li>Arron Eicholz</li>
-<li>Steve Faulkner</li>
-<li>Léonie Watson</li>
-<li>Chaals McCathie Nevile</li>
-<li>Alex Danilo</li>
-</ul>
+## Agenda
 
-<h3>Hope to attend</h3>
+The aim is to bring the HTML editors together to discuss work mode and editorial strategy, and to work collaboratively on the HTML5.1 specification.
 
-<ul>
-<li>Adrian Bateman</li>
-<li>Philippe Le Hégaret</li>
-</ul>
+* Modules and integration
+* Reviewing WHATWG changes since Jan 12th 2016
 
-<h2>Agenda</h2>
+Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
 
-<p>The aim is to bring the HTML editors together to discuss work mode and editorial strategy, and to work collaboratively on the HTML5.1 specification.</p>
+## Background reading
 
-<ul>
-<li>TBD</li>
-</ul>
+* N/A
 
-<p>Please add your name, and agenda requests here by <a href="https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md">editing a branch and making a Pull Request</a>, or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.</p>
-
-<h2>Background reading</h2>
-
-<ul>
-<li>N/A</li>
-</ul>
-
-<h2>Logistics</h2>
+## Logistics
 
 <dl>
-<dt>Date/time</dt>
-<dd>10am - 5pm, Tue 10 and Wed 11 May 2016</dd>
-<dt>Location</dt>
-<dd>Microsoft Building 99, 14820 NE 36th St, Redmond, WA 98052</dd>
+  <dt>Date/time</dt>
+  <dd>10am - 5pm, Tue 10 and Wed 11 May 2016</dd>
+  <dt>Location</dt>
+  <dd>Microsoft Building 99, 14820 NE 36th St, Redmond, WA 98052</dd>
 </dl>
 
-<p>Further information will be posted here as it becomes available.</p>
-
-</body>
-</html>
+Further information will be posted here as it becomes available.
