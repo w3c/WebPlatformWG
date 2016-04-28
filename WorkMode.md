@@ -19,9 +19,13 @@ A WG member may participate in various ways including:
 * Contributing tests for the group's [specifications](https://www.w3.org/WebPlatform/WG/PubStatus)
 * Attending any of the group's [formal meetings](Meetings.md)
 
+A WG member is only added to the group's list public-webapps@w3.org . Other mailing lists listed below have to be subscribed to manually.
+
+
 Participation from the Public (i.e. non group members), via our Public e-mail lists is also welcome, provided comments, contributions, etc. are consistent with the W3C Patent Policy.
 
-The group uses the following e-mail lists:
+NOTE: Participations
+
 
 * [public-webapps](http://lists.w3.org/Archives/Public/public-webapps/) - for **all** technical and test-related discussions except for the topics covered by another e-mail list below
 * [public-html](http://lists.w3.org/Archives/Public/public-html/) - for **HTML** technical and test-related discussions except for the topics covered by another e-mail list below
