@@ -27,7 +27,7 @@ Participation from the Public (i.e. non group members), via our Public e-mail li
 NOTE: Participations
 
 
-* [public-webapps](http://lists.w3.org/Archives/Public/public-webapps/) - for **all** technical and test-related discussions except for the topics covered by another e-mail list below
+* [public-webapps](http://lists.w3.org/Archives/Public/public-webapps/) - for **all** technical and test-related discussions except for the topics covered by another e-mail list below. WG members are automatically subscribed to this list.
 * [public-html](http://lists.w3.org/Archives/Public/public-html/) - for **HTML** technical and test-related discussions except for the topics covered by another e-mail list below
 * [public-script-coord](http://lists.w3.org/Archives/Public/public-script-coord) - for discussions about the Web IDL spec and ECMA TC39 coordination
 * [www-dom](http://lists.w3.org/Archives/Public/www-dom/) - for discussions about the group's DOM specs
