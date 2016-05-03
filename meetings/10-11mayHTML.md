@@ -12,11 +12,11 @@ This meeting will take place on 10 - 11 May 2016, and will be hosted by Microsof
 * Travis Leithead
 * Chaals McCathie Nevile
 * Léonie Watson
+* Philippe Le Hegaret
 
 ### Hope to attend
 
 * Adrian Bateman
-* Philippe Le Hégaret
 
 ## Agenda
 
@@ -24,6 +24,7 @@ The aim is to bring the HTML editors together to discuss work mode and editorial
 
 * Modules and integration
 * Reviewing WHATWG changes since Jan 12th 2016 [Diff tool](https://diffofhtmls.herokuapp.com/)
+* Prioritizing open issues and assigning milestones
 
 Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
 
