@@ -26,6 +26,7 @@ The aim is to bring the HTML editors together to discuss work mode and editorial
 * Reviewing WHATWG changes since Jan 12th 2016 [Diff tool](https://diffofhtmls.herokuapp.com/)
 * Anything from [old bugzilla](https://www.w3.org/Bugs/Public/buglist.cgi?product=HTML.next&resolution=---)?
 * Prioritizing open issues and assigning milestones
+* [Configure](https://help.github.com/articles/configuring-pull-request-merge-squashing/) [merging](https://help.github.com/articles/merging-a-pull-request/) or [squash merging](https://help.github.com/articles/about-pull-request-merge-squashing/)
 
 Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
 
