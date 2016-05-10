@@ -13,6 +13,10 @@ SeeAlso:
 
 ## Upcoming Face-Face Meetings
 
+- 19 September: [Web Components](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lison, Portugal)
+- 20 September: [Service Workers](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lison, Portugal)
+- 22 September: [Editing and Selection](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lison, Portugal)
+- 23 September: [HTML, Directory upload, plenary session (overview of everything), Any Other Business](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lison, Portugal)
 - 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md). Hosted by Microsoft in Seattle/Redmond
 
 ## Past Face-To-Face Meetings (most recent first)
