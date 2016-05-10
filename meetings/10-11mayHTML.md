@@ -33,7 +33,7 @@ The aim is to bring the HTML editors together to discuss work mode and editorial
 * Documentation of the repo, working with bikeshed, etc.
 
 ### If we have time
-* Using webplatformtest
+* Using [web-platform-tests](https://w3c.github.io/testing-how-to/)
 
 Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
 
