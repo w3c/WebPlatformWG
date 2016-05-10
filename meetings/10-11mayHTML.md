@@ -8,7 +8,6 @@ This meeting will take place on 10 - 11 May 2016, and will be hosted by Microsof
 
 * Alex Danilo
 * Arron Eicholz
-* Steve Faulkner
 * Travis Leithead
 * Chaals McCathie Nevile
 * Léonie Watson
@@ -22,12 +21,19 @@ This meeting will take place on 10 - 11 May 2016, and will be hosted by Microsof
 
 The aim is to bring the HTML editors together to discuss work mode and editorial strategy, and to work collaboratively on the HTML5.1 specification.
 
+### Administrivia
 * Modules and integration
-* Reviewing WHATWG changes since Jan 12th 2016 [Diff tool](https://diffofhtmls.herokuapp.com/)
-* Anything from [old bugzilla](https://www.w3.org/Bugs/Public/buglist.cgi?product=HTML.next&resolution=---)?
-* Prioritizing open issues and assigning milestones
 * [Configure](https://help.github.com/articles/configuring-pull-request-merge-squashing/) [merging](https://help.github.com/articles/merging-a-pull-request/) or [squash merging](https://help.github.com/articles/about-pull-request-merge-squashing/)
-* Cooperation with webappsec and Mike's issues
+* Branching for HTML 5.1 CR/PR/Rec and 5.2 FPWD
+* Changes that need calls for consensus
+
+### Editing Work
+* Prioritizing open issues and assigning milestones
+* Reviewing WHATWG changes since Jan 12th 2016 [Diff tool](https://diffofhtmls.herokuapp.com/)
+* Documentation of the repo, working with bikeshed, etc.
+
+### If we have time
+* Using webplatformtest
 
 Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
 
