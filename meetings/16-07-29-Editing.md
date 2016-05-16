@@ -14,6 +14,7 @@
 
   <ul>
    <li>Chaals</li>
+   <li>Gary Kacmarcik (Google)</li>
   </ul>
 
 <h3>Hope to attend</h3>
