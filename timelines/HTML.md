@@ -1,25 +1,37 @@
 # HTML 5.1 Timeline
 
-* June 2nd: WD update, CFC for CR; Branch for 5.1 in github
+[HTML 5.1 TR](http://www.w3.org/TR/html51/)
 
-* June 14th: transition to CR request
+* May 31, 2016: Completion deadline for [HTML 5.1 WD issues](https://github.com/w3c/html/milestones/HTML5.1%20WD%20(June%202016))
 
-* June 21st: HTML5.1 CR
+* June 2, 2016: Working Draft update, Call For Consensus for Candidate Recommendation; Branch for 5.1 in GitHub
 
-* July 19th: CFC for PR; implementation report
+* June 14, 2016: transition to Candidate Recommendation request
 
-* July 28th: HTML5.1 PR transition request
+* June 21, 2016: HTML5.1 Candidate Recommendation
 
-* August 4th: HTML5.1 PR
+* July 18, 2016: Deadline for [HTML 5.1 CR issues](https://github.com/w3c/html/milestones/HTML5.1%20CR)
 
-* September 1st: AC reviews end
+* July 19, 2016: Call For Consensus for Proposed Recommendation; implementation report
 
-* September 15th: REC
+* July 28, 2016: HTML5.1 Proposed Recommendation transition request
+
+* August 4, 2016: HTML5.1 Proposed Recommendation
+
+* September 1, 2016: W3C Advisory Committee reviews end
+
+* September 15, 2016: HTML 5.1 Recommendation published
 
 # HTML 5.2 Timeline
 
-(to be confirmed)
+Note: on June 2, the master branch becomes the placeholder for HTML 5.2.
 
-* June 14th: CFC for FPWD
+[HTML TR](http://www.w3.org/TR/html/)
 
-* June 21: HTML5.2 FPWD
+[After HTML 5.1 issues](https://github.com/w3c/html/milestones/After%20HTML%205.1)
+
+* June 14, 2016: Call For Consensus for First Public Working Draft
+
+* June 21, 2016: HTML5.2 First Public Working Draft
+
+* June 30, 2017: HTML 5.2 Recommendation?
