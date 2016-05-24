@@ -13,10 +13,10 @@ SeeAlso:
 
 ## Upcoming Face-Face Meetings
 - 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in the Bay area.
-- 19 September: [Web Components](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lisbon, Portugal)
-- 20 September: [Service Workers](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lisbon, Portugal)
-- 22 September: [Editing and Selection](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lisbon, Portugal)
-- 23 September: [HTML, Directory upload, plenary session (overview of everything), Any Other Business](https://www.w3.org/2016/09/TPAC/schedule.html). (TPAC 2016, Lisbon, Portugal)
+- 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19WebComps.md) TPAC 2016, Lisbon, Portugal)
+- 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20ServiceWorkers.md) (TPAC 2016, Lisbon, Portugal)
+- 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22EditingSelection.md) (TPAC 2016, Lisbon, Portugal)
+- 23 September: [HTML, Directory upload, plenary session (https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23HTMLWP.md) (TPAC 2016, Lisbon, Portugal)
 
 ## Past Face-To-Face Meetings (most recent first)
 
