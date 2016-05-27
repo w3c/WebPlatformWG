@@ -1,3 +1,5 @@
+##Upcoming and past meetings
+
 This document contains information about Web Platform WG's upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings*
 
 Please note:
@@ -12,6 +14,7 @@ SeeAlso:
 -   [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
 
 ## Upcoming F2F Meetings
+- 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/28-29julSW.md) hosted by Mozilla in Toronto, Canada.
 - 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in the Bay area.
 - 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19WebComps.md) TPAC 2016, Lisbon, Portugal)
 - 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20ServiceWorkers.md) (TPAC 2016, Lisbon, Portugal)
