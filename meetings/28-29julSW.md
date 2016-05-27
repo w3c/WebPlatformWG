@@ -23,6 +23,7 @@
 
 <h3>Hope to attend</h3>
   <ul>
+  <li>Chaals (chair, Yandex) - 28th only</li>
   </ul>
 
 <h2>Agenda</h2>
