@@ -15,6 +15,7 @@
   <ul>
     <li><strong>Mozilla</strong> - Ben Kelly</li>
     <li><strong>Mozilla</strong> - Ehsan Akhgari</li>
+    <li><strong>Microsoft</strong> - Ali Alabbas, Jatinder Mann</li>
   </ul>
 
 <h3>Will attend remotely</h3>
