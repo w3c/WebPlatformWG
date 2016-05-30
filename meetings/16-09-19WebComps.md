@@ -6,7 +6,7 @@ This meeting will take place on 19 September 2016 as part of [TPAC 2016](https:/
 
 ### Will attend
 
-* TBD
+* Takayoshi Kochi (
 
 ### Hope to attend
 
