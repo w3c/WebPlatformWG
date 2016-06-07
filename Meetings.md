@@ -1,3 +1,5 @@
+##Upcoming and past meetings
+
 This document contains information about Web Platform WG's upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings*
 
 Please note:
@@ -11,17 +13,25 @@ SeeAlso:
 
 -   [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
 
-## Upcoming Face-Face Meetings
-
-- 11-12 April: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/11-12aprSW.md). Hosted by Microsoft in Seattle/Redmond
-- 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md). Hosted by Microsoft in Seattle/Redmond
+## Upcoming F2F Meetings
+- 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-28-29SW.md), hosted by Mozilla in Toronto, Canada.
+- 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in the Bay area.
+- 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19WebComps.md), held at TPAC 2016, Lisbon, Portugal
+- 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20ServiceWorkers.md), held at TPAC 2016, Lisbon, Portugal
+- 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22EditingSelection.md), held at TPAC 2016, Lisbon, Portugal
+- 23 September: [HTML, Directory upload, plenary session] (https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23HTMLWP.md), held at TPAC 2016, Lisbon, Portugal
 
 ## Past Face-To-Face Meetings (most recent first)
 
-### 25 January 2015 [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/25janWC.md). Hosted by Apple in Cupertino
+### 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-05-10-11HTML.md). Hosted by Microsoft in Seattle/Redmond
+
+ ### 11-12 April 2016: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-04-11-12SW.md) hosted by Microsoft in Seattle/Redmond
+- [Notes](https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0039.html)
+
+### 25 January 2015 [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-01-25WC.md), hosted by Apple in Cupertino
 - [Minutes](https://www.w3.org/2016/01/25-webapps-minutes.html)
 
-### 2015 October 26-27 (TPAC2015; Sapporo, JP)
+### 26 and 27 October 2015 (TPAC2015; Sapporo, JP)
 - [Agenda](https://www.w3.org/wiki/Webapps/October2015Meeting)
 - [Minutes October 26](http://www.w3.org/2015/10/21-webapps-minutes.html)
 - [Minutes October 27](http://www.w3.org/2015/10/26-webapps-minutes.html)
