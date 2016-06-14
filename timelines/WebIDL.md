@@ -1,7 +1,7 @@
 # WebIDL-1 Timeline
 
 * July 29, 2016     : PR Transition Request
-* August 4, 2016    : PR published
+* August 9, 2016    : PR published
 * September 1, 2016 : PR review ends
 * September 15, 2016: REC published
 
