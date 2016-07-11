@@ -14,18 +14,21 @@ SeeAlso:
 -   [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
 
 ## Upcoming F2F Meetings
+
 - 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-28-29SW.md), hosted by Mozilla in Toronto, Canada.
 - 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in the Bay area.
 - 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19WebComps.md), held at TPAC 2016, Lisbon, Portugal
-- 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20ServiceWorkers.md), held at TPAC 2016, Lisbon, Portugal
-- 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22EditingSelection.md), held at TPAC 2016, Lisbon, Portugal
+- 20 September: [Index DB & Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20IndexDB-ServiceWorkers.md), held at TPAC 2016, Lisbon, Portugal
+- 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22Editing-Selection.md), held at TPAC 2016, Lisbon, Portugal
 - 23 September: [HTML, Directory upload, plenary session] (https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23HTMLWP.md), held at TPAC 2016, Lisbon, Portugal
 
 ## Past Face-To-Face Meetings (most recent first)
 
 ### 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-05-10-11HTML.md). Hosted by Microsoft in Seattle/Redmond
+- [Minutes day 1](https://www.w3.org/2016/05/10-html-editors-minutes.html)
+- [Minutes day 2](https://www.w3.org/2016/05/11-html-editors-minutes.html)
 
- ### 11-12 April 2016: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-04-11-12SW.md) hosted by Microsoft in Seattle/Redmond
+### 11-12 April 2016: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-04-11-12SW.md) hosted by Microsoft in Seattle/Redmond
 - [Notes](https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0039.html)
 
 ### 25 January 2015 [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-01-25WC.md), hosted by Apple in Cupertino
@@ -46,23 +49,23 @@ WebApps has some irregularly scheduled *distributed meetings* (aka *telcons*). B
 The following information applies to all of Web Platform meetings (distributed and f2f):
 
 -   IRC: server and port: <irc://irc.w3.org:6665/> ; channel is **\#webapps**
-    -   **Each participant should type the following immediately after joining the irc channel:**
-        -   `Present+ FirstName_LastName` (for example: `Present+ John_Smith`)
+-   **Each participant should type the following immediately after joining the irc channel:**
+-   `Present+ FirstName_LastName` (for example: `Present+ John_Smith`)
 
 -   VoIP/Phone:
-    -   For phone only access, the call-in number is always [+1.617.324.0000](tel:+1.617.324.0000); no international phone numbers are supported.
-    -   For VoIP access, use WebEx; see the [WebEx FAQ](https://www.w3.org/2006/tools/wiki/WebExFAQ) for more information.
-    -   If you're using an Android device, start the [<https://mit.webex.com/mw0401lsp13/wireless/callme.do?siteurl=mit&meetingKey=642208450&device=android&rnd>=-356349190 Cisco WebEx Meeting] app.
-    -   Each participant should use a local mute button on their device to control their own audio.
+-   For phone only access, the call-in number is always [+1.617.324.0000](tel:+1.617.324.0000); no international phone numbers are supported.
+-   For VoIP access, use WebEx; see the [WebEx FAQ](https://www.w3.org/2006/tools/wiki/WebExFAQ) for more information.
+-   If you're using an Android device, start the [<https://mit.webex.com/mw0401lsp13/wireless/callme.do?siteurl=mit&meetingKey=642208450&device=android&rnd>=-356349190 Cisco WebEx Meeting] app.
+-   Each participant should use a local mute button on their device to control their own audio.
 
 -   Scribing: Invite [RRSAgent](http://www.w3.org/2002/03/RRSAgent) to the irc channel and follow [W3C scribe conventions](http://www.w3.org/2008/04/scribe.html).
 
 -   IRC agenda management: Use the [Zakim-bot floor control](http://www.w3.org/2001/12/zakim-irc-bot.html#speakerqueue) to manage the speaker queue and agenda items.
 
 -   More about WebEx:
-    -   [WebExBestPractices](https://www.w3.org/2006/tools/wiki/WebExBestPractices).
-    -   [InstallingWebEx](https://www.w3.org/2006/tools/wiki/InstallingWebEx).
-    -   [WebExFAQ](https://www.w3.org/2006/tools/wiki/WebExFAQ).
+-   [WebExBestPractices](https://www.w3.org/2006/tools/wiki/WebExBestPractices).
+-   [InstallingWebEx](https://www.w3.org/2006/tools/wiki/InstallingWebEx).
+-   [WebExFAQ](https://www.w3.org/2006/tools/wiki/WebExFAQ).
 
 ### Best Practices
 
@@ -77,18 +80,18 @@ The following information applies to all of Web Platform meetings (distributed a
 ### UI Events
 
 -   Day + Time:
-    -   Tuesday: San Francisco 17:00; Boston 20:00;
-    -   Wednesday: UTC: 01:00; Tokyo: 10:00
+-   Tuesday: San Francisco 17:00; Boston 20:00;
+-   Wednesday: UTC: 01:00; Tokyo: 10:00
 
 -   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=mc9358fc4e591abf50362b027b189ce48) meeting
-    -   Meeting number: 643 784 215
-    -   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2016Jan/0484.html)
-    -   <https://mit.webex.com/mit/j.php?MTID=mc9358fc4e591abf50362b027b189ce48>;
+-   Meeting number: 643 784 215
+-   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2016Jan/0484.html)
+-   <https://mit.webex.com/mit/j.php?MTID=mc9358fc4e591abf50362b027b189ce48>;
 
 -   Join by phone
-    -   +1-617-324-0000 US Toll Number
-    -   Access code: 643 784 215
-    -   Mobile Auto Dial: +1-617-324-0000,,,643784215\#
+-   +1-617-324-0000 US Toll Number
+-   Access code: 643 784 215
+-   Mobile Auto Dial: +1-617-324-0000,,,643784215\#
 
 -   [Add](https://mit.webex.com/mit/j.php?MTID=me1eaed87cdc049944b01363dd20cc4bf) this meeting to your calendar.
 
