@@ -1,6 +1,6 @@
-# TPAC Service Workers meeting - 20 September 2016
+# TPAC Service Workers & Index DB meeting - 20 September 2016
 
-This meeting will take place on 19 September 2016 as part of [TPAC 2016](https://www.w3.org/2016/09/TPAC/)
+This meeting will take place on 20 September 2016 as part of [TPAC 2016](https://www.w3.org/2016/09/TPAC/)
 
 ## Expected attendees
 
@@ -13,6 +13,15 @@ This meeting will take place on 19 September 2016 as part of [TPAC 2016](https:/
 * TBD
 
 ## Agenda
+
+### Index DB
+
+* Overview of what's landed in [Index DB](https://w3c.github.io/IndexedDB/#revision-history)
+* * Exploratory feature: [Observers](https://github.com/wicg/indexed-db-observers)
+* Exploratory feature: [Promises](https://github.com/inexorabletash/indexeddb-promises)
+* Outstanding [bugs and feature requests](https://github.com/w3c/IndexedDB/issues)
+
+## Service Workers
 
 * TBD
 
