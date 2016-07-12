@@ -6,7 +6,7 @@ This meeting will take place on 20 September 2016 as part of [TPAC 2016](https:/
 
 ### Will attend
 
-* TBD
+* Kenji Baheux (Google)
 
 ### Hope to attend
 
