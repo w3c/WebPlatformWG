@@ -7,7 +7,8 @@ This meeting will take place on 19 September 2016 as part of [TPAC 2016](https:/
 ### Will attend
 
 * Takayoshi Kochi
-* Chaals
+* Chaals (Yandex)
+* Léonie Watson (TPG)
 
 ### Hope to attend
 

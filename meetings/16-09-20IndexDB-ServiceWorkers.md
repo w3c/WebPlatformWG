@@ -8,6 +8,7 @@ This meeting will take place on 20 September 2016 as part of [TPAC 2016](https:/
 
 * Kenji Baheux (Google)
 * Chaals (Yandex)
+* Léonie Watson (TPG) Morning only
 
 ### Hope to attend
 
