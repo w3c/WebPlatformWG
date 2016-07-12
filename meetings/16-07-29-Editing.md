@@ -17,6 +17,8 @@
    <li>Gary Kacmarcik (Google)</li>
    <li>Morgan Smith (ephox)</li>
    <li>L&eacute;onie Watson</li>
+   <li>Grisha Lyukshin (Microsoft)</li>
+   <li>Nirankush Panchbhai (Microsoft)</li>
   </ul>
 
 <h3>Hope to attend</h3>
