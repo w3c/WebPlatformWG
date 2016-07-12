@@ -7,6 +7,7 @@ This meeting will take place on 20 September 2016 as part of [TPAC 2016](https:/
 ### Will attend
 
 * Kenji Baheux (Google)
+* Chaals (Yandex)
 
 ### Hope to attend
 
@@ -14,18 +15,18 @@ This meeting will take place on 20 September 2016 as part of [TPAC 2016](https:/
 
 ## Agenda
 
-### Index DB
-
-* Overview of what's landed in [Index DB](https://w3c.github.io/IndexedDB/#revision-history)
-* * Exploratory feature: [Observers](https://github.com/wicg/indexed-db-observers)
-* Exploratory feature: [Promises](https://github.com/inexorabletash/indexeddb-promises)
-* Outstanding [bugs and feature requests](https://github.com/w3c/IndexedDB/issues)
-
 ## Service Workers
 
 * TBD
 
 Please add your name, and agenda requests here by [editing a branch and making a Pull Request](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/10-11mayHTML.md), or by mail to either the public-webapps mailing list or the chairs of the Web Platform group, which will result in it being posted here.
+
+### Index DB
+
+* Overview of what's landed in [Index DB](https://w3c.github.io/IndexedDB/#revision-history)
+* Exploratory feature: [Observers](https://github.com/wicg/indexed-db-observers)
+* Exploratory feature: [Promises](https://github.com/inexorabletash/indexeddb-promises)
+* Outstanding [bugs and feature requests](https://github.com/w3c/IndexedDB/issues)
 
 ## Background reading
 
