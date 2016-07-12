@@ -6,11 +6,11 @@ This meeting will take place on 22 September 2016 as part of [TPAC 2016](https:/
 
 ### Will attend
 
-* TBD
+* Chaals (Yandex) (not when AC meeting is on, later in the afternoon)
 
 ### Hope to attend
 
-* TBD
+
 
 ## Agenda
 
