@@ -15,6 +15,7 @@
   <ul>
    <li>Chaals</li>
    <li>Gary Kacmarcik (Google)</li>
+   <li>Morgan Smith (ephox)</li>
   </ul>
 
 <h3>Hope to attend</h3>
