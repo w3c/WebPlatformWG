@@ -19,6 +19,7 @@
 <li>L&eacute;onie Watson (TPG)</li>
 <li>Grisha Lyukshin (Microsoft)</li>
 <li>Nirankush Panchbhai (Microsoft)</li>
+<li>Chong Zhang (Google)</li>
 </ul>
 
 <h3>Hope to attend</h3>
