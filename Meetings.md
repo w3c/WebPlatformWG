@@ -17,10 +17,10 @@ SeeAlso:
 
 - 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-28-29SW.md), hosted by Mozilla in Toronto, Canada.
 - 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in the Bay area.
-- 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19WebComps.md), held at TPAC 2016, Lisbon, Portugal
-- 20 September: [Index DB & Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20IndexDB-ServiceWorkers.md), held at TPAC 2016, Lisbon, Portugal
-- 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22Editing-Selection.md), held at TPAC 2016, Lisbon, Portugal
-- 23 September: [HTML, Directory upload, plenary session] (https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23HTMLWP.md), held at TPAC 2016, Lisbon, Portugal
+- 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19TPAC-1.md), held at TPAC 2016, Lisbon, Portugal
+- 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20TPAC-2.md), held at TPAC 2016, Lisbon, Portugal
+- 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22TPAC-3.md), held at TPAC 2016, Lisbon, Portugal
+- 23 September: [HTML, Directory upload, Index BD and Web Platform WG] (https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23TPAC-4.md), held at TPAC 2016, Lisbon, Portugal
 
 ## Past Face-To-Face Meetings (most recent first)
 
