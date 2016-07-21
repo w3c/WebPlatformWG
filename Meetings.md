@@ -20,7 +20,7 @@ SeeAlso:
 - 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19TPAC-1.md), held at TPAC 2016, Lisbon, Portugal
 - 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20TPAC-2.md), held at TPAC 2016, Lisbon, Portugal
 - 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22TPAC-3.md), held at TPAC 2016, Lisbon, Portugal
-- 23 September: [HTML, Directory upload, IndexedDB and Web Platform WG] (https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23TPAC-4.md), held at TPAC 2016, Lisbon, Portugal
+- 23 September: [HTML, Directory upload, IndexedDB and Web Platform WG](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23TPAC-4.md), held at TPAC 2016, Lisbon, Portugal
 
 ## Past Face-To-Face Meetings (most recent first)
 
