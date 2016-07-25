@@ -21,6 +21,7 @@
 <li>Nirankush Panchbhai (Microsoft)</li>
 <li>Chong Zhang (Google)</li>
 <li>Dave Tapuska (Google)</li>
+<li>Johannes Wilm (Invited Expert)</li>
 </ul>
 
 <h3>Hope to attend</h3>
