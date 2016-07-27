@@ -52,9 +52,8 @@ events spec. In the ui-events spec the event is marked as always being
 cancelable. Will this work, or do we need to specify that it is not
 cancelable during composition?</dd>
 <dt>static ranges</dt>
-<dd>A <href="https://github.com/w3c/editing/issues/104">non-finalized proposal</a>
-was made at the browser meeting in January, and there is also a proposal of a
-<a href="https://github.com/w3c/editing/issues/104">FrozenArray</a> (?)</dd>
+<dd>There is also a proposal at 
+<a href="https://discourse.wicg.io/t/proposal-staticrange-to-be-used-instead-of-range-for-new-apis/1472">WICD</a>. Is this what we want, and could it be moved into some spec?</dd>
 <dd>We have moved back and forth between offering ranges information on most beforeInput events
 or only using it if it differs from the current selection. We need to
 decide one.</dd>
