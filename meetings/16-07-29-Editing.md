@@ -52,17 +52,17 @@ events spec. In the ui-events spec the event is marked as always being
 cancelable. Will this work, or do we need to specify that it is not
 cancelable during composition?</dd>
 <dt>static ranges</dt>
-<dd>A < href="https://github.com/w3c/editing/issues/104">non-finalized proposal</a>
-was made at the browser meeting in January, and there is
+<dd>A <href="https://github.com/w3c/editing/issues/104">non-finalized proposal</a>
+was made at the browser meeting in January, and there is also a proposal of a
 <a href="https://github.com/w3c/editing/issues/104">FrozenArray</a> (?)</dd>
-<dd>We have moved back and forth between ranges on most beforeInput events
+<dd>We have moved back and forth between offering ranges information on most beforeInput events
 or only using it if it differs from the current selection. We need to
 decide one.</dd>
 <dt>Opt-in/opt-out of editing features and menus</dt>
 <dd>Context menus currently exist for formatting (on Safari) and for clipboard
 related actions (other browsers)<dd>
-<dd>These three points could possibly be combined into a proposal that works
-for everyone
+<dd>These four points could possibly be combined into a proposal that works
+for everyone:
 <ul>
 <li>JS editor developers have asked for a way to be able to disable
 context menus (especially on mobile).</li>
@@ -83,10 +83,10 @@ editing menus</li>
 <a href="https://github.com/w3c/editing/issues/79">cover all execCommand
 commands with beforeInput types</a>? How about "copy" which doesn't
 change the DOM, or commands such as "insertImage" or "foreColor" which
-will recreate custom UI anyway?</dd>
+will recreate custom UI anyway? Is the current selection of editing commands all we want/need?</dd>
 <dt>Publishing</dt>
 <dd>It would be good to get First Public Working Drafts of the things
-we are working on</dd>
+we are working on.</dd>
 </dl>
 
 
