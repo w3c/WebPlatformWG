@@ -84,6 +84,14 @@ editing menus</li>
 commands with beforeInput types</a>? How about "copy" which doesn't
 change the DOM, or commands such as "insertImage" or "foreColor" which
 will recreate custom UI anyway?</dd>
+<dt>Usage of dataTransfer/data in beforeInput event</dt>
+<dd><ul>
+<li>Use the dataTransfer object for all inputtypes where content data is involved and additionally thedata attribute for
+the insertText inputtype? (current option)</li>
+<li>Use the dataTransfer object for all inputtypes where content data is involved and not use the dataattribute at all?</li>
+<li>Use the dataTransfer object for all inputtypes where content data is involved except the insertTextinputtype for which we use the data attribute?</li>
+<ul>
+</dd>
 <dt>Publishing</dt>
 <dd>It would be good to get First Public Working Drafts of the things
 we are working on</dd>
