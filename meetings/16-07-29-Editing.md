@@ -83,6 +83,10 @@ editing menus</li>
 commands with beforeInput types</a>? How about "copy" which doesn't
 change the DOM, or commands such as "insertImage" or "foreColor" which
 will recreate custom UI anyway? Is the current selection of editing commands all we want/need?</dd>
+<dt>Data and transferData attributes</dt>
+<dd>What should the relation between the two be? See <a href="https://github.com/w3c/editing/issues/131">Issue 131</a>.</dd>
+<dt>IME input for European languages on long-keypress (Mac OS X, optional)</dt>
+<dd>a regular keyboard input can turn into an IME-input if the key is held down for a long time. If the JS handles the event, the IME is not started. How can we make this work when we switch to the beforeinput event? See <a href="https://github.com/w3c/editing/issues/132">Issue 132</a>.</dd>
 <dt>Publishing</dt>
 <dd>It would be good to get First Public Working Drafts of the things
 we are working on.</dd>
