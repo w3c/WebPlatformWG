@@ -87,6 +87,10 @@ will recreate custom UI anyway? Is the current selection of editing commands all
 <dd>What should the relation between the two be? See <a href="https://github.com/w3c/editing/issues/131">Issue 131</a>.</dd>
 <dt>IME input for European languages on long-keypress (Mac OS X, optional)</dt>
 <dd>a regular keyboard input can turn into an IME-input if the key is held down for a long time. If the JS handles the event, the IME is not started. How can we make this work when we switch to the beforeinput event? See <a href="https://github.com/w3c/editing/issues/132">Issue 132</a>.</dd>
+<dt>Set Virtual Keyboard Enter Key Text</dt>
+<dd>Perhaps we need to specify a key text attribute like <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-mozactionhint">Mozilla mozactionhint</a></dd>
+<dt>Adjust Virtual Keyboard Type</dt>
+<dd>inputmode attribute isn't specified for content-editable. But inputmode actually doesn't cover all the types of virtual keyboards. What should we do? <a href="https://docs.google.com/document/d/1byGrlstGjZ7jGk0ZjP23AtlNB2Rfe6iSZtREszHLeAI/edit?usp=sharing">iOS and Android Enumerated Types</a></dd>
 <dt>Publishing</dt>
 <dd>It would be good to get First Public Working Drafts of the things
 we are working on.</dd>
