@@ -1,9 +1,8 @@
 ##Upcoming and past meetings
 
-This document contains information about Web Platform WG's upcoming face-to-face (f2f) meetings, links to past meetings and information about *regular distributed meetings*
+This document contains information about WP's upcoming and recent F2F meetings.
 
 Please note:
-
 -   The group has 1-2 face-to-face (f2f) meetings per year where the potential scope is all of the group's specifications.
 -   The group may have additional f2f meetings for specific topics, for example with only Web Components on the agenda.
 -   The group does not have regular distributed voice conferences. More information about teleconferences is provided below.
@@ -15,8 +14,6 @@ SeeAlso:
 
 ## Upcoming F2F Meetings
 
-- 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-28-29SW.md), hosted by Mozilla in Toronto, Canada.
-- 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in the Bay area.
 - 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19TPAC-1.md), held at TPAC 2016, Lisbon, Portugal
 - 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20TPAC-2.md), held at TPAC 2016, Lisbon, Portugal
 - 22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22TPAC-3.md), held at TPAC 2016, Lisbon, Portugal
@@ -24,6 +21,14 @@ SeeAlso:
 
 ## Past Face-To-Face Meetings (most recent first)
 
+### 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in San Francisco
+- [Minutes](http://www.w3.org/2016/07/29-editing-minutes.html)
+- [Meeting notes](https://docs.google.com/document/d/1XxIEF0So-kMF5mcJ03Yj0zsYMFRHEgXw1fV1K5FOwuQ)
+- [Issue tracker](https://github.com/w3c/editing)
+
+### 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-28-29SW.md), hosted by Mozilla in Toronto
+- [Meeting notes](https://jakearchibald.com/2016/service-worker-meeting-notes/)
+- [IRC log](https://gist.github.com/jakearchibald/c65009efa2ed9dbe3ad38f5fef5a4ef1)
 ### 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-05-10-11HTML.md). Hosted by Microsoft in Seattle/Redmond
 - [Minutes day 1](https://www.w3.org/2016/05/10-html-editors-minutes.html)
 - [Minutes day 2](https://www.w3.org/2016/05/11-html-editors-minutes.html)
