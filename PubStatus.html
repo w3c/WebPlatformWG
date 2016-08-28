@@ -1,29 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html lang=en>
-
+<html lang="en">
 <head>
-<meta charset='utf-8'>
+<meta charset="utf-8">
 <meta name=viewport content='width=device-width'>
-<title>Web Platform PubStatus</title>
+<title>Web Platform Publication Status (PubStatus)</title>
 
-<link rel=stylesheet href='https://www.w3.org/StyleSheets/TR/base'>
-<style>
-img { border: 0; }
-table { border-collapse: collapse;border-spacing: 0;}
-th, td { border: 1px solid black; padding: 0.5ex; }
-td { background-color:#ffffcc;}
-th { background-color:#ccc;}
-</style>
+<link rel=stylesheet type="text/css" href="https://www.w3.org/StyleSheets/TR/base">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery.dataTables.js"></script>
+<script>
+$(document).ready(function(){
+    $('#htmlTable').DataTable({
+    "searching": false,
+"paging": false
+});
+
+    $('#apiTable').DataTable({
+    "searching": false,
+"paging": false
+});
+
+    $('#webCompsTable').DataTable({
+    "searching": false,
+"paging": false
+});
+
+    $('#editingTable').DataTable({
+    "searching": false,
+"paging": false
+});
+
+    $('#recTable').DataTable({
+    "searching": false,
+"paging": false
+});
+
+    $('#inactiveTable').DataTable({
+    "searching": false,
+"paging": false
+});
+});
+</script>
 </head>
 
 <body>
-<p>
+<header>
+<div>
 <a href='http://www.w3.org/'><img width=72 height=48 alt=W3C src='https://www.w3.org/Icons/w3c_home'></a>
-</p>
-<h1>Web Platform PubStatus</h1>
-<p>
-This document contains current data regarding the <i>(Publication) Status</i> of specifications being developed by the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>.</p>
+</div>
+
+<h1>Web Platform Publication Status (PubStatus)</h1>
+</header>
+
+<main>
+<p>This document contains current data regarding the <i>(Publication) Status</i> of specifications being developed by the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>.</p>
 
 <nav>
 <ol>
@@ -41,18 +74,18 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <h2 id="HTML_specifications">HTML specifications</h2>
 
-<table sortable>
+<table id="htmlTable" class="display">
 <thead>
 <tr>
-<th>Spec</th>
-<th>Editor(s)</th>
-<th>Chair(s)</th>
-<th>Team contact(s)</th>
-<th>Last TR Publication</th>
-<th>Type</th>
-<th>Resources</th>
-<th>Testing</th>
-<th>Notes</th>
+<th><button>Spec</button></th>
+<th><button>Editor(s)</button></th>
+<th><button>Chair(s)</button></th>
+<th><button>Team contact(s)</button></th>
+<th><button>Last TR Publication</button></th>
+<th><button>Type</button></th>
+<th><button>Resources</button></th>
+<th><button>Testing</button></th>
+<th><button>Notes</button></th>
 </tr>
 </thead>
 
@@ -60,7 +93,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <!-- HTML5.1 -->
 <tr>
-<td><a href="https://w3c.github.io/html/">HTML5.1</a></td>
+<th><a href="https://w3c.github.io/html/">HTML5.1</a></th>
 <td>Alex Danilo, Aaron Eicholz, Steve Faulkner, Travis Leithead</td>
 <td>Adrian Bateman, Chaals McCathie Nevile, L&eacute;onie Watson</td>
 <td>PLH</td>
@@ -83,7 +116,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <!-- HTML5.2 -->
 <tr>
-<td><a href="https://w3c.github.io/html/">HTML5.2</a></td>
+<th><a href="https://w3c.github.io/html/">HTML5.2</a></th>
 <td>Alex Danilo, Aaron Eicholz, Steve Faulkner, Travis Leithead</td>
 <td>Adrian Bateman, Chaals McCathie Nevile, L&eacute;onie Watson</td>
 <td>PLH</td>
@@ -104,7 +137,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <!-- ARIA in HTML -->
 <tr>
-<td><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></td>
+<th><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></th>
 <td>Steve Faulkner</td>
 <td>L&eacute;onie Watson</td>
 <td>PLH</td>
@@ -128,7 +161,7 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <!-- Notes on Using ARIA in HTML -->
 <tr>
-<td><a href="http://w3c.github.io/aria-in-html/">Using ARIA in HTML</a></td>
+<th><a href="http://w3c.github.io/aria-in-html/">Using ARIA in HTML</a></th>
 <td>Steve Faulkner, Hans Hillen, David MacDonald</td>
 <td>L&eacute;onie Watson</td>
 <td>PLH</td>
@@ -153,18 +186,18 @@ This document contains current data regarding the <i>(Publication) Status</i> of
 
 <h2 id="API_specifications">API specifications</h2>
 
-<table sortable>
+<table id="apiTable" class="display">
 <thead>
 <tr>
-<th>Spec</th>
-<th>Editor(s)</th>
-<th>Chair(s)</th>
-<th>Team contact(s)</th>
-<th>Last TR Publication</th>
-<th>Type</th>
-<th>Resources</th>
-<th>Testing</th>
-<th>Notes</th>
+<th><button>Spec</button></th>
+<th><button>Editor(s)</button></th>
+<th><button>Chair(s)</button></th>
+<th><button>Team contact(s)</button></th>
+<th><button>Last TR Publication</button></th>
+<th><button>Type</button></th>
+<th><button>Resources</button></th>
+<th><button>Testing</button></th>
+<th><button>Notes</button></th>
 </tr>
 </thead>
 
@@ -644,18 +677,18 @@ uievents-code/">2015-12-15</td>
 
 <h2 id="Web_Components">Web Components Specifications</h2>
 
-<table sortable>
+<table id="webCompsTable" class="display">
 <thead>
 <tr>
-<th>Spec</th>
-<th>Editor(s)</th>
-<th>Chair(s)</th>
-<th>Team contact(s)</th>
-<th>Last TR Publication</th>
-<th>Type</th>
-<th>Resources</th>
-<th>Testing</th>
-<th>Notes</th>
+<th><button>Spec</button></th>
+<th><button>Editor(s)</button></th>
+<th><button>Chair(s)</button></th>
+<th><button>Team contact(s)</button></th>
+<th><button>Last TR Publication</button></th>
+<th><button>Type</button></th>
+<th><button>Resources</button></th>
+<th><button>Testing</button></th>
+<th><button>Notes</button></th>
 </tr>
 </thead>
 
@@ -729,18 +762,18 @@ uievents-code/">2015-12-15</td>
 
 <h2 id="editing">Editing specifications</h2>
 
-<table>
+<table id="editingTable" class="display">
 <thead>
 <tr>
-<th>Spec</th>
-<th>Editor(s)</th>
-<th>Chair(s)</th>
-<th>Team contact(s)</th>
-<th>Last TR Publication</th>
-<th>Type</th>
-<th>Resources</th>
-<th>Testing</th>
-<th>Notes</th>
+<th><button>Spec</button></th>
+<th><button>Editor(s)</button></th>
+<th><button>Chair(s)</button></th>
+<th><button>Team contact(s)</button></th>
+<th><button>Last TR Publication</button></th>
+<th><button>Type</button></th>
+<th><button>Resources</button></th>
+<th><button>Testing</button></th>
+<th><button>Notes</button></th>
 </tr>
 </thead>
 
@@ -881,16 +914,16 @@ uievents-code/">2015-12-15</td>
 <h2 id="Recs_In_Maintenance">Recommendations in Maintenance Mode</h2>
 <p><b>The following table includes specifications that have been published as Recommendations. In most cases, no additional work is planned except for errata  processing. However, some of these standards may have normative changes and subsequent publication(s).</b></p>
 
-<table sortable>
+<table id="recTable" class="display">
 <thead>
 <tr>
-<th>Spec</th>
-<th>Editor(s)</th>
-<th>Last TR Publication</th>
-<th>Type</th>
-<th>Resources</th>
-<th>Testing</th>
-<th>Notes</th>
+<th><button>Spec</button></th>
+<th><button>Editor(s)</button></th>
+<th><button>Last TR Publication</button></th>
+<th><button>Type</button></th>
+<th><button>Resources</button></th>
+<th><button>Testing</button></th>
+<th><button>Notes</button></th>
 </tr>
 </thead>
 
@@ -1056,16 +1089,16 @@ uievents-code/">2015-12-15</td>
 <p>The documents and specifications in the following table are NO longer active. The order of the specs is the most recently published or abandoned document first.
 </p>
 
-<table sortable>
+<table id="inactiveTable" class="display">
 <thead>
 <tr>
-<th>Spec</th>
-<th>Editor(s)</th>
-<th>Last TR Publication</th>
-<th>Type</th>
-<th>Resources</th>
-<th>Testing</th>
-<th>Notes</th>
+<th><button>Spec</button></th>
+<th><button>Editor(s)</button></th>
+<th><button>Last TR Publication</button></th>
+<th><button>Type</button></th>
+<th><button>Resources</button></th>
+<th><button>Testing</button></th>
+<th><button>Notes</button></th>
 </tr>
 </thead>
 
@@ -1154,17 +1187,7 @@ uievents-code/">2015-12-15</td>
 <li> No Formal Pub = the document has not yet been formally published by the W3C as a <i><a href="http://www.w3.org/TR/">Technical Report</a></i>.
 </li>
 </ul>
-<script src="js/tsorter.min.js"></script>
-<script>
-function init() {
-var tables = document.querySelectorAll("table[sortable]");
-for (var i = tables.length - 1; i >= 0; i--) {
-if (tables.item(i).sortable === undefined) {
-tsorter.create(tables.item(i));
-}
-}
-}
-window.addEventListener("load", init, false);
-</script>
+</main>
+
 </body>
 </html>
