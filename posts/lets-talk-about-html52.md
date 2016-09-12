@@ -6,13 +6,15 @@ With <a href="https://www.w3.org/TR/html51/">HTML5.1</a> on its way to W3C Recom
 
 By the time the WebPlat WG was chartered in October 2015, the HTML specification had been largely dormant at W3C for almost a year. The HTML WG had made a commitment to publishing regular updates to the HTML specification, and this was a commitment we wanted to honour.
 
-The HTML WG created the HTML5.1 specification to contain new features, when it forked to stabalise the HTML5.0 Recommendation. When the WebPlat WG inherited HTML5.1, discussions about new features and modularisation were deprioritised in deference to the goal of releasing HTML5.1 as a specification that better reflected reality, and to give the WebPlat WG time to firmly establish itself. Now an HTML5.2 specification has been forked, and HTML5.1 has been stabalised with an emphasis on what is interoperable in implementations today.
+The HTML WG created the HTML5.1 specification to contain new features, when it forked to stabalise the HTML5.0 Recommendation. When the WebPlat WG inherited HTML5.1, discussions about new features and modularisation were deprioritised in deference to the goal of releasing HTML5.1 as a specification that better reflected reality, and to give the WebPlat WG time to firmly establish itself. 
 
 One of the reasons work had stalled on HTML at W3C was the adoption of Spork (introduced after HTML5 reached Recommendation). Maintaining compatibility with the <a href="https://html.spec.whatwg.org/multipage/">WHATWG HTML</a> specification was considered a critical goal, and Spork was intended to facilitate this. It managed the delta between the WHATWG and W3C specifications, and applied changes to the W3C version. It was brittle and often failed, and it made editing HTML at W3C very labour intensive because it was necessary to edit the delta instead of editing the specification itself. As work resumed on HTML5.1, Spork was dropped and the editors returned to the manual process used during the time of HTML5 for monitoring the differences between the WHATWG and W3C HTML specifications.
 
 At the same time, the editors chose to use <a href="https://github.com/tabatkins/bikeshed">Bikeshed</a> to manage the HTML specification. This resulted in an HTML5.1 specification that was the same as it had been during the final days of the HTML WG. This was done by pulling down a last copy of WHATWG, converting it to Bikeshed, then reapplying all the changes introduced with Spork. It could have been done the other way around, but this was the most pragmatic way to get the work done at the time.
 
 The converted HTML5.1 specification was moved onto <a href="https://github.com/w3c/html/">Github</a>. It is the preferred platform for the WebPlat WG, and it is also the platform of choice for encouraging participation and contribution from the web platform community at large.
+
+Now an HTML5.2 specification has been forked, and HTML5.1 has been stabalised with an emphasis on what is interoperable in implementations today.
 
 ## HTML5.2 questions
 
