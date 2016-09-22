@@ -36,5 +36,4 @@ Please contact the group's Chairs and staff contacts (using the team-webplatform
 
 ### Resources
 
--   If you are unfamiliar with the Consortium see the document [*Audio and slide summaries of: W3C, Standards Process, W3C Staff/Team, Chair roles, etc.*](http://lists.w3.org/Archives/Public/www-archive/2014Apr/0026.html) for links to an audio presentation plus slides regarding summaries of: the W3C, the Consortium's Technical Reports process, roles of Chairs and Team Contacts, etc.
-
+If you are unfamiliar with processes and roles within the Consortium; there is an [introduction course](http://lists.w3.org/Archives/Public/www-archive/2014Apr/0026.html) available which takes little over an hour and a half to complete.

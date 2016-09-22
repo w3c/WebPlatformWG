@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<title>Throwing exceptions</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+<div id="log"></div>
+
+<div id="hidden" style="visibility: hidden; position: absolute; width: 0; height: 0; overflow: hidden">
+  <iframe id="iframe"></iframe>
+</div>
+
+<script>
+// 4.11 Throwing exceptions
+//
+// When an exception is thrown, it is associated with a particular
+// global environment.
+
+var iframe = document.getElementById("iframe");
+
+// feature: HTMLSelectElement.length (attribute)
+
+test(function() {
+  var desc = Object.getOwnPropertyDescriptor(iframe.contentWindow.HTMLSelectElement.prototype, "length");
+  try {
+    desc.get.call(document);
+    assert_unreached("exception should have been thrown");
+  } catch (e) {
+    assert_equals(Object.getPrototypeOf(e), iframe.contentWindow.TypeError.prototype);
+  }
+}, "exception thrown from attribute getter is associated with the correct global environment");
+
+// feature: Node.appendChild (operation)
+
+test(function() {
+  var func = iframe.contentWindow.Node.prototype.appendChild;
+  try {
+    func.call(new Range());
+    assert_unreached("exception should have been thrown");
+  } catch (e) {
+    assert_equals(Object.getPrototypeOf(e), iframe.contentWindow.TypeError.prototype);
+  }
+}, "exception thrown from operation is associated with the correct global environment");
+
+// feature: Uint8Array (indexed property setter)
+
+test(function() {
+  var a = new iframe.contentWindow.Uint8Array(1);
+  try {
+    a[0] = { toString: function() { return { }; }, valueOf: function() { return { }; } };
+    assert_unreached("exception should have been thrown");
+  } catch (e) {
+    assert_equals(Object.getPrototypeOf(e), iframe.contentWindow.TypeError.prototype);
+  }
+}, "exception thrown from indexed property is associated with the correct global environment");
+
+// feature: Event (interface) (with [Constructor])
+
+test(function() {
+  try {
+    new iframe.contentWindow.Event();
+    assert_unreached("exception should have been thrown");
+  } catch (e) {
+    assert_equals(Object.getPrototypeOf(e), iframe.contentWindow.TypeError.prototype);
+  }
+}, "exception thrown from constructor is associated with the correct global environment");
+
+// feature: HTMLImageElement (interface) (with [NamedConstructor])
+
+test(function() {
+  try {
+    new iframe.contentWindow.Image({ toString: function() { return { } }, value: function() { return { } } });
+    assert_unreached("exception should have been thrown");
+  } catch (e) {
+    assert_equals(Object.getPrototypeOf(e), iframe.contentWindow.TypeError.prototype);
+  }
+}, "exception thrown from named constructor is associated with the correct global environment");
+
+// feature: Location (stringifier)
+
+test(function() {
+  try {
+    iframe.contentWindow.Location.prototype.toString.call(document);
+    assert_unreached("exception should have been thrown");
+  } catch (e) {
+    assert_equals(Object.getPrototypeOf(e), iframe.contentWindow.TypeError.prototype);
+  }
+}, "exception thrown from stringifier is associated with the correct global environment");
+</script>

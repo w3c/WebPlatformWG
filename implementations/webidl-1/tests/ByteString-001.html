@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>ByteString</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+</head>
+<div id="log"></div>
+
+<script>
+// 4.2.17 ByteString
+
+// Features XHR.setRequestHeader
+
+var client = new XMLHttpRequest();
+client.open('GET', '/glop');
+
+var path_input_tab =  [ "bar", "foo bar" ];
+var path_error_tab = [  "小"  ];
+
+for ( var i = 0; i < path_input_tab.length; i++) {
+    var input = path_input_tab[i];
+    test(function() {
+      client.setRequestHeader("X-ByteString", input);
+      assert_equals(client.setRequestHeader("X-ByteString", input), undefined);
+      }, "XHR.setRequestHeader convert String "+input+" to ByteString properly");
+}
+
+for ( var i = 0; i < path_error_tab.length; i++) {
+    var input = path_error_tab[i];
+    test(function() {
+      assert_throws(new TypeError(), client.setRequestHeader("X-ByteString", input));
+      }, "XHR.setRequestHeader should throw on "+input);
+}
+</script>
+

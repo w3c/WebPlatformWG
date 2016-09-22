@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<title>[TreatNonObjectAsNull]</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+<div id="log"></div>
+
+<script>
+// 4.2.22 Nullable types — T?
+//
+// If the [TreatNonObjectAsNull] extended attribute appears on a callback 
+// function, then it indicates that any value assigned to an attribute whose 
+// type is a nullable callback function that is not an object will be 
+// converted to the null value. 
+
+// feature: Document.onclick (attribute) (with [TreatNonObjectAsNull])
+// feature: Document.onerror (attribute) (with [TreatNonObjectAsNull])
+
+function noop() { }
+var obj = { };
+var str = "test";
+var bool = false;
+var num = 123;
+
+var properties = ["onclick", "onerror"];
+var tests = [
+  // assign this            // get this
+  noop,                     noop,
+  obj,                      obj,
+  Event,                    Event,
+  Event.prototype,          Event.prototype,
+  Image,                    Image,
+  document.documentElement, document.documentElement,
+  str,                      null,
+  bool,                     null,
+  num,                      null
+];
+
+for (var i = 0; i < properties.length; i++) {
+  var p = properties[i];
+  test(function() {
+    for (var j = 0; j < tests.length; j += 2) {
+      var value = tests[j];
+      var expected = tests[j + 1];
+      document[p] = value;
+      assert_equals(document[p], expected, "#" + (j / 2));
+    }
+  }, "assignments of non-object values to document." + p + " are treated as assignments of null");
+}
+</script>

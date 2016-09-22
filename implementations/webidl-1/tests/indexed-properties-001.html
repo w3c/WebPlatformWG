@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<title>Fixing objects that support indexed properties</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+<div id="log"></div>
+
+<script>
+// 4.7.1 Indexed and named properties
+//
+// Attempts to fix an object that supports indexed properties by calling
+// Object.freeze, Object.seal or Object.preventExtensions on it must fail and
+// throw a TypeError.
+
+// feature: NodeList (interface) (supports indexed properties)
+
+test(function() {
+  var e = document.createElement("span");
+  assert_throws(new TypeError(), function() { Object.freeze(e.childNodes); });
+}, "Object.freeze must fail on a NodeList since it supports indexed properties");
+
+test(function() {
+  var e = document.createElement("span");
+  assert_throws(new TypeError(), function() { Object.seal(e.childNodes); });
+}, "Object.seal must fail on a NodeList since it supports indexed properties");
+
+test(function() {
+  var e = document.createElement("span");
+  assert_throws(new TypeError(), function() { Object.preventExtensions(e.childNodes); });
+}, "Object.preventExtensions must fail on a NodeList since it supports indexed properties");
+
+
+// was testing Uint8Array, but this is no longer a platform object (interface)--it's native to 
+// ECMAScript, and supports seal() and preventExtensions()
+
+// Test with HTMLCollection (supports indexed properties)
+
+test(function() {
+  var a = document.scripts;
+  assert_throws(new TypeError(), function() { Object.freeze(a); });
+}, "Object.freeze must fail on an HTMLCollection since it supports indexed properties");
+
+test(function() {
+  var a = document.scripts;
+  assert_throws(new TypeError(), function() { Object.seal(a); });
+}, "Object.seal must fail on an HTMLCollection since it supports indexed properties");
+
+test(function() {
+  var a = document.scripts;
+  assert_throws(new TypeError(), function() { Object.preventExtensions(a); });
+}, "Object.preventExtensions must fail on an HTMLCollection since it supports indexed properties");
+</script>

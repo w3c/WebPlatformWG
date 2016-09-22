@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<title>Invoking constructors without overloading or optional arguments</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+<div id="log"></div>
+
+<script>
+// 4.5.1.1 Interface object [[Call]] method
+//
+// In this test we're invoking simple constructors -- ones that do not use
+// overloading or optional arguments.  When too few arguments are passed,
+// a TypeError is thrown.  When too many arguments are passed, the extra
+// ones are ignored.  Argument types are not used to eliminate the single
+// entry in the effective overload set.
+
+// feature: Worker 
+
+test(function() {
+  assert_throws(new TypeError(), function() { new Worker(); });
+}, "passing too few arguments to Worker constructor throws");
+
+// feature: Range (interface) (with [Constructor], and no overloading or optional arguments)
+test(function() {
+  var range = new Range("test");
+  assert_true(!!range);
+}, "additional arguments passed to Range constructor are ignored");
+
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>USVString</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+</head>
+<div id="log"></div>
+
+<script>
+// 4.2.18 USVString
+
+// Features URL.path
+
+var input = "https://www.example.com/~foo";
+var testurl = new URL(input);
+
+var path_input_tab =  [ "/bar", "/小"       , "/\ud800\udc00", "/\ud800\ue000"      , "/\ud800\uda00"      , "/\udc00"   , "/\ud800"    ];
+var path_result_tab = [ "/bar", "/%E5%B0%8F", "/%F0%90%80%80", "/%EF%BF%BD%EE%80%80", "/%EF%BF%BD%EF%BF%BD", "/%EF%BF%BD", "/%EF%BF%BD" ];
+
+for ( var i = 0; i < path_input_tab.length; i++) {
+    var input = path_input_tab[i];
+    var result = path_result_tab[i];
+    test(function() {
+      testurl.pathname = input;
+      assert_equals(testurl.pathname, result);
+      }, "URL.pathname convert String "+input+" to USVString properly: "+result);
+}
+</script>
+

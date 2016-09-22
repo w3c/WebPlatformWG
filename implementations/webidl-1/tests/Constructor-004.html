@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<title>Invoking constructors with overloading</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+<div id="log"></div>
+
+<script>
+// 4.5.1.1 Interface object [[Call]] method
+//
+// In this test we're invoking constructors with overloading.  When too few
+// arguments are passed, a TypeError is thrown.  When too many arguments are
+// passed, the extra ones are ignored.  Candidate overloads are first chosen
+// based on how many arguments were passed.  Then, a specific argument is used
+// as the one that distinguishes between the different candidate overloads.
+// Values before this distinguishing argument are converted to IDL values before
+// the distinguishing argument is inspected.  Looking at the distinguishing
+// argument might then cause the call to fail (and a TypeError to be thrown) if
+// there is not an appropriate value passed in that position.
+//
+// With Blob, it's not possible to test the "arguments before the distinguishing 
+// argument are converted before possibly throwing due to an invalid value in that
+// argument position" since the distinguishing argument index is < 1.
+
+// feature WebSocket (interface) (with [Constructor] and overloading)
+
+test(function() {
+   assert_throws(new TypeError(), function() { var s = new WebSocket(); }); }, "passing no arguments to the WebSocket constructor fails");
+
+// feature Blob (interface) (with [Constructor] and overloading)
+
+test(function() {
+  var b = new Blob();
+  assert_equals(b.size, 0);
+}, "passing no arguments to the Blob constructor selects the () overload");
+
+test(function() {
+  var b1 = new Blob([]);
+  var b2 = new Blob([], { });
+  assert_equals(b1.size, 0);
+  assert_equals(b1.type, b2.type);
+}, "passing an Array object as the only argument to the Blob constructor selects the (sequence<...>, optional BlobPropertyBag) overload");
+
+test(function() {
+  var b = new Blob(["abc"], { }, "extra");
+  assert_equals(b.size, 3);
+}, "passing ([\"abc\"], { }, \"extra\") to the Blob constructor selects the (sequence<...>, optional BlobPropertyBag) overload");
+</script>

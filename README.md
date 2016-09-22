@@ -7,3 +7,5 @@
 * [Group's _Work Mode_](https://github.com/w3c/WebPlatformWG/blob/gh-pages/WorkMode.md)
 
 * [Information for new group members aka _Newbies_](https://github.com/w3c/WebPlatformWG/blob/gh-pages/Newbie.md)
+
+* [Group Dashboard - overview information](https://labs.w3.org/unitas/?g=83482)

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<title>Exception interface object [[Call]] method</title>
+<script src="https://w3c-test.org/resources/testharness.js"></script>
+<script src="https://w3c-test.org/resources/testharnessreport.js"></script>
+<script src="utils.js"></script>
+<div id="log"></div>
+
+<script>
+// 4.9.1.1 Exception interface object [[Call]] method
+//
+// When called, exception interface objects construct and return a new
+// platform exception object.
+
+// feature: DOMException (exception)
+
+test(function() {
+  var e = new DOMException();
+  assert_equals(Object.getPrototypeOf(e), DOMException.prototype);
+}, "DOMException object returned from DOMException constructor has the right prototype");
+
+test(function() {
+  assert_throws(new TypeError(), function () { 
+    var e = DOMException(); 
+    assert_equals(Object.getPrototypeOf(e), DOMException.prototype);
+  });
+}, "DOMException called without new throws");//See issue: https://github.com/heycam/webidl/issues/62
+
+test(function() {
+  var e = new DOMException();
+  assert_equals(e.message, "");
+  assert_true(!e.hasOwnProperty("message"));
+}, "constructing a DOMException with no arguments does not set a message property");
+
+test(function() {
+  var e = new DOMException();
+  assert_equals(e.message, "");
+  assert_true(!e.hasOwnProperty("message"));
+}, "calling DOMException with no arguments returns a DOMException object without a message property");
+
+test(function() {
+  var e = new DOMException({ toString: function() { return "test"; } });
+  assert_property(e, "message", { writable: true, enumerable: false, configurable: true, value: "test" });
+}, "constructing a DOMException with one argument sets its message property correctly");
+
+test(function() {
+  var e = new DOMException("test", "myname");
+  assert_property(e, "message", { writable: true, enumerable: false, configurable: true, value: "test" });
+  assert_property(e, "name", { writable: true, enumerable: false, configurable: true, value: "myname" });
+  assert_property(e, "code", { writable: true, enumerable: false, configurable: true, value: 0 });
+}, "constructing a DOMException with two arguments sets message, name, and code correctly");
+
+test(function() {
+  var e = new DOMException("test", "SyntaxError");
+  assert_property(e, "message", { writable: true, enumerable: false, configurable: true, value: "test" });
+  assert_property(e, "name", { writable: true, enumerable: false, configurable: true, value: "SyntaxError" });
+  assert_property(e, "code", { writable: true, enumerable: false, configurable: true, value: 12 });
+}, "constructing a DOMException with known name sets code correctly");
+
+test(function() {
+  var e = new DOMException("test", "myname", "extra");
+  assert_equals(e.hasOwnProperty("extra"), false);
+}, "additional argument passed to DOMException constructor is ignored");
+</script>
