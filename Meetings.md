@@ -1,50 +1,37 @@
-##Upcoming and past meetings
+# WebPlat meetings
+This document contains information about WebPlat's upcoming and recent F2F meetings. For more information see [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
 
-This document contains information about WP's upcoming and recent F2F meetings.
+## Upcoming Meetings
 
-Please note:
--   The group has 1-2 face-to-face (f2f) meetings per year where the potential scope is all of the group's specifications.
--   The group may have additional f2f meetings for specific topics, for example with only Web Components on the agenda.
--   The group does not have regular distributed voice conferences. More information about teleconferences is provided below.
--   All meeting minutes are Public.
+* None
 
-SeeAlso:
+## Past meetings
 
--   [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
+### 19 to 23 September 2016: TPAC (Lisbon Portugal)
+- [HTML, IndexedDB, WebIDL, UI Events & WebPlat minutes](https://www.w3.org/2016/09/23-webapps-minutes.html)
+- [Ediging APIs minutes](https://www.w3.org/2016/09/22-webapps-minutes.html)
+- [Service Workers minutes](https://www.w3.org/2016/09/20-webapps-minutes.html)
+- [Web Components minutes](https://www.w3.org/2016/09/19-webapps-minutes.html)
 
-## Upcoming F2F Meetings
-
-- 23 September: [HTML, Directory upload, IndexedDB and Web Platform WG](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-23TPAC-4.md), held at TPAC 2016, Lisbon, Portugal
-## Past Face-To-Face Meetings (most recent first)
-
-22 September: [Editing and Selection](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-22TPAC-3.md), held at TPAC 2016, Lisbon, Portugal
-- [Minutes](https://www.w3.org/2016/09/22-webapps-minutes.html)
-
-### 20 September: [Service Workers](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-20TPAC-2.md), held at TPAC 2016, Lisbon, Portugal
-- [Minutes](https://www.w3.org/2016/09/20-webapps-minutes.html)
-
-### 19 September: [Web Components](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-09-19TPAC-1.md), held at TPAC 2016, Lisbon, Portugal
-- [Minutes](https://www.w3.org/2016/09/19-webapps-minutes.html)
-
-### 29 July: [Editing meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-29-Editing.md), hosted by Google in San Francisco
-- [Minutes](http://www.w3.org/2016/07/29-editing-minutes.html)
+### 29 July: Editing APIs (San Francisco, USA)- [Minutes](http://www.w3.org/2016/07/29-editing-minutes.html)
 - [Meeting notes](https://docs.google.com/document/d/1XxIEF0So-kMF5mcJ03Yj0zsYMFRHEgXw1fV1K5FOwuQ)
 - [Issue tracker](https://github.com/w3c/editing)
 
-### 28-29 July: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-07-28-29SW.md), hosted by Mozilla in Toronto
+### 28-29 July: Service Workers (Toronto, Canada)
 - [Meeting notes](https://jakearchibald.com/2016/service-worker-meeting-notes/)
 - [IRC log](https://gist.github.com/jakearchibald/c65009efa2ed9dbe3ad38f5fef5a4ef1)
-### 10-11 May: [HTML editors meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-05-10-11HTML.md). Hosted by Microsoft in Seattle/Redmond
+
+### 10-11 May: HTML Editor's (Redmond, USA)
 - [Minutes day 1](https://www.w3.org/2016/05/10-html-editors-minutes.html)
 - [Minutes day 2](https://www.w3.org/2016/05/11-html-editors-minutes.html)
 
-### 11-12 April 2016: [Service Workers meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-04-11-12SW.md) hosted by Microsoft in Seattle/Redmond
-- [Notes](https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0039.html)
+### 11-12 April 2016: Service Workers (Redmond, USA)
+- [Meeting notes](https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0039.html)
 
-### 25 January 2015 [Custom elements meeting](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/16-01-25WC.md), hosted by Apple in Cupertino
+### 25 January 2015: Custom Elements (Palo Alto, USA)
 - [Minutes](https://www.w3.org/2016/01/25-webapps-minutes.html)
 
-### 26 and 27 October 2015 (TPAC2015; Sapporo, JP)
+### 26 - 27 October 2015: TPAC (Sapporo, Japan)
 - [Agenda](https://www.w3.org/wiki/Webapps/October2015Meeting)
 - [Minutes October 26](http://www.w3.org/2015/10/21-webapps-minutes.html)
 - [Minutes October 27](http://www.w3.org/2015/10/26-webapps-minutes.html)
