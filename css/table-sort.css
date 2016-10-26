@@ -1,0 +1,75 @@
+main {
+    width: 90%;
+}
+
+.sortable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    /table-layout: fixed;
+}
+
+.sortable th, .sortable td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+.sortable th {
+    line-height: 1;
+    background: #005A9C;
+    color: #fff;
+}
+
+.sortable ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+span[role="button"] {
+    display: inline-block;
+}
+
+span[role="button"]:hover, span[role="button"]:focus {
+    color: yellow;
+}
+
+span[role="button"]:focus {
+    outline-offset: 3px;
+}
+
+.sortable th i {
+    font-size: 1.1em;
+    padding-left: 5px;
+    width: 10px;
+}
+
+.arrow:after {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.25em;
+}
+
+.arrow:after {
+    content: "\2195";
+}
+
+.arrow-down:after {
+    content: "\2193";
+}
+
+.arrow-up:after {
+    content: "\2191";
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

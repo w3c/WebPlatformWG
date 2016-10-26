@@ -1,99 +1,76 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="utf-8">
-<meta name=viewport content='width=device-width'>
-<title>Web Platform Publication Status (PubStatus)</title>
+<meta name=viewport content="width=device-width">
+<title>WebPlatform WG Publication Status (PubStatus)</title>
 
-<link rel=stylesheet type="text/css" href="https://www.w3.org/StyleSheets/TR/base">
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
-
-<script src="js/jquery.dataTables.js"></script>
-<script>
-$(document).ready(function(){
-    $('#htmlTable').DataTable({
-    "searching": false,
-"paging": false
-});
-
-    $('#apiTable').DataTable({
-    "searching": false,
-"paging": false
-});
-
-    $('#webCompsTable').DataTable({
-    "searching": false,
-"paging": false
-});
-
-    $('#editingTable').DataTable({
-    "searching": false,
-"paging": false
-});
-
-    $('#recTable').DataTable({
-    "searching": false,
-"paging": false
-});
-
-    $('#inactiveTable').DataTable({
-    "searching": false,
-"paging": false
-});
-});
-</script>
-
+<link rel=stylesheet type="text/css" href="https://www.w3.org/StyleSheets/TR/base.css">
+<link rel="stylesheet" type="text/css" href="css/table-sort.css">
 </head>
 
 <body>
 <header>
 <div>
-<a href='http://www.w3.org/'><img width=72 height=48 alt=W3C src='https://www.w3.org/Icons/w3c_home'></a>
+<a href="http://www.w3.org/"><img width="72" height="48" alt="W3C" src="https://www.w3.org/Icons/w3c_home"></a>
 </div>
-
 <h1>Web Platform Publication Status (PubStatus)</h1>
 </header>
 
 <main>
-<p>This document contains current data regarding the Publication Status of specifications being developed by the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>.</p>
-
+<p>This document contains information about the publication status of specifications developed by the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>. These specifications are identified in the <a href="https://www.w3.org/2015/10/webplatform-charter.html">Web Platform WG charter</a>.</p>
 <nav>
-<ol>
-<li><a href="#HTML_specifications">HTML specifications</a></li>
-<li><a href="#API_specifications">API specifications</a></li>
-<li><a href="#Web_Components">Web Components Specifications</a></li>
+<ul>
+<li><a href="#html">HTML specifications</a></li>
+<li><a href="#api">API specifications</a></li>
+<li><a href="#webcomps">Web Components specifications</a></li>
 <li><a href="#editing">Editing specifications</a></li>
-<li><a href="#Recs_in_maintenance">Recommendations in maintenance mode</a></li>
-<li><a href="#Specs_NO_Longer_Active">Specs no longer active</a></li>
-</ol></nav>
+<li><a href="#maintained">Maintained specifications</a></li>
+<li><a href="#inactive">inactive specifications</a></li>
+<li><a href="#key">Table key</a></li>
+</ul>
+</nav>
 
-<p>The <a href="https://www.w3.org/2015/10/webplatform-charter.html">Working Group's Charter</a> enumerates the <a href="https://www.w3.org/2015/10/webplatform-charter.html#deliverables">WG's deliverables</a>.</p>
+<h2 id="html">HTML specifications</h2>
 
-<p>Please see the section <i><a href="#Table_Key">Table Key</a></i> for information regarding interpreting the data in the tables.</p>
-
-<h2 id="HTML_specifications">HTML specifications</h2>
-
-<table id="htmlTable" class="display">
+<table aria-labelledby="html" class="sortable">
 <thead>
 <tr>
-<th><button>Spec</button></th>
-<th><button>Editor(s)</button></th>
-<th><button>Chair(s)</button></th>
-<th><button>Team contact(s)</button></th>
-<th><button>Last TR Publication</button></th>
-<th><button>Type</button></th>
-<th><button>Resources</button></th>
-<th><button>Testing</button></th>
-<th><button>Notes</button></th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Spec <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Editor(s)<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Chair(s)<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Team contact(s)<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Last TR publication<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Type<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Resources<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Testing<i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Notes<i class="arrow"></i></span>
+</th>
 </tr>
 </thead>
 
 <tbody>
-
 <!-- HTML5.1 -->
 <tr>
-<th><a href="https://www.w3.org/WebPlatform/docs/html51/index.html">HTML5.1</a></th>
+<td scope="row"><a href="https://www.w3.org/WebPlatform/docs/html51/index.html">HTML5.1</a></td>
 <td>Alex Danilo, Aaron Eicholz, Steve Faulkner, Travis Leithead</td>
 <td>Adrian Bateman, Chaals McCathie Nevile, L&eacute;onie Watson</td>
 <td>Xiaoqian</td>
@@ -116,7 +93,7 @@ $(document).ready(function(){
 
 <!-- HTML5.2 -->
 <tr>
-<th><a href="https://w3c.github.io/html/">HTML5.2</a></th>
+<td scope="row"><a href="https://w3c.github.io/html/">HTML5.2</a></td>
 <td>Alex Danilo, Aaron Eicholz, Steve Faulkner, Travis Leithead</td>
 <td>Adrian Bateman, Chaals McCathie Nevile, L&eacute;onie Watson</td>
 <td>Xiaoqian/Yves</td>
@@ -137,7 +114,7 @@ $(document).ready(function(){
 
 <!-- HTML AAM -->
 <tr>
-<th><a href="http://w3c.github.io/aria/html-aam/html-aam.html">HTML AAM</a></th>
+<td scope="row"><a href="http://w3c.github.io/aria/html-aam/html-aam.html">HTML AAM</a></td>
 <td>Alexander Surkov, Jason Kiss, Steve Faulkner</td>
 <td>L&eacute;onie Watson</td>
 <td>Yves</td>
@@ -150,7 +127,7 @@ $(document).ready(function(){
 
 <!--HTML Extensions -->
 <tr>
-<th><a href="https://w3c.github.io/html-extensions/">HTML Extension Specifications Note</a></th>
+<td scope="row"><a href="https://w3c.github.io/html-extensions/">HTML Extension Specifications Note</a></td>
 <td>L&eacute;onie Watson</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian</td>
@@ -168,7 +145,7 @@ $(document).ready(function(){
 
 <!-- ARIA in HTML -->
 <tr>
-<th><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></th>
+<td scope="row"><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></td>
 <td>Steve Faulkner</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian/Yves</td>
@@ -191,7 +168,7 @@ $(document).ready(function(){
 
 <!-- Notes on Using ARIA in HTML -->
 <tr>
-<th><a href="http://w3c.github.io/aria-in-html/">Using ARIA in HTML Note</a></th>
+<td scope="row"><a href="http://w3c.github.io/aria-in-html/">Using ARIA in HTML Note</a></td>
 <td>Steve Faulkner</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian/Yves</td>
@@ -213,20 +190,39 @@ $(document).ready(function(){
 </tbody>
 </table>
 
-<h2 id="API_specifications">API specifications</h2>
 
-<table id="apiTable" class="display">
+<h2 id="api">API specifications</h2>
+
+<table aria-labelledby="api" class="sortable">
 <thead>
 <tr>
-<th><button>Spec</button></th>
-<th><button>Editor(s)</button></th>
-<th><button>Chair(s)</button></th>
-<th><button>Team contact(s)</button></th>
-<th><button>Last TR Publication</button></th>
-<th><button>Type</button></th>
-<th><button>Resources</button></th>
-<th><button>Testing</button></th>
-<th><button>Notes</button></th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Spec <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Editor(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Chair(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Team contact(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Last TR publication <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Type <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Resources <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Testing <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Notes <i class="arrow"></i></span>
+</th>
 </tr>
 </thead>
 
@@ -234,7 +230,7 @@ $(document).ready(function(){
 
 <!-- DOM  -->
 <tr>
-<th>DOM</th>
+<td scope="col">DOM</td>
 <td></td>
 <td>Chaals</td>
 <td>Xiaoqian</td>
@@ -257,7 +253,7 @@ $(document).ready(function(){
 
 <!-- DOM Parsing and Serialization -->
 <tr>
-<th><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing and Serialization</a></th>
+<td scope="col"><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing and Serialization</a></td>
 <td>Travis Leithead</td>
 <td>Adrian Bateman</td>
 <td>Xiaoqian Wu</td>
@@ -280,7 +276,7 @@ $(document).ready(function(){
 
 <!-- File API -->
 <tr>
-<th><a href="https://w3c.github.io/FileAPI/">File API</a></th>
+<td scope="col"><a href="https://w3c.github.io/FileAPI/">File API</a></td>
 <td>Marijn Kruisselbrink, Vsevolod Shmyrov</td>
 <td>Adrian Bateman</td>
 <td>Yves</td>
@@ -305,7 +301,7 @@ $(document).ready(function(){
 
 <!-- File System API -->
 <tr>
-<th><a href="http://w3c.github.io/filesystem-api/">File System API</a></lh>
+<td scope="col"><a href="http://w3c.github.io/filesystem-api/">File System API</a></td>
 <td>Arun Ranganathan</td>
 <td>Adrian Bateman</td>
 <td></td>
@@ -327,7 +323,7 @@ $(document).ready(function(){
 
 <!-- FindText API -->
 <tr>
-<th><a href="http://w3c.github.io/findtext/">FindText API</a></th>
+<td scope="col"><a href="http://w3c.github.io/findtext/">FindText API</a></td>
 <td>Doug Schepers</td>
 <td></td>
 <td></td>
@@ -345,7 +341,7 @@ $(document).ready(function(){
 
 <!-- Gamepad API -->
 <tr>
-<th><a href="https://w3c.github.io/gamepad/">Gamepad API</a></th>
+<td scope="col"><a href="https://w3c.github.io/gamepad/">Gamepad API</a></td>
 <td>Scott Graham, Ted Mielczarek</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian Wu</td>
@@ -368,7 +364,7 @@ $(document).ready(function(){
 
 <!-- Indexed DB API -->
 <tr>
-<th><a href="http://w3c.github.io/IndexedDB/">Indexed Database API 2nd Ed</a></th>
+<td scope="col"><a href="http://w3c.github.io/IndexedDB/">Indexed Database API 2nd Ed</a></td>
 <td>Joshua Bell, Ali Alabbas</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian Wu</td>
@@ -390,7 +386,7 @@ $(document).ready(function(){
 
 <!-- Packaging on the Web -->
 <tr>
-<th><a href="http://w3ctag.github.io/packaging-on-the-web/">Packaging on the Web</a></th>
+<td scope="col"><a href="http://w3ctag.github.io/packaging-on-the-web/">Packaging on the Web</a></td>
 <td>Formerly edited by Jeni Tennison</td>
 <td>Chaals McCathie Nevile</td>
 <td>Yves Lafon</td>
@@ -411,7 +407,7 @@ $(document).ready(function(){
 
 <!-- Pointer Lock -->
 <tr>
-<th><a href="https://w3c.github.io/pointerlock/">Pointer Lock</a></th>
+<td scope="col"><a href="https://w3c.github.io/pointerlock/">Pointer Lock</a></td>
 <td>Vincent Scheib</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian Wu</td>
@@ -433,7 +429,7 @@ $(document).ready(function(){
 
 <!-- Push API -->
 <tr>
-<th><a href="http://w3c.github.io/push-api/">Push API</a></th>
+<td scope="col"><a href="http://w3c.github.io/push-api/">Push API</a></td>
 <td>Michaël van Ouwerkerk, Martin Thompson</td>
 <td>L&eacute;onie Watson</td>
 <td>Yves Lafon</td>
@@ -455,7 +451,7 @@ $(document).ready(function(){
 
 <!-- Screen Orientation API -->
 <tr>
-<th><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></th>
+<td scope="col"><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></td>
 <td>Mounir Lamouri, Marcos Cáceres</td>
 <td>L&eacute;onie Watson</td>
 <td></td>
@@ -476,7 +472,7 @@ $(document).ready(function(){
 
 <!-- Service Workers -->
 <tr>
-<th><a href="https://w3c.github.io/ServiceWorker/spec/service_worker/">Service Workers</a></th>
+<td scope="col"><a href="https://w3c.github.io/ServiceWorker/spec/service_worker/">Service Workers</a></td>
 <td>Alex Russell, Jungkee Song, Jake Archibald, Marijn Kruisselbrink</td>
 <td>Adrian Bateman</td>
 <td>Yves Lafon</td>
@@ -498,7 +494,7 @@ $(document).ready(function(){
 
 <!-- Streams API -->
 <tr>
-<th><a href="https://w3c.github.io/streams-api/">Streams API</a></th>
+<td scope="col"><a href="https://w3c.github.io/streams-api/">Streams API</a></td>
 <td>Feras Moussa, Takeshi Yoshino</td>
 <td>Adrian Bateman</td>
 <td></td>
@@ -519,7 +515,7 @@ $(document).ready(function(){
 
 <!-- UI Events -->
 <tr>
-<th><a href="https://w3c.github.io/uievents/">UI Events</a></th>
+<td scope="col"><a href="https://w3c.github.io/uievents/">UI Events</a></td>
 <td>Travis Leithead, Gary Kacmarcik</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian Wu</td>
@@ -539,12 +535,11 @@ $(document).ready(function(){
 
 <!-- UI Events KeyboardEvent Code Values -->
 <tr>
-<th><a href="https://w3c.github.io/uievents-code/">UI Events KeyboardEvent Code Values</th>
+<td scope="col"><a href="https://w3c.github.io/uievents-code/">UI Events KeyboardEvent Code Values</a></td>
 <td>Travis Leithead, Gary Kacmarcik</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/
-uievents-code/">2015-12-15</td>
+<td><a href="https://www.w3.org/TR/uievents-code/">2015-12-15</a></td>
 <td>WD</td>
 <td><ul>
 <li><a href="https://github.com/w3c/uievents-code/">Github</a></li>
@@ -559,7 +554,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- UI Events Keyboard Event Key Values -->
 <tr>
-<th><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Event Key Values</a></th>
+<td scope="col"><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Event Key Values</a></td>
 <td>Travis Leithead, Gary Kacmarcik</td>
 <td>L&eacute;onie Watson</td>
 <td>Xiaoqian Wu</td>
@@ -579,7 +574,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- URL -->
 <tr>
-<th><a href="https://url.spec.whatwg.org/">URL</a></th>
+<td scope="col"><a href="https://url.spec.whatwg.org/">URL</a></td>
 <td>Anne van Kesteren, Sam Ruby</td>
 <td></td>
 <td></td>
@@ -600,7 +595,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Web App Manifest -->
 <tr>
-<th><a href="https://www.w3.org/TR/appmanifest/">Web App Manifest</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/appmanifest/">Web App Manifest</a></td>
 	<td>Marcos Caceres, Kenneth Rohde Christiansen, Mounir Lamouri, Anssi Kostiainen</td>
 	<td>L&eacute;onie Watson, Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -645,7 +640,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- WebIDL-2 -->
 <tr>
-<th><a href="https://heycam.github.io/webidl/">WebIDL</a></th>
+<td scope="col"><a href="https://heycam.github.io/webidl/">WebIDL</a></td>
 <td>Boris Zbarsky,	Cameron McCormack, Tobie Langel</td>
 <td>L&eacute;onie Watson</td>
 <td>Yves Lafon</td>
@@ -662,7 +657,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Web Sockets API -->
 <tr>
-<th><a href="https://w3c.github.io/websockets/">Web Sockets API</a></th>
+<td scope="col"><a href="https://w3c.github.io/websockets/">Web Sockets API</a></td>
 <td>Ian Hickson</td>
 <td>Adrian Bateman</td>
 <td>Xiaoqian Wu</td>
@@ -681,7 +676,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Web Workers -->
 <tr>
-<th><a href="https://w3c.github.io/workers/">Web Workers</a></th>
+<td scope="col"><a href="https://w3c.github.io/workers/">Web Workers</a></td>
 <td>Sangwhan Moon</td>
 <td>Chaals</td>
 <td>Xiaoqian Wu</td>
@@ -701,27 +696,45 @@ uievents-code/">2015-12-15</td>
 </tbody>
 </table>
 
-<h2 id="Web_Components">Web Components Specifications</h2>
+<h2 id="webcomps">Web Components specifications</h2>
 
-<table id="webCompsTable" class="display">
+<table aria-labelledby="webcomps" class="sortable">
 <thead>
 <tr>
-<th><button>Spec</button></th>
-<th><button>Editor(s)</button></th>
-<th><button>Chair(s)</button></th>
-<th><button>Team contact(s)</button></th>
-<th><button>Last TR Publication</button></th>
-<th><button>Type</button></th>
-<th><button>Resources</button></th>
-<th><button>Testing</button></th>
-<th><button>Notes</button></th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Spec <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Editor(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Chair(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Team contact(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Last TR publication <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Type <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Resources <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Testing <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Notes <i class="arrow"></i></span>
+</th>
 </tr>
 </thead>
 
 <tbody>
 <!-- Custom Elements -->
 <tr>
-<th><a href="https://w3c.github.io/webcomponents/spec/custom/">Custom Elements</a></th>
+<td scope="col"><a href="https://w3c.github.io/webcomponents/spec/custom/">Custom Elements</a></td>
 <td>Domenic Denicola</td>
 <td>Chaals McCathie Nevile, L&eacute;onie Watson</td>
 <td>Yves</td>
@@ -742,7 +755,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- HTML Imports -->
 <tr>
-<th><a href="https://w3c.github.io/webcomponents/spec/imports/">HTML Imports</a></th>
+<td scope="col"><a href="https://w3c.github.io/webcomponents/spec/imports/">HTML Imports</a></td>
 <td></td>
 <td></td>
 <td></td>
@@ -763,7 +776,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Shadow DOM -->
 <tr>
-<th><a href="http://w3c.github.io/webcomponents/spec/shadow/">Shadow DOM</a></th>
+<td scope="col"><a href="http://w3c.github.io/webcomponents/spec/shadow/">Shadow DOM</a></td>
 <td>Hayato Ito</td>
 <td>Chaals McCathie Nevile, L&eacute;onie Watson</td>
 <td>Xiaoqian</td>
@@ -788,26 +801,43 @@ uievents-code/">2015-12-15</td>
 
 <h2 id="editing">Editing specifications</h2>
 
-<table id="editingTable" class="display">
+<table aria-labelledby="editing" class="sortable">
 <thead>
 <tr>
-<th><button>Spec</button></th>
-<th><button>Editor(s)</button></th>
-<th><button>Chair(s)</button></th>
-<th><button>Team contact(s)</button></th>
-<th><button>Last TR Publication</button></th>
-<th><button>Type</button></th>
-<th><button>Resources</button></th>
-<th><button>Testing</button></th>
-<th><button>Notes</button></th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Spec <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Editor(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Chair(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Team contact(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Last TR publication <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Type <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Resources <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Testing <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Notes <i class="arrow"></i></span>
+</th>
 </tr>
 </thead>
 
 <tbody>
-
 <!-- Clipboard API -->
 <tr>
-<th><a href="https://w3c.github.io/clipboard-apis/">Clipboard API and Events</th>
+<td scope="col"><a href="https://w3c.github.io/clipboard-apis/">Clipboard API and Events</a></td>
 <td>Gary Kačmarčik, Grisha Lyukshin</td>
 <td>Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -829,7 +859,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Input Events -->
 <tr>
-<th><a href="http://w3c.github.io/editing/input-events.html">Input Events</a></th>
+<td scope="col"><a href="http://w3c.github.io/editing/input-events.html">Input Events</a></td>
 <td>Johannes Wilm</td>
 <td>Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -850,7 +880,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- ContentEditable -->
 <tr>
-<th><a href="http://w3c.github.io/editing/contentEditable.html">ContentEditable</a></th>
+<td scope="col"><a href="http://w3c.github.io/editing/contentEditable.html">ContentEditable</a></td>
 <td>Johannes Wilm</td>
 <td>Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -871,7 +901,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- ContentEditable True -->
 <tr>
-<th><a href="http://w3c.github.io/editing/contentEditableTrue.html">ContentEditable True</a></th>
+<td scope="col"><a href="http://w3c.github.io/editing/contentEditableTrue.html">ContentEditable True</a></td>
 <td>Johannes Wilm</td>
 <td>Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -892,7 +922,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- ExecCommand -->
 <tr>
-<th><a href="http://w3c.github.io/editing/execCommand.html">ExecCommand</a></th>
+<td scope="col"><a href="http://w3c.github.io/editing/execCommand.html">ExecCommand</a></td>
 <td>Johannes Wilm</td>
 <td>Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -913,7 +943,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Selection API -->
 <tr>
-<th><a href="http://w3c.github.io/selection-api/">Selection API</a></th>
+<td scope="col"><a href="http://w3c.github.io/selection-api/">Selection API</a></td>
 <td>Ryosuke Niwa</td>
 <td>Chaals McCathie Nevile</td>
 <td>Xiaoqian Wu</td>
@@ -934,19 +964,40 @@ uievents-code/">2015-12-15</td>
 </tbody>
 </table>
 
-<h2 id="Recs_In_Maintenance">Recommendations in Maintenance Mode</h2>
+<h2 id="maintained">Maintained specifications</h2>
+
 <p><b>The following table includes specifications that have been published as Recommendations. In most cases, no additional work is planned except for errata  processing. However, some of these standards may have normative changes and subsequent publication(s).</b></p>
 
-<table id="recTable" class="display">
+<table aria-labelledby="maintenance" class="sortable">
 <thead>
 <tr>
-<th><button>Spec</button></th>
-<th><button>Editor(s)</button></th>
-<th><button>Last TR Publication</button></th>
-<th><button>Type</button></th>
-<th><button>Resources</button></th>
-<th><button>Testing</button></th>
-<th><button>Notes</button></th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Spec <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Editor(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Chair(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Team contact(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Last TR publication <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Type <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Resources <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Testing <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Notes <i class="arrow"></i></span>
+</th>
 </tr>
 </thead>
 
@@ -954,7 +1005,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- CORS -->
 <tr>
-<th><a href="https://www.w3.org/TR/cors/">Cross-Origin Resource Sharing (CORS)</th>
+<td scope="col"><a href="https://www.w3.org/TR/cors/">Cross-Origin Resource Sharing (CORS)</a></td>
 <td>Anne van Kesteren</td>
 <td><a href="https://www.w3.org/TR/cors/">2014-01-16</a></td>
 <td>Rec</td>
@@ -971,7 +1022,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- IndexedDB API -->
 <tr>
-<th><a href="https://www.w3.org/TR/IndexedDB/">IndexedDB API</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/IndexedDB/">IndexedDB API</a></td>
 <td>Nikunj Mehta, Jonas Sicking, Eliot Graff, Andrei Popescu, Jeremy Orlow, Joshua Bell</td>
 <td><a href="https://www.w3.org/TR/IndexedDB/">2015-01-08</a></td>
 <td>Rec</td>
@@ -988,7 +1039,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Progress Events -->
 <tr>
-<th><a href="https://www.w3.org/TR/progress-events/">Progress Events</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/progress-events/">Progress Events</a></td>
 <td>Jungkee Song</td>
 <td><a href="http://www.w3.org/TR/progress-events/">2014-02-11</a></td>
 <td>REC</td>
@@ -1002,7 +1053,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Server-Sent Events -->
 <tr>
-<th><a href="https://www.w3.org/TR/eventsource/">Server-Sent Events</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/eventsource/">Server-Sent Events</a></td>
 <td>Ian Hickson</td>
 <td><a href="http://www.w3.org/TR/eventsource/">2015-02-03</a></td>
 <td>REC</td>
@@ -1015,7 +1066,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Web Messaging -->
 <tr>
-<th><a href="https://w3c.github.io/webmessaging/">Web Messaging</a></th>
+<td scope="col"><a href="https://w3c.github.io/webmessaging/">Web Messaging</a></td>
 <td>Ian Hickson</td>
 <td><a href="http://www.w3.org/TR/webmessaging/">2015-05-19</a></td>
 <td>REC</td>
@@ -1029,7 +1080,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Web Storage -->
 <tr>
-<th><a href="https://w3c.github.io/webstorage/">Web Storage</a> (Second Edition)</th>
+<td scope="col"><a href="https://w3c.github.io/webstorage/">Web Storage</a> (Second Edition)</th>
 <td>Ian Hickson</td>
 <td><a href="http://www.w3.org/TR/webstorage/">2016-04-19</a></td>
 <td>REC</td>
@@ -1044,7 +1095,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- HTML5 -->
 <tr>
-<th><a href="https://www.w3.org/TR/html5/">HTML5</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/html5/">HTML5</a></td>
 <td>Ian Hickson, Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Theresa O'Connor, Silvia Pfeiffer</td>
 <td><a href="http://www.w3.org/TR/html5/">2014-10-28</a></td>
 <td>REC</td>
@@ -1055,7 +1106,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- HTML5 Image Description -->
 <tr>
-<th><a href="https://www.w3.org/TR/html-longdesc/">HTML5 Image Description</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/html-longdesc/">HTML5 Image Description</a></td>
 <td>Charles McCathie Nevile, Mark Sadecki</td>
 <td><a href="http://www.w3.org/TR/html-longdesc/">2015-02-26</a></td>
 <td>REC</td>
@@ -1071,7 +1122,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- HTML Canvas 2D Context -->
 <tr>
-<th><a href="https://www.w3.org/TR/2dcontext/">HTML Canvas 2D Context</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/2dcontext/">HTML Canvas 2D Context</a></td>
 <td>Rik Cabanier, Eliot Graff, Jay Munro, Tom Wiltzius</td>
 <td><a href="https://www.w3.org/TR/2dcontext/">2015-11-19</a></td>
 <td>Recc</td>
@@ -1089,7 +1140,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- DOM4 -->
 <tr>
-<th><a href="https://www.w3.org/TR/dom/">W3C DOM4</a></th>
+<td scope="col"><a href="https://www.w3.org/TR/dom/">W3C DOM4</a></td>
 <td>Anne van Kesteren, Aryeh Gregor, Ms2ger, Alex Russell, Robin Berjon</td>
 <td><a href="https://www.w3.org/TR/dom/">2015-11-19</a></td>
 <td>Recc</td>
@@ -1107,29 +1158,48 @@ uievents-code/">2015-12-15</td>
 </tbody>
 </table>
 
-<h2 id="Specs_NO_Longer_Active">Specs NO Longer Active</h2>
+<h2 id="inactive">Inactive specifications</h2>
 
-<p>The documents and specifications in the following table are NO longer active. The order of the specs is the most recently published or abandoned document first.
-</p>
+<p>The specifications in this table are no longer actively maintained.</p>
 
-<table id="inactiveTable" class="display">
+<table aria-labelledby="inactive" class="sortable">
 <thead>
 <tr>
-<th><button>Spec</button></th>
-<th><button>Editor(s)</button></th>
-<th><button>Last TR Publication</button></th>
-<th><button>Type</button></th>
-<th><button>Resources</button></th>
-<th><button>Testing</button></th>
-<th><button>Notes</button></th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Spec <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Editor(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Chair(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Team contact(s) <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Last TR publication <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Type <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Resources <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Testing <i class="arrow"></i></span>
+</th>
+<th class="sortableColumn" data-sort="text">
+<span class="th-body">Notes <i class="arrow"></i></span>
+</th>
 </tr>
 </thead>
 
 <tbody>
-	
+
 <!-- XML HTTP Requests -->
 <tr>
-<th><a href="https://w3c.github.io/XMLHttpRequest/xhr-1/Overview.html">XHR Level 1</a></th>
+<td scope="col"><a href="https://w3c.github.io/XMLHttpRequest/xhr-1/Overview.html">XHR Level 1</a></td>
 <td>Julian Aubourg, Jungkee Song, Hallvord Steen</td>
 <td></td>
 <td></td>
@@ -1147,11 +1217,11 @@ uievents-code/">2015-12-15</td>
 </ul></td>
 <td><p></p></td>
 </tr>
-	
-	
+
+
 <!-- HTML landscape -->
 <tr>
-<th><a href="http://www.w3.org/html/landscape/">The HTML Landscape Note</a</th>
+<td scope="col"><a href="http://www.w3.org/html/landscape/">The HTML Landscape Note</a</th>
 <td>Robin Berjon</td>
 <td>N/A</td>
 <td>N/A</td>
@@ -1159,10 +1229,10 @@ uievents-code/">2015-12-15</td>
 <td>N/A</td>
 <td></td>
 </tr>
-	
+
 <!-- Input Method Editor API -->
 <tr>
-<th><a href="https://w3c.github.io/ime-api/">Input Method Editor API</a></th>
+<td scope="col"><a href="https://w3c.github.io/ime-api/">Input Method Editor API</a></td>
 <td>Travis Leithead</td>
 <td><a href="http://www.w3.org/TR/2016/NOTE-ime-api-20160515/">2016-05-15</td>
 <td>WG-Note</td>
@@ -1178,7 +1248,7 @@ uievents-code/">2015-12-15</td>
 
 <!-- Quota Management API -->
  <tr>
- <th><a href="https://w3c.github.io/quota-api/">Quota Management API</a></th>
+ <td scope="col"><a href="https://w3c.github.io/quota-api/">Quota Management API</a></td>
  <td>Kinuko Yasuda</td>
  <td><a href="https://www.w3.org/TR/quota-api/">2016-05-24</a></td>
  <td>WG-Note</td>
@@ -1199,38 +1269,34 @@ uievents-code/">2015-12-15</td>
 </tbody>
 </table>
 
-<h2 id="Table_Key">Table Key</h2>
-<p>The tables above use the following abbreviations and conventions:
-</p>
-<ul>
-<li> The link in the <i>Name of Spec' column is the document's </i>Editor's Draft
-</li>
-<li> The <i>Last Publication</i> column contains the date of the most recent formal publication as a W3C <i><a href="http://www.w3.org/TR/">Technical Report</a></i>
-</li>
-<li> ED = Editor's Draft
-</li>
-<li> WG Note = <a href="http://www.w3.org/2015/Process-20150901/#Note">Working Group Note</a>
-</li>
-<li> FPWD = <a href="http://www.w3.org/2015/Process-20150901/#first-wd">First Public Working Draft</a>
-</li>
-<li> WD = <a href="http://www.w3.org/2015/Process-20150901/#revised-wd">Working Draft</a>
-</li>
-<li> CR = <a href="http://www.w3.org/2015/Process-20150901/#candidate-rec">Candidate Recommendation</a>
-</li>
-<li> PR = <a href="http://www.w3.org/2015/Process-20150901/#rec-pr">Proposed Recommendation</a>
-</li>
-<li> REC = <a href="http://www.w3.org/2015/Process-20150901/#rec-publication">Recommendation</a>
-</li>
-</ul>
-<ul>
-<li> TF = <a href="http://www.w3.org/2008/webapps/wiki/Approval#Roles">Test Facilitator</a>
-</li>
-</ul>
-<ul>
-<li> No Formal Pub = the document has not yet been formally published by the W3C as a <i><a href="http://www.w3.org/TR/">Technical Report</a></i>.
-</li>
-</ul>
-</main>
+<h2 id="key">Table key</h2>
 
+<p>The tables on this page use the following conventions:</p>
+
+<dl>
+<dt>ED</dt>
+<dd>Editor's Draft</dd>
+
+<dt>FPWD</dt>
+<dd>First Public Working Draft</dd>
+
+<dt>WD</dt>
+<dd>Working Draft</dd>
+
+<dt>CR</dt>
+<dd>Candidate Recommendation</dd>
+
+<dt>PR</dt>
+<dd>Proposed Recommendation</dd>
+
+<dt>Rec</dt>
+<dd>Recommendation</dd>
+</dl>
+
+<div id="live" class="visuallyhidden" aria-live="polite"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/table-sort.js"></script>
+
+</main>
 </body>
 </html>
