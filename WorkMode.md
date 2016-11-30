@@ -1,13 +1,13 @@
 This document defines and describes the Web Platform WG's *Real Work Modes* including: Participation and Communication, Meetings, Call for Consensus, Mail List usage, links to important resources, etc.
 
-**Note the [WG's Charter](//www.w3.org/2015/10/webplatform-charter.html) formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [W3C Process Document](//www.w3.org/Consortium/Process/) overrides the information in this document. Nevertheless, document contains additional information about how the group *really* works and as such, this information may be particularly useful to new members of the group.**
+**Note the [WG's Charter](https://www.w3.org/2016/11/webplatform-charter.html) formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [W3C Process Document](//www.w3.org/Consortium/Process/) overrides the information in this document. Nevertheless, document contains additional information about how the group *really* works and as such, this information may be particularly useful to new members of the group.**
 
 This document is a *Living Document* and as such will change. Members of the group are encouraged to edit (e.g. to update, correct, etc.) the information in this  document. Comments about this document are welcome via the <code>[public-webapps@w3.org](mailto:public-webapps@w3.org)</code> e-mail list, using a subject prefix of <code>[WorkMode] ...</code>.
 
 
 ## Participation and Communication
 
-The group's formal Participation and Communication models are documented in the [Participation](//www.w3.org/2015/10/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
+The group's formal Participation and Communication models are documented in the [Participation](https://www.w3.org/2016/11/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
 
 Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [specifications in progress](https://www.w3.org/WebPlatform/WG/PubStatus).
 
@@ -84,7 +84,7 @@ Resources:
 
 ## Patent Policy
 
-The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2015/10/webplatform-charter.html#patentpolicy):
+The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2016/11/webplatform-charter.html#patentpolicy):
 
 :This Working Group operates under the [W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.<br/><br/>For more information about disclosure obligations for this group, please see the [W3C Patent Policy Implementation](//www.w3.org/2004/01/pp-impl/).
 
@@ -108,7 +108,7 @@ To facilitate broad participation in these meetings including participants from 
 * The consortium usually has an annual "['Technical Plenary and All Working Group](//www.w3.org/2002/09/TPOverview.html)* face-to-face (f2f) meeting week (aka *TPAC*) and this group typically has a f2f meeting during that week. The dates/locations are generally known a year or more in advance, and historically WebApps has met on the first 2 days of the event.
 
 ### All meetings
-* Per the group's charter: [*Any resolution taken in a face-to-face meeting or teleconference is to be considered provisional until 10 working days after the publication of the resolution in draft minutes sent to the working groups mailing list. If no objections are raised on the mailing list within that time, the resolution will be considered to have consensus as a resolution of the Working Group.*](//www.w3.org/2015/10/webplatform-charter.html#decisions)
+* Per the group's charter: [*Any resolution taken in a face-to-face meeting or teleconference is to be considered provisional until 10 working days after the publication of the resolution in draft minutes sent to the working groups mailing list. If no objections are raised on the mailing list within that time, the resolution will be considered to have consensus as a resolution of the Working Group.*](//www.w3.org/2016/11/webplatform-charter.html#decisions)
 * The meeting must use the W3C's #webapps IRC and the [RRSAgent Meeting Minute bot](//www.w3.org/2002/03/RRSAgent)
 * The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [team-webplatform@w3.org](mailto:team-webplatform@w3.org) at least 48 hours before the meeting starts.
 * Within 48 hours of the meeting ending (although sooner is preferred), the meeting's minutes must be sent to the e-mail list used in the meeting's announcement.
@@ -184,7 +184,7 @@ An [HTML interface to the W3C's IRC system](http://irc.w3.org/) is available. Se
 
 ## Testing
 
-The group's [charter](//www.w3.org/2015/10/webplatform-charter.html) mandates the WG create *a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents*. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webplatform](https://github.com/w3c/web-platform-tests/labels/wg-webplatform)</code> label.
+The group's [charter](//www.w3.org/2016/11/webplatform-charter.html) mandates the WG create *a comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents*. The group uses the W3C's <code>[web-platform-tests](https://github.com/w3c/web-platform-tests)</code> Github repository for all of its test suites. The group's tests use the <code>[wg-webplatform](https://github.com/w3c/web-platform-tests/labels/wg-webplatform)</code> label.
 
 Resources:
 
@@ -205,7 +205,7 @@ Resources:
 ## Links to Group Resources
 
 * [Github](https://github.com/w3c/WebPlatformWG/)
-* [Charter](//www.w3.org/2015/10/webplatform-charter.html)
+* [Charter](//www.w3.org/2016/11/webplatform-charter.html)
 * [Publication status](https://www.w3.org/WebPlatform/WG/PubStatus)
 * [WG participants list](http://www.w3.org/2000/09/dbwg/details?group=83482)
 * Public mail list archives: see [above](#participation-and-communication)
