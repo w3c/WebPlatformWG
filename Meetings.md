@@ -9,7 +9,7 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ### 19 to 23 September 2016: TPAC (Lisbon Portugal)
 - [HTML, IndexedDB, WebIDL, UI Events & WebPlat minutes](https://www.w3.org/2016/09/23-webapps-minutes.html)
-- [Ediging APIs minutes](https://www.w3.org/2016/09/22-webapps-minutes.html)
+- [Editing APIs minutes](https://www.w3.org/2016/09/22-webapps-minutes.html)
 - [Service Workers minutes](https://www.w3.org/2016/09/20-webapps-minutes.html)
 - [Web Components minutes](https://www.w3.org/2016/09/19-webapps-minutes.html)
 
