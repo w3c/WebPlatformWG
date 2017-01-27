@@ -3,7 +3,7 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Upcoming Meetings
 
-* [HTML 28 to 30 March, Amsterdam](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/17-03HTML.md
+* [HTML 28 to 30 March, Amsterdam](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/17-03HTML.md)
 * [Service Worker 3 and 4 April, Tokyo](https://github.com/w3c/ServiceWorker/issues/1053)
 
 ## Past meetings
