@@ -1,10 +1,11 @@
 # WebPlat meetings
 This document contains information about WebPlat's upcoming and recent F2F meetings. For more information see [Meetings? What Meetings?](WorkMode.md#meetings-what-meetings) - meetings section of Web Platform [WorkMode](WorkMode.md).
 
-## Upcoming Meetings
+## Upcoming F2F Meetings
 
 * [HTML 28 to 30 March, Amsterdam](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/17-03HTML.md)
 * [Service Worker 3 and 4 April, Tokyo](https://github.com/w3c/ServiceWorker/issues/1053)
+* TPAC 6 to 10 Nov, Burlingame, CA, USA
 
 ## Past meetings
 
@@ -77,21 +78,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 ### UI Events
 
--   Day + Time:
--   Tuesday: San Francisco 17:00; Boston 20:00;
--   Wednesday: UTC: 01:00; Tokyo: 10:00
-
--   Join [WebEx](https://mit.webex.com/mit/j.php?MTID=mc9358fc4e591abf50362b027b189ce48) meeting
--   Meeting number: 643 784 215
--   Password: see [Member-only archive](https://lists.w3.org/Archives/Member/w3c-archive/2016Jan/0484.html)
--   <https://mit.webex.com/mit/j.php?MTID=mc9358fc4e591abf50362b027b189ce48>;
-
--   Join by phone
--   +1-617-324-0000 US Toll Number
--   Access code: 643 784 215
--   Mobile Auto Dial: +1-617-324-0000,,,643784215\#
-
--   [Add](https://mit.webex.com/mit/j.php?MTID=me1eaed87cdc049944b01363dd20cc4bf) this meeting to your calendar.
+-   Please send a request to [www-dom](http://lists.w3.org/Archives/Public/www-dom/) or contact the editors; only on a case-by-case basis.
 
 -   Agendas: a draft agenda is sent to the [www-dom](http://lists.w3.org/Archives/Public/www-dom/) list at least 24 hours before
 -   Minutes: meeting minutes are distributed on the [www-dom](http://lists.w3.org/Archives/Public/www-dom/) list.
@@ -99,7 +86,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 ### Web Components
 
--   ad hoc; only on a case-by-case basis
+-   Please contact the chairs or the editors; only on a case-by-case basis.
 
 -   Agendas: a draft agenda is sent to the [public-webapps](http://lists.w3.org/Archives/Public/public-webapps/) list at least 24 hours before
 -   Minutes: meeting minutes are distributed on the [public-webapps](http://lists.w3.org/Archives/Public/public-webapps/) list.
@@ -107,7 +94,7 @@ The following information applies to all of Web Platform meetings (distributed a
 
 ### Editing APIs
 
--   ad hoc; only on a case-by-case basis.
+-   Please send a request to [public-public-editing-tf](http://lists.w3.org/Archives/Public/public-editing-tf/); only on a case-by-case basis.
 
 -   Agendas: a draft agenda is sent to the [public-public-editing-tf](http://lists.w3.org/Archives/Public/public-editing-tf/) list at least 24 hours before
 -   Minutes: meeting minutes are distributed on the [public-editing-tf](http://lists.w3.org/Archives/Public/public-editing-tf/) list.
