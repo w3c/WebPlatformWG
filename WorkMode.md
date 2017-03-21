@@ -1,3 +1,5 @@
+# WebPlatform Work mode
+
 This document defines and describes the Web Platform WG's *Real Work Modes* including: Participation and Communication, Meetings, Call for Consensus, Mail List usage, links to important resources, etc.
 
 **Note the [WG's Charter](https://www.w3.org/2016/11/webplatform-charter.html) formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [W3C Process Document](//www.w3.org/Consortium/Process/) overrides the information in this document. Nevertheless, document contains additional information about how the group *really* works and as such, this information may be particularly useful to new members of the group.**
@@ -112,6 +114,16 @@ To facilitate broad participation in these meetings including participants from 
 * The meeting must use the W3C's #webapps IRC and the [RRSAgent Meeting Minute bot](//www.w3.org/2002/03/RRSAgent)
 * The meeting may use the consortium's VOIP system and requests to reserve a slot with the system should be sent to [team-webplatform@w3.org](mailto:team-webplatform@w3.org) at least 48 hours before the meeting starts.
 * Within 48 hours of the meeting ending (although sooner is preferred), the meeting's minutes must be sent to the e-mail list used in the meeting's announcement.
+
+
+### Meeting observers
+It is possible for people who are not members of the Web Platform WG to attend meetings as observers. Non-members have not made any commitment to provide standard W3C royalty-free licensing, so non-members are restricted to observer status only.
+
+Observers may listen, and participate in general discussions during the meeting. However, they must not make technical contributions, or attempt to influence an approach to a feature that may become part of the specification being discussed.
+
+If the attendee works for a W3C member company, they are encouraged to ask their Advisory Committee (AC) representative to make them a Web Platform WG participant. Alternatively, their AC representative can make a formal [royalty-free licensing commitment](https://www.w3.org/2004/01/pp-impl/83482/join). They can then fully participate in the meeting.
+
+Please note that this is to provide as much protection as possible through the W3C Patent Policy. We take the royalty-free status of W3C standards very seriously, and any attempt to work-around these basic requirements would be considered a serious breech of meeting participation.
 
 Resources:
 
