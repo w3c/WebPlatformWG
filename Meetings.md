@@ -12,7 +12,7 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 - [Day 2 minutes](https://www.w3.org/2017/04/04-serviceworkers-minutes.html)
 
 ### 28 to 30 March 2017: HTML meeting (Amsterdam)
-- [Da 1 minutes](https://www.w3.org/2017/03/28-html-minutes.html)
+- [Day 1 minutes](https://www.w3.org/2017/03/28-html-minutes.html)
 - [Day 2 minutes](https://www.w3.org/2017/03/29-html-minutes.html)
 - [Day 3 minutes](https://www.w3.org/2017/03/30-html-minutes.html)
 
