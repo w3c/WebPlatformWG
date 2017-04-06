@@ -7,7 +7,7 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Past meetings
 
-###3 and 4 April 2017: Service Workers meeting (Tokyo)
+### 3 and 4 April 2017: Service Workers meeting (Tokyo)
 - [Day 1 minutes](https://www.w3.org/2017/04/03-serviceworkers-minutes.html)
 - [Day 2 minutes](https://www.w3.org/2017/04/04-serviceworkers-minutes.html)
 
