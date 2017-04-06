@@ -3,11 +3,18 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Upcoming F2F Meetings
 
-* [HTML 28 to 30 March, Amsterdam](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/17-03HTML.md)
-* [Service Worker 3 and 4 April, Tokyo](https://github.com/w3c/ServiceWorker/issues/1053)
 * TPAC 6 to 10 Nov, Burlingame, CA, USA
 
 ## Past meetings
+
+###3 and 4 April 2017: Service Workers meeting (Tokyo)
+- [Day 1 minutes](https://www.w3.org/2017/04/03-serviceworkers-minutes.html)
+- [Day 2 minutes](https://www.w3.org/2017/04/04-serviceworkers-minutes.html)
+
+### 28 to 30 March 2017: HTML meeting (Amsterdam)
+- [Da 1 minutes](https://www.w3.org/2017/03/28-html-minutes.html)
+- [Day 2 minutes](https://www.w3.org/2017/03/29-html-minutes.html)
+- [Day 3 minutes](https://www.w3.org/2017/03/30-html-minutes.html)
 
 ### 19 to 23 September 2016: TPAC (Lisbon Portugal)
 - [HTML, IndexedDB, WebIDL, UI Events & WebPlat minutes](https://www.w3.org/2016/09/23-webapps-minutes.html)
