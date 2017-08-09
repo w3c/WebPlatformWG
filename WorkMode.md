@@ -88,7 +88,9 @@ Resources:
 
 The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2016/11/webplatform-charter.html#patentpolicy):
 
-:This Working Group operates under the [W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.<br/><br/>For more information about disclosure obligations for this group, please see the [W3C Patent Policy Implementation](//www.w3.org/2004/01/pp-impl/).
+> This Working Group operates under the [W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.
+
+For more information about disclosure obligations for this group, please see the [W3C Patent Policy Implementation](//www.w3.org/2004/01/pp-impl/).
 
 A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [*How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?*](//www.w3.org/2003/12/22-pp-faq.html#non-participants) for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [*Licensing commitments from non-W3C Members*](//www.w3.org/2004/01/pp-impl/83482/nmlc).
 
@@ -146,7 +148,7 @@ Strictly speaking, a formal CfC is not needed to publish a new Working Draft of 
 
 The Consortium has formal Mail List policies and procedures yet also accommodates some flexibility on how mail lists are used:
 
-:Each W3C mailing list has its own policies regarding who may post to the list. Those subscribed to each list are generally able to post directly to the list without delay; those who are not may be subject to manual moderation (at least the first time they post.)
+> Each W3C mailing list has its own policies regarding who may post to the list. Those subscribed to each list are generally able to post directly to the list without delay; those who are not may be subject to manual moderation (at least the first time they post.)
 
 See [W3C Mailing List and Archive Info](//www.w3.org/Mail/) and [W3C Guidelines for Email Attachment Formats](//www.w3.org/2002/03/email_attachment_formats.html) for more information.
 
@@ -175,7 +177,7 @@ The group's [mail lists](#participation-and-communication) are only to be used f
 
 **Discussions related to general W3C-wide processes and policies are not appropriate for any of the group's mail lists and as such, discussions on those subjects are considered "off-topic"**.
 
-**Here is a list of documents and topics that are explicitly off-topic for the group's mail lists, including one or more appropriate discussion forums that may be used**:
+Here is a list of documents and topics that are explicitly off-topic for the group's mail lists, including one or more appropriate discussion forums that may be used:
 
 * **[W3C Document and Software License](http://www.w3.org/Consortium/Legal/copyright-software) and Copyright issues**:  the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2005/10/Process-20051014/organization#AC)
 * **[W3C Process Document](//www.w3.org/2015/Process-20150901/):** the [Revising W3C Process Community Group](//www.w3.org/community/w3process/); the [W3C Advisory Board](//www.w3.org/2002/ab/); the [W3C Advisory Committee](//www.w3.org/2015/Process-20150901/#AC)
@@ -223,7 +225,7 @@ Resources:
 * Public mail list archives: see [above](#participation-and-communication)
 * [Member-Confidential mail list archive](http://lists.w3.org/Archives/Member/member-webapps/)
 * Actions, Issues and Bugs ...
-** [Bugzilla Database](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); only used by a few specs
+   * [Bugzilla Database](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG); only used by a few specs
 * Telcon/Voice Conference info: [Distributed Meetings / Telcons](Meetings.md#distributed-meetings-aka-telcons)
 * Face-to-face Meetings: [upcoming and past meetings](Meetings.md)
 * [Coordination Points](Coordination.md); identifies W3C WGs and external organizations with mutual areas of interest
