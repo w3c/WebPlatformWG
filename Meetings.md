@@ -3,7 +3,11 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Upcoming F2F Meetings
 
-* TPAC 6 to 10 Nov, Burlingame, CA, USA
+### TPAC 6 to 10 Nov 2017, Burlingame, CA, USA
+
+* Tuesday 7 November: [Editing APIs TF meeting](https://github.com/w3c/WebPlatformWG/issues/93)
+* Thursday 9 November: [General Web Platform (HTML, assorted APIs, DOM, ...)](https://github.com/w3c/WebPlatformWG/issues/94)
+* Friday 10 November: [Web Components](https://github.com/w3c/webcomponents/issues/641)
 
 ## Past meetings
 
