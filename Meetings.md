@@ -3,13 +3,16 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Upcoming F2F Meetings
 
-### TPAC 6 to 10 Nov 2017, Burlingame, CA, USA
-
-* Tuesday 7 November: [Editing APIs TF meeting](https://github.com/w3c/WebPlatformWG/issues/93)
-* Thursday 9 November: [General Web Platform (HTML, assorted APIs, DOM, ...)](https://github.com/w3c/WebPlatformWG/issues/94)
-* Friday 10 November: [Web Components](https://github.com/w3c/webcomponents/issues/641)
+### TPAC 2018, Lyon, France
+ This takes place after the end of our current charter, but if the group is rechartered it is likely to meet there.
 
 ## Past meetings
+
+### TPAC 6 to 10 Nov 2017, Burlingame, CA, USA
+
+* Tuesday 7 November: [Editing APIs TF meeting](https://www.w3.org/2017/11/07-editing-minutes.html) [Editing agenda](https://github.com/w3c/WebPlatformWG/issues/93)
+* Thursday 9 November: [General Web Platform (HTML, assorted APIs, DOM, ...)](https://www.w3.org/2017/11/09-webplat-minutes.html) ["Assorted work" agenda](https://github.com/w3c/WebPlatformWG/issues/94)
+* Friday 10 November: [Web Components](https://www.w3.org/2017/11/10-webplat-minutes.html) [Web components agenda](https://github.com/w3c/webcomponents/issues/641)
 
 ### 3 and 4 April 2017: Service Workers meeting (Tokyo)
 - [Day 1 minutes](https://www.w3.org/2017/04/03-serviceworkers-minutes.html)
