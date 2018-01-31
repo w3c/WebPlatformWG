@@ -20,6 +20,7 @@ Phone: +81-3-6384-9000
 * Jan Miksovsky
 * Ryosuke Niwa
 * Tess O'Connor
+* Michael[tm] Smith
 * please make a PR to add your name here
 
 ### hopeful
