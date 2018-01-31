@@ -17,6 +17,7 @@ Phone: +81-3-6384-9000
 ### confirmed
 * Takayashi Kochi
 * Olli Pettay
+* Jan Miksovsky
 * Ryosuke Niwa
 * please make a PR to add your name here
 
