@@ -16,6 +16,7 @@ Phone: +81-3-6384-9000
 ## Attending
 ### confirmed
 * Takayashi Kochi
+* Olli Pettay
 * please make a PR to add your name here
 
 ### hopeful
