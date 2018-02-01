@@ -21,6 +21,7 @@ Phone: +81-3-6384-9000
 * Ryosuke Niwa
 * Tess O'Connor
 * Michael[tm] Smith
+* Karl Dubost
 * please make a PR to add your name here
 
 ### hopeful
