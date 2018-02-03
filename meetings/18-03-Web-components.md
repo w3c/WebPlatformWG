@@ -24,6 +24,7 @@ Phone: +81-3-6384-9000
 * Karl Dubost
 * Hayato Ito
 * Tomek Wytrębowicz
+* Patrick Kettner
 * please make a PR to add your name here
 
 ### hopeful
