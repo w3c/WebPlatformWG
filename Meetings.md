@@ -3,6 +3,9 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Upcoming F2F Meetings
 
+### Web Components, 5-6 March 2018, Tokyo Japan
+  [Meeting page](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/18-03-Web-components.md) - discussion of outstanding isses and future directions (e.g. templates and HTML modules).
+
 ### TPAC 2018, Lyon, France
  This takes place after the end of our current charter, but if the group is rechartered it is likely to meet there.
 
