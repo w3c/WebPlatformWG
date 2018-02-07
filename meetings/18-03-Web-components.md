@@ -25,6 +25,7 @@ Phone: +81-3-6384-9000
 * Hayato Ito
 * Tomek Wytrębowicz
 * Patrick Kettner
+* Justin Fagnani
 * please make a PR to add your name here
 
 ### hopeful
