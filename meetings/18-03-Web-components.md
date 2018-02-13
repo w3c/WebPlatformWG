@@ -26,6 +26,7 @@ Phone: +81-3-6384-9000
 * Tomek Wytrębowicz
 * Patrick Kettner
 * Justin Fagnani
+* Diego Ferreiro Val
 * please make a PR to add your name here
 
 ### hopeful
