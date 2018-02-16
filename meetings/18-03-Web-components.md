@@ -45,4 +45,5 @@ feel free to reqest topics in that issue, or make a pull request against this pa
 
 ### Tuesday
 * HTML modules
+* [Scoped Custom Element Registries](https://github.com/w3c/webcomponents/issues/716)
 * ...
