@@ -16,22 +16,23 @@ Phone: +81-3-6384-9000
 ## Attending
 
 ### Confirmed
-* [Takayashi Kochi](https://github.com/TakayoshiKochi)
-* [Olli Pettay](https://github.com/smaug----)
-* [Jan Miksovsky](https://github.com/JanMiksovsky)
-* [Ryosuke Niwa](https://github.com/rniwa)
-* [Tess O'Connor](https://github.com/hober)
-* [Michael[tm] Smith](https://github.com/sideshowbarker)
-* [Karl Dubost](https://github.com/karlcow)
-* [Hayato Ito](https://github.com/hayatoito)
-* [Tomek Wytrębowicz](https://github.com/tomalec)
-* [Patrick Kettner](https://github.com/patrickkettner)
-* [Justin Fagnani](https://github.com/justinfagnani)
+* [Takayashi Kochi](https://github.com/TakayoshiKochi) - google
+* [Olli Pettay](https://github.com/smaug----) - mozilla
+* [Jan Miksovsky](https://github.com/JanMiksovsky) - invited expert (Component Kitchen)
+* [Ryosuke Niwa](https://github.com/rniwa) - apple
+* [Tess O'Connor](https://github.com/hober) - apple
+* [Michael[tm] Smith](https://github.com/sideshowbarker) - w3c
+* [Karl Dubost](https://github.com/karlcow) - mozilla
+* [Hayato Ito](https://github.com/hayatoito) - google
+* [Tomek Wytrębowicz](https://github.com/tomalec) - invited expert
+* [Patrick Kettner](https://github.com/patrickkettner) - microsoft
+* [Justin Fagnani](https://github.com/justinfagnani) - google
 * [Diego Ferreiro Val](https://github.com/diervo)
 
 (Please make a PR to add your name here)
 
 ### Hopeful
+* [Trey Shugart](https://github.com/treshugart) - *atlassian
 (Please make a PR to add your name here)
 
 ## Agenda
