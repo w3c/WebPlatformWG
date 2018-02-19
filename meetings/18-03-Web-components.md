@@ -53,9 +53,11 @@ feel free to reqest topics in that issue, or make a pull request against this pa
 The detailed logistics will be posted again in the week before the meeting.
 We plan to provide light-breakfast and lunch on both days.
 
-Here's general information about how to get to the venue
-(note: this was for the BlinkOn event last September, but most of the things still apply):
-https://docs.google.com/document/d/1eabGyPuFpYUeEgsK9xMKunzjMSS1uly_n7OfCJoLftI/edit
+Here's [general information](https://docs.google.com/document/d/1eabGyPuFpYUeEgsK9xMKunzjMSS1uly_n7OfCJoLftI/edit)
+about how to get to the venue (note: this was for the BlinkOn event last September, but most of the things still apply)
+
 Average weather in March in Tokyo:
+
 High - 13C / 55F
+
 Low - 5C / 41F
