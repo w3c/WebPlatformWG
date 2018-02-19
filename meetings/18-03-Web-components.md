@@ -29,6 +29,7 @@ Phone: +81-3-6384-9000
 * [Justin Fagnani](https://github.com/justinfagnani) - google
 * [Diego Ferreiro Val](https://github.com/diervo)
 * [Domenic Denicola](https://github.com/domenic) - google
+* Anne van Kesteren - mozilla
 
 (Please make a PR to add your name here)
 
