@@ -16,25 +16,26 @@ Phone: +81-3-6384-9000
 ## Attending
 
 ### Confirmed
-* [Takayashi Kochi](https://github.com/TakayoshiKochi) - google
-* [Olli Pettay](https://github.com/smaug----) - mozilla
-* [Jan Miksovsky](https://github.com/JanMiksovsky) - invited expert (Component Kitchen)
-* [Ryosuke Niwa](https://github.com/rniwa) - apple
-* [Tess O'Connor](https://github.com/hober) - apple
-* [Michael[tm] Smith](https://github.com/sideshowbarker) - w3c
-* [Karl Dubost](https://github.com/karlcow) - mozilla
-* [Hayato Ito](https://github.com/hayatoito) - google
-* [Tomek Wytrębowicz](https://github.com/tomalec) - invited expert
-* [Patrick Kettner](https://github.com/patrickkettner) - microsoft
-* [Justin Fagnani](https://github.com/justinfagnani) - google
-* [Diego Ferreiro Val](https://github.com/diervo)
-* [Domenic Denicola](https://github.com/domenic) - google
-* Anne van Kesteren - mozilla
+* [Takayashi Kochi](https://github.com/TakayoshiKochi) - Google
+* [Olli Pettay](https://github.com/smaug----) - Mozilla
+* [Jan Miksovsky](https://github.com/JanMiksovsky) - Invited expert (Component Kitchen)
+* [Ryosuke Niwa](https://github.com/rniwa) - Apple
+* [Tess O'Connor](https://github.com/hober) - Apple
+* [Michael[tm] Smith](https://github.com/sideshowbarker) - W3C
+* [Karl Dubost](https://github.com/karlcow) - Mozilla
+* [Hayato Ito](https://github.com/hayatoito) - Google
+* [Tomek Wytrębowicz](https://github.com/tomalec) - Invited expert
+* [Patrick Kettner](https://github.com/patrickkettner) - Microsoft
+* [Justin Fagnani](https://github.com/justinfagnani) - Google
+* [Diego Ferreiro Val](https://github.com/diervo) - Salesforce
+* [Domenic Denicola](https://github.com/domenic) - Google
+* [Anne van Kesteren](https://github.com/annevk) - Mozilla
 
 (Please make a PR to add your name here)
 
 ### Hopeful
-* [Trey Shugart](https://github.com/treshugart) - *atlassian
+* [Trey Shugart](https://github.com/treshugart) - Atlassian
+
 (Please make a PR to add your name here)
 
 ## Agenda
