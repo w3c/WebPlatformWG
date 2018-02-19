@@ -43,11 +43,11 @@ feel free to reqest topics in that issue, or make a pull request against this pa
 
 ### Monday
 * Contentious bugs resolution
-* Template instantiation
+* [Template instantiation](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Template-Instantiation.md)
 * Template processing
 
 ### Tuesday
-* HTML modules
+* [HTML modules](https://github.com/w3c/webcomponents/issues/645)
 * [Scoped Custom Element Registries](https://github.com/w3c/webcomponents/issues/716)
 * ...
 
