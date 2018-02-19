@@ -28,6 +28,7 @@ Phone: +81-3-6384-9000
 * [Patrick Kettner](https://github.com/patrickkettner) - microsoft
 * [Justin Fagnani](https://github.com/justinfagnani) - google
 * [Diego Ferreiro Val](https://github.com/diervo)
+* [Domenic Denicola](https://github.com/domenic) - google
 
 (Please make a PR to add your name here)
 
