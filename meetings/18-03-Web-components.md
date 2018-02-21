@@ -42,7 +42,7 @@ Phone: +81-3-6384-9000
 
 ## Agenda
 The following is a draft proposal based on [discussion](https://github.com/w3c/webcomponents/issues/713) - 
-feel free to reqest topics in that issue, or make a pull request against this page.
+feel free to request topics in that issue, or make a pull request against this page.
 
 ### Monday
 * Contentious bugs resolution
@@ -52,6 +52,7 @@ feel free to reqest topics in that issue, or make a pull request against this pa
 ### Tuesday
 * HTML modules
 * [Scoped Custom Element Registries](https://github.com/w3c/webcomponents/issues/716)
+* [Declarative Shadow DOM](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Declarative-Shadow-DOM.md) - [gh issue](https://github.com/whatwg/dom/issues/510), [discourse](https://discourse.wicg.io/t/declarative-shadow-dom/1904)
 * ...
 
 ## Logistics
