@@ -30,6 +30,7 @@ Phone: +81-3-6384-9000
 * [Diego Ferreiro Val](https://github.com/diervo) - Salesforce
 * [Domenic Denicola](https://github.com/domenic) - Google
 * [Anne van Kesteren](https://github.com/annevk) - Mozilla
+* [Kent Tamura](https://github.com/tkent-google) - Google
 
 (Please make a PR to add your name here)
 
