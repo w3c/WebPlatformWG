@@ -37,6 +37,7 @@
 
 ### Hopeful
 * [Trey Shugart](https://github.com/treshugart) - Atlassian
+* [Sangwhan Moon](https://github.com/cynthia) - Invited expert
 
 (Please make a PR to add your name here)
 
