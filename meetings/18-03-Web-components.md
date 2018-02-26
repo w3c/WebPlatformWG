@@ -28,6 +28,8 @@
 * [Patrick Kettner](https://github.com/patrickkettner) - Microsoft
 * [Justin Fagnani](https://github.com/justinfagnani) - Google
 * [Diego Ferreiro Val](https://github.com/diervo) - Salesforce
+* [Pierre-Marie Dartus](https://github.com/pmdartus) - Salesforce
+* [Eugene Kashida](https://github.com/ekashida) - Salesforce
 * [Domenic Denicola](https://github.com/domenic) - Google
 * [Anne van Kesteren](https://github.com/annevk) - Mozilla
 * [Chris Joel](https://github.com/cdata) - Google
