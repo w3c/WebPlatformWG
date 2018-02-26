@@ -32,6 +32,7 @@
 * [Anne van Kesteren](https://github.com/annevk) - Mozilla
 * [Chris Joel](https://github.com/cdata) - Google
 * [Kent Tamura](https://github.com/tkent-google) - Google
+* [Fergal Daly](https://github.com/fergald) - Google
 * [chaals nevile](https://github.com/chaals) - (WG co-chair)
 
 (Please make a PR to add your name here)
