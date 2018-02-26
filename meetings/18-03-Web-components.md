@@ -51,11 +51,11 @@ feel free to request topics in that issue, or make a pull request against this p
 
 ### Monday
 * Contentious bugs resolution
-* Template instantiation
+* [Template instantiation](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Template-Instantiation.md)
 * Unconference 1
 
 ### Tuesday
-* HTML modules
+* [HTML modules](https://github.com/w3c/webcomponents/issues/645)
 * [Scoped Custom Element Registries](https://github.com/w3c/webcomponents/issues/716) / [Declarative Shadow DOM](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Declarative-Shadow-DOM.md) - [gh issue](https://github.com/whatwg/dom/issues/510), [discourse](https://discourse.wicg.io/t/declarative-shadow-dom/1904)
 * Unconference 2
 * Unconference 3
