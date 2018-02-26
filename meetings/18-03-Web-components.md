@@ -2,16 +2,16 @@
 
 ## Tokyo, Japan, 5-6 March 2018
 
-10am - 6pm local Japan time each day (0100Z - 1000Z).
+* 10am - 6pm local Japan time each day (0100Z - 1000Z).
+* Remote participation through webex will be possible, details available [on request](mailto:chaals@yandex.ru).
+* The meeting will be hosted by Google, 5 and 6 March 2018, in their offices in Roppongi:
 
-Remote participation through webex will be possible, details available [on request](mailto:chaals@yandex.ru).
-
-The meeting will be hosted by Google, 5 and 6 March 2018, in their offices in Roppongi:
-
-Roppongi Hills Mori Tower 6-10-1 Roppongi Minato-ku:
+* Roppongi Hills Mori Tower 6-10-1 Roppongi Minato-ku:
 [OpenStreetMap](https://www.openstreetmap.org/way/153924771#map=16/35.6605/139.7293) / [Google Maps](https://www.google.com/maps/place/Roppongi+Hills/@35.6604761,139.7270984,17z/)
 
-Phone: +81-3-6384-9000
+* Phone: +81-3-6384-9000 (or in Japan, 03-6384-9000)
+
+* Please register your name below by the end of day Feb. 27 (at your local timezone)!
 
 ## Attending
 
@@ -22,7 +22,7 @@ Phone: +81-3-6384-9000
 * [Ryosuke Niwa](https://github.com/rniwa) - Apple
 * [Tess O'Connor](https://github.com/hober) - Apple
 * [Michael[tm] Smith](https://github.com/sideshowbarker) - W3C
-* [Karl Dubost](https://github.com/karlcow) - Mozilla
+* [Karl Dubost](https://github.com/karlcow) - Mozilla - canceled
 * [Hayato Ito](https://github.com/hayatoito) - Google
 * [Tomek Wytrębowicz](https://github.com/tomalec) - Invited expert
 * [Patrick Kettner](https://github.com/patrickkettner) - Microsoft
@@ -33,28 +33,32 @@ Phone: +81-3-6384-9000
 * [Chris Joel](https://github.com/cdata) - Google
 * [Kent Tamura](https://github.com/tkent-google) - Google
 * [Fergal Daly](https://github.com/fergald) - Google
+* [chaals nevile](https://github.com/chaals) - (WG co-chair)
 
 (Please make a PR to add your name here)
 
 ### Hopeful
 * [Trey Shugart](https://github.com/treshugart) - Atlassian
+* [Sangwhan Moon](https://github.com/cynthia) - Invited expert
 
 (Please make a PR to add your name here)
 
 ## Agenda
+For 2 days, we will have 4 1.5hour slots per day, lunch and breaks in between.
+
 The following is a draft proposal based on [discussion](https://github.com/w3c/webcomponents/issues/713) - 
 feel free to request topics in that issue, or make a pull request against this page.
 
 ### Monday
 * Contentious bugs resolution
 * Template instantiation
-* Template processing
+* Unconference 1
 
 ### Tuesday
 * HTML modules
-* [Scoped Custom Element Registries](https://github.com/w3c/webcomponents/issues/716)
-* [Declarative Shadow DOM](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Declarative-Shadow-DOM.md) - [gh issue](https://github.com/whatwg/dom/issues/510), [discourse](https://discourse.wicg.io/t/declarative-shadow-dom/1904)
-* ...
+* [Scoped Custom Element Registries](https://github.com/w3c/webcomponents/issues/716) / [Declarative Shadow DOM](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Declarative-Shadow-DOM.md) - [gh issue](https://github.com/whatwg/dom/issues/510), [discourse](https://discourse.wicg.io/t/declarative-shadow-dom/1904)
+* Unconference 2
+* Unconference 3
 
 ## Logistics
 The detailed logistics will be posted again in the week before the meeting.
