@@ -22,7 +22,7 @@
 * [Ryosuke Niwa](https://github.com/rniwa) - Apple
 * [Tess O'Connor](https://github.com/hober) - Apple
 * [Michael[tm] Smith](https://github.com/sideshowbarker) - W3C
-* [Karl Dubost](https://github.com/karlcow) - Mozilla
+* [Karl Dubost](https://github.com/karlcow) - Mozilla - canceled
 * [Hayato Ito](https://github.com/hayatoito) - Google
 * [Tomek Wytrębowicz](https://github.com/tomalec) - Invited expert
 * [Patrick Kettner](https://github.com/patrickkettner) - Microsoft
