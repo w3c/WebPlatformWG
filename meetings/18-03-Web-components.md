@@ -37,6 +37,7 @@
 * [chaals nevile](https://github.com/chaals) - (WG co-chair)
 * [Rob Wormald](https://github.com/robwormald) - Google (Angular)
 * [Adam Bradley](https://github.com/adamdbradley) - (join remotely) ionic and stenciljs
+* [Jason Miller](https://github.com/developit) - (join remotely) Google (Preact)
 
 (Please make a PR to add your name here)
 
