@@ -10,6 +10,7 @@
 [OpenStreetMap](https://www.openstreetmap.org/way/153924771#map=16/35.6605/139.7293) / [Google Maps](https://www.google.com/maps/place/Roppongi+Hills/@35.6604761,139.7270984,17z/)
 * Please reach out Takayoshi Kochi via kochi@google.com or +81-80-3365-8801 (domestic: 080-3365-8801) for any urgent matter.
 * The registration is closed, but if you still can make it or have to cancel, please let kochi@google.com know.
+* A group dinner is planned on the first day night (Mar. 5).
 
 ## Attending
 
