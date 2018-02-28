@@ -8,9 +8,10 @@
 * The meeting will be hosted by Google, 5 and 6 March 2018, in their offices in Roppongi:
 * Roppongi Hills Mori Tower 6-10-1 Roppongi Minato-ku:
 [OpenStreetMap](https://www.openstreetmap.org/way/153924771#map=16/35.6605/139.7293) / [Google Maps](https://www.google.com/maps/place/Roppongi+Hills/@35.6604761,139.7270984,17z/)
+* The reception desk will open at 9AM on Monday.
+* A group dinner is planned on the first day night (Mar. 5) - all participants are invited.
 * Please reach out Takayoshi Kochi via kochi@google.com or +81-80-3365-8801 (domestic: 080-3365-8801) for any urgent matter.
 * The registration is closed, but if you still can make it or have to cancel, please let kochi@google.com know.
-* A group dinner is planned on the first day night (Mar. 5).
 
 ## Attending
 
@@ -71,7 +72,7 @@ feel free to request topics in that issue, or make a pull request against this p
 
 ## Logistics
 The detailed logistics will be posted again in the week before the meeting.
-We plan to provide light-breakfast and lunch on both days.
+We plan to provide light-breakfast and lunch on both days, and have a dinner at the first day.
 
 Here's [general information](https://docs.google.com/document/d/17OuNoY4KKqo7dRRSErzOcJhV5g714W4x_F4_qo5ozbY/edit?usp=sharing)
 about how to get to the venue, wandering around Tokyo, etc.
