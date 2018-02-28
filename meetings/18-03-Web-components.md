@@ -4,6 +4,7 @@
 
 * 10am - 6pm local Japan time each day (0100Z - 1000Z).
 * Remote participation through Google Hangouts is planned.
+* IRC channel: irc.w3.org #webplat
 * The meeting will be hosted by Google, 5 and 6 March 2018, in their offices in Roppongi:
 * Roppongi Hills Mori Tower 6-10-1 Roppongi Minato-ku:
 [OpenStreetMap](https://www.openstreetmap.org/way/153924771#map=16/35.6605/139.7293) / [Google Maps](https://www.google.com/maps/place/Roppongi+Hills/@35.6604761,139.7270984,17z/)
