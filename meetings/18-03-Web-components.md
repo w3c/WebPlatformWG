@@ -49,7 +49,7 @@
 
 ### Regrets
 * [Karl Dubost](https://github.com/karlcow) - Mozilla - canceled
-* Evan You - Vue - conflict
+* [Evan You](https://github.com/yyx990803) - Vue - conflict
 
 (Please make a PR to add your name here)
 
