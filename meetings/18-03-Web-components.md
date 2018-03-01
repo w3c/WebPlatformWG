@@ -38,6 +38,8 @@
 * [Rob Wormald](https://github.com/robwormald) - Google (Angular)
 * [Adam Bradley](https://github.com/adamdbradley) - (join remotely) ionic and stenciljs
 * [Jason Miller](https://github.com/developit) - (join remotely) Google (Preact)
+* [Qingqian Tao] - Baidu(MIP)
+* [Zhou Shen] - Baidu(MIP)
 
 (Please make a PR to add your name here)
 
