@@ -73,8 +73,11 @@ feel free to request topics in that issue, or make a pull request against this p
 * Unconference 3
 
 ## Logistics
-The detailed logistics will be posted again in the week before the meeting.
-We plan to provide light-breakfast and lunch on both days, and have a dinner at the first day.
+The host will provide light-breakfast and lunch on both days, and have a dinner on the first day.
+
+The reception desk will be open at 9AM-10AM on Mar. 5 to pick up your badge for the building entry.
+The meeting place is at 43rd floor.  Use Elevator hall "E" to get there.
+If you are coming late, please ping Takayoshi Kochi (kochi@google.com or 080-3365-8801) directly.
 
 Here's [general information](https://docs.google.com/document/d/17OuNoY4KKqo7dRRSErzOcJhV5g714W4x_F4_qo5ozbY/edit?usp=sharing)
 about how to get to the venue, wandering around Tokyo, etc.
