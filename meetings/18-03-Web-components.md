@@ -62,6 +62,7 @@ The following is a draft proposal based on [discussion](https://github.com/w3c/w
 feel free to request topics in that issue, or make a pull request against this page.
 
 ### Monday
+* Agenda building
 * Contentious bugs resolution
 * [Template instantiation](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Template-Instantiation.md)
 * Unconference 1
