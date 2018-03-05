@@ -7,6 +7,7 @@
 [OpenStreetMap](https://www.openstreetmap.org/way/153924771#map=16/35.6605/139.7293) / [Google Maps](https://www.google.com/maps/place/Roppongi+Hills/@35.6604761,139.7270984,17z/)
 * 10am - 6pm local Japan time each day (0100Z - 1000Z).
 * The reception desk will open at 9AM on Monday.
+* On Tuesday please go to the office reception at the lobby floor and say the 4-digit code with your name, visiting Google, then you'll get a brown paper strip and take the elevator hall E to get to 43F.
 * Remote participation through Google Hangouts - [day 1](https://hangouts.google.com/hangouts/_/google.com/kochi) / [day 2](https://hangouts.google.com/hangouts/_/google.com/google-com-vvaf)
 * IRC channel: irc.w3.org #webplat
 * A group dinner is planned on the first day night (Mar. 5) - all participants are invited.
