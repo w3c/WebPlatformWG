@@ -12,7 +12,7 @@
 * A group dinner is planned on the first day night (Mar. 5) - all participants are invited.
 * Please reach out Takayoshi Kochi via kochi@google.com or +81-80-3365-8801 (domestic: 080-3365-8801) for any urgent matter.
 * The registration is closed, but if you still can make it or have to cancel, please let kochi@google.com know.
-* There's [a community event](https://web-study.connpass.com/event/80198/) (not tied to W3C) after day 2 at the same building, feel free to join.
+* There's [a community event](https://web-study.connpass.com/event/80198/) (not tied to W3C) about template instantiatin after day 2 at the same building, feel free to join.
 
 ## Attending
 
