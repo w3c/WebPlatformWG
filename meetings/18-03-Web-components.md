@@ -60,6 +60,8 @@
 ## Agenda
 For 2 days, we will have 4 1.5hour slots per day, lunch and breaks in between.
 
+[Actual agenda used (on etherpad)](https://public.etherpad-mozilla.org/p/web_components_agenda)
+
 The following is a draft proposal based on [discussion](https://github.com/w3c/webcomponents/issues/713) - 
 feel free to request topics in that issue, or make a pull request against this page.
 
