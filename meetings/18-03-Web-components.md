@@ -1,21 +1,28 @@
 # Web Components meeting
 
+[Actual agenda used (on etherpad)](https://public.etherpad-mozilla.org/p/web_components_agenda)
+
+* [Complete Minutes, First Day](https://www.w3.org/2018/03/05-webplat-minutes.html)
+  * [Open issues marked "needing consensus"](https://www.w3.org/2018/03/05-webplat-minutes.html#item04)
+  * [Open issues marked "needs implementor interest](https://www.w3.org/2018/03/05-webplat-minutes.html#item05)
+  * [Pseudo-classes](https://www.w3.org/2018/03/05-webplat-minutes.html#item06)
+  * [Scoped Custom Element Registries](https://www.w3.org/2018/03/05-webplat-minutes.html#item07)
+  * [Accessibility and AoM](https://www.w3.org/2018/03/05-webplat-minutes.html#item08)
+  * [Form integration](https://www.w3.org/2018/03/05-webplat-minutes.html#item09)
+* [Complete Minutes, Second Day](https://www.w3.org/2018/03/06-webplat-minutes.html)
+  * [`template` instantiation](https://www.w3.org/2018/03/06-webplat-minutes.html#item01)
+  * [`:part` and `:theme`](https://www.w3.org/2018/03/06-webplat-minutes.html#item02)
+  * [Lightweight addition of styles](https://www.w3.org/2018/03/06-webplat-minutes.html#item04)
+  * [Declarative Shadow DOM](https://www.w3.org/2018/03/06-webplat-minutes.html#item06)
+  * [HTML Modules](https://www.w3.org/2018/03/06-webplat-minutes.html#item07)
+  * [Declarative Custome Elements](https://www.w3.org/2018/03/06-webplat-minutes.html#item08)
+
 ## Tokyo, Japan, 5-6 March 2018
 
-* 10am - 6pm local Japan time each day (0100Z - 1000Z).
-* Remote participation through webex will be possible, details available [on request](mailto:chaals@yandex.ru).
-* The meeting will be hosted by Google, 5 and 6 March 2018, in their offices in Roppongi:
+* The meeting was hosted by Google, 5 and 6 March 2018, in their offices in Roppongi, Tokyo.
 
-* Roppongi Hills Mori Tower 6-10-1 Roppongi Minato-ku:
-[OpenStreetMap](https://www.openstreetmap.org/way/153924771#map=16/35.6605/139.7293) / [Google Maps](https://www.google.com/maps/place/Roppongi+Hills/@35.6604761,139.7270984,17z/)
+## Attendees
 
-* Phone: +81-3-6384-9000 (or in Japan, 03-6384-9000)
-
-* Please register your name below by the end of day Feb. 27 (at your local timezone)!
-
-## Attending
-
-### Confirmed
 * [Takayashi Kochi](https://github.com/TakayoshiKochi) - Google
 * [Olli Pettay](https://github.com/smaug----) - Mozilla
 * [Jan Miksovsky](https://github.com/JanMiksovsky) - Invited expert (Component Kitchen)
@@ -35,30 +42,23 @@
 * [Kent Tamura](https://github.com/tkent-google) - Google
 * [Fergal Daly](https://github.com/fergald) - Google
 * [chaals nevile](https://github.com/chaals) - (WG co-chair)
-* [Rob Wormald](https://github.com/robwormald) - Google (Angular)
-* [Adam Bradley](https://github.com/adamdbradley) - (join remotely) ionic and stenciljs
-
-(Please make a PR to add your name here)
-
-### Hopeful
 * [Trey Shugart](https://github.com/treshugart) - Atlassian
 * [Sangwhan Moon](https://github.com/cynthia) - Invited expert
+* [Rob Wormald](https://github.com/robwormald) - Google (Angular)
+* [Adam Bradley](https://github.com/adamdbradley) - (join remotely) ionic and stenciljs
+* [Jason Miller](https://github.com/developit) - (join remotely) Google (Preact)
+* [Qingqian Tao] - Baidu(MIP)
+* [Zhou Shen] - Baidu(MIP)
 
-(Please make a PR to add your name here)
-
-### Regrets
-* [Karl Dubost](https://github.com/karlcow) - Mozilla - canceled
-* Evan You - Vue - conflict
-
-(Please make a PR to add your name here)
 
 ## Agenda
-For 2 days, we will have 4 1.5hour slots per day, lunch and breaks in between.
+
 
 The following is a draft proposal based on [discussion](https://github.com/w3c/webcomponents/issues/713) - 
 feel free to request topics in that issue, or make a pull request against this page.
 
 ### Monday
+* Agenda building
 * Contentious bugs resolution
 * [Template instantiation](https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Template-Instantiation.md)
 * Unconference 1
@@ -69,9 +69,3 @@ feel free to request topics in that issue, or make a pull request against this p
 * Unconference 2
 * Unconference 3
 
-## Logistics
-The detailed logistics will be posted again in the week before the meeting.
-We plan to provide light-breakfast and lunch on both days.
-
-Here's [general information](https://docs.google.com/document/d/17OuNoY4KKqo7dRRSErzOcJhV5g714W4x_F4_qo5ozbY/edit?usp=sharing)
-about how to get to the venue, wandering around Tokyo, etc.
