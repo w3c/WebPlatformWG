@@ -22,10 +22,20 @@ ul, ul li {
   margin: 0; padding: 0;
 }
 
-a, a:visited, a:hover, a:focus {
+a, a:hover, a:focus {
   color: #0000cc;
   background: transparent;
   text-decoration: underline;
+}
+
+a:visited {
+color: #660099;
+  background: transparent;
+  text-decoration: underline;
+  }
+
+a:hover, a:active, a:focus {
+    outline:2px solid #1b75bb;
 }
 
 /*** header ***/
