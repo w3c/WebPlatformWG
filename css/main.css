@@ -23,13 +23,8 @@ ul, ul li {
 }
 
 a, a:visited, a:hover, a:focus {
-  color: #4184F3;
+  color: #0000cc;
   background: transparent;
-}
-a, a:visited {
-  text-decoration: none;
-}
-a:hover, a:focus {
   text-decoration: underline;
 }
 
