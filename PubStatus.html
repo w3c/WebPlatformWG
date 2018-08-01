@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
 <meta charset="utf-8">
 <meta name=viewport content="width=device-width">
-<title>WebPlatform WG Publication Status (PubStatus)</title>
+<title>WebPlatform WG specifications</title>
 
 <link rel=stylesheet type="text/css" href="https://www.w3.org/StyleSheets/TR/base.css">
-<link rel="stylesheet" type="text/css" href="css/table-sort.css">
+<link rel="stylesheet" type="text/css" href="css/pubstatus.css">
 </head>
 
 <body>
@@ -16,10 +16,11 @@
 <a href="http://www.w3.org/"><img width="72" height="48" alt="W3C"
 src="https://www.w3.org/Icons/w3c_home"></a>
 </div>
-<h1>Web Platform Publication Status (PubStatus)</h1>
 </header>
 
 <main>
+<h1>Web Platform WG specifications</h1>
+
 <p>This document contains information about the publication status of specifications developed by
 the <a href="https://www.w3.org/WebPlatform/WG/">Web Platform Working Group</a>. These
 specifications are identified in the <a
@@ -38,146 +39,101 @@ href="https://www.w3.org/2017/08/webplatform-charter.html">Web Platform WG chart
 
 <h2 id="html">HTML specifications</h2>
 
-<table aria-labelledby="html" class="sortable">
+<table class="specs">
 <thead>
-<tr>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Spec <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Editor(s)<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Chair(s)<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Team contact(s)<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Last TR publication<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Type<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Resources<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Testing<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Notes<i class="arrow"></i></span>
-</th>
+<tr>	
+<th>Spec</th><th>Editor(s)</th><th>Chair(s)</th><th>Team</th><th>Pub date</th><th>Stage</th><th>Github</th><th>Notes</th>
 </tr>
 </thead>
 
 <tbody>
 <!-- HTML5.3 -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/html/">HTML5.3</a></td>
-<td>Bruce Lawson, Patricia Aas, Sangwhan Moon, Scott O'Hara, Shwetank Dixit, Terence Eden, Xiaoqian Wu</td>
-<td>Chaals McCathie Nevile, L&eacute;onie Watson</td>
-<td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/2018/WD-html53-20180315/
-">2018-03-15</a></td>
+<td scope="row"><a href="https://w3c.github.io/html">HTML5.3</a></td>
+<td><ul>
+<li><a href="https://github.com/brucelawson">Bruce Lawson</a></li>
+<li><a href="https://github.com/patricia-gallardo">Patricia Aas</a></li>
+<li><a href="https://github.com/cynthia">Sangwhan Moon</a></li>
+<li><a href="https://github.com/scottaohara">Scott O'Hara</a></li>
+<li><a href="https://github.com/shwetank">Shwetank Dixit</a></li>
+<li><a href="https://github.com/edent">Terence Eden</a></li>
+<li><a href="https://github.com/siusin">Xiaoqian Wu</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td><a href="https://w3.org/tr/html53">2018-07-03</a></td>
 <td>WD</td>
+<td><a href="https://github.com/w3c/html">HTML repo</a></td>
 <td><ul>
-<li><a href="https://github.com/w3c/html/">Github</a></li>
-<li><a href="https://github.com/w3c/html/issues/">Issues</a></li>
-<li><a href="https://github.com/w3c/html/commits/">Commits</a></li>
-<li><a href="https://github.com/w3c/html/pulse/monthly">Monthly pulse</a></li>
+<li><a href="https://w3c.github.io/test-results/html53/implementation-report.html">Draft implementation report</a></li>
+<li><a href="https://w3c.github.io/test-results/html53/exit-criteria.html">Draft exit criteria</a></li>
 </ul></td>
-<td><ul>
-<li><a href="https://github.com/w3c/web-platform-tests/tree/master/html">test suite</a></li>
-<li>Test facilitator(s): </li>
-</ul></td>
-<td><p>
-Proposed <a href="https://github.com/w3c/html/issues/1076">HTML5.3 timeline</a>
-<br>
-<a href="http://w3c.github.io/test-results/html53/implementation-report.html">Draft implementation report</a></p></td>
 </tr>
 
 <!-- HTML AAM -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/html-aam/">HTML AAM</a></td>
-<td>Alexander Surkov, Bogdan Brinza, Jason Kiss, Steve Faulkner</td>
-<td>L&eacute;onie Watson</td>
-<td>Yves Lafon</td>
-<td><a href="https://www.w3.org/TR/html-aam-1.0/">Continuous</a></td>
-<td>WD</td>
 <td><ul>
-<li><a href="https://github.com/w3c/html-aam">Github</a></li>
-<li><a href="https://github.com/w3c/html-aam/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/html-aam/pulse/monthly">Monthly pulse</a></li>
+<li><a href="https://github.com/asurkov">Alexander Surkov</a></li>
+<li><a href="https://github.com/scottaohara">Scott O'Hara</a></li>
+<li><a href="https://github.com/stevefaulkner">Steve Faulkner</a></li>
 </ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
+<td><a href="https://www.w3.org/tr/html-aam-1.0">Continuous</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/html-aam">HTML AAM repo</a></td>
 <td></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-html/2018Apr/0004.html">Request for progress update from Apr 9</a>
-</p></td>
 </tr>
 
-<!--HTML Extensions -->
+<!-- HTML Extensions -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/html-extensions/">HTML Extension Specifications
-Note</a></td>
-<td>Chaals McCathie Nevile</td>
+<td scope="row"><a href="https://w3c.github.io/html-extensions/">HTML Extensions Note</a></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
 <td></td>
-<td>Xiaoqian Wu</td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
 <td>N/A</td>
 <td>ED</td>
-<td><ul>
-<li><a href="https://github.com/w3c/html-extensions">Github</a></li>
-<li><a href="https://github.com/w3c/html-extensions/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/html-extensions/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/html-extensions/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td>N/A</td>
+<td><a href="https://github.com/w3c/html-extensions">HTML Extensions repo</a></td>
 <td></td>
 </tr>
 
 <!-- ARIA in HTML -->
 <tr>
 <td scope="row"><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></td>
-<td>Steve Faulkner</td>
-<td>L&eacute;onie Watson</td>
-<td>Xiaoqian Wu/ Yves Lafon</td>
+<td><ul>
+<li><a href="https://github.com/stevefaulkner">Steve Faulkner</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/html-aria/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/html-aria">Github</a></li>
-<li><a href="https://github.com/w3c/html-aria/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/html-aria/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/html-aria/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): Steve Faulkner</li>
-</ul></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-html/2018Apr/0011.html">Progress update from Apr 16</a>
-<br>
-<a href="http://stevefaulkner.github.io/HTML5accessibility/tests/ARIA-tests/ARIAinHTML/implementation-report.html">Draft implementation report</a>
-</p></td>
+<td><a href="https://github.com/w3c/html-aria">ARIA in HTML repo</a></td>
+<td><a href="http://stevefaulkner.github.io/HTML5accessibility/tests/ARIA-tests/ARIAinHTML/implementation-report.html">Draft implementation report</a></td>
 </tr>
 
 <!-- Using ARIA Note -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/using-aria/">Using ARIA Note</a></td>
-<td>Steve Faulkner, David MacDonald</td>
-<td>L&eacute;onie Watson</td>
-<td>Xiaoqian Wu/Yves Lafon</td>
+<td><ul>
+<li><a href="https://github.com/stevefaulkner">Steve Faulkner</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/using-aria/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/using-aria/">Github</a></li>
-<li><a href="https://github.com/w3c/using-aria/issues">Issues</a></li>
-<li> <a
-href="https://www.w3.org/Bugs/Public/buglist.cgi?query_format=advanced&amp;order=Importance&amp;bug_
-status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;component=Using%20ARIA%20in%20HTML&am
-p;product=HTML%20WG">Bugzilla</a></li>
-<li><a href="https://github.com/w3c/using-aria/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/using-aria/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td>N/A</td>
+<td><a href="https://github.com/w3c/using-aria/">Using ARIA repo</a></td>
 <td></td>
 </tr>
 </tbody>
@@ -185,838 +141,577 @@ p;product=HTML%20WG">Bugzilla</a></li>
 
 <h2 id="api">API specifications</h2>
 
-<table aria-labelledby="api" class="sortable">
+<table class="specs">
 <thead>
-<tr>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Spec <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Editor(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Chair(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Team contact(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Last TR publication <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Type <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Resources <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Testing <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Notes <i class="arrow"></i></span>
-</th>
+<tr>	
+<th>Spec</th><th>Editor(s)</th><th>Chair(s)</th><th>Team</th><th>Pub date</th><th>Stage</th><th>Github</th><th>Notes</th>
 </tr>
 </thead>
 
 <tbody>
-
 <!-- File API -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/FileAPI/">File API</a></td>
-<td>Marijn Kruisselbrink, Vsevolod Shmyrov</td>
+<td><ul>
+<li><a href="github.com/mkruisselbrink">Marijn Kruisselbrink</a></li>
+</ul></td>
 <td></td>
-<td>Yves Lafon</td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/FileAPI/">2017-10-26</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/FileAPI/">Github</a></li>
-<li><a href="https://github.com/w3c/FileAPI/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/FileAPI/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/FileAPI/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="http://w3c-test.org/FileAPI/">Test suite</a></li>
-<li>Test facilitator(s): TBD</li>
-<li><a href="http://caniuse.com/#feat=fileapi">Implementations File API (CanIUse)</a></li>
-<li><a href="http://caniuse.com/#feat=filereader">Implementations FileReader API (CanIUse)</a></li>
-</ul></td>
-<td>
- New editors have started dealing with the issues. Waiting on Streams API to move forward. Need a new WD.
-</td>
+<td><a href="https://github.com/w3c/FileAPI/">File API repo</a></td>
+<td></td>
 </tr>
 
-<!-- Gamepad API -->
+<!-- Gamepad -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/gamepad/">Gamepad API</a></td>
-<td>Brandon Jones, Scott Graham, Steve Agoston, Ted Mielczarek</td>
-<td>L&eacute;onie Watson</td>
-<td>Yves Lafon</td>
+<td scope="row"><a href="https://w3c.github.io/gamepad/">Gamepad</a></td>
+<td><ul>
+<li><a href="https://github.com/luser">Ted Mielczarek</a></li>
+<li><a href="https://github.com/sagoston">Steve Agoston</a></li>
+<li><a href="https://github.com/sgraham">Scott Graham</a></li>
+<li><a href="https://github.com/toji">Brandon Jones</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/gamepad/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/gamepad/">Github</a></li>
-<li><a href="https://github.com/w3c/gamepad/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/gamepad/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/gamepad/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="https://github.com/w3c/web-platform-tests/tree/master/gamepad">Test suite</a></li>
-<li>Test facilitator(s): Ted Mielczarek</li>
-</ul></td>
-<td><p>
-Proposed plan is to <a href="https://lists.w3.org/Archives/Public/public-webapps/2018JanMar/0019.html">ship V1</a>
-<br>
-Out for wide review, tracked as <a href="https://github.com/w3c/gamepad/issues/69">issue #69</a>
-</p></td>
+<td><a href="https://github.com/w3c/gamepad/">Gamepad API repo</a></td>
+<td>Wide review tracker is <a href="https://github.com/w3c/gamepad/issues/69">#69</a></td>
 </tr>
 
 <!-- IndexedDB -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/IndexedDB/">Indexed DB 3.0</a></td>
-<td>Joshua Bell, Ali Alabbas</td>
-<td>Léonie Watson</td>
-<td>Fuqiao Xue</td>
-<td></td>
-<td></td>
+<td scope="row"><a href="https://w3c.github.io/IndexedDB/">IndexedDB API 3.0</a></td>
 <td><ul>
-<li><a href="https://github.com/w3c/indexeddb">Github</a></li>
-<li><a href="https://github.com/w3c/indexeddb/issues/">Issues</a></li>
-<li><a href="https://github.com/w3c/indexeddb/commits">Commits</a></li>
+<li><a href="https://github.com/inexorabletash">Joshua Bell</a></li>
+<li><a href="https://github.com/aliams">Ali Alabbas</a></li>
 </ul></td>
-<td></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-webapps/2018JanMar/0037.html">Intent to start work on Indexed DB 3 from Mar 15</a>
-</p></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/xfq">Fuqiao Xue</a></td>
+<td>N/A</td>
+<td>ED</td>
+<td><a href="https://github.com/w3c/indexeddb">IndexedDB repo</a></td>
+<td><a href="https://lists.w3.org/Archives/Public/public-webapps/2018JanMar/0037.html">Intent to start work on IndexedDB3.0</a></td>
 </tr>
 
 <!-- Intersection Observer -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/IntersectionObserver/">Intersection Observer</a></td>
-<td>Stefan Zager</td>
-<td>Léonie Watson</td>
-<td>Xiaoqian Wu</td>
+<td><ul>
+<li><a href="https://github.com/szager-chromium">Stefan Zager</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
 <td><a href="https://www.w3.org/TR/intersection-observer/">2017-09-14</a></td>
 <td>FPWD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/IntersectionObserver">Github</a></li>
-<li><a href="https://github.com/w3c/IntersectionObserver/issues">Issues</a></li>
-</ul></td>
-<td></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-webapps/2018JanMar/0045.html">Request for progress update sent on Mar 26</a>
-</p></td>
+<td><a href="https://github.com/w3c/IntersectionObserver">Intersection Observer repo</a></td>
+<td><a href="https://lists.w3.org/Archives/Public/public-webapps/2018AprJun/0049.html">Request for progress update [Jun 2018]</a></td>
 </tr>
 
 <!-- Microdata -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/microdata/">Microdata</a></td>
-<td>Chaals McCathie Nevile, Dan Brickley</td>
-<td>Léonie Watson</td>
-<td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/2017/WD-microdata-20171010/">2017-10-10</a></td>
-<td>WD</td>
 <td><ul>
-<li><a href="https://github.com/w3c/microdata">Github</a></li>
-  <li><a href="https://github.com/w3c/microdata/issues">Issues</a></li>
-  <li><a href="https://github.com/w3c/microdata/pulse/monthly/">Monthly pulse</a></li>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+<li><a href="https://github.com/danbri">Dan Brickley</a></li>
 </ul></td>
-<td></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-webapps/2018AprJun/0003.html">Progress update from Apr 9</a>
-</p></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td><a href="https://www.w3.org/TR/microdata/">2018-04-26</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/microdata">Microdata repo</a></td>
+<td>On hold pending W3C/WHATWG negotiations</td>
 </tr>
 
 <!-- Pointer Lock -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/pointerlock/">Pointer Lock 2.0</a></td>
-<td>Navid Zolghadr</td>
-<td>L&eacute;onie Watson</td>
-<td>Yves Lafon</td>
-<td><a href="https://www.w3.org/TR/2018/WD-pointerlock-2-20180208/
-">2018-02-07</a></td>
+<td scope="row"><a href="https://w3c.github.io/pointerlock/">Pointer Lock 2.0</a></tD>
+<td><ul>
+<li><a href="https://github.com/navidz">Navid Zolghadr</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
+<td><a href="https://www.w3.org/TR/pointerlock-2/">2018-02-07</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/pointerlock/">Github</a></li>
-<li><a href="https://github.com/w3c/pointerlock/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/pointerlock/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/pointerlock/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="http://w3c-test.org/pointerlock/">Test suite</a></li>
-<li>Test facilitator(s):</li>
-</ul></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-webapps/2018JanMar/0046.html">Progress update from Mar 27</a>
-</p></td>
+<td><a href="https://github.com/w3c/pointerlock/">Pointer Lock repo</a></td>
+<td><a href="https://lists.w3.org/Archives/Public/public-webapps/2018JanMar/0046.html">Progress update [Mar 2018]</a></td>
 </tr>
 
 <!-- Push API -->
 <tr>
 <td scope="row"><a href="http://w3c.github.io/push-api/">Push API</a></td>
-<td>Peter Beverloo, Martin Thompson</td>
-<td>L&eacute;onie Watson</td>
-<td>Yves Lafon</td>
+<td><ul>
+<li><a href="https://github.com/beverloo">Peter Beverloo</a></li>
+<li><a href="https://github.com/martinthomson">Martin Thomson</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/push-api/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/push-api/">Github</a></li>
-<li><a href="https://github.com/w3c/push-api/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/push-api/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/push-api/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): TBD</li>
-<li><a href="http://caniuse.com/#search=push%20api">Implementations (CanIUse)</a></li>
-</ul></td>
-<td><p>
-<a href="https://lists.w3.org/Archives/Public/public-webapps/2018AprJun/0008.html">Progress update from Apr 12</a>
-</p></td>
+<td><a href="https://github.com/w3c/push-api/">Push API repo</a></td>
+<td><a href="https://lists.w3.org/Archives/Public/public-webapps/2018AprJun/0008.html">Progress update [Apr 2018]</a></td>
 </tr>
 
 <!-- Screen Orientation API -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></td>
-<td>Mounir Lamouri, Marcos Cáceres</td>
-<td>L&eacute;onie Watson</td>
-<td>Fuqiao Xue</td>
+<td><ul>
+<li><a href="https://github.com/mounirlamouri">Mounir Lamouri</a></li>
+<li><a href="https://github.com/marcoscaceres">Marcos Cáceres</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/xfq">Fuqiao Xue</a></td>
 <td><a href="https://www.w3.org/TR/screen-orientation/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/screen-orientation/">Github</a></li>
-<li><a href="https://github.com/w3c/screen-orientation/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/screen-orientation/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/screen-orientation/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): Marcos Cáceres</li>
-</ul></td>
-<td><p>
-Waiting for the editors to provide a timeline for CR (chased 8th Jan 2018)
-<br>
-Tracked in <a href="https://github.com/w3c/screen-orientation/issues/102">issue #102</a>
-</p></td>
+<td><a href="https://github.com/w3c/screen-orientation/">Screen Orientation repo</a></td>
+<td>Progress is tracked in <a href="https://github.com/w3c/screen-orientation/issues/102">#102</a></td>
 </tr>
 
 <!-- Web App Manifest -->
 <tr>
 <td scope="row"><a href="https://www.w3.org/TR/appmanifest/">Web App Manifest</a></td>
-	<td>Anssi Kostiainen, Kenneth Rohde Christiansen, Marcos Caceres, Matt Giuca, Mounir Lamouri, Rob Dolin</td>
-	<td>Chaals McCathie Nevile</td>
-<td>Yves Lafon</td>
+<td><ul>
+<li><a href="https://github.com/anssiko">Anssi Kostiainen</a></li>
+<li><a href="https://github.com/kenchris">Kenneth Rohde Christiansen</a></li>
+<li><a href="https://github.com/marcoscaceres">Marcos Cáceres</a></li>
+<li><a href="https://github.com/mgiuca">Matt Giuca</a></li>
+<li><a href="https://github.com/mounirlamouri">Mounir Lamouri</a></li>
+<li><a href="https://github.com/robdolin">Rob Dolin</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/appmanifest/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/manifest/">Github</a></li>
-<li><a href="https://github.com/w3c/manifest/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/manifest/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/manifest/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): Sebastian Godard
-</li>
-</ul></td>
-<td>
-<p>Implementation trackers for <a
-href="https://bugzilla.mozilla.org/show_bug.cgi?id=997779">Gecko</a>, <a
-href="https://bugs.chromium.org/p/chromium/issues/detail?id=366145">Chrome</a>, and <a
-href="https://developer.microsoft.com/en-us/microsoft-edge/platform/status/webapplicationmanifest?fi
-lter=f3f0000bf&search=manifest">MSEdge</a>.</p>
-<p>Need to have a proper latest version story to move it to CR.</p></td>
+<td><a href="https://github.com/w3c/manifest/">Web App Manifest repo</a></td>
+<td></td>
 </tr>
 
-<!-- WebIDL-2 -->
+<!-- WebIDL -->
 <tr>
 <td scope="row"><a href="https://heycam.github.io/webidl/">WebIDL</a></td>
-<td>Boris Zbarsky,	Cameron McCormack, Tobie Langel</td>
-<td>L&eacute;onie Watson</td>
-<td>Yves Lafon</td>
-<td></td>
-<td>ED</td>
 <td><ul>
-<li><a href="https://github.com/heycam/webidl">Github</a></li>
-<li><a href="https://github.com/heycam/webidl/issues">Issues</a></li>
-<li><a href="https://github.com/heycam/webidl/pulse/monthly">Monthly pulse</a></li>
+<li><a href="https://github.com/bzbarsky">Boris Zbarsky</a></li>
+<li><a href="https://github.com/heycam">Cameron McCormack</a></li>
+<li><a href="https://github.com/tobie">Tobie Langel</a></li>
 </ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
+<td>N/A</td>
+<td>ED</td>
+<td><a href="https://github.com/heycam/webidl">WebIDL repo</a></td>
 <td></td>
-<td><p>
-Waiting for the editors to provide a timeline
-</p></td>
-WebIDL timeline
 </tr>
 
-<!-- Web Sockets API -->
+<!-- Web Sockets -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/websockets/">Web Sockets API</a></td>
-<td>Ian Hickson</td>
-<td>?</td>
-<td>Fuqiao Xue</td>
+<td></td>
+<td></td>
+<td></td>
 <td><a href="https://www.w3.org/TR/websockets/">2012-09-20</a></td>
 <td>CR</td>
+<td><a href="https://github.com/w3c/websockets">Web Sockets repo</a></td>
 <td></td>
-<td><ul>
-<li><a href="http://w3c-test.org/websockets/">Test suite</a></li>
-<li>Test facilitator(s): Kris Krueger</li>
-<li><a href="http://caniuse.com/#feat=websockets">Implementations (CanIUse)</a></li>
-</ul></td>
-<td>
-<p>CR is blocked by implementations passing the test suite. See the <a
-href="https://www.w3.org/wiki/Webapps/Interop/WebSockets">draft implementation report</a>.</p>
-<p>Dependency on <a href="http://tools.ietf.org/html/rfc6455">RFC6455 Web Socket
-Protocol</a>.</p></td>
 </tr>
 
 <!-- Web Workers -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/workers/">Web Workers</a></td>
-<td>Sangwhan Moon</td>
-<td>Chaals McCathie Nevile</td>
-<td>Yves Lafon</td>
-<td><a href="http://www.w3.org/TR/2015/WD-workers-20150924/
-">2015-09-24</a></td>
-<td>WD</td>
-<td></td>
 <td><ul>
-<li><a href="http://w3c-test.org/workers/">Test suite</a></li>
-<li>Test facilitator(s): Simon Pieters</li>
-<li><a href="http://caniuse.com/#feat=webworkers">Implementations (CanIUse)</a></li>
+<li><a href="https://github.com/cynthia">Sangwhan Moon</a></li>
 </ul></td>
-<td><p>
-Plan is to wrap it into the HTML spec
-<br>
-Tracked in <a href="https://github.com/w3c/html/issues/1075">issue #1075</a>
-</p></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
+<td><a href="https://www.w3.org/TR/workers/">2015-09-24</a></td>
+<td>WD</td>
+<td><a href="https://github.com/w3c/workers">Web Workers repo</a></td>
+<td></td>
 </tr>
-
-
-
 </tbody>
 </table>
 
 <h2 id="dom">DOM specifications</h2>
 
-<table aria-labelledby="dom" class="sortable">
+<table class="specs">
 <thead>
-<tr>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Spec <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Editor(s)<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Chair(s)<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Team contact(s)<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Last TR publication<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Type<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Resources<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Testing<i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Notes<i class="arrow"></i></span>
-</th>
+<tr>	
+<th>Spec</th><th>Editor(s)</th><th>Chair(s)</th><th>Team</th><th>Pub date</th><th>Stage</th><th>Github</th><th>Notes</th>
 </tr>
 </thead>
 
 <tbody>
-<!-- DOM4 -->
+<!-- DOM -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/dom">DOM</a></td>
-<td>Yongsheng Zhu</td>
-<td>Chaals McCathie Nevile</td>
-<td>Fuqiao Xue</td>
-<td><a href="https://www.w3.org/TR/dom41/">2017-12-07</a></td>
+<td scope="row"><a href="https://w3c.github.io/dom/">DOM 4.1</a></td>
+<td><ul>
+<li><a href="https://github.com/yongsheng">Yongsheng Zhu</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/xfq">Fuqiao Xue</a></td>
+<td><a href="https://www.w3.org/TR/dom41/">2018-02-01</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/dom/">Github</a></li>
-<li><a href="https://github.com/w3c/dom/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/dom/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/dom/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="http://w3c-test.org/dom/">Test suite</a></li>
-<li>Test facilitator(s): ?</li>
-</ul></td>
-<td><p>CfC is tracked in <a href="https://github.com/w3c/dom/issues/175">issue #175</a></p></td>
+<td><a href="https://github.com/w3c/dom/">DOM repo</a></td>
+<td>On hold pending W3C/WHATWG negotiations</td>
 </tr>
 
 <!-- DOM Parsing and Serialization -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing and Serialization</a></td>
-<td>Travis Leithead</td>
+<td scope="row"><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing & Serialization</a></td>
+<td><ul>
+<li><a href="https://github.com/travisleithead">Travis Leithead</a></li>
+</ul></td>
 <td></td>
-<td>Yves Lafon</td>
+<td><a href="https://github.com/ylafon">Yves Lafon</a></td>
 <td><a href="https://www.w3.org/TR/DOM-Parsing/">2016-05-17</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/DOM-Parsing/">Github</a></li>
-<li><a href="https://github.com/w3c/DOM-Parsing/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/DOM-Parsing/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/DOM-Parsing/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="http://w3c-test.org/domparsing/">Test suite</a></li>
-<li>Test facilitator(s): Travis Leithead, Xiaoqian Wu</li>
-</ul></td>
-<td>
-<p>Test and ship</p>
-</td>
+<td><a href="https://github.com/w3c/DOM-Parsing/">DOM Parsing & Seralization repo</a></td>
+<td></td>
 </tr>
 
 <!-- UI Events -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/uievents/">UI Events</a></td>
-<td>Travis Leithead, Gary Kacmarcik</td>
-<td>L&eacute;onie Watson</td>
-<td>Fuqiao Xue</td>
-<td><a href="https://www.w3.org/TR/2017/WD-uievents-20170204/">2017-02-17</a></td>
+<td><ul>
+<li><a href="https://github.com/garykac">Gary Kacmarcik</a></li>
+<li><a href="https://github.com/travisleithead">Travis Leithead</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/xfq">Fuqiao Xue</a></td>
+<td><a href="https://www.w3.org/TR/uievents/">2016-08-04</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/uievents/">Github</a></li>
-<li><a href="https://github.com/w3c/uievents/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/uievents/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/uievents/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): Gary Kacmarcik, Travis Leithead</li>
-</ul></td>
-<td><p>Needs tests. Waiting on WPT to avoid writing manual tests.</p></td>
+<td><a href="https://github.com/w3c/uievents/">UI Events repo</a></td>
+<td></td>
 </tr>
 
-<!-- UI Events KeyboardEvent Code Values -->
+<!-- UI Events Keyboard Events Code Values -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/uievents-code/">UI Events KeyboardEvent Code
-Values</a></td>
-<td>Travis Leithead, Gary Kacmarcik</td>
-<td>L&eacute;onie Watson</td>
-<td>Fuqiao Xue</td>
+<td scope="row"><a href="https://w3c.github.io/uievents-code/">UI Events Keyboard Events Code Values</a></td>
+<td><ul>
+<li><a href="https://github.com/garykac">Gary Kacmarcik</a></li>
+<li><a href="https://github.com/travisleithead">Travis Leithead</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/xfq">Fuqiao Xue</a></td>
 <td><a href="https://www.w3.org/TR/uievents-code/">2017-06-01</a></td>
 <td>CR</td>
-<td><ul>
-<li><a href="https://github.com/w3c/uievents-code/">Github</a></li>
-<li><a href="https://github.com/w3c/uievents-code/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/uievents-code/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/uievents-code/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td>TBD</td>
-<td><p>
-Implementation report is tracked in <a href="https://github.com/w3c/uievents-code/issues/20">issue #20</a>
-</p></td>
+<td><a href="https://github.com/w3c/uievents-code/">UI Events Keyboard Events Code Values repo</a></td>
+<td></td>
 </tr>
 
-<!-- UI Events Keyboard Event Key Values -->
+<!-- UI Events Keyboard Events Key Values -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Event Key
-Values</a></td>
-<td>Travis Leithead, Gary Kacmarcik</td>
-<td>L&eacute;onie Watson</td>
-<td>Fuqiao Xue</td>
-<td><a href="https://www.w3.org/TR/2017/CR-uievents-key-20170601/">2017-06-01</a></td>
-<td>CR</td>
+<td scope="row"><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Events Key Values</a></td>
 <td><ul>
-<li><a href="https://github.com/w3c/uievents-key/">Github</a></li>
-<li><a href="https://github.com/w3c/uievents-key/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/uievents-key/commits/">Commits</a></li>
-<li><a href="https://github.com/w3c/uievents-key/pulse/monthly">Monthly pulse</a></li>
+<li><a href="https://github.com/garykac">Gary Kacmarcik</a></li>
+<li><a href="https://github.com/travisleithead">Travis Leithead</a></li>
 </ul></td>
-<td>TBD</td>
-<td><p>
-Implementation report is tracked in <a href="https://github.com/w3c/uievents-key/issues/45">issue #45</a>
-</p></td>
+<td><ul>
+<li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
+</ul></td>
+<td><a href="https://github.com/xfq">Fuqiao Xue</a></td>
+<td><a href="https://www.w3.org/TR/uievents-key/">2017-06-01</a></td>
+<td>CR</td>
+<td><a href="https://github.com/w3c/uievents-key/">UI Events Keyboard Events Key Values repo</a></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 <h2 id="editing">Editing specifications</h2>
 
-<table aria-labelledby="editing" class="sortable">
+<table class="specs">
 <thead>
-<tr>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Spec <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Editor(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Chair(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Team contact(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Last TR publication <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Type <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Resources <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Testing <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Notes <i class="arrow"></i></span>
-</th>
+<tr>	
+<th>Spec</th><th>Editor(s)</th><th>Chair(s)</th><th>Team</th><th>Pub date</th><th>Stage</th><th>Github</th><th>Notes</th>
 </tr>
 </thead>
 
 <tbody>
-<!-- Clipboard API -->
+<!-- Clipboard API & Events -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/clipboard-apis/">Clipboard API and Events</a></td>
-<td>Gary Kačmarčik, Grisha Lyukshin</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/clipboard-apis/">2016-12-13</a></td>
+<td scope="row"><a href="https://w3c.github.io/clipboard-apis/">Clipboard API & Events</a></td>
+<td><ul>
+<li><a href="https://github.com/garykac">Gary Kacmarcik</a></li>
+<li>Grisha Lyukshin</li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td><a href="https://www.w3.org/TR/clipboard-apis/">2017-09-29</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/clipboard-apis/">Github</a></li>
-<li><a href="https://github.com/w3c/clipboard-apis/issues/">Issues</a></li>
-<li><a href="https://github.com/w3c/clipboard-apis/commits/">Commits</a></li>
-<li><a href="https://github.com/w3c/clipboard-apis/pulse/monthly">Monthly pulse</a></li>
+<td><a href="https://github.com/w3c/clipboard-apis/">Clipboard API & Events repo</a></td>
+<td></td>
+</tr>
+
+<!-- Content Editable -->
+<tr>
+<td scope="row"><a href="http://w3c.github.io/editing/contentEditable">Content Editable</a></td>
+ <td><ul>
+<li><a href="https://github.com/johanneswilm">Johannes Wilm</a></li>
 </ul></td>
 <td><ul>
-<li><a href="https://github.com/w3c/web-platform-tests/tree/hallvors/clipboard-automation">Test
-suite</a></li>
-<li>Test facilitator(s): TBD</li>
-<li><a href="http://caniuse.com/#feat=clipboard">Implementations (CanIUse)</a></li>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
 </ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td>N/A</td>
+<td>ED</td>
+<td><a href="https://github.com/w3c/editing">Editing TF repo</a></td>
+<td></td>
+</tr>
+
+<!-- ExecCommand -->
+<tr>
+<td scope="row"><a href="http://w3c.github.io/editing/execCommand">ExecCommand</a></td>
+ <td><ul>
+<li><a href="https://github.com/johanneswilm">Johannes Wilm</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td>N/A</td>
+<td>ED</td>
+<td><a href="https://github.com/w3c/editing">Editing TF repo</a></td>
 <td></td>
 </tr>
 
 <!-- Input Events -->
 <tr>
 <td scope="row"><a href="https://rawgit.com/w3c/input-events/v1/">Input Events Level 1</a></td>
-<td>Johannes Wilm</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/input-events-1/">2017-03-21</a></td>
+ <td><ul>
+<li><a href="https://github.com/johanneswilm">Johannes Wilm</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td><a href="https://www.w3.org/TR/input-events-1/">2017-09-05</a></td>
 <td>WD</td>
-<td><p>Shares the <a href="https://github.com/w3c/editing">Github repo</a> that is focused on
-	the Level 2 spec.</p>
-</td>
-<td><ul>
-<li>Test facilitator(s): Morgan Smith</li>
-</ul></td>
-<td>
-<p>This is the more broadly interoperable subset of level 2 that we should be able to get to CR
-"soon"</p>
-<p>Discussion on <a
-href="https://lists.w3.org/Archives/Public/public-editing-tf/">public-editing-tf@w3.org</a>.</p></td
->
+<td><a href="https://github.com/w3c/editing">Editing TF repo</a></td>
+<td></td>
 </tr>
 
+<!-- Input Events Level 2 -->
 <tr>
-<td scope="row"><a href="http://w3c.github.io/editing/input-events.html">Input Events 2</a></td>
-<td>Johannes Wilm</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/input-events-2/">2017-03-21</a></td>
+<td scope="row"><a href="https://w3c.github.io/input-events/">Input Events Level 2</a></td>
+ <td><ul>
+<li><a href="https://github.com/johanneswilm">Johannes Wilm</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td><a href="https://www.w3.org/TR/input-events-2/">2017-09-05</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/editing">Github</a></li>
-<li><a href="https://github.com/w3c/editing/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/editing/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/editing/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): Morgan Smith</li>
-</ul></td>
-<td>
-<p>There has not been a specific FPWD for this spec… it's one of two branches from the spec that had
-FPWD</p>
-<p>Discussion on <a
-href="https://lists.w3.org/Archives/Public/public-editing-tf/">public-editing-tf@w3.org</a>.</p></td
->
-</tr>
-
-<!-- ContentEditable -->
-<tr>
-<td scope="row"><a href="http://w3c.github.io/editing/contentEditable.html">ContentEditable</a></td>
-<td>Johannes Wilm</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td>N/A</td>
-<td>ED</td>
-<td><ul>
-<li><a href="https://github.com/w3c/editing">Github</a></li>
-<li><a href="https://github.com/w3c/editing/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/editing/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/editing/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): Morgan Smith</li>
-</ul></td>
-<td>
-<p>Discussion on <a
-href="https://lists.w3.org/Archives/Public/public-editing-tf/">public-editing-tf@w3.org</a>.</p></td
->
-</tr>
-
-<!-- ExecCommand -->
-<tr>
-<td scope="row"><a href="http://w3c.github.io/editing/execCommand.html">ExecCommand</a></td>
-<td>Johannes Wilm</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td>N/A</td>
-<td>ED</td>
-<td><ul>
-<li><a href="https://github.com/w3c/editing">Github</a></li>
-<li><a href="https://github.com/w3c/editing/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/editing/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/editing/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): TBD</li>
-</ul></td>
-<td>
-<p>Discussion on <a
-href="https://lists.w3.org/Archives/Public/public-editing-tf/">public-editing-tf@w3.org</a>.</p></td
->
+<td><a href="https://github.com/w3c/editing">Editing TF repo</a></td>
+<td></td>
 </tr>
 
 <!-- Selection API -->
 <tr>
 <td scope="row"><a href="http://w3c.github.io/selection-api/">Selection API</a></td>
-<td>Ryosuke Niwa</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td><a href="https://www.w3.org/TR/selection-api/">Autopublished on change</a></td>
+<td><ul>
+<li><a href="https://github.com/rniwa">Ryosuke Niwa</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td><a href="https://www.w3.org/TR/selection-api/">Continuous</a></td>
 <td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/selection-api/">Github</a></li>
-<li><a href="https://github.com/w3c/selection-api/issues">Issues</a></li>
-<li><a href="https://github.com/w3c/selection-api/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/selection-api/pulse/monthly">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="http://w3c-test.org/html/editing/">Test suite</a></li>
-<li>Test facilitator(s): TBD</li>
-</ul></td>
+<td><a href="https://github.com/w3c/selection-api/">Selection API repo</a></td>
 <td></td>
 </tr>
 
 <!-- Static Range -->
 <tr>
 <td scope="row"><a href="https://w3c.github.io/staticrange/">Static Range</a></td>
-<td>Gary Kacmarcik</td>
-<td>Chaals McCathie Nevile</td>
-<td>Xiaoqian Wu</td>
-<td></td>
-<td>ED</td>
 <td><ul>
-<li><a href="https://github.com/w3c/staticrange">Github</a></li>
-<li><a href="https://github.com/w3c/staticrange/issues">Issues</a></li>
+<li><a href="https://github.com/garykac">Gary Kacmarcik</a></li>
 </ul></td>
-<td></td>
+<td><ul>
+<li><a href="https://github.com/chaals">Chaals McCathie Nevile</a></li>
+</ul></td>
+<td><a href="https://github.com/siusin">Xiaoqian Wu</a></td>
+<td>N/A</td>
+<td>ED</td>
+<td><a href="https://github.com/w3c/staticrange">Static Range repo</a></td>
 <td></td>
 </tr>
-
 </tbody>
 </table>
 
 <h2 id="webcomps">Web Components specifications</h2>
 
-<table aria-labelledby="webcomps" class="sortable">
+<table class="specs">
 <thead>
-<tr>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Spec <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Editor(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Chair(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Team contact(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Last TR publication <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Type <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Resources <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Testing <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Notes <i class="arrow"></i></span>
-</th>
+<tr>	
+<th>Spec</th><th>Editor(s)</th><th>Chair(s)</th><th>Team</th><th>Pub date</th><th>Stage</th><th>Github</th><th>Notes</th>
 </tr>
 </thead>
 
 <tbody>
 <!-- Custom Elements -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/webcomponents/spec/custom/">Custom Elements</a></td>
-<td>Domenic Denicola</td>
-<td>Chaals McCathie Nevile, L&eacute;onie Watson</td>
-<td>Yves</td>
-<td><a href="https://www.w3.org/TR/custom-elements/">2016-10-31</a></td>
-<td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/webcomponents/">Github</a></li>
-<li><a href="https://github.com/w3c/webcomponents/labels/custom-elements">Issues</a></li>
-<li><a href="https://github.com/w3c/webcomponents/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/webcomponents/pulse/monthly/">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li>Test facilitator(s): TBD</li>
-<li><a href="http://caniuse.com/#search=custom%20elements">Can I Use?</a></li>
-</ul></td>
-<td><p>
-<a href="https://github.com/w3c/html/issues/1209">Intent to merge Custom Elements with HTML5.3</a>
-</p></td>
+<td scope="row">Custom Elements</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://www.w3.org/TR/custom-elements/">2018-05-03</a></td>
+<td>Note</td>
+<td><a href="https://github.com/w3c/webcomponents/">Web Components repo</a></td>
+<td>Merged into HTML5.3</td>
 </tr>
 
 <!-- Shadow DOM -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/webcomponents/spec/shadow/">Shadow DOM</a></td>
-<td>Hayato Ito</td>
-<td>Chaals McCathie Nevile, L&eacute;onie Watson</td>
-<td>Fuqiao Xue</td>
-<td><a href="https://www.w3.org/TR/shadow-dom/">Continuous</td>
-<td>WD</td>
-<td><ul>
-<li><a href="https://github.com/w3c/webcomponents/">Github</a></li>
-<li><a href="https://github.com/w3c/webcomponents/labels/shadow-dom">Issues</a></li>
-<li><a href="https://github.com/w3c/webcomponents/commits">Commits</a></li>
-<li><a href="https://github.com/w3c/webcomponents/pulse/monthly/">Monthly pulse</a></li>
-</ul></td>
-<td><ul>
-<li><a href="https://github.com/w3c/web-platform-tests/tree/master/shadow-dom">Test suite</a></li>
-<li>Test facilitator(s):</li>
-<li><a href="http://caniuse.com/#feat=shadowdom">Implementations (CanIUse)</a></li>
-</ul></td>
-<td>
-<p>Dimitri documented design decisions in <a
-href="https://gist.github.com/dglazkov/efd2deec54f65aa86f2e">The Shadow DOM diaries</a>.</p></td>
+<td scope="row">Shadow DOM</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://www.w3.org/TR/shadow-dom/">2018-03-01</a></td>
+<td>Note</td>
+<td><a href="https://github.com/w3c/webcomponents/">Web Components repo</a></td>
+<td>Merged into DOM4.1 and HTML5.3</td>
 </tr>
 </tbody>
 </table>
 
-
 <h2 id="maintained">Maintained specifications</h2>
 
-<p>The following specifications have been published as Recommendations. In most cases, no additional
-work is planned, but errata may lead to normative changes and publication of a replacement
-version.</p>
-
-<table aria-labelledby="maintenance" class="sortable">
+<table class="specs">
 <thead>
-<tr>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Spec <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Editor(s) <i class="arrow"></i></span>
-</th>
-<th class="sortableColumn" data-sort="text">
-<span class="th-body">Last TR publication <i class="arrow"></i></span>
-</th>
+<tr>	
+<th>Spec</th><th>Pub date</th><th>Stage</th><th>Notes</th>
 </tr>
 </thead>
 
 <tbody>
-
-<!-- Progress Events -->
-<tr>
-<td scope="row"><a href="https://www.w3.org/TR/progress-events/">Progress Events</a></td>
-<td>Jungkee Song</td>
-<td><a href="http://www.w3.org/TR/progress-events/">2014-02-11</a></td>
-</tr>
-
-<!-- Server-Sent Events -->
-<tr>
-<td scope="row"><a href="https://www.w3.org/TR/eventsource/">Server-Sent Events</a></td>
-<td>Ian Hickson</td>
-<td><a href="http://www.w3.org/TR/eventsource/">2015-02-03</a></td>
-</tr>
-
-<!-- Web Messaging -->
-<tr>
-<td scope="row"><a href="https://w3c.github.io/webmessaging/">Web Messaging</a></td>
-<td>Ian Hickson</td>
-<td><a href="http://www.w3.org/TR/webmessaging/">2015-05-19</a></td>
-</tr>
-
 <!-- HTML Canvas 2D Context -->
 <tr>
-<td scope="row"><a href="https://www.w3.org/TR/2dcontext/">HTML Canvas 2D Context</a></td>
-<td>Rik Cabanier, Eliot Graff, Jay Munro, Tom Wiltzius</td>
+<td scope="row">HTML Canvas 2D Context</td>
 <td><a href="https://www.w3.org/TR/2dcontext/">2015-11-19</a></td>
-</tr>
-
-<!-- Web Storage -->
-<tr>
-<td scope="row"><a href="https://w3c.github.io/webstorage/">Web Storage</a> (Second Edition)</th>
-<td>Ian Hickson</td>
-<td><a href="http://www.w3.org/TR/webstorage/">2016-04-19</a></td>
+<td>Rec</td>
+<td></td>
 </tr>
 
 <!-- HTML5.1 -->
 <tr>
-<td scope="row"><a href="https://www.w3.org/WebPlatform/docs/html51/index.html">HTML5.1</a></td>
-<td>Alex Danilo, Arron Eicholz, Steve Faulkner, Travis Leithead</td>
+<td scope="row">HTML5.1</td>
 <td><a href="https://www.w3.org/TR/html51/">2016-11-01</a></td>
+<td>Rec</td>
+<td></td>
 </tr>
 
-<!-- Pointer Lock -->
+<!-- HTML5.1 2nd Edition -->
 <tr>
-<td scope="row"><a href="https://www.w3.org/TR/pointerlock/">Pointer Lock</a></td>
-<td>Vincent Scheib</td>
-<td><a href="https://www.w3.org/TR/pointerlock/">2016-10-27</a></td>
-</tr>
-
-<!-- Web IDL-1 -->
-<tr>
-<td scope="row"><a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/
-">WebIDL Level 1</a></td>
-<td>Travis Leithead, Yves Lafon</td>
-<td><a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/
-">2016-12-15</a></td>
-</tr>
-</tbody>
-
-<!-- HTML5.1 2nd edition -->
-<tr>
-<td scope="row"><a href="https://www.w3.org/TR/html51/">HTML5.1 2nd edition</a></td>
-<td>Alex Danilo, Arron Eicholz, Sangwhan Moon, Steve Faulkner, Travis Leithead</td>
+<td scope="row">HTML5.1 2nd Edition</td>
 <td><a href="https://www.w3.org/TR/html51/">2017-10-03</a></td>
+<td>Rec</td>
+<td></td>
 </tr>
 
 <!-- HTML5.2 -->
 <tr>
-<td scope="row"><a href="https://w3.org/tr/html52">HTML5.2</a></td>
-<td>Alex Danilo, Arron Eicholz, Sangwhan Moon, Steve Faulkner, Travis Leithead</td>
-<td><a href="https://www.w3.org/TR/html52/">2017-12-14</a></td>
+<td scope="row">HTML5.2</td>
+<td><a href="https://www.w3.org/TR/html52">2017-12-14</a></td>
+<td>Rec</td>
+<td></td>
 </tr>
 
-<!-- Indexed DB API -->
+<!-- IndexedDB 2.0 -->
 <tr>
-<td scope="row"><a href="https://www.w3.org/TR/IndexedDB-2/">Indexed Database API 2.0</a></td>
-<td>Joshua Bell, Ali Alabbas</td>
+<td scope="row">IndexedDB API 2.0</td>
 <td><a href="https://www.w3.org/TR/IndexedDB-2/">2018-01-30</a></td>
+<td>Rec</td>
+<td></td>
 </tr>
-</table>
 
+<!-- Pointer Lock -->
+<tr>
+<td scope="row">Pointer Lock</td>
+<td><a href="https://www.w3.org/TR/pointerlock/">2016-10-27</a></td>
+<td>Rec</td>
+<td></td>
+</tr>
+
+<!-- Progress Events -->
+<tr>
+<td scope="row">Progress Events</td>
+<td><a href="https://www.w3.org/TR/progress-events/">2014-02-11</a></td>
+<td>Rec</td>
+<td></td>
+</tr>
+
+<!-- Server Sent Events -->
+<tr>
+<td scope="row">Server Sent Events</td>
+<td><a href="https://www.w3.org/TR/eventsource/">2015-02-03</a></td>
+<td>Rec</td>
+<td></td>
+</tr>
+
+<!-- Web Messaging -->
+<tr>
+<td scope="row">Web Messaging</td>
+<td><a href="https://w3c.github.io/webmessaging/">201505-19</a></td>
+<td>Rec</td>
+<td></td>
+</tr>
+
+<!-- Web Storage 2nd Edition -->
+<tr>
+<td scope="row">Web Storage 2nd Edition</td>
+<td><a href="https://w3c.github.io/webstorage/">2016-04-19</a></td>
+<td>Rec</td>
+<td></td>
+</tr>
+
+<!-- WebIDL Level 1 -->
+<tr>
+<td scope="row">WebIDL Level 1</td>
+<td><a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">2016-12-15</a></td>
+<td>Rec</td>
+<td></td>
+</tr>
+
+<!-- View-Mode Media Feature -->
+<tr>
+<td scope="row">View-Mode Media Feature</td>
+<td><a href="https://www.w3.org/TR/view-mode/">2012-06-19</a></td>
+<td>Rec</td>
+<td>CFC to mark View-Mode Obsolete is <a href="https://github.com/w3c/webplatformwg/issues/121">#121</a></td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="key">Table key</h2>
 
@@ -1041,10 +736,6 @@ version.</p>
 <dt>Rec</dt>
 <dd>Recommendation</dd>
 </dl>
-
-<div id="live" class="visuallyhidden" aria-live="polite"></div>
-
-<script type="text/javascript" src="js/table-sort.js"></script>
 
 </main>
 </body>
