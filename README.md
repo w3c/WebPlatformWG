@@ -27,7 +27,7 @@ W3C specifications use the following milestones:
 <tbody>
 <!-- HTML5.3 -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/html">HTML5.3</a></td>
+<th><a href="https://w3c.github.io/html">HTML5.3</a></th>
 <td><ul>
 <li>@BruceLawson</li>
 <li>@Patricia-Gallardo</li>
@@ -53,7 +53,7 @@ W3C specifications use the following milestones:
 
 <!-- HTML AAM -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/html-aam/">HTML AAM</a></td>
+<th><a href="https://w3c.github.io/html-aam/">HTML AAM</a></th>
 <td><ul>
 <li>@ASurkov</li>
 <li>@ScottAOHara</li>
@@ -69,7 +69,7 @@ W3C specifications use the following milestones:
 
 <!-- HTML Extensions -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/html-extensions/">HTML Extensions Note</a></td>
+<th><a href="https://w3c.github.io/html-extensions/">HTML Extensions Note</a></th>
 <td>@Chaals</td>
 <td></td>
 <td>@Siusin</td>
@@ -81,7 +81,7 @@ W3C specifications use the following milestones:
 
 <!-- ARIA in HTML -->
 <tr>
-<td scope="row"><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></td>
+<th><a href="http://w3c.github.io/html-aria/">ARIA in HTML</a></th>
 <td>@SteveFaulkner</td>
 <td>@LJWatson</td>
 <td><ul>
@@ -96,7 +96,7 @@ W3C specifications use the following milestones:
 
 <!-- Using ARIA Note -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/using-aria/">Using ARIA Note</a></td>
+<th><a href="https://w3c.github.io/using-aria/">Using ARIA Note</a></th>
 <td>@SteveFaulkner</td>
 <td>@LJWatson</td>
 <td><ul>
@@ -123,7 +123,7 @@ W3C specifications use the following milestones:
 <tbody>
 <!-- File API -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/FileAPI/">File API</a></td>
+<th><a href="https://w3c.github.io/FileAPI/">File API</a></th>
 <td>@mkruisselbrink</td>
 <td></td>
 <td>@ylafon</td>
@@ -135,7 +135,7 @@ W3C specifications use the following milestones:
 
 <!-- Gamepad -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/gamepad/">Gamepad</a></td>
+<th><a href="https://w3c.github.io/gamepad/">Gamepad</a></th>
 <td><ul>
 <li>@luser</li>
 <li>@sagoston</li>
@@ -152,7 +152,7 @@ W3C specifications use the following milestones:
 
 <!-- IndexedDB -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/IndexedDB/">IndexedDB API 3.0</a></td>
+<th><a href="https://w3c.github.io/IndexedDB/">IndexedDB API 3.0</a></th>
 <td><ul>
 <li>@inexorabletash</li>
 <li>@aliams</li>
@@ -167,7 +167,7 @@ W3C specifications use the following milestones:
 
 <!-- Intersection Observer -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/IntersectionObserver/">Intersection Observer</a></td>
+<th><a href="https://w3c.github.io/IntersectionObserver/">Intersection Observer</a></th>
 <td>@szager-chromium</td>
 <td>@LJWatson</td>
 <td>@Siusin</td>
@@ -179,7 +179,7 @@ W3C specifications use the following milestones:
 
 <!-- Microdata -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/microdata/">Microdata</a></td>
+<th><a href="https://w3c.github.io/microdata/">Microdata</a></th>
 <td><ul>
 <li>@Chaals</li>
 <li>@Danbri</li>
@@ -194,7 +194,7 @@ W3C specifications use the following milestones:
 
 <!-- Pointer Lock -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/pointerlock/">Pointer Lock 2.0</a></td>
+<th><a href="https://w3c.github.io/pointerlock/">Pointer Lock 2.0</a></th>
 <td>@NavidZ</td>
 <td>@LJWatson</td>
 <td>@ylafon</td>
@@ -206,14 +206,14 @@ W3C specifications use the following milestones:
 
 <!-- Push API -->
 <tr>
-<td scope="row"><a href="http://w3c.github.io/push-api/">Push API</a></td>
+<th><a href="http://w3c.github.io/push-api/">Push API</a></th>
 <td><ul>
 <li>@Beverloo</li>
 <li>@martinthomson</li>
 </ul></td>
 <td>@LJWatson</td>
 <td>@ylafon</td>
-<td><a href="https://www.w3.org/TR/push-api/">Continuous</td>
+<td><a href="https://www.w3.org/TR/push-api/">Continuous</a></td>
 <td>WD</td>
 <td><a href="https://github.com/w3c/push-api/">Push API repo</a></td>
 <td><a href="https://lists.w3.org/Archives/Public/public-webapps/2018AprJun/0008.html">Progress update [2018 Apr]</a></td>
@@ -221,7 +221,7 @@ W3C specifications use the following milestones:
 
 <!-- Screen Orientation API -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></td>
+<th><a href="https://w3c.github.io/screen-orientation/">Screen Orientation API</a></th>
 <td><ul>
 <li>@mounirlamouri</li>
 <li>@marcoscaceres</li>
@@ -236,7 +236,7 @@ W3C specifications use the following milestones:
 
 <!-- Web App Manifest -->
 <tr>
-<td scope="row"><a href="https://www.w3.org/TR/appmanifest/">Web App Manifest</a></td>
+<th><a href="https://www.w3.org/TR/appmanifest/">Web App Manifest</a></th>
 <td><ul>
 <li>@anssiko</li>
 <li>@kenchris</li>
@@ -255,7 +255,7 @@ W3C specifications use the following milestones:
 
 <!-- WebIDL -->
 <tr>
-<td scope="row"><a href="https://heycam.github.io/webidl/">WebIDL</a></td>
+<th><a href="https://heycam.github.io/webidl/">WebIDL</a></th>
 <td><ul>
 <li>@bzbarsky</li>
 <li>@heycam</li>
@@ -271,7 +271,7 @@ W3C specifications use the following milestones:
 
 <!-- Web Sockets -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/websockets/">Web Sockets API</a></td>
+<th><a href="https://w3c.github.io/websockets/">Web Sockets API</a></th>
 <td></td>
 <td></td>
 <td></td>
@@ -283,7 +283,7 @@ W3C specifications use the following milestones:
 
 <!-- Web Workers -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/workers/">Web Workers</a></td>
+<th><a href="https://w3c.github.io/workers/">Web Workers</a></th>
 <td>@Cynthia</td>
 <td>@Chaals</td>
 <td>@ylafon</td>
@@ -305,23 +305,21 @@ W3C specifications use the following milestones:
 </thead>
 
 <tbody>
-
-
 <!-- DOM -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/dom/">DOM 4.1</a></td>
+<th><a href="https://w3c.github.io/dom/">DOM 4.1</a></th>
 <td>@yongsheng</td>
 <td>@Chaals</td>
 <td>@XFQ</td>
 <td><a href="https://www.w3.org/TR/dom41/">2018-02-01</a></td>
 <td>WD</td>
 <td><a href="https://github.com/w3c/dom/">DOM repo</a></td>
-<td>On hold pending W3C/WHATWG negotiations</a></td>
+<td>On hold pending W3C/WHATWG negotiations</td>
 </tr>
 
 <!-- DOM Parsing and Serialization -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing & Serialization</a></td>
+<th><a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing & Serialization</a></th>
 <td>@travisleithead</td>
 <td></td>
 <td>@ylafon</td>
@@ -333,7 +331,7 @@ W3C specifications use the following milestones:
 
 <!-- UI Events -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/uievents/">UI Events</a></td>
+<th><a href="https://w3c.github.io/uievents/">UI Events</a></th>
 <td><ul>
 <li>@garykac</li>
 <li>@travisleithead</li>
@@ -348,7 +346,7 @@ W3C specifications use the following milestones:
 
 <!-- UI Events Keyboard Events Code Values -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/uievents-code/">UI Events Keyboard Events Code Values</a></td>
+<th><a href="https://w3c.github.io/uievents-code/">UI Events Keyboard Events Code Values</a></th>
 <td><ul>
 <li>@garykag</li>
 <li>@travisleithead</li>
@@ -363,7 +361,7 @@ W3C specifications use the following milestones:
 
 <!-- UI Events Keyboard Events Key Values -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Events Key Values</a></td>
+<th><a href="https://w3c.github.io/uievents-key/">UI Events Keyboard Events Key Values</a></th>
 <td><ul>
 <li>@garykag</li>
 <li>@travisleithead</li>
@@ -390,7 +388,7 @@ W3C specifications use the following milestones:
 <tbody>
 <!-- Clipboard API & Events -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/clipboard-apis/">Clipboard API & Events</a></td>
+<th><a href="https://w3c.github.io/clipboard-apis/">Clipboard API & Events</a></th>
 <td><ul>
 <li>@garykac</li>
 <li>Grisha Lyukshin</li>
@@ -405,7 +403,7 @@ W3C specifications use the following milestones:
 
 <!-- Content Editable -->
 <tr>
-<td scope="row"><a href="http://w3c.github.io/editing/contentEditable">Content Editable</a></td>
+<th><a href="http://w3c.github.io/editing/contentEditable">Content Editable</a></th>
  <td>@johanneswilm</td>
 <td>@Chaals</td>
 <td>@Siusin</td>
@@ -417,7 +415,7 @@ W3C specifications use the following milestones:
 
 <!-- ExecCommand -->
 <tr>
-<td scope="row"><a href="http://w3c.github.io/editing/execCommand">ExecCommand</a></td>
+<th><a href="http://w3c.github.io/editing/execCommand">ExecCommand</a></th>
  <td>@johanneswilm</td>
 <td>@Chaals</td>
 <td>@Siusin</td>
@@ -429,7 +427,7 @@ W3C specifications use the following milestones:
 
 <!-- Input Events -->
 <tr>
-<td scope="row"><a href="https://rawgit.com/w3c/input-events/v1/">Input Events Level 1</a></td>
+<th><a href="https://rawgit.com/w3c/input-events/v1/">Input Events Level 1</a></th>
  <td>@johanneswilm</td>
 <td>@Chaals</td>
 <td>@Siusin</td>
@@ -441,7 +439,7 @@ W3C specifications use the following milestones:
 
 <!-- Input Events Level 2 -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/input-events/">Input Events Level 2</a></td>
+<th><a href="https://w3c.github.io/input-events/">Input Events Level 2</a></th>
  <td>@johanneswilm</td>
 <td>@Chaals</td>
 <td>@Siusin</td>
@@ -453,7 +451,7 @@ W3C specifications use the following milestones:
 
 <!-- Selection API -->
 <tr>
-<td scope="row"><a href="http://w3c.github.io/selection-api/">Selection API</a></td>
+<th><a href="http://w3c.github.io/selection-api/">Selection API</a></th>
 <td>@rniwa</td>
 <td>@Chaals</td>
 <td>@Siusin</td>
@@ -465,7 +463,7 @@ W3C specifications use the following milestones:
 
 <!-- Static Range -->
 <tr>
-<td scope="row"><a href="https://w3c.github.io/staticrange/">Static Range</a></td>
+<th><a href="https://w3c.github.io/staticrange/">Static Range</a></th>
 <td>@Garykac</td>
 <td>@Chaals</td>
 <td>@Siusin</td>
@@ -489,7 +487,7 @@ W3C specifications use the following milestones:
 <tbody>
 <!-- Custom Elements -->
 <tr>
-<td scope="row">Custom Elements</td>
+<th>Custom Elements</th>
 <td></td>
 <td></td>
 <td></td>
@@ -501,7 +499,7 @@ W3C specifications use the following milestones:
 
 <!-- Shadow DOM -->
 <tr>
-<td scope="row">Shadow DOM</td>
+<th>Shadow DOM</th>
 <td></td>
 <td></td>
 <td></td>
@@ -523,26 +521,25 @@ W3C specifications use the following milestones:
 </thead>
 
 <tbody>
-
-HTML Canvas 2D Context -->
+<!-- HTML Canvas 2D Context -->
 <tr>
-<td scope="row">HTML Canvas 2D Context</td>
-<td><a href="https://www.w3.org/TR/2dcontext/">2015-11-19</td>
+<th>HTML Canvas 2D Context</th>
+<td><a href="https://www.w3.org/TR/2dcontext/">2015-11-19</a></td>
 <td>Rec</td>
 <td></td>
 </tr>
 
 <!-- HTML5.1 -->
 <tr>
-<td scope="row">HTML5.1</td>
-<td><a href="https://www.w3.org/TR/html51/">2016-11-01</td>
+<th>HTML5.1</th>
+<td><a href="https://www.w3.org/TR/html51/">2016-11-01</a></td>
 <td>Rec</td>
 <td></td>
 </tr>
 
 <!-- HTML5.1 2nd Edition -->
 <tr>
-<td scope="row">HTML5.1 2nd Edition</td>
+<th>HTML5.1 2nd Edition</th>
 <td><a href="https://www.w3.org/TR/html51/">2017-10-03</a></td>
 <td>Rec</td>
 <td></td>
@@ -550,7 +547,7 @@ HTML Canvas 2D Context -->
 
 <!-- HTML5.2 -->
 <tr>
-<td scope="row">HTML5.2</td>
+<th>HTML5.2</th>
 <td><a href="https://www.w3.org/TR/html52">2017-12-14</a></td>
 <td>Rec</td>
 <td></td>
@@ -558,14 +555,15 @@ HTML Canvas 2D Context -->
 
 <!-- IndexedDB 2.0 -->
 <tr>
-<td scope="row">IndexedDB API 2.0</td>
+<th>IndexedDB API 2.0</th>
 <td><a href="https://www.w3.org/TR/IndexedDB-2/">2018-01-30</a></td>
 <td>Rec</td>
 <td></td>
 </tr>
+
 <!-- Pointer Lock -->
 <tr>
-<td scope="row">Pointer Lock</td>
+<th>Pointer Lock</th>
 <td><a href="https://www.w3.org/TR/pointerlock/">2016-10-27</a></td>
 <td>Rec</td>
 <td></td>
@@ -573,7 +571,7 @@ HTML Canvas 2D Context -->
 
 <!-- Progress Events -->
 <tr>
-<td scope="row">Progress Events</td>
+<th>Progress Events</th>
 <td><a href="https://www.w3.org/TR/progress-events/">2014-02-11</a></td>
 <td>Rec</td>
 <td></td>
@@ -581,15 +579,15 @@ HTML Canvas 2D Context -->
 
 <!-- Server Sent Events -->
 <tr>
-<td scope="row">Server Sent Events</td>
-<td><a href="https://www.w3.org/TR/eventsource/">2015-02-03</td>
+<th>Server Sent Events</th>
+<td><a href="https://www.w3.org/TR/eventsource/">2015-02-03</a></td>
 <td>Rec</td>
 <td></td>
 </tr>
 
 <!-- Web Messaging -->
 <tr>
-<td scope="row">Web Messaging</td>
+<th>Web Messaging</th>
 <td><a href="https://w3c.github.io/webmessaging/">201505-19</a></td>
 <td>Rec</td>
 <td></td>
@@ -597,7 +595,7 @@ HTML Canvas 2D Context -->
 
 <!-- Web Storage 2nd Edition -->
 <tr>
-<td scope="row">Web Storage 2nd Edition</td>
+<th>Web Storage 2nd Edition</th>
 <td><a href="https://w3c.github.io/webstorage/">2016-04-19</a></td>
 <td>Rec</td>
 <td></td>
@@ -605,16 +603,15 @@ HTML Canvas 2D Context -->
 
 <!-- WebIDL Level 1 -->
 <tr>
-<td scope="row">WebIDL Level 1</td>
+<th>WebIDL Level 1</th>
 <td><a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">2016-12-15</a></td>
 <td>Rec</td>
 <td></td>
 </tr>
 
-
 <!-- View-Mode Media Feature -->
 <tr>
-<td scope="row">View-Mode Media Feature</td>
+<th>View-Mode Media Feature</th>
 <td><a href="https://www.w3.org/TR/view-mode/">2012-06-19</a></td>
 <td>Rec</td>
 <td>CFC to mark View-Mode Obsolete is #121</td>
