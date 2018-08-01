@@ -1,9 +1,9 @@
 # Web Platform Working Group
 
-* Home page (index.html): https://www.w3.org/WebPlatform/WG/ and [charter](https://www.w3.org/2016/11/webplatform-charter.html)
-* [Group's _Work Mode_](https://github.com/w3c/WebPlatformWG/blob/gh-pages/WorkMode.md)
-* [Information for new group members aka _Newbies_](https://github.com/w3c/WebPlatformWG/blob/gh-pages/Newbie.md)
-* [Group Dashboard - overview information](https://labs.w3.org/unitas/?g=83482)
+* [Home page](index.html): https://www.w3.org/WebPlatform/WG/ and [charter](https://www.w3.org/2016/11/webplatform-charter.html)
+* [Work mode](https://github.com/w3c/WebPlatformWG/blob/gh-pages/WorkMode.md)
+* [Newbies guide](https://github.com/w3c/WebPlatformWG/blob/gh-pages/Newbie.md)
+* [Dashboard](https://labs.w3.org/unitas/?g=83482)
 
 ## Specifications
 
