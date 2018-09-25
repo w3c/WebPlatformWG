@@ -1,6 +1,6 @@
 # Web Platform Working Group
 
-* [Home page](index.html)
+* [Home page](https://www.w3.org/WebPlatform/WG/)
 * [Charter](https://www.w3.org/2017/08/webplatform-charter.html)
 * [Work mode](https://github.com/w3c/WebPlatformWG/blob/gh-pages/WorkMode.md)
 * [Newbies guide](https://github.com/w3c/WebPlatformWG/blob/gh-pages/Newbie.md)
