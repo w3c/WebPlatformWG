@@ -1,15 +1,15 @@
-# WebPlatform Work mode
+# Work mode
 
 This document defines and describes the Web Platform WG's *Real Work Modes* including: Participation and Communication, Meetings, Call for Consensus, Mail List usage, links to important resources, etc.
 
-**Note the [WG's Charter](https://www.w3.org/2016/11/webplatform-charter.html) formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [W3C Process Document](//www.w3.org/Consortium/Process/) overrides the information in this document. Nevertheless, document contains additional information about how the group *really* works and as such, this information may be particularly useful to new members of the group.**
+**Note the [WG's Charter](https://www.w3.org/2016/11/webplatform-charter.html) formally defines the general framework of the group's working mode. In all cases, the Charter and/or the [W3C Process Document](https://www.w3.org/Consortium/Process/) overrides the information in this document. Nevertheless, document contains additional information about how the group *really* works and as such, this information may be particularly useful to new members of the group.**
 
 This document is a *Living Document* and as such will change. Members of the group are encouraged to edit (e.g. to update, correct, etc.) the information in this  document. Comments about this document are welcome via the <code>[public-webapps@w3.org](mailto:public-webapps@w3.org)</code> e-mail list, using a subject prefix of <code>[WorkMode] ...</code>.
 
 
 ## Participation and Communication
 
-The group's formal Participation and Communication models are documented in the [Participation](https://www.w3.org/2016/11/webplatform-charter.html#participation) and [Communications](//www.w3.org/2015/10/webplatform-charter.html#communication) sections of its Charter, respectively.
+The group's formal Participation and Communication models are documented in the [Participation](https://www.w3.org/2016/11/webplatform-charter.html#participation) and [Communications](https://www.w3.org/2016/11/webplatform-charter.html#communication) sections of its Charter, respectively.
 
 Strictly speaking, only the Chairs and Editors have firm participation requirements. However, all WG members are strongly encouraged to participate in all of the [specifications in progress](https://www.w3.org/WebPlatform/WG/PubStatus).
 
@@ -44,15 +44,15 @@ NOTE: Participations
 
 ## The Technical Reports Process (What is an Editor's Draft?)
 
-The [W3C Process Document](//www.w3.org/Consortium/Process/) formally defines the [Technical Report Process](//www.w3.org/2015/Process-20150901/#Reports) this group follows.
+The [W3C Process Document](https://www.w3.org/Consortium/Process/) formally defines the [Technical Report Process](https://www.w3.org/2015/Process-20150901/#Reports) this group follows.
 
 This group uses **Editor's Drafts** (ED) which, as the name indicates, is simply the latest version of a specification an Editor maintains. An ED should be thought of as the *tip of the tree* i.e. a work in progress that may change at any point in time.
 
-EDs are **not** formal publications by the W3C and as such, the [W3C Process Document](//www.w3.org/Consortium/Process/) does not explicitly define their requirements (f.ex. there are no specific rules for references or style).
+EDs are **not** formal publications by the W3C and as such, the [W3C Process Document](https://www.w3.org/Consortium/Process/) does not explicitly define their requirements (f.ex. there are no specific rules for references or style).
 
-**Those with a vested interest in a specification e.g. implementers and application developers, should use a spec's Editor's Draft and not a dated version of the ED that was published as a Working Draft in the W3C's *[Technical Reports repository](//www.w3.org/TR/)*.**
+**Those with a vested interest in a specification e.g. implementers and application developers, should use a spec's Editor's Draft and not a dated version of the ED that was published as a Working Draft in the W3C's *[Technical Reports repository](https://www.w3.org/TR/)*.**
 
-The W3C's 2015 Process Document indicates that if [6 months elapse](//www.w3.org/2015/Process-20150901/#revised-wd) without significant changes to a specification a Working Group SHOULD publish a revised Working Draft, whose status section SHOULD indicate reasons for the lack of change.
+The W3C's 2015 Process Document indicates that if [6 months elapse](https://www.w3.org/2015/Process-20150901/#revised-wd) without significant changes to a specification a Working Group SHOULD publish a revised Working Draft, whose status section SHOULD indicate reasons for the lack of change.
 
 ## Editors
 
@@ -60,7 +60,7 @@ The W3C's 2015 Process Document indicates that if [6 months elapse](//www.w3.org
 
 Does this editing work mode mean WG members' input is not taken into account? **No.** Editors are expected to consider all inputs and to reflect that input in the ED.
 
-**Note: before the WG formally publishes a specification as a First Public Working Draft, Last Call Working Draft, Candidate Recommendation or Proposed Recommendation,  (i.e. a copy of the spec is placed in the [Technical Reports repository](//www.w3.org/TR/)), WG members will be asked if there is consensus to publish the specification (as described in this document's *Call for Consensus* section).**
+**Note: before the WG formally publishes a specification as a First Public Working Draft, Last Call Working Draft, Candidate Recommendation or Proposed Recommendation,  (i.e. a copy of the spec is placed in the [Technical Reports repository](https://www.w3.org/TR/)), WG members will be asked if there is consensus to publish the specification (as described in this document's *Call for Consensus* section).**
 
 Resources:
 
@@ -72,8 +72,8 @@ A significant delay in the progression of a specification can occur if the featu
 
 The following documents provide information about normative reference best practices and policy:
 
-* [Best Practices for Normative References](//www.w3.org/wiki/References/BestPractices)
-* [Normative Reference Policy](//www.w3.org/2013/09/normative-references)
+* [Best Practices for Normative References](https://www.w3.org/wiki/References/BestPractices)
+* [Normative Reference Policy](https://www.w3.org/2013/09/normative-references)
 
 ## Bugs, Issues and Actions
 
@@ -82,17 +82,17 @@ The WG uses both Github and W3C Bugzilla to record and track specification *bugs
 Resources:
 
 * [Git repositories](https://github.com/orgs/w3c/teams/webplatform/repositories)
-* [Bugzilla Components](//www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
+* [Bugzilla Components](https://www.w3.org/Bugs/Public/describecomponents.cgi?product=WebAppsWG)
 
 ## Patent Policy
 
-The WG's Charter defines the [Patent Policy for this group](//www.w3.org/2016/11/webplatform-charter.html#patentpolicy):
+The WG's Charter defines the [Patent Policy for this group](https://www.w3.org/2016/11/webplatform-charter.html#patentpolicy):
 
-> This Working Group operates under the [W3C Patent Policy](//www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.
+> This Working Group operates under the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.
 
-For more information about disclosure obligations for this group, please see the [W3C Patent Policy Implementation](//www.w3.org/2004/01/pp-impl/).
+For more information about disclosure obligations for this group, please see the [W3C Patent Policy Implementation](https://www.w3.org/2004/01/pp-impl/).
 
-A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [*How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?*](//www.w3.org/2003/12/22-pp-faq.html#non-participants) for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [*Licensing commitments from non-W3C Members*](//www.w3.org/2004/01/pp-impl/83482/nmlc).
+A consequence of the group's Patent Policy is that, although comments from non-WG participants are welcome, in general, specific input contributions for the group's specifications from non-WG participants are not permitted. See the W3C Patent Policy FAQ titled [*How should Working Groups handle contributions from non-participants (e.g., meeting guests or on public lists)?*](https://www.w3.org/2003/12/22-pp-faq.html#non-participants) for more information about contributions from non-WG participants. Non-WG participants may contribute to the group's specifications if they have agreed to the terms in [*Licensing commitments from non-W3C Members*](https://www.w3.org/2004/01/pp-impl/83482/nmlc).
 
 ## Meetings? What Meetings?
 
