@@ -5,5 +5,5 @@
 * [Work mode](https://github.com/w3c/WebPlatformWG/blob/gh-pages/WorkMode.md)
 * [Newbies guide](https://github.com/w3c/WebPlatformWG/blob/gh-pages/Newbie.md)
 * [Dashboard](https://labs.w3.org/unitas/?g=83482)
-* [Specifications](https://github.com/w3c/WebPlatformWG/blob/gh-pages/PubStatus.html)
+* [Specifications](https://www.w3.org/WebPlatform/WG/PubStatus)
 
