@@ -3,17 +3,18 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 
 ## Upcoming F2F Meetings
 
-### HTML, 19 - 21 June, Amsterdam The Netherlands
-[Meeting page](https://github.com/w3c/WebPlatformwg/blob/gh-pages/meetings/18-06-html.md) - discussion of outstanding isses and future directions (e.g. templates and HTML modules).
 ### TPAC 2018, Lyon, France
- This takes place after the end of our current charter, but if the group is rechartered it is likely to meet there.
+* [[WebPlat agendas](https://github.com/w3c/webplatformwg/issues/120)
 
 ## Past meetings
 
+### HTML, 19 - 21 June, Amsterdam The Netherlands
+[Meeting page](https://github.com/w3c/WebPlatformwg/blob/gh-pages/meetings/18-06-html.md) - discussion of outstanding isses and future directions (e.g. templates and HTML modules).
+
 ### Web Components, 5-6 March 2018, Tokyo Japan
   [Meeting page](https://github.com/w3c/WebPlatformWG/blob/gh-pages/meetings/18-03-Web-components.md) - discussion of outstanding isses and future directions (e.g. templates and HTML modules).
-### TPAC 6 to 10 Nov 2017, Burlingame, CA, USA
 
+### TPAC 6 to 10 Nov 2017, Burlingame, CA, USA
 * Tuesday 7 November: [Editing APIs TF meeting](https://www.w3.org/2017/11/07-editing-minutes.html) [Editing agenda](https://github.com/w3c/WebPlatformWG/issues/93)
 * Thursday 9 November: [General Web Platform (HTML, assorted APIs, DOM, ...)](https://www.w3.org/2017/11/09-webplat-minutes.html) ["Assorted work" agenda](https://github.com/w3c/WebPlatformWG/issues/94)
 * Friday 10 November: [Web Components](https://www.w3.org/2017/11/10-webplat-minutes.html) [Web components agenda](https://github.com/w3c/webcomponents/issues/641)
