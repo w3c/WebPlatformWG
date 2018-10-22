@@ -4,7 +4,7 @@ This document contains information about WebPlat's upcoming and recent F2F meeti
 ## Upcoming F2F Meetings
 
 ### TPAC 2018, Lyon, France
-* [[WebPlat agendas](https://github.com/w3c/webplatformwg/issues/120)
+* [WebPlat agendas](https://github.com/w3c/webplatformwg/issues/120)
 
 ## Past meetings
 
