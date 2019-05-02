@@ -1,9 +1,2 @@
-# Web Platform Working Group
-
-* [Home page](https://www.w3.org/WebPlatform/WG/)
-* [Charter](https://www.w3.org/2017/08/webplatform-charter.html)
-* [Work mode](https://github.com/w3c/WebPlatformWG/blob/gh-pages/WorkMode.md)
-* [Newbies guide](https://github.com/w3c/WebPlatformWG/blob/gh-pages/Newbie.md)
-* [Dashboard](https://labs.w3.org/unitas/?g=83482)
-* [Specifications](https://www.w3.org/WebPlatform/WG/PubStatus)
-
+# Web Platform Working Group (CLOSED)
+The Web Platform WG's charter expired March 31 2019. It been superceded by the new [Web Apps Working Group](http://github.com/w3c/WebAppsWG). This repository has been archived for historical purposes and is no longer maitained.
